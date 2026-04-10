@@ -1,0 +1,96 @@
+{
+  "date": "2026-04-10",
+  "topic": "키퍼메이트",
+  "keywords": [
+    {
+      "keyword": "한화비전키퍼",
+      "pc": 230,
+      "mobile": 250,
+      "total": 480,
+      "comp": "medium",
+      "avgDepth": 2,
+      "score": 21
+    },
+    {
+      "keyword": "CCTV설치비용",
+      "pc": 350,
+      "mobile": 1160,
+      "total": 1510,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 7
+    },
+    {
+      "keyword": "매장CCTV",
+      "pc": 290,
+      "mobile": 740,
+      "total": 1030,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "CCTV렌탈",
+      "pc": 260,
+      "mobile": 640,
+      "total": 900,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "무인매장CCTV",
+      "pc": 30,
+      "mobile": 60,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "학원CCTV",
+      "pc": 70,
+      "mobile": 180,
+      "total": 250,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV구매",
+      "pc": 80,
+      "mobile": 80,
+      "total": 160,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "카페CCTV설치",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "소상공인CCTV",
+      "pc": 30,
+      "mobile": 60,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV렌탈가격",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "date": "2026-04-10",
+  "topic": "법인설립지원센터",
+  "keywords": [
+    {
+      "keyword": "법인설립절차",
+      "pc": 1550,
+      "mobile": 3030,
+      "total": 4580,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 10
+    },
+    {
+      "keyword": "법인설립비용",
+      "pc": 890,
+      "mobile": 1110,
+      "total": 2000,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 7
+    },
+    {
+      "keyword": "개인사업자법인전환",
+      "pc": 530,
+      "mobile": 990,
+      "total": 1520,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 7
+    },
+    {
+      "keyword": "1인법인설립",
+      "pc": 510,
+      "mobile": 730,
+      "total": 1240,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "법인설립서류",
+      "pc": 330,
+      "mobile": 320,
+      "total": 650,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "온라인법인설립",
+      "pc": 710,
+      "mobile": 230,
+      "total": 940,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "법인설립방법",
+      "pc": 80,
+      "mobile": 50,
+      "total": 130,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "법무사수수료무료",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 0
+    },
+    {
+      "keyword": "법인전환세금",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "프리랜서법인설립",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    }
+  ]
+}

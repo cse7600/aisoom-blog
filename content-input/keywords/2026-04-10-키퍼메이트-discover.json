@@ -1,0 +1,10284 @@
+{
+  "date": "2026-04-10",
+  "topic": "키퍼메이트-discover",
+  "keywords": [
+    {
+      "keyword": "한화비전",
+      "pc": 62100,
+      "mobile": 282100,
+      "total": 344200,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 80
+    },
+    {
+      "keyword": "홈캠",
+      "pc": 10100,
+      "mobile": 42800,
+      "total": 52900,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 65
+    },
+    {
+      "keyword": "VMS",
+      "pc": 41800,
+      "mobile": 63600,
+      "total": 105400,
+      "comp": "high",
+      "avgDepth": 9,
+      "score": 65
+    },
+    {
+      "keyword": "메일",
+      "pc": 23900,
+      "mobile": 110000,
+      "total": 133900,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 65
+    },
+    {
+      "keyword": "KT",
+      "pc": 223900,
+      "mobile": 315300,
+      "total": 539200,
+      "comp": "high",
+      "avgDepth": 9,
+      "score": 65
+    },
+    {
+      "keyword": "세콤고객센터",
+      "pc": 1180,
+      "mobile": 3550,
+      "total": 4730,
+      "comp": "low",
+      "avgDepth": 2,
+      "score": 46
+    },
+    {
+      "keyword": "캡스웹관제",
+      "pc": 3350,
+      "mobile": 60,
+      "total": 3410,
+      "comp": "low",
+      "avgDepth": 2,
+      "score": 44
+    },
+    {
+      "keyword": "CCTV관제센터",
+      "pc": 160,
+      "mobile": 330,
+      "total": 490,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "영상보안",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "지능형영상분석",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "TELECOP",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "가정용보안",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "SKTCCTV설치",
+      "pc": 10,
+      "mobile": 90,
+      "total": 100,
+      "comp": "low",
+      "avgDepth": 1,
+      "score": 40
+    },
+    {
+      "keyword": "NSOKCCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 2,
+      "score": 40
+    },
+    {
+      "keyword": "ATD캡스",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 2,
+      "score": 40
+    },
+    {
+      "keyword": "홈보안카메라",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "빌라보안",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "캡스비상벨",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "low",
+      "avgDepth": 2,
+      "score": 40
+    },
+    {
+      "keyword": "도로CCTV",
+      "pc": 7990,
+      "mobile": 17600,
+      "total": 25590,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 36
+    },
+    {
+      "keyword": "실시간CCTV",
+      "pc": 6580,
+      "mobile": 13400,
+      "total": 19980,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 29
+    },
+    {
+      "keyword": "랜선",
+      "pc": 8810,
+      "mobile": 11400,
+      "total": 20210,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 29
+    },
+    {
+      "keyword": "TAPO",
+      "pc": 2500,
+      "mobile": 4370,
+      "total": 6870,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 28
+    },
+    {
+      "keyword": "ADT캡스뷰가드",
+      "pc": 4850,
+      "mobile": 830,
+      "total": 5680,
+      "comp": "medium",
+      "avgDepth": 8,
+      "score": 27
+    },
+    {
+      "keyword": "이메일",
+      "pc": 5280,
+      "mobile": 12100,
+      "total": 17380,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 26
+    },
+    {
+      "keyword": "기가아이즈",
+      "pc": 2300,
+      "mobile": 860,
+      "total": 3160,
+      "comp": "medium",
+      "avgDepth": 8,
+      "score": 24
+    },
+    {
+      "keyword": "팔로알토네트웍스",
+      "pc": 1040,
+      "mobile": 2360,
+      "total": 3400,
+      "comp": "medium",
+      "avgDepth": 3,
+      "score": 24
+    },
+    {
+      "keyword": "캡스뷰가드",
+      "pc": 2500,
+      "mobile": 110,
+      "total": 2610,
+      "comp": "medium",
+      "avgDepth": 8,
+      "score": 23
+    },
+    {
+      "keyword": "KT텔레캅고객센터",
+      "pc": 720,
+      "mobile": 1490,
+      "total": 2210,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 23
+    },
+    {
+      "keyword": "CAPS",
+      "pc": 770,
+      "mobile": 1320,
+      "total": 2090,
+      "comp": "medium",
+      "avgDepth": 7,
+      "score": 23
+    },
+    {
+      "keyword": "ADT뷰가드",
+      "pc": 2090,
+      "mobile": 60,
+      "total": 2150,
+      "comp": "medium",
+      "avgDepth": 8,
+      "score": 23
+    },
+    {
+      "keyword": "텔레캅",
+      "pc": 890,
+      "mobile": 430,
+      "total": 1320,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 22
+    },
+    {
+      "keyword": "한화비전키퍼",
+      "pc": 230,
+      "mobile": 250,
+      "total": 480,
+      "comp": "medium",
+      "avgDepth": 2,
+      "score": 21
+    },
+    {
+      "keyword": "세콤비용",
+      "pc": 90,
+      "mobile": 580,
+      "total": 670,
+      "comp": "medium",
+      "avgDepth": 8,
+      "score": 21
+    },
+    {
+      "keyword": "캡스뷰어",
+      "pc": 560,
+      "mobile": 10,
+      "total": 570,
+      "comp": "medium",
+      "avgDepth": 2,
+      "score": 21
+    },
+    {
+      "keyword": "새콤",
+      "pc": 240,
+      "mobile": 580,
+      "total": 820,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 21
+    },
+    {
+      "keyword": "신생아홈캠추천",
+      "pc": 160,
+      "mobile": 510,
+      "total": 670,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 21
+    },
+    {
+      "keyword": "GIGAEYES",
+      "pc": 330,
+      "mobile": 390,
+      "total": 720,
+      "comp": "medium",
+      "avgDepth": 3,
+      "score": 21
+    },
+    {
+      "keyword": "사장마켓",
+      "pc": 110,
+      "mobile": 250,
+      "total": 360,
+      "comp": "medium",
+      "avgDepth": 3,
+      "score": 20
+    },
+    {
+      "keyword": "세콤가격",
+      "pc": 40,
+      "mobile": 150,
+      "total": 190,
+      "comp": "medium",
+      "avgDepth": 8,
+      "score": 20
+    },
+    {
+      "keyword": "켑스",
+      "pc": 80,
+      "mobile": 290,
+      "total": 370,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 20
+    },
+    {
+      "keyword": "자취CCTV",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 7,
+      "score": 20
+    },
+    {
+      "keyword": "뷰카드",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 3,
+      "score": 20
+    },
+    {
+      "keyword": "U+지능형CCTV",
+      "pc": 50,
+      "mobile": 10,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 20
+    },
+    {
+      "keyword": "엘지홈카메라",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 20
+    },
+    {
+      "keyword": "LGU+지능형CCTV",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 20
+    },
+    {
+      "keyword": "유플러스지능형CCTV",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 20
+    },
+    {
+      "keyword": "LG지능형CCTV",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 20
+    },
+    {
+      "keyword": "밭CCTV",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 20
+    },
+    {
+      "keyword": "LGUCCTV",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 20
+    },
+    {
+      "keyword": "에스원CCTV설치",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 20
+    },
+    {
+      "keyword": "세콤설치",
+      "pc": 20,
+      "mobile": 50,
+      "total": 70,
+      "comp": "medium",
+      "avgDepth": 8,
+      "score": 20
+    },
+    {
+      "keyword": "캡스CCTV보기",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 20
+    },
+    {
+      "keyword": "캡스스티커",
+      "pc": 40,
+      "mobile": 120,
+      "total": 160,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 20
+    },
+    {
+      "keyword": "파노라마CCTV",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 20
+    },
+    {
+      "keyword": "쓰레기무단투기CCTV",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 20
+    },
+    {
+      "keyword": "HD카메라",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 20
+    },
+    {
+      "keyword": "S1SMARTVIEWER",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 2,
+      "score": 20
+    },
+    {
+      "keyword": "AHDCCTV",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 20
+    },
+    {
+      "keyword": "LG홈CCTV",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 20
+    },
+    {
+      "keyword": "CCTV기사",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 20
+    },
+    {
+      "keyword": "김포공항CCTV",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 2,
+      "score": 20
+    },
+    {
+      "keyword": "대구CCTV수리",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 20
+    },
+    {
+      "keyword": "분리수거장CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 3,
+      "score": 20
+    },
+    {
+      "keyword": "수원CCTV수리",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 3,
+      "score": 20
+    },
+    {
+      "keyword": "단독주택캡스",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 20
+    },
+    {
+      "keyword": "아파트1층보안",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 20
+    },
+    {
+      "keyword": "캡스현관문",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 20
+    },
+    {
+      "keyword": "캡스홈이너가드",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 20
+    },
+    {
+      "keyword": "현관캡스",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 20
+    },
+    {
+      "keyword": "LGU플러스지능형CCTV",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 20
+    },
+    {
+      "keyword": "S1보안",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 20
+    },
+    {
+      "keyword": "에스원가격",
+      "pc": 20,
+      "mobile": 70,
+      "total": 90,
+      "comp": "medium",
+      "avgDepth": 7,
+      "score": 20
+    },
+    {
+      "keyword": "에스원비용",
+      "pc": 20,
+      "mobile": 50,
+      "total": 70,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 20
+    },
+    {
+      "keyword": "MGV보안시스템",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 1,
+      "score": 20
+    },
+    {
+      "keyword": "발룬",
+      "pc": 130,
+      "mobile": 240,
+      "total": 370,
+      "comp": "medium",
+      "avgDepth": 3,
+      "score": 20
+    },
+    {
+      "keyword": "CCTV각도",
+      "pc": 40,
+      "mobile": 80,
+      "total": 120,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 20
+    },
+    {
+      "keyword": "SK텔레콤CCTV",
+      "pc": 30,
+      "mobile": 80,
+      "total": 110,
+      "comp": "medium",
+      "avgDepth": 8,
+      "score": 20
+    },
+    {
+      "keyword": "CCTV공유기",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 20
+    },
+    {
+      "keyword": "CCTV녹화기추천",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 20
+    },
+    {
+      "keyword": "CCTV부속",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 20
+    },
+    {
+      "keyword": "카메라하우징",
+      "pc": 60,
+      "mobile": 60,
+      "total": 120,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 20
+    },
+    {
+      "keyword": "CCTV뷰어",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 20
+    },
+    {
+      "keyword": "SKT씨씨티비",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 20
+    },
+    {
+      "keyword": "캡스관제센터",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 2,
+      "score": 20
+    },
+    {
+      "keyword": "돔형CCTV카메라",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 20
+    },
+    {
+      "keyword": "당구장카메라",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 7,
+      "score": 20
+    },
+    {
+      "keyword": "자이뷰",
+      "pc": 70,
+      "mobile": 20,
+      "total": 90,
+      "comp": "medium",
+      "avgDepth": 1,
+      "score": 20
+    },
+    {
+      "keyword": "CCTV촬영범위",
+      "pc": 30,
+      "mobile": 50,
+      "total": 80,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 20
+    },
+    {
+      "keyword": "HDCCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 20
+    },
+    {
+      "keyword": "공동주택CCTV설치",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 20
+    },
+    {
+      "keyword": "외부CCTV추천",
+      "pc": 60,
+      "mobile": 160,
+      "total": 220,
+      "comp": "medium",
+      "avgDepth": 7,
+      "score": 20
+    },
+    {
+      "keyword": "올레KTCCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 20
+    },
+    {
+      "keyword": "SK브로드밴드CCTV",
+      "pc": 120,
+      "mobile": 200,
+      "total": 320,
+      "comp": "medium",
+      "avgDepth": 8,
+      "score": 20
+    },
+    {
+      "keyword": "스카이라이프CCTV",
+      "pc": 20,
+      "mobile": 70,
+      "total": 90,
+      "comp": "medium",
+      "avgDepth": 8,
+      "score": 20
+    },
+    {
+      "keyword": "AD캡스",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 7,
+      "score": 20
+    },
+    {
+      "keyword": "KTGIGAEYES",
+      "pc": 40,
+      "mobile": 50,
+      "total": 90,
+      "comp": "medium",
+      "avgDepth": 8,
+      "score": 20
+    },
+    {
+      "keyword": "KTCC",
+      "pc": 90,
+      "mobile": 60,
+      "total": 150,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 20
+    },
+    {
+      "keyword": "KT도어가드",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 2,
+      "score": 20
+    },
+    {
+      "keyword": "KT텔레캅기가아이즈",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 20
+    },
+    {
+      "keyword": "세컴",
+      "pc": 70,
+      "mobile": 160,
+      "total": 230,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 20
+    },
+    {
+      "keyword": "CAPS고객센터",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 2,
+      "score": 20
+    },
+    {
+      "keyword": "KT텔레캅대리점",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 20
+    },
+    {
+      "keyword": "KT텔레캅가격",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 20
+    },
+    {
+      "keyword": "쌔콤",
+      "pc": 30,
+      "mobile": 90,
+      "total": 120,
+      "comp": "medium",
+      "avgDepth": 3,
+      "score": 20
+    },
+    {
+      "keyword": "ADT캡스뷰",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 20
+    },
+    {
+      "keyword": "캡스뷰",
+      "pc": 160,
+      "mobile": 0,
+      "total": 160,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 20
+    },
+    {
+      "keyword": "비즈세이퍼",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 2,
+      "score": 20
+    },
+    {
+      "keyword": "올레CCTV텔레캅",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 20
+    },
+    {
+      "keyword": "캡스콜센터",
+      "pc": 0,
+      "mobile": 40,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 20
+    },
+    {
+      "keyword": "ADT캡스설치",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 20
+    },
+    {
+      "keyword": "캡스CCTV뷰가드",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 20
+    },
+    {
+      "keyword": "우리집지킴이EASY",
+      "pc": 10,
+      "mobile": 90,
+      "total": 100,
+      "comp": "medium",
+      "avgDepth": 2,
+      "score": 20
+    },
+    {
+      "keyword": "현관CCTV",
+      "pc": 1980,
+      "mobile": 9700,
+      "total": 11680,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 19
+    },
+    {
+      "keyword": "홈캠추천",
+      "pc": 1810,
+      "mobile": 10100,
+      "total": 11910,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 19
+    },
+    {
+      "keyword": "SECURITY",
+      "pc": 1730,
+      "mobile": 7940,
+      "total": 9670,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 17
+    },
+    {
+      "keyword": "무선CCTV",
+      "pc": 1870,
+      "mobile": 7040,
+      "total": 8910,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 16
+    },
+    {
+      "keyword": "CCTV추천",
+      "pc": 1320,
+      "mobile": 5030,
+      "total": 6350,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 13
+    },
+    {
+      "keyword": "보안",
+      "pc": 2610,
+      "mobile": 3500,
+      "total": 6110,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 12
+    },
+    {
+      "keyword": "스마트폰CCTV",
+      "pc": 760,
+      "mobile": 4290,
+      "total": 5050,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 11
+    },
+    {
+      "keyword": "홈캠설치",
+      "pc": 470,
+      "mobile": 3930,
+      "total": 4400,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 10
+    },
+    {
+      "keyword": "씨씨티비",
+      "pc": 520,
+      "mobile": 3250,
+      "total": 3770,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 10
+    },
+    {
+      "keyword": "캡스홈",
+      "pc": 1260,
+      "mobile": 2970,
+      "total": 4230,
+      "comp": "high",
+      "avgDepth": 9,
+      "score": 10
+    },
+    {
+      "keyword": "소형카메라",
+      "pc": 940,
+      "mobile": 3450,
+      "total": 4390,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 10
+    },
+    {
+      "keyword": "홈CCTV",
+      "pc": 770,
+      "mobile": 2720,
+      "total": 3490,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 9
+    },
+    {
+      "keyword": "알뜰폰개통방법",
+      "pc": 670,
+      "mobile": 2900,
+      "total": 3570,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 9
+    },
+    {
+      "keyword": "홈카메라",
+      "pc": 500,
+      "mobile": 2700,
+      "total": 3200,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 9
+    },
+    {
+      "keyword": "시큐리티",
+      "pc": 810,
+      "mobile": 2510,
+      "total": 3320,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 9
+    },
+    {
+      "keyword": "캠",
+      "pc": 890,
+      "mobile": 2190,
+      "total": 3080,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 9
+    },
+    {
+      "keyword": "CCTV카메라",
+      "pc": 960,
+      "mobile": 1840,
+      "total": 2800,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 8
+    },
+    {
+      "keyword": "단말기",
+      "pc": 780,
+      "mobile": 1840,
+      "total": 2620,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 8
+    },
+    {
+      "keyword": "적외선카메라",
+      "pc": 620,
+      "mobile": 1640,
+      "total": 2260,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 8
+    },
+    {
+      "keyword": "NVR",
+      "pc": 1290,
+      "mobile": 1020,
+      "total": 2310,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 8
+    },
+    {
+      "keyword": "펫캠",
+      "pc": 530,
+      "mobile": 2110,
+      "total": 2640,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 8
+    },
+    {
+      "keyword": "KT홈캠",
+      "pc": 470,
+      "mobile": 1690,
+      "total": 2160,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 8
+    },
+    {
+      "keyword": "아기홈캠",
+      "pc": 390,
+      "mobile": 1750,
+      "total": 2140,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 8
+    },
+    {
+      "keyword": "보안업체",
+      "pc": 540,
+      "mobile": 1280,
+      "total": 1820,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 7
+    },
+    {
+      "keyword": "실외CCTV",
+      "pc": 410,
+      "mobile": 1620,
+      "total": 2030,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 7
+    },
+    {
+      "keyword": "CCTV설치비용",
+      "pc": 350,
+      "mobile": 1160,
+      "total": 1510,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 7
+    },
+    {
+      "keyword": "태양광CCTV",
+      "pc": 540,
+      "mobile": 1170,
+      "total": 1710,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 7
+    },
+    {
+      "keyword": "PTZ카메라",
+      "pc": 880,
+      "mobile": 1070,
+      "total": 1950,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 7
+    },
+    {
+      "keyword": "부산CCTV",
+      "pc": 440,
+      "mobile": 1490,
+      "total": 1930,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 7
+    },
+    {
+      "keyword": "IP카메라",
+      "pc": 700,
+      "mobile": 1210,
+      "total": 1910,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 7
+    },
+    {
+      "keyword": "감시카메라",
+      "pc": 380,
+      "mobile": 1230,
+      "total": 1610,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 7
+    },
+    {
+      "keyword": "티피링크CCTV",
+      "pc": 540,
+      "mobile": 1360,
+      "total": 1900,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 7
+    },
+    {
+      "keyword": "브이스타캠",
+      "pc": 590,
+      "mobile": 680,
+      "total": 1270,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 7
+    },
+    {
+      "keyword": "국산홈캠",
+      "pc": 310,
+      "mobile": 1470,
+      "total": 1780,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 7
+    },
+    {
+      "keyword": "풍수해보험",
+      "pc": 580,
+      "mobile": 820,
+      "total": 1400,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 7
+    },
+    {
+      "keyword": "인터넷현금",
+      "pc": 320,
+      "mobile": 1360,
+      "total": 1680,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 7
+    },
+    {
+      "keyword": "줌카메라",
+      "pc": 760,
+      "mobile": 740,
+      "total": 1500,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 7
+    },
+    {
+      "keyword": "무인매장",
+      "pc": 360,
+      "mobile": 950,
+      "total": 1310,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 7
+    },
+    {
+      "keyword": "CCTV모형",
+      "pc": 400,
+      "mobile": 990,
+      "total": 1390,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 7
+    },
+    {
+      "keyword": "사이버보안",
+      "pc": 560,
+      "mobile": 780,
+      "total": 1340,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 7
+    },
+    {
+      "keyword": "CCTV녹화기",
+      "pc": 580,
+      "mobile": 1030,
+      "total": 1610,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 7
+    },
+    {
+      "keyword": "CCTV실시간",
+      "pc": 460,
+      "mobile": 1610,
+      "total": 2070,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 7
+    },
+    {
+      "keyword": "문열림센서",
+      "pc": 330,
+      "mobile": 1000,
+      "total": 1330,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 7
+    },
+    {
+      "keyword": "DVR",
+      "pc": 590,
+      "mobile": 870,
+      "total": 1460,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 7
+    },
+    {
+      "keyword": "아파트현관CCTV",
+      "pc": 350,
+      "mobile": 1280,
+      "total": 1630,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 7
+    },
+    {
+      "keyword": "웹메일",
+      "pc": 1130,
+      "mobile": 730,
+      "total": 1860,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 7
+    },
+    {
+      "keyword": "모형CCTV",
+      "pc": 390,
+      "mobile": 920,
+      "total": 1310,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 7
+    },
+    {
+      "keyword": "초소형CCTV",
+      "pc": 380,
+      "mobile": 1610,
+      "total": 1990,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 7
+    },
+    {
+      "keyword": "360도카메라",
+      "pc": 470,
+      "mobile": 1070,
+      "total": 1540,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 7
+    },
+    {
+      "keyword": "전국CCTV",
+      "pc": 650,
+      "mobile": 780,
+      "total": 1430,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 7
+    },
+    {
+      "keyword": "KT기가아이즈",
+      "pc": 910,
+      "mobile": 1020,
+      "total": 1930,
+      "comp": "high",
+      "avgDepth": 9,
+      "score": 7
+    },
+    {
+      "keyword": "LG인터넷가입",
+      "pc": 450,
+      "mobile": 880,
+      "total": 1330,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 7
+    },
+    {
+      "keyword": "무선홈캠",
+      "pc": 280,
+      "mobile": 1270,
+      "total": 1550,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 7
+    },
+    {
+      "keyword": "홈켐",
+      "pc": 250,
+      "mobile": 1380,
+      "total": 1630,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 7
+    },
+    {
+      "keyword": "KT텔레캅CCTV",
+      "pc": 650,
+      "mobile": 1150,
+      "total": 1800,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 7
+    },
+    {
+      "keyword": "정보보안산업기사",
+      "pc": 590,
+      "mobile": 750,
+      "total": 1340,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 7
+    },
+    {
+      "keyword": "매장CCTV",
+      "pc": 290,
+      "mobile": 740,
+      "total": 1030,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "CCTV설치업체",
+      "pc": 310,
+      "mobile": 430,
+      "total": 740,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "유플러스CCTV",
+      "pc": 130,
+      "mobile": 340,
+      "total": 470,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "지능형CCTV",
+      "pc": 480,
+      "mobile": 290,
+      "total": 770,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "농막CCTV",
+      "pc": 220,
+      "mobile": 520,
+      "total": 740,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "가게CCTV",
+      "pc": 90,
+      "mobile": 380,
+      "total": 470,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "외부CCTV",
+      "pc": 220,
+      "mobile": 590,
+      "total": 810,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "IPCCTV",
+      "pc": 250,
+      "mobile": 360,
+      "total": 610,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "KTCCTV가격",
+      "pc": 120,
+      "mobile": 620,
+      "total": 740,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "야외CCTV",
+      "pc": 170,
+      "mobile": 670,
+      "total": 840,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "아파트CCTV",
+      "pc": 130,
+      "mobile": 400,
+      "total": 530,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "와이파이CCTV",
+      "pc": 190,
+      "mobile": 540,
+      "total": 730,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "CC카메라",
+      "pc": 120,
+      "mobile": 480,
+      "total": 600,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "카페키오스크",
+      "pc": 170,
+      "mobile": 600,
+      "total": 770,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "실외무선CCTV",
+      "pc": 250,
+      "mobile": 890,
+      "total": 1140,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "시시티비",
+      "pc": 130,
+      "mobile": 630,
+      "total": 760,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 6
+    },
+    {
+      "keyword": "CCTV모니터",
+      "pc": 420,
+      "mobile": 820,
+      "total": 1240,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "공짜휴대폰",
+      "pc": 200,
+      "mobile": 800,
+      "total": 1000,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "개인사업자카드단말기",
+      "pc": 140,
+      "mobile": 550,
+      "total": 690,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "무인점포키오스크",
+      "pc": 20,
+      "mobile": 420,
+      "total": 440,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 6
+    },
+    {
+      "keyword": "수술실CCTV",
+      "pc": 190,
+      "mobile": 670,
+      "total": 860,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "무선카메라",
+      "pc": 260,
+      "mobile": 820,
+      "total": 1080,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "실외용CCTV",
+      "pc": 150,
+      "mobile": 390,
+      "total": 540,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "어린이집CCTV",
+      "pc": 110,
+      "mobile": 360,
+      "total": 470,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "코스트코CCTV",
+      "pc": 180,
+      "mobile": 710,
+      "total": 890,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "CCTV하드디스크",
+      "pc": 170,
+      "mobile": 350,
+      "total": 520,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "이동식카메라",
+      "pc": 80,
+      "mobile": 550,
+      "total": 630,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "AI카메라",
+      "pc": 330,
+      "mobile": 900,
+      "total": 1230,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 6
+    },
+    {
+      "keyword": "CCTV저장기간",
+      "pc": 90,
+      "mobile": 460,
+      "total": 550,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "식당포스기",
+      "pc": 190,
+      "mobile": 760,
+      "total": 950,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "무인까페",
+      "pc": 30,
+      "mobile": 740,
+      "total": 770,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "방범",
+      "pc": 220,
+      "mobile": 450,
+      "total": 670,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "초소형감시카메라",
+      "pc": 100,
+      "mobile": 680,
+      "total": 780,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "와이파이카메라",
+      "pc": 120,
+      "mobile": 490,
+      "total": 610,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "웹카메라",
+      "pc": 270,
+      "mobile": 180,
+      "total": 450,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "경비업체",
+      "pc": 300,
+      "mobile": 660,
+      "total": 960,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "이동식CCTV",
+      "pc": 370,
+      "mobile": 400,
+      "total": 770,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "씨씨티비설치비용",
+      "pc": 40,
+      "mobile": 490,
+      "total": 530,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "집CCTV",
+      "pc": 80,
+      "mobile": 420,
+      "total": 500,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "CCTV보는법",
+      "pc": 110,
+      "mobile": 460,
+      "total": 570,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 6
+    },
+    {
+      "keyword": "소형CCTV",
+      "pc": 180,
+      "mobile": 660,
+      "total": 840,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "도어센서",
+      "pc": 280,
+      "mobile": 540,
+      "total": 820,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "문앞CCTV",
+      "pc": 80,
+      "mobile": 580,
+      "total": 660,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "스마트도어벨",
+      "pc": 320,
+      "mobile": 830,
+      "total": 1150,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "인체감지센서",
+      "pc": 350,
+      "mobile": 440,
+      "total": 790,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "집앞CCTV",
+      "pc": 80,
+      "mobile": 540,
+      "total": 620,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "캡스비용",
+      "pc": 170,
+      "mobile": 650,
+      "total": 820,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "현관카메라",
+      "pc": 120,
+      "mobile": 540,
+      "total": 660,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "홈씨씨티비",
+      "pc": 100,
+      "mobile": 730,
+      "total": 830,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "가정용홈캠",
+      "pc": 220,
+      "mobile": 620,
+      "total": 840,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "NVR녹화기",
+      "pc": 270,
+      "mobile": 360,
+      "total": 630,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "캡스홈CCTV",
+      "pc": 100,
+      "mobile": 530,
+      "total": 630,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 6
+    },
+    {
+      "keyword": "CCTV자가설치",
+      "pc": 210,
+      "mobile": 400,
+      "total": 610,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "CCTV브라켓",
+      "pc": 300,
+      "mobile": 430,
+      "total": 730,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "세콤CCTV",
+      "pc": 230,
+      "mobile": 590,
+      "total": 820,
+      "comp": "high",
+      "avgDepth": 9,
+      "score": 6
+    },
+    {
+      "keyword": "CCTV거치대",
+      "pc": 210,
+      "mobile": 890,
+      "total": 1100,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "CCTV케이블",
+      "pc": 300,
+      "mobile": 540,
+      "total": 840,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "CCTV스티커",
+      "pc": 160,
+      "mobile": 320,
+      "total": 480,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "기업메일",
+      "pc": 390,
+      "mobile": 80,
+      "total": 470,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "CCTV폴대",
+      "pc": 390,
+      "mobile": 250,
+      "total": 640,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "여의도CCTV",
+      "pc": 160,
+      "mobile": 310,
+      "total": 470,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 6
+    },
+    {
+      "keyword": "국산CCTV",
+      "pc": 160,
+      "mobile": 440,
+      "total": 600,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "CCTV촬영중",
+      "pc": 420,
+      "mobile": 210,
+      "total": 630,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "CCTV확인",
+      "pc": 220,
+      "mobile": 480,
+      "total": 700,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "AICCTV",
+      "pc": 610,
+      "mobile": 460,
+      "total": 1070,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "가짜CCTV",
+      "pc": 240,
+      "mobile": 690,
+      "total": 930,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "스마트홈카메라",
+      "pc": 60,
+      "mobile": 370,
+      "total": 430,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "미니CCTV",
+      "pc": 100,
+      "mobile": 410,
+      "total": 510,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "국산홈캠추천",
+      "pc": 130,
+      "mobile": 520,
+      "total": 650,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 6
+    },
+    {
+      "keyword": "엘지홈캠",
+      "pc": 60,
+      "mobile": 360,
+      "total": 420,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 6
+    },
+    {
+      "keyword": "KTTELECOP",
+      "pc": 420,
+      "mobile": 360,
+      "total": 780,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "MSS",
+      "pc": 340,
+      "mobile": 500,
+      "total": 840,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 6
+    },
+    {
+      "keyword": "독거노인비상벨",
+      "pc": 200,
+      "mobile": 710,
+      "total": 910,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 6
+    },
+    {
+      "keyword": "LG홈캠",
+      "pc": 230,
+      "mobile": 910,
+      "total": 1140,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 6
+    },
+    {
+      "keyword": "무인매장CCTV",
+      "pc": 30,
+      "mobile": 60,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "인터넷CCTV",
+      "pc": 70,
+      "mobile": 170,
+      "total": 240,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "LG유플러스CCTV",
+      "pc": 80,
+      "mobile": 150,
+      "total": 230,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "LGU+CCTV",
+      "pc": 60,
+      "mobile": 110,
+      "total": 170,
+      "comp": "high",
+      "avgDepth": 9,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV도매",
+      "pc": 130,
+      "mobile": 110,
+      "total": 240,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "식당CCTV",
+      "pc": 40,
+      "mobile": 130,
+      "total": 170,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "상가CCTV",
+      "pc": 60,
+      "mobile": 170,
+      "total": 230,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "LGU플러스CCTV",
+      "pc": 80,
+      "mobile": 240,
+      "total": 320,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "엘지유플러스CCTV",
+      "pc": 50,
+      "mobile": 230,
+      "total": 280,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "U+CCTV",
+      "pc": 40,
+      "mobile": 80,
+      "total": 120,
+      "comp": "high",
+      "avgDepth": 9,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV구매",
+      "pc": 80,
+      "mobile": 80,
+      "total": 160,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV수리",
+      "pc": 80,
+      "mobile": 210,
+      "total": 290,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "공장CCTV",
+      "pc": 60,
+      "mobile": 90,
+      "total": 150,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "학원CCTV",
+      "pc": 70,
+      "mobile": 180,
+      "total": 250,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV설치방법",
+      "pc": 60,
+      "mobile": 140,
+      "total": 200,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV자재",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "실내CCTV",
+      "pc": 90,
+      "mobile": 300,
+      "total": 390,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "건설현장CCTV",
+      "pc": 90,
+      "mobile": 40,
+      "total": 130,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "가정집CCTV",
+      "pc": 30,
+      "mobile": 150,
+      "total": 180,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "빌라CCTV",
+      "pc": 150,
+      "mobile": 160,
+      "total": 310,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "가게인터넷",
+      "pc": 50,
+      "mobile": 90,
+      "total": 140,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "클라우드CCTV",
+      "pc": 20,
+      "mobile": 50,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "포스기인터넷",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "매장포스기",
+      "pc": 40,
+      "mobile": 60,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV인터넷",
+      "pc": 30,
+      "mobile": 70,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "부산CCTV설치업체",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "캡스가격",
+      "pc": 50,
+      "mobile": 110,
+      "total": 160,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV사설업체",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV업체추천",
+      "pc": 40,
+      "mobile": 90,
+      "total": 130,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV공사",
+      "pc": 40,
+      "mobile": 30,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "전원주택CCTV",
+      "pc": 50,
+      "mobile": 90,
+      "total": 140,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV신청",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV부산",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "경기광주CCTV",
+      "pc": 20,
+      "mobile": 60,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "홈카메라추천",
+      "pc": 40,
+      "mobile": 190,
+      "total": 230,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "캡스설치",
+      "pc": 40,
+      "mobile": 110,
+      "total": 150,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "축사CCTV",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV설치견적",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV500만화소",
+      "pc": 40,
+      "mobile": 100,
+      "total": 140,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV설치기사",
+      "pc": 20,
+      "mobile": 60,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "부산CCTV설치",
+      "pc": 50,
+      "mobile": 70,
+      "total": 120,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV공사업체",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "무인카페CCTV",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "수원CCTV설치",
+      "pc": 50,
+      "mobile": 30,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "영업장CCTV",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV설치가격",
+      "pc": 50,
+      "mobile": 130,
+      "total": 180,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV설치비",
+      "pc": 20,
+      "mobile": 50,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "시골집CCTV",
+      "pc": 30,
+      "mobile": 130,
+      "total": 160,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "사무실CCTV설치",
+      "pc": 140,
+      "mobile": 190,
+      "total": 330,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "보안CCTV",
+      "pc": 20,
+      "mobile": 60,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "무선CCTV설치",
+      "pc": 20,
+      "mobile": 50,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "대구CCTV설치",
+      "pc": 30,
+      "mobile": 60,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "인공지능CCTV",
+      "pc": 30,
+      "mobile": 40,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "무인매장키오스크",
+      "pc": 60,
+      "mobile": 110,
+      "total": 170,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "무인매장관리",
+      "pc": 40,
+      "mobile": 30,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "무인매장솔루션",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "공짜스마트폰",
+      "pc": 90,
+      "mobile": 120,
+      "total": 210,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "알뜰폰구입",
+      "pc": 20,
+      "mobile": 50,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "무인점포관리",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "무선CCTV카메라",
+      "pc": 70,
+      "mobile": 170,
+      "total": 240,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "중고CCTV",
+      "pc": 40,
+      "mobile": 60,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "무료핸드폰",
+      "pc": 40,
+      "mobile": 170,
+      "total": 210,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "삼성알뜰폰",
+      "pc": 20,
+      "mobile": 150,
+      "total": 170,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "업소용CCTV",
+      "pc": 90,
+      "mobile": 280,
+      "total": 370,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "모형씨씨티비",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "실외CCTV설치",
+      "pc": 30,
+      "mobile": 50,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "무선CCTV가격",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "홈CCTV설치",
+      "pc": 20,
+      "mobile": 90,
+      "total": 110,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "홈CCTV추천",
+      "pc": 30,
+      "mobile": 150,
+      "total": 180,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "LTE알뜰폰",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "SKTMVNO",
+      "pc": 40,
+      "mobile": 130,
+      "total": 170,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "알뜰폰데이터요금제",
+      "pc": 110,
+      "mobile": 290,
+      "total": 400,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "알뜰폰업체",
+      "pc": 60,
+      "mobile": 60,
+      "total": 120,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "단독주택CCTV",
+      "pc": 70,
+      "mobile": 240,
+      "total": 310,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "농장CCTV",
+      "pc": 20,
+      "mobile": 60,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "주차장CCTV",
+      "pc": 60,
+      "mobile": 140,
+      "total": 200,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "씨씨티비설치",
+      "pc": 50,
+      "mobile": 230,
+      "total": 280,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "공장CCTV설치",
+      "pc": 30,
+      "mobile": 50,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV8채널",
+      "pc": 100,
+      "mobile": 270,
+      "total": 370,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "광주CCTV설치",
+      "pc": 30,
+      "mobile": 60,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "IP공유서비스",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "사무실캡스",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 9,
+      "score": 5
+    },
+    {
+      "keyword": "사업자카드단말기",
+      "pc": 50,
+      "mobile": 90,
+      "total": 140,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "테이블포스",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "편의점키오스크",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "편의점포스기",
+      "pc": 30,
+      "mobile": 140,
+      "total": 170,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "학원카드단말기",
+      "pc": 30,
+      "mobile": 70,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "학원키오스크",
+      "pc": 70,
+      "mobile": 110,
+      "total": 180,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "학원홈페이지제작",
+      "pc": 90,
+      "mobile": 70,
+      "total": 160,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "방범카메라",
+      "pc": 60,
+      "mobile": 140,
+      "total": 200,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "무인감시카메라",
+      "pc": 50,
+      "mobile": 110,
+      "total": 160,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "야외무선CCTV",
+      "pc": 30,
+      "mobile": 110,
+      "total": 140,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "외부용CCTV",
+      "pc": 80,
+      "mobile": 140,
+      "total": 220,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "저렴한CCTV",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "선박CCTV",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "시시티비카메라",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "야외용CCTV",
+      "pc": 90,
+      "mobile": 130,
+      "total": 220,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "외부무선CCTV",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "주차장CCTV설치",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "창고CCTV설치",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "사업자CCTV",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "상가CCTV설치",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "미용실CCTV",
+      "pc": 30,
+      "mobile": 30,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "원격CCTV",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "병원CCTV",
+      "pc": 30,
+      "mobile": 70,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "음식점CCTV",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "사업장CCTV설치",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CC티비",
+      "pc": 10,
+      "mobile": 70,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "시시티비설치",
+      "pc": 20,
+      "mobile": 200,
+      "total": 220,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "기업CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "씨씨티브이",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "인터넷CCTV설치",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "음성녹음CCTV",
+      "pc": 20,
+      "mobile": 50,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "돔카메라",
+      "pc": 170,
+      "mobile": 130,
+      "total": 300,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "사업장CCTV",
+      "pc": 40,
+      "mobile": 60,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "가게포스기",
+      "pc": 20,
+      "mobile": 60,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "방범CCTV",
+      "pc": 70,
+      "mobile": 140,
+      "total": 210,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "소상공인CCTV",
+      "pc": 30,
+      "mobile": 60,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "사무실용CCTV",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "외부CCTV설치",
+      "pc": 40,
+      "mobile": 110,
+      "total": 150,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "네트워크카메라",
+      "pc": 100,
+      "mobile": 140,
+      "total": 240,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "동작감지CCTV",
+      "pc": 40,
+      "mobile": 60,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "소형CCTV카메라",
+      "pc": 100,
+      "mobile": 310,
+      "total": 410,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV창업",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "광주광역시CCTV",
+      "pc": 50,
+      "mobile": 100,
+      "total": 150,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "창고CCTV",
+      "pc": 30,
+      "mobile": 70,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "가정용CCTV추천",
+      "pc": 50,
+      "mobile": 160,
+      "total": 210,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "무인CCTV",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "승강기CCTV",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "씨씨티비카메라",
+      "pc": 0,
+      "mobile": 40,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "빌라CCTV수리",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "매장CCTV설치",
+      "pc": 40,
+      "mobile": 60,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "무인카메라",
+      "pc": 60,
+      "mobile": 250,
+      "total": 310,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "차량용CCTV",
+      "pc": 60,
+      "mobile": 240,
+      "total": 300,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV임대",
+      "pc": 30,
+      "mobile": 30,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "회사CCTV",
+      "pc": 40,
+      "mobile": 80,
+      "total": 120,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "무선씨씨티비",
+      "pc": 30,
+      "mobile": 330,
+      "total": 360,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "무인경비",
+      "pc": 90,
+      "mobile": 50,
+      "total": 140,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "무인경비업체",
+      "pc": 30,
+      "mobile": 20,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV수리업체",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "펜션CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "무인포스기",
+      "pc": 20,
+      "mobile": 120,
+      "total": 140,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "가게CCTV추천",
+      "pc": 20,
+      "mobile": 120,
+      "total": 140,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "유플러스씨씨티비",
+      "pc": 10,
+      "mobile": 90,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 9,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV무선",
+      "pc": 90,
+      "mobile": 140,
+      "total": 230,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "건물CCTV",
+      "pc": 30,
+      "mobile": 80,
+      "total": 110,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "카페CCTV",
+      "pc": 40,
+      "mobile": 120,
+      "total": 160,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV설치공사",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "LGCCTV설치",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 9,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV종류",
+      "pc": 60,
+      "mobile": 160,
+      "total": 220,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV대여",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "복도CCTV",
+      "pc": 10,
+      "mobile": 60,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "보안회사",
+      "pc": 100,
+      "mobile": 230,
+      "total": 330,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "엘지유플러스씨씨티비",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV시공",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "4채널CCTV",
+      "pc": 70,
+      "mobile": 140,
+      "total": 210,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "건물CCTV설치",
+      "pc": 20,
+      "mobile": 60,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV비용",
+      "pc": 60,
+      "mobile": 240,
+      "total": 300,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "카페CCTV설치",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV매장",
+      "pc": 10,
+      "mobile": 60,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "감시카메라설치",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "주택CCTV",
+      "pc": 70,
+      "mobile": 270,
+      "total": 340,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV사무실",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "학원CCTV설치",
+      "pc": 30,
+      "mobile": 70,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "감시카메라가격",
+      "pc": 30,
+      "mobile": 50,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV화질",
+      "pc": 30,
+      "mobile": 110,
+      "total": 140,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "자가설치CCTV",
+      "pc": 40,
+      "mobile": 70,
+      "total": 110,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV견적",
+      "pc": 40,
+      "mobile": 90,
+      "total": 130,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTB",
+      "pc": 30,
+      "mobile": 100,
+      "total": 130,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV업체순위",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "실외용CCTV추천",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "전원주택CCTV설치",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV가입",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "현관CCTV설치",
+      "pc": 30,
+      "mobile": 110,
+      "total": 140,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "LG씨씨티비",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 9,
+      "score": 5
+    },
+    {
+      "keyword": "강아지홈CCTV",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV가격비교",
+      "pc": 40,
+      "mobile": 30,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "고화질CCTV",
+      "pc": 50,
+      "mobile": 140,
+      "total": 190,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "음식점포스기",
+      "pc": 50,
+      "mobile": 70,
+      "total": 120,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "현장CCTV",
+      "pc": 50,
+      "mobile": 40,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "빌라CCTV설치",
+      "pc": 30,
+      "mobile": 70,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "카메라설치",
+      "pc": 30,
+      "mobile": 150,
+      "total": 180,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "통신사CCTV",
+      "pc": 40,
+      "mobile": 80,
+      "total": 120,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV교체",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "유선CCTV",
+      "pc": 60,
+      "mobile": 90,
+      "total": 150,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "4KCCTV",
+      "pc": 70,
+      "mobile": 110,
+      "total": 180,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "500만화소CCTV",
+      "pc": 60,
+      "mobile": 80,
+      "total": 140,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "8채널CCTV",
+      "pc": 30,
+      "mobile": 60,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV2채널",
+      "pc": 20,
+      "mobile": 70,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV4채널",
+      "pc": 110,
+      "mobile": 300,
+      "total": 410,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTVNVR",
+      "pc": 150,
+      "mobile": 70,
+      "total": 220,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV관제",
+      "pc": 60,
+      "mobile": 50,
+      "total": 110,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV녹화",
+      "pc": 30,
+      "mobile": 70,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV대리점",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV보안업체",
+      "pc": 30,
+      "mobile": 30,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV사양",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV실외",
+      "pc": 20,
+      "mobile": 120,
+      "total": 140,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV야외용",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV약정",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV와이파이",
+      "pc": 20,
+      "mobile": 50,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV유지보수",
+      "pc": 30,
+      "mobile": 20,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV음성",
+      "pc": 20,
+      "mobile": 200,
+      "total": 220,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV회사",
+      "pc": 30,
+      "mobile": 90,
+      "total": 120,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CC티비설치",
+      "pc": 0,
+      "mobile": 50,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "LG유플러스보안",
+      "pc": 30,
+      "mobile": 50,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "가게보안",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "가게씨씨티비",
+      "pc": 0,
+      "mobile": 50,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "가게용CCTV",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "경비보안",
+      "pc": 80,
+      "mobile": 90,
+      "total": 170,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "고성능CCTV",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "공동주택CCTV",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "녹화용CCTV",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "다가구주택CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "다세대주택CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "무인점포CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "블루투스CCTV",
+      "pc": 30,
+      "mobile": 110,
+      "total": 140,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "사무실CCTV추천",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "상가보안",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "상가용CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "시골CCTV",
+      "pc": 20,
+      "mobile": 70,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "시시티브이",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "씨씨카메라",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "씨씨티비업체",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "아이피카메라",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "어린이집CCTV설치",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "업소용씨씨티비",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "원격카메라",
+      "pc": 30,
+      "mobile": 50,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "태양광무선CCTV",
+      "pc": 40,
+      "mobile": 80,
+      "total": 120,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "폐쇄회로텔레비전",
+      "pc": 70,
+      "mobile": 100,
+      "total": 170,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "학교CCTV",
+      "pc": 110,
+      "mobile": 290,
+      "total": 400,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "휴대폰CCTV",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "시시카메라",
+      "pc": 10,
+      "mobile": 70,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "사무실세콤",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV클라우드",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "원룸CCTV설치",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV요금",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "현관CCTV추천",
+      "pc": 20,
+      "mobile": 80,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "사업자인터넷",
+      "pc": 60,
+      "mobile": 130,
+      "total": 190,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "아파트CCTV설치",
+      "pc": 60,
+      "mobile": 110,
+      "total": 170,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV판매",
+      "pc": 20,
+      "mobile": 50,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "사설CCTV",
+      "pc": 30,
+      "mobile": 50,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "핀홀카메라",
+      "pc": 130,
+      "mobile": 210,
+      "total": 340,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV구입",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV셋트",
+      "pc": 20,
+      "mobile": 60,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "사무실경비",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "세콤견적",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "유플러스보안",
+      "pc": 30,
+      "mobile": 110,
+      "total": 140,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "캡스CCTV가격",
+      "pc": 50,
+      "mobile": 120,
+      "total": 170,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "카페포스기",
+      "pc": 90,
+      "mobile": 300,
+      "total": 390,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "인터넷씨씨티비",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "실내카메라",
+      "pc": 20,
+      "mobile": 90,
+      "total": 110,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "클라우드카메라",
+      "pc": 20,
+      "mobile": 80,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "ADT캡스비용",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "뷰가드캡스",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "움직이는CCTV",
+      "pc": 20,
+      "mobile": 70,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "캡스CCTV녹음",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "캡스CCTV설치",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "캡스CCTV어플",
+      "pc": 30,
+      "mobile": 40,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "캡스CCTV영상",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "캡스대표번호",
+      "pc": 20,
+      "mobile": 60,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "캡스서비스",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "캡스설치비",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "캡스전화번호",
+      "pc": 50,
+      "mobile": 190,
+      "total": 240,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "화질좋은CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV세트",
+      "pc": 240,
+      "mobile": 140,
+      "total": 380,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV카메라수리",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "캡스설치비용",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "교습소CCTV",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "교회CCTV",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "내부CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "녹화되는CCTV",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "돔CCTV",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "돔형카메라",
+      "pc": 30,
+      "mobile": 20,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "매장씨씨티비",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "모바일CCTV",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "무선CCTV추천",
+      "pc": 30,
+      "mobile": 120,
+      "total": 150,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "방범CCTV설치",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "백화점CCTV",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "보안용CCTV",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "소형무선카메라",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "식당CCTV설치",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "실내무선CCTV",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "실외CCTV추천",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "실외CCTV카메라",
+      "pc": 80,
+      "mobile": 240,
+      "total": 320,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "실외용카메라",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "실외형CCTV",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "업소용CCTV추천",
+      "pc": 0,
+      "mobile": 50,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "엘리베이터CCTV설치",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "옥외CCTV",
+      "pc": 40,
+      "mobile": 70,
+      "total": 110,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "옥외용CCTV",
+      "pc": 40,
+      "mobile": 60,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "원형CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "음성지원CCTV",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "지하주차장CCTV",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "체육관CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "무인마트",
+      "pc": 20,
+      "mobile": 190,
+      "total": 210,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "KT카메라",
+      "pc": 20,
+      "mobile": 80,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "매장CCTV추천",
+      "pc": 50,
+      "mobile": 150,
+      "total": 200,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "편의점CCTV",
+      "pc": 20,
+      "mobile": 110,
+      "total": 130,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "방범용CCTV설치",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "매장CCTV설치비용",
+      "pc": 30,
+      "mobile": 130,
+      "total": 160,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "업소CCTV",
+      "pc": 0,
+      "mobile": 40,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "국내산CCTV",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "산불감시카메라",
+      "pc": 40,
+      "mobile": 20,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "기업용CCTV",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "물류센터CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "사무실카메라",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "무선감시카메라",
+      "pc": 50,
+      "mobile": 310,
+      "total": 360,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "천장CCTV",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "경비업체순위",
+      "pc": 70,
+      "mobile": 290,
+      "total": 360,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "국내보안업체",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "보안경비",
+      "pc": 30,
+      "mobile": 110,
+      "total": 140,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "보안경비업체",
+      "pc": 30,
+      "mobile": 50,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "보안업체가격",
+      "pc": 30,
+      "mobile": 90,
+      "total": 120,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "보안업체순위",
+      "pc": 60,
+      "mobile": 240,
+      "total": 300,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "보안업체CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "사무실CCTV설치비용",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "산업용CCTV",
+      "pc": 50,
+      "mobile": 30,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "매장용CCTV",
+      "pc": 70,
+      "mobile": 160,
+      "total": 230,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "스피드돔카메라",
+      "pc": 70,
+      "mobile": 30,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "소형감시카메라",
+      "pc": 30,
+      "mobile": 130,
+      "total": 160,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "감시용카메라",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "감시용CCTV",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "경비보안업체",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "엘리베이터CCTV",
+      "pc": 20,
+      "mobile": 80,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV관리",
+      "pc": 30,
+      "mobile": 50,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTVDVR",
+      "pc": 90,
+      "mobile": 80,
+      "total": 170,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV돔형",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV소형",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV하우징",
+      "pc": 50,
+      "mobile": 30,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "POS업체",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "가평CCTV",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "버스CCTV",
+      "pc": 30,
+      "mobile": 230,
+      "total": 260,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "야외CCTV설치",
+      "pc": 20,
+      "mobile": 80,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "외부카메라",
+      "pc": 20,
+      "mobile": 70,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "적외선CCTV",
+      "pc": 40,
+      "mobile": 70,
+      "total": 110,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "펫카메라",
+      "pc": 40,
+      "mobile": 140,
+      "total": 180,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "에스원지능형CCTV",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "실내CCTV설치",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "충전식CCTV",
+      "pc": 40,
+      "mobile": 150,
+      "total": 190,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "사무실씨씨티비",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "독서실CCTV",
+      "pc": 0,
+      "mobile": 50,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "빌라CCTV설치비용",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "엘지씨씨티비",
+      "pc": 20,
+      "mobile": 80,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "360도CCTV",
+      "pc": 30,
+      "mobile": 70,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "방범용카메라",
+      "pc": 30,
+      "mobile": 60,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "HD-SDI카메라",
+      "pc": 30,
+      "mobile": 10,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV브랜드",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "가정CCTV",
+      "pc": 30,
+      "mobile": 160,
+      "total": 190,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV설치추천",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "네트워크CCTV",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "카메라CCTV",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "가게CCTV설치",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "도난방지카메라",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "회사CCTV설치",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "400만화소CCTV",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "적외선CCTV카메라",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV렌탈비용",
+      "pc": 30,
+      "mobile": 110,
+      "total": 140,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CC카메라설치",
+      "pc": 10,
+      "mobile": 70,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV가정용",
+      "pc": 20,
+      "mobile": 110,
+      "total": 130,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "IOTCCTV",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "매장인터넷CCTV",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "실내용CCTV",
+      "pc": 30,
+      "mobile": 60,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "돔형CCTV",
+      "pc": 40,
+      "mobile": 60,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV서비스",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV저장장치",
+      "pc": 60,
+      "mobile": 70,
+      "total": 130,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "거실CCTV",
+      "pc": 10,
+      "mobile": 60,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTVCAMERA",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "공사현장CCTV",
+      "pc": 40,
+      "mobile": 30,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "가정용CCTV가격",
+      "pc": 10,
+      "mobile": 140,
+      "total": 150,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "KT캡스",
+      "pc": 70,
+      "mobile": 230,
+      "total": 300,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "500만화소",
+      "pc": 50,
+      "mobile": 80,
+      "total": 130,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV앱",
+      "pc": 40,
+      "mobile": 120,
+      "total": 160,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV인터폰",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "외부씨씨티비",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "천장형CCTV",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "천정형CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTVA/S",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTVAS",
+      "pc": 20,
+      "mobile": 60,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTVHDD",
+      "pc": 110,
+      "mobile": 170,
+      "total": 280,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV관리업체",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV구매설치",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV기둥",
+      "pc": 60,
+      "mobile": 60,
+      "total": 120,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV설치회사",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV실외카메라",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV연결방법",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV추가설치",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "PTZCCTV",
+      "pc": 30,
+      "mobile": 20,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "강아지씨씨티비",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "공공기관CCTV",
+      "pc": 40,
+      "mobile": 40,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "구미CCTV설치",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "구미시CCTV",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "군산CCTV설치",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "김포CCTV설치",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "단독주택CCTV설치",
+      "pc": 10,
+      "mobile": 60,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "대전CCTV설치업체",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "모형CCTV설치",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "모형CCTV카메라",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "무선CCTV설치방법",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "미니CCTV카메라",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "병원CCTV설치",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "부산CCTV수리",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "성남CCTV",
+      "pc": 40,
+      "mobile": 60,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "실내CCTV추천",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "안면인식CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "안양CCTV설치",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "업소용CCTV설치",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "전주CCTV설치",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "제주CCTV설치",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "창원CCTV설치",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "초고화질CCTV",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "충북CCTV",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "학원용CCTV",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "화성CCTV설치",
+      "pc": 70,
+      "mobile": 20,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CAPSCCTV",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV도어락",
+      "pc": 10,
+      "mobile": 70,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV캡스",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV현관",
+      "pc": 10,
+      "mobile": 60,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV홈캠",
+      "pc": 30,
+      "mobile": 100,
+      "total": 130,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "가정보안",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "가정용CCTV설치",
+      "pc": 30,
+      "mobile": 60,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "가정용감시카메라",
+      "pc": 30,
+      "mobile": 160,
+      "total": 190,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "가정용실외CCTV",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "가정용외부CCTV",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "가정집CCTV설치",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "개인CCTV",
+      "pc": 10,
+      "mobile": 60,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "개인CCTV설치",
+      "pc": 30,
+      "mobile": 40,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "국산홈CCTV",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "녹음되는CCTV",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "대문CCTV",
+      "pc": 30,
+      "mobile": 60,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "대문앞CCTV",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "무선캠",
+      "pc": 50,
+      "mobile": 120,
+      "total": 170,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "무인경비시스템",
+      "pc": 60,
+      "mobile": 60,
+      "total": 120,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "방범벨",
+      "pc": 0,
+      "mobile": 70,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "방범업체",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "스마트홈캠",
+      "pc": 60,
+      "mobile": 130,
+      "total": 190,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "아파트개인CCTV",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "아파트보안",
+      "pc": 20,
+      "mobile": 50,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "아파트캡스",
+      "pc": 0,
+      "mobile": 40,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "아파트현관CCTV설치",
+      "pc": 50,
+      "mobile": 140,
+      "total": 190,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "얼굴인식",
+      "pc": 130,
+      "mobile": 260,
+      "total": 390,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "오피스텔CCTV",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "적외선경보기",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "집내부CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "집안CCTV",
+      "pc": 40,
+      "mobile": 150,
+      "total": 190,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "집현관CCTV",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "출입문CCTV",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "출입문보안",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "출입보안",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "캡스가정용CCTV",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "캡스견적",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "캡스요금",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "캡스지원금",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 9,
+      "score": 5
+    },
+    {
+      "keyword": "캡스할인",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "캡스현관",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "캡스현관CCTV",
+      "pc": 50,
+      "mobile": 340,
+      "total": 390,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "캡스홈도어",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "캡스홈캠",
+      "pc": 80,
+      "mobile": 280,
+      "total": 360,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "현관문도어가드",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "현관문방범",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "현관문보안",
+      "pc": 30,
+      "mobile": 120,
+      "total": 150,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "현관문캡스",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "현관보안카메라",
+      "pc": 0,
+      "mobile": 50,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "현관씨씨티비",
+      "pc": 20,
+      "mobile": 160,
+      "total": 180,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "현관앞CCTV",
+      "pc": 50,
+      "mobile": 240,
+      "total": 290,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "현관용CCTV",
+      "pc": 20,
+      "mobile": 60,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "현관캠",
+      "pc": 20,
+      "mobile": 160,
+      "total": 180,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "홈가드",
+      "pc": 30,
+      "mobile": 50,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "홈시시티비",
+      "pc": 10,
+      "mobile": 80,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV카메라가격",
+      "pc": 50,
+      "mobile": 70,
+      "total": 120,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV녹음",
+      "pc": 20,
+      "mobile": 210,
+      "total": 230,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "홈CCTV가격",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "핸드폰CCTV",
+      "pc": 20,
+      "mobile": 90,
+      "total": 110,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "S1CCTV",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "세콤경비",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "에스원가입",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "에스원설치",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "사무실보안업체",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "집CCTV설치",
+      "pc": 30,
+      "mobile": 90,
+      "total": 120,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV어플",
+      "pc": 60,
+      "mobile": 250,
+      "total": 310,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "에스원안심",
+      "pc": 30,
+      "mobile": 40,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "HDSDI",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV전문업체",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "MGV",
+      "pc": 50,
+      "mobile": 90,
+      "total": 140,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "메일보안",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "메일서버",
+      "pc": 80,
+      "mobile": 50,
+      "total": 130,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "컴퓨터보안업체",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "시스템경비",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTVLG",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV에스원",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV화소",
+      "pc": 70,
+      "mobile": 60,
+      "total": 130,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "LGU플러스보안",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "고시원CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "매장보안",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "술집CCTV",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "AHD",
+      "pc": 150,
+      "mobile": 260,
+      "total": 410,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV기계",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV연결",
+      "pc": 20,
+      "mobile": 60,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV저장",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "IPCAM",
+      "pc": 90,
+      "mobile": 120,
+      "total": 210,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "IP캠",
+      "pc": 40,
+      "mobile": 140,
+      "total": 180,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "POECCTV",
+      "pc": 130,
+      "mobile": 170,
+      "total": 300,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "녹화기",
+      "pc": 110,
+      "mobile": 140,
+      "total": 250,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "방수CCTV",
+      "pc": 30,
+      "mobile": 80,
+      "total": 110,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "스피드돔",
+      "pc": 40,
+      "mobile": 70,
+      "total": 110,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "시공사례",
+      "pc": 50,
+      "mobile": 20,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "열선감지기",
+      "pc": 100,
+      "mobile": 280,
+      "total": 380,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "주택용CCTV",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "화재감시CCTV",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "도어CCTV",
+      "pc": 30,
+      "mobile": 160,
+      "total": 190,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "현관문카메라",
+      "pc": 60,
+      "mobile": 320,
+      "total": 380,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "LG보안업체",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "전산실공사",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV동축케이블",
+      "pc": 50,
+      "mobile": 50,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "보안카메라설치",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "KT보안업체",
+      "pc": 40,
+      "mobile": 110,
+      "total": 150,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "망분리",
+      "pc": 160,
+      "mobile": 160,
+      "total": 320,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "농막용CCTV",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "독거노인CCTV",
+      "pc": 50,
+      "mobile": 120,
+      "total": 170,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV몰",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV금액",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "현관문캠",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "문CCTV",
+      "pc": 20,
+      "mobile": 70,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV렌즈",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV함체",
+      "pc": 140,
+      "mobile": 70,
+      "total": 210,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "카메라브라켓",
+      "pc": 160,
+      "mobile": 200,
+      "total": 360,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV폴",
+      "pc": 120,
+      "mobile": 40,
+      "total": 160,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "집카메라",
+      "pc": 10,
+      "mobile": 90,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "PC방무인",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "가정CCTV설치",
+      "pc": 0,
+      "mobile": 50,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "축사CCTV설치",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "차량번호인식카메라",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTVIP카메라",
+      "pc": 30,
+      "mobile": 20,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "SKCCTV가격",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV카메라종류",
+      "pc": 50,
+      "mobile": 30,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "부모님집CCTV",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "무인가게CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "인천CCTV설치",
+      "pc": 60,
+      "mobile": 50,
+      "total": 110,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "강아지카메라",
+      "pc": 40,
+      "mobile": 230,
+      "total": 270,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "고양이카메라",
+      "pc": 40,
+      "mobile": 180,
+      "total": 220,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "반려동물홈캠",
+      "pc": 40,
+      "mobile": 140,
+      "total": 180,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV부자재",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "SKCCTV설치",
+      "pc": 30,
+      "mobile": 130,
+      "total": 160,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "광진구CCTV",
+      "pc": 50,
+      "mobile": 30,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "구로CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "중랑구CCTV",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTVSK",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV분배기",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "주택CCTV설치",
+      "pc": 30,
+      "mobile": 60,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "4채널DVR",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV돔",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV아답타",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV연결선",
+      "pc": 10,
+      "mobile": 80,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV카메라렌즈",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV파는곳",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "IPCCTV추천",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "놀이터CCTV",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "모조CCTV",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "방범시스템",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "삼성전자CCTV",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "씨씨TV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "아날로그카메라",
+      "pc": 80,
+      "mobile": 250,
+      "total": 330,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "카메라녹화기",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "파워컨트롤러",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "씨씨티비가격",
+      "pc": 0,
+      "mobile": 70,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "아파트CCTV설치비용",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "공장경비",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "12V5A",
+      "pc": 200,
+      "mobile": 130,
+      "total": 330,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV테스터",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "부산CCTV업체",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "렌탈CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "웹관제",
+      "pc": 310,
+      "mobile": 0,
+      "total": 310,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "16채널CCTV",
+      "pc": 30,
+      "mobile": 20,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "ADT아이",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "ADT캡스카메라",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "AHD카메라",
+      "pc": 60,
+      "mobile": 90,
+      "total": 150,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV200만화소",
+      "pc": 40,
+      "mobile": 40,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV검색",
+      "pc": 30,
+      "mobile": 50,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV관제시스템",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV국산",
+      "pc": 10,
+      "mobile": 70,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV돔카메라",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV모니터링",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV모니터설치",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV사용료",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV선",
+      "pc": 50,
+      "mobile": 140,
+      "total": 190,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV시스템",
+      "pc": 30,
+      "mobile": 30,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV안내표지판",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV장비",
+      "pc": 30,
+      "mobile": 30,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV판매점",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV프로그램",
+      "pc": 50,
+      "mobile": 40,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV화각",
+      "pc": 60,
+      "mobile": 60,
+      "total": 120,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCVT",
+      "pc": 40,
+      "mobile": 120,
+      "total": 160,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "IP카메라추천",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "SK씨씨티비",
+      "pc": 10,
+      "mobile": 70,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "공원CCTV",
+      "pc": 20,
+      "mobile": 50,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "간편CCTV",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV월이용료",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "무인PC방",
+      "pc": 100,
+      "mobile": 80,
+      "total": 180,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "농장CCTV설치",
+      "pc": 0,
+      "mobile": 40,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "문앞CCTV설치",
+      "pc": 0,
+      "mobile": 40,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "집앞CCTV설치",
+      "pc": 30,
+      "mobile": 90,
+      "total": 120,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "시시티브",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "다후아코리아",
+      "pc": 120,
+      "mobile": 30,
+      "total": 150,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV월요금",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "익산CCTV설치",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "IP카메라설치",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "현장용CCTV",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "ADP캡스",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "지능형CCTV가격",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "시골집CCTV설치",
+      "pc": 20,
+      "mobile": 70,
+      "total": 90,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV이전설치",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "송파CCTV",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV스마트폰",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "농장용CCTV",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "차량용DVR",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "화면분할기",
+      "pc": 40,
+      "mobile": 60,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "현관문CCTV설치",
+      "pc": 30,
+      "mobile": 100,
+      "total": 130,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "펫CCTV",
+      "pc": 30,
+      "mobile": 140,
+      "total": 170,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "씨씨티브",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "시골CCTV설치",
+      "pc": 10,
+      "mobile": 60,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "고화질카메라",
+      "pc": 30,
+      "mobile": 160,
+      "total": 190,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV유지보수업체",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "KTCCTV설치",
+      "pc": 60,
+      "mobile": 200,
+      "total": 260,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV월비용",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "동축케이블CCTV",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "ADTCCTV",
+      "pc": 90,
+      "mobile": 120,
+      "total": 210,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV농막",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV통신사",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "DVRCCTV",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTVKT",
+      "pc": 20,
+      "mobile": 50,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "IPCAMERA",
+      "pc": 70,
+      "mobile": 30,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "가정용카메라",
+      "pc": 20,
+      "mobile": 100,
+      "total": 120,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "반려견CCTV",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV실외용",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV영상분석",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV제조업체",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV천장",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "가정용보안카메라",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "KT시시티비",
+      "pc": 0,
+      "mobile": 50,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "줌CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV줌카메라",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV16채널",
+      "pc": 40,
+      "mobile": 60,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV부품",
+      "pc": 0,
+      "mobile": 40,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV용모니터",
+      "pc": 80,
+      "mobile": 150,
+      "total": 230,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV중고",
+      "pc": 20,
+      "mobile": 50,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "IPCCTV카메라",
+      "pc": 20,
+      "mobile": 60,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "가정용무선CCTV",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "건설현장CCTV설치",
+      "pc": 30,
+      "mobile": 10,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "공사현장CCTV설치",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "농막CCTV설치",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "부모님CCTV",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "야간CCTV",
+      "pc": 20,
+      "mobile": 50,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "옥상CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "음성CCTV",
+      "pc": 30,
+      "mobile": 90,
+      "total": 120,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "집에CCTV",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "철거현장CCTV",
+      "pc": 30,
+      "mobile": 40,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "야외CCTV추천",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV마이크",
+      "pc": 20,
+      "mobile": 60,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "KT인터넷CCTV",
+      "pc": 40,
+      "mobile": 120,
+      "total": 160,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV본체",
+      "pc": 80,
+      "mobile": 160,
+      "total": 240,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "과수원CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "사하구CCTV",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "양산CCTV설치",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "올레씨씨티비",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "무인피시방",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "단독주택보안",
+      "pc": 20,
+      "mobile": 100,
+      "total": 120,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "KTCCTV요금",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "부모님댁CCTV",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "KTCCTV비용",
+      "pc": 20,
+      "mobile": 80,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "KT씨씨티비",
+      "pc": 40,
+      "mobile": 130,
+      "total": 170,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "매장카메라",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "KTOLLEHCCTV",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "아기CCTV",
+      "pc": 60,
+      "mobile": 300,
+      "total": 360,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "소상공인인터넷",
+      "pc": 140,
+      "mobile": 180,
+      "total": 320,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "KT보안",
+      "pc": 100,
+      "mobile": 200,
+      "total": 300,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV쇼핑몰",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "KTCCTV설치비용",
+      "pc": 20,
+      "mobile": 50,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "어르신CCTV",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "200만화소",
+      "pc": 80,
+      "mobile": 70,
+      "total": 150,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV설치하기",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV카메라설치",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "KT보안카메라",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 9,
+      "score": 5
+    },
+    {
+      "keyword": "올레CCTV",
+      "pc": 30,
+      "mobile": 80,
+      "total": 110,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "농가CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "가짜카메라",
+      "pc": 20,
+      "mobile": 120,
+      "total": 140,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "베이비홈캠",
+      "pc": 80,
+      "mobile": 290,
+      "total": 370,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "홈IOT",
+      "pc": 160,
+      "mobile": 220,
+      "total": 380,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "가정용캠",
+      "pc": 0,
+      "mobile": 40,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "홈캠CCTV",
+      "pc": 50,
+      "mobile": 150,
+      "total": 200,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "홈캠비교",
+      "pc": 70,
+      "mobile": 190,
+      "total": 260,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "KT가정용CCTV",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "IOT홈CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "학원CCTV설치비용",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "광주CCTV설치업체",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "헬스장출입관리",
+      "pc": 40,
+      "mobile": 40,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "가정용CCTV설치비용",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "KT텔레캅요금",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "방범설비",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "방범회사",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "울산경비업체",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "침입방지시스템",
+      "pc": 40,
+      "mobile": 30,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "교회카메라",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "주택외부CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "가성비CCTV",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "도어락CCTV",
+      "pc": 30,
+      "mobile": 120,
+      "total": 150,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "핸드폰연동CCTV",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "전원주택보안",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "KT홈카메라",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "KT홈CCTV",
+      "pc": 30,
+      "mobile": 80,
+      "total": 110,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "케이티텔레캅CCTV",
+      "pc": 50,
+      "mobile": 50,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "KTCCTV인터넷",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "홈카메라설치",
+      "pc": 0,
+      "mobile": 40,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "고해상도CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "KT텔레캅지문인식기",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "농촌CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "200만화소CCTV",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "집보안",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "감시장비",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "현장CCTV설치",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "KT캅스",
+      "pc": 50,
+      "mobile": 50,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 9,
+      "score": 5
+    },
+    {
+      "keyword": "요양원CCTV",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "출동보안",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "비투비CCTV",
+      "pc": 40,
+      "mobile": 70,
+      "total": 110,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "열감지CCTV",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "피플카운터",
+      "pc": 100,
+      "mobile": 20,
+      "total": 120,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "신생아캠",
+      "pc": 20,
+      "mobile": 110,
+      "total": 130,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "홈도어가드",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "엘지유플러스홈캠",
+      "pc": 50,
+      "mobile": 210,
+      "total": 260,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "공장보안",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "반려동물CCTV",
+      "pc": 20,
+      "mobile": 60,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "기계경비",
+      "pc": 330,
+      "mobile": 70,
+      "total": 400,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "홈CCTV어플",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "실외용무선CCTV",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "노인CCTV",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "강아지캠",
+      "pc": 40,
+      "mobile": 180,
+      "total": 220,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "애완견CCTV",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "시니어홈케어",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "KT보안서비스",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "KT텔레캅출동",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "지문등록기",
+      "pc": 30,
+      "mobile": 10,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 5
+    },
+    {
+      "keyword": "지문인식출퇴근기록",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "ADT스티커",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 5
+    },
+    {
+      "keyword": "헬스장CCTV",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "에스원CCTV가격",
+      "pc": 20,
+      "mobile": 50,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 9,
+      "score": 5
+    },
+    {
+      "keyword": "DDOS공격",
+      "pc": 100,
+      "mobile": 110,
+      "total": 210,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "보안업체취업",
+      "pc": 10,
+      "mobile": 70,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "사이버보안업체",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "정보보안업체",
+      "pc": 30,
+      "mobile": 40,
+      "total": 70,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "회사정보보안",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "KT캅",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "KT텔레캅설치",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "도난방지시스템",
+      "pc": 40,
+      "mobile": 120,
+      "total": 160,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "캡스카메라",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "캡스신청",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "high",
+      "avgDepth": 9,
+      "score": 5
+    },
+    {
+      "keyword": "캡스CCTV확인",
+      "pc": 60,
+      "mobile": 20,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "노인홈캠",
+      "pc": 40,
+      "mobile": 100,
+      "total": 140,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "사무실보안",
+      "pc": 30,
+      "mobile": 30,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "ADT캡스요금",
+      "pc": 20,
+      "mobile": 60,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "보안컨설팅",
+      "pc": 120,
+      "mobile": 50,
+      "total": 170,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "무인결제기",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 5
+    },
+    {
+      "keyword": "캡스이용료",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 5
+    },
+    {
+      "keyword": "CCTV무료설치",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV총판",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV월사용료",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "코멕스CCTV",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 0
+    },
+    {
+      "keyword": "무인매장시스템",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 0
+    },
+    {
+      "keyword": "무인매장보안",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "무인점포보안",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV렌트",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV이전",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "U플러스지능형CCTV",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV제조",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "에스원요금",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV패키지",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 0
+    },
+    {
+      "keyword": "업장CCTV",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "안전관리CCTV",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV단기렌탈",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV비교",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV설치문의",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "LGUPLUS지능형CCTV",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 0
+    },
+    {
+      "keyword": "캡스월비용",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 0
+    },
+    {
+      "keyword": "ADT캡스설치비용",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 0
+    },
+    {
+      "keyword": "ADT캡스홈페이지",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 0
+    },
+    {
+      "keyword": "ADT켑스",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 2,
+      "score": 0
+    },
+    {
+      "keyword": "캡스CCTV다시보기",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "캡스CCTV렌탈",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "캡스CCTV보는법",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "캡스CCTV인터넷",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "캡스CCTV저장",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "캡스뷰가드설치",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "국산CCTV카메라",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 10,
+      "score": 0
+    },
+    {
+      "keyword": "CCTVTJFCL",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV세콤",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "VRN-10003",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 0
+    },
+    {
+      "keyword": "VRN-1116",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 0
+    },
+    {
+      "keyword": "VRN10001",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 0
+    },
+    {
+      "keyword": "보안CCTV설치",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "웹CCTV",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "HD-SDI녹화기",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "HD-SDIDVR",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 0
+    },
+    {
+      "keyword": "PC방CCTV",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "HOMECCTV",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 0
+    },
+    {
+      "keyword": "매장CCTV비용",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "아이피CCTV",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "매장CCTV가격",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 4,
+      "score": 0
+    },
+    {
+      "keyword": "HD-SDICCTV",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "200만화소CCTV카메라",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV할부",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "감시카메라추천",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV방범",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV사설",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV설치대행",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV설치지원",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV시공업체",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV핸드폰",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 0
+    },
+    {
+      "keyword": "IPCCTV설치",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 0
+    },
+    {
+      "keyword": "버스CCTV설치",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "부천CCTV수리",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "안성CCTV설치",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "옥외CCTV설치",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "용산전자상가CCTV",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 1,
+      "score": 0
+    },
+    {
+      "keyword": "인천CCTV수리",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "집안CCTV설치",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "엘지홈CCTV",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 0
+    },
+    {
+      "keyword": "LG유플러스지능형CCTV",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV경비",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 0
+    },
+    {
+      "keyword": "세콤가입",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 0
+    },
+    {
+      "keyword": "LGUPLUSCCTV",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "KT무인경비",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "IMAP메일",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "SSL가시성",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV인터넷설치",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "유플러스지능형",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV기기",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV사이즈",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV보수",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV판매업체",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV시스템구축",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTVPOE허브",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV분할기",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "아파트CCTV공사",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "승강기CCTV설치",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "ADT뷰가드PC",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 1,
+      "score": 0
+    },
+    {
+      "keyword": "CCTVCABLE",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTVDIY",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV영상분배기",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV용케이블",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV홈페이지",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "LG전자CCTV",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "PC용CCTV",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "XY시스템",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "네트웍카메라",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "쇼핑몰CCTV",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 0
+    },
+    {
+      "keyword": "ADD캡스",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "ADT카메라",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 6,
+      "score": 0
+    },
+    {
+      "keyword": "ADT캡스CCTV카메라",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 0
+    },
+    {
+      "keyword": "ADT캡스녹화",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV기업",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV단가",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV인천",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV카메라업체",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "공장CCTV추천",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTVMART",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV사무실설치",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV수술실",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 5,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV광고",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "집안에CCTV",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV솔루션",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "올래CCTV",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV출장설치",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "해킹불가홈캠",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "가정용홈카메라",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 8,
+      "score": 0
+    },
+    {
+      "keyword": "일산CCTV설치",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV전용회선",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "DVR카드",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "하이브리드녹화기",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 0
+    },
+    {
+      "keyword": "KT텔레캅가입",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "KTCCTV렌탈",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "AHDDVR",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "KT텔레캅견적",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "경비업체가격",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 0
+    },
+    {
+      "keyword": "홍체인식",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "아파트안전용품",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "애완동물커뮤니티",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 0
+    },
+    {
+      "keyword": "올레KT텔레캅",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "출입제어",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "케티텔레캅",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "회사도어락",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "창고보안",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 0
+    },
+    {
+      "keyword": "ADT캡스CCTV확인",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "KT홈가드",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 1,
+      "score": 0
+    },
+    {
+      "keyword": "페이스캅",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 1,
+      "score": 0
+    },
+    {
+      "keyword": "KT출입통제관리",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "IT보안업체",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "웹위변조방지",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "KTTELECAP",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 0
+    },
+    {
+      "keyword": "ADT캡",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    },
+    {
+      "keyword": "ADT캡스라이브",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 2,
+      "score": 0
+    },
+    {
+      "keyword": "ADTCCTVVIEWER",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "medium",
+      "avgDepth": 2,
+      "score": 0
+    },
+    {
+      "keyword": "CCTV구축",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 7,
+      "score": 0
+    },
+    {
+      "keyword": "ADT캡스영상",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "high",
+      "avgDepth": 3,
+      "score": 0
+    }
+  ]
+}
