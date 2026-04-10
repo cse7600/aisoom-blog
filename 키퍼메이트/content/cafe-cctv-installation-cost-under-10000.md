@@ -1,12 +1,12 @@
 ---
-title: "카페 CCTV 설치비용 월 1만원대로 맞추는 방법 — 10평 기준 완전 분해"
+title: "카페 CCTV 설치비용 월 1만원대 — 10평 기준 SK소상공인 대안"
 slug: "cafe-cctv-installation-cost-under-10000"
-description: "10평 카페 CCTV 3대 구성 시 카메라 단가·NVR·설치비·케이블 항목별 비용 분해. 36개월 할부 시 월 1만원대 달성 가능한 구조와 렌탈 3년 총비용 비교."
+description: "10평 카페 CCTV 3대 구성 시 카메라·NVR·설치비·케이블 항목별 비용 분해. SK브로드밴드 소상공인 패키지와 키퍼 구매형 월 1만원대 구조 비교."
 category: "tech"
-tags: ["카페CCTV", "카페CCTV설치비용", "카페보안카메라", "소상공인CCTV", "카페보안"]
+tags: ["카페CCTV", "소상공인CCTV", "SK소상공인", "매장CCTV", "키퍼메이트"]
 keywords:
-  main: "카페CCTV설치비용"
-  sub: ["카페CCTV", "카페보안카메라", "CCTV설치비", "소상공인CCTV", "카페보안설치"]
+  main: "카페 CCTV 설치비용 10평"
+  sub: ["SK소상공인", "SK브로드밴드소상공인", "매장CCTV가격", "한화비전키퍼", "카페보안"]
 date: "2026-04-10"
 author: "꿀정보 에디터"
 featured: false
@@ -175,6 +175,8 @@ CCTV 견적서에 올라오는 항목을 모르면 어디서 바가지를 쓰는
 이 구역을 촬영하면 **성적 목적 여부와 무관하게 형사처벌 대상**이 될 수 있다.
 
 ---
+
+[키퍼메이트 무료 상담 받기 →](https://keeper.ceo/keeper-mate)
 
 ## Q&A: 자주 묻는 질문
 

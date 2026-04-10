@@ -1,12 +1,12 @@
 ---
-title: "세콤·캡스·에스원 CCTV 가격, 직접 다 알아봤다 (ft. 한화비전 키퍼)"
+title: "세콤 캡스 에스원 CCTV 가격 총정리 — 고객센터 전화 전 체크"
 slug: "secom-caps-hanwha-keeper-cctv-cost-comparison"
-description: "세콤, ADT캡스, 삼성에스원, 한화비전 키퍼 매장 CCTV 월 비용과 계약 조건을 항목별로 비교합니다. 렌탈 월 6~8만원 vs 키퍼 구매형 월 1.5만원, 3년 총비용 차이와 실제 사용자가 바꾼 이유까지."
+description: "세콤·캡스·에스원·한화비전 키퍼 매장 CCTV 월 비용과 계약 조건을 항목별 비교. 각 사 고객센터 전화 전 알아둘 렌탈 위약금·웹관제 해지 절차까지 정리."
 category: "tech"
-tags: ["세콤CCTV", "캡스CCTV", "에스원CCTV", "한화비전키퍼", "매장CCTV", "CCTV비용비교", "소상공인CCTV"]
+tags: ["세콤CCTV", "캡스CCTV", "에스원CCTV", "한화비전키퍼", "캡스고객센터", "세콤고객센터"]
 keywords:
-  main: "세콤 CCTV 가격"
-  sub: ["캡스 CCTV 비용", "에스원 CCTV 가격", "한화비전 키퍼", "매장 CCTV 설치비용", "CCTV 렌탈 비교"]
+  main: "세콤 캡스 에스원 CCTV 비교"
+  sub: ["캡스고객센터", "세콤고객센터", "캡스웹관제", "에스원CCTV", "한화비전키퍼"]
 date: "2026-04-10"
 author: "꿀정보 에디터"
 featured: false

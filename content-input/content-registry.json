@@ -1,0 +1,437 @@
+{
+  "builtAt": "2026-04-10T15:32:25.630Z",
+  "posts": [
+    {
+      "affiliate": "법인설립지원센터",
+      "slug": "2026-corporate-tax-rate-vs-income-tax-should-i-establish-corporation",
+      "title": "2026년 법인세율 올랐는데, 그래도 개인사업자보다 법인이 나은 이유 (구간별 계산)",
+      "category": "finance",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "법인설립지원센터/content/2026-corporate-tax-rate-vs-income-tax-should-i-establish-corporation.md",
+      "keyword": {
+        "main": "법인세율",
+        "bestMatch": "법인세율",
+        "total": 26290,
+        "score": 37,
+        "comp": "high"
+      }
+    },
+    {
+      "affiliate": "법인설립지원센터",
+      "slug": "corporation-setup-cost-self-vs-agent-comparison",
+      "title": "법인설립 비용 총정리: 셀프 vs 대행, 실제로 얼마 차이 날까? (2026년 기준)",
+      "category": "finance",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "법인설립지원센터/content/corporation-setup-cost-self-vs-agent-comparison.md",
+      "keyword": {
+        "main": "법인설립 비용",
+        "bestMatch": "법인설립절차",
+        "total": 4580,
+        "score": 10,
+        "comp": "high"
+      }
+    },
+    {
+      "affiliate": "법인설립지원센터",
+      "slug": "one-person-corporation-4days-guide",
+      "title": "1인 법인설립 4일 완성 — 2026년 실제 절차와 체크포인트",
+      "category": "finance",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "법인설립지원센터/content/one-person-corporation-4days-guide.md",
+      "keyword": {
+        "main": "1인법인설립",
+        "bestMatch": "법인설립절차",
+        "total": 4580,
+        "score": 10,
+        "comp": "high"
+      }
+    },
+    {
+      "affiliate": "법인설립지원센터",
+      "slug": "sole-to-corp-conversion-simulation",
+      "title": "개인사업자 법인전환 시점, 연매출별 절세액 시뮬레이션 (2026년형)",
+      "category": "finance",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "법인설립지원센터/content/sole-to-corp-conversion-simulation.md",
+      "keyword": {
+        "main": "개인사업자법인전환",
+        "bestMatch": "법인설립절차",
+        "total": 4580,
+        "score": 10,
+        "comp": "high"
+      }
+    },
+    {
+      "affiliate": "법인설립지원센터",
+      "slug": "stock-vs-limited-company-comparison",
+      "title": "주식회사 vs 유한회사 설립 차이 2026년 — 뭘 선택해야 할까",
+      "category": "finance",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "법인설립지원센터/content/stock-vs-limited-company-comparison.md",
+      "keyword": {
+        "main": "주식회사설립",
+        "bestMatch": "법인설립",
+        "total": 4050,
+        "score": 10,
+        "comp": "high"
+      }
+    },
+    {
+      "affiliate": "법인설립지원센터",
+      "slug": "corporation-setup-document-checklist",
+      "title": "법인설립 필요 서류 12종 체크리스트 — 2026년 기준",
+      "category": "finance",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "법인설립지원센터/content/corporation-setup-document-checklist.md",
+      "keyword": {
+        "main": "법인설립서류",
+        "bestMatch": "법인등기",
+        "total": 3190,
+        "score": 9,
+        "comp": "high"
+      }
+    },
+    {
+      "affiliate": "법인설립지원센터",
+      "slug": "first-month-after-corporation-setup",
+      "title": "법인설립 후 첫 달에 반드시 해야 할 8가지 체크리스트 2026년",
+      "category": "finance",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "법인설립지원센터/content/first-month-after-corporation-setup.md",
+      "keyword": {
+        "main": "법인설립후할일",
+        "bestMatch": "법인사업자등록",
+        "total": 730,
+        "score": 6,
+        "comp": "high"
+      }
+    },
+    {
+      "affiliate": "법인설립지원센터",
+      "slug": "freelancer-one-person-corporation-tax",
+      "title": "프리랜서 1인 법인 전환 — 세금 시뮬레이션과 4대 보험 비교 2026",
+      "category": "finance",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "법인설립지원센터/content/freelancer-one-person-corporation-tax.md",
+      "keyword": {
+        "main": "프리랜서법인설립",
+        "bestMatch": "1인법인",
+        "total": 830,
+        "score": 6,
+        "comp": "high"
+      }
+    },
+    {
+      "affiliate": "법인설립지원센터",
+      "slug": "online-shop-corporation-setup-timing",
+      "title": "온라인 쇼핑몰 법인설립 타이밍 2026년 — 통신판매업 신고와 함께",
+      "category": "finance",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "법인설립지원센터/content/online-shop-corporation-setup-timing.md",
+      "keyword": {
+        "main": "쇼핑몰법인설립",
+        "bestMatch": "법인전환",
+        "total": 530,
+        "score": 6,
+        "comp": "high"
+      }
+    },
+    {
+      "affiliate": "법인설립지원센터",
+      "slug": "corporation-ceo-salary-optimization",
+      "title": "법인 대표이사 급여 설정 방법 — 2026년 세금 최적화 구간",
+      "category": "finance",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "법인설립지원센터/content/corporation-ceo-salary-optimization.md",
+      "keyword": {
+        "main": "법인대표이사급여",
+        "bestMatch": null,
+        "total": null,
+        "score": null,
+        "comp": null
+      }
+    },
+    {
+      "affiliate": "법인설립지원센터",
+      "slug": "corporation-vehicle-tax-benefits",
+      "title": "법인 차량 구매 세금 혜택 2026년 — 리스 vs 렌트 vs 구매 비교",
+      "category": "finance",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "법인설립지원센터/content/corporation-vehicle-tax-benefits.md",
+      "keyword": {
+        "main": "법인차량",
+        "bestMatch": null,
+        "total": null,
+        "score": null,
+        "comp": null
+      }
+    },
+    {
+      "affiliate": "법인설립지원센터",
+      "slug": "vat-corporation-vs-sole-2026",
+      "title": "2026년 부가가치세 — 법인 vs 개인사업자 실무 차이 총정리",
+      "category": "finance",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "법인설립지원센터/content/vat-corporation-vs-sole-2026.md",
+      "keyword": {
+        "main": "법인부가가치세",
+        "bestMatch": null,
+        "total": null,
+        "score": null,
+        "comp": null
+      }
+    },
+    {
+      "affiliate": "키퍼메이트",
+      "slug": "cctv-hacking-chinese-vs-korean",
+      "title": "CCTV 해킹 실제 사례 — 저가 IP 카메라 vs 한화비전 보안 차이",
+      "category": "tech",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "키퍼메이트/content/cctv-hacking-chinese-vs-korean.md",
+      "keyword": {
+        "main": "CCTV해킹",
+        "bestMatch": "한화비전",
+        "total": 344200,
+        "score": 80,
+        "comp": "medium"
+      }
+    },
+    {
+      "affiliate": "키퍼메이트",
+      "slug": "hanwha-keeper-vs-secom-cctv",
+      "title": "한화비전 키퍼 vs 세콤 CCTV 비교, 3년 총비용 150만원 차이 나는 이유",
+      "category": "tech",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "키퍼메이트/content/hanwha-keeper-vs-secom-cctv.md",
+      "keyword": {
+        "main": "한화비전",
+        "bestMatch": "한화비전",
+        "total": 344200,
+        "score": 80,
+        "comp": "medium"
+      }
+    },
+    {
+      "affiliate": "키퍼메이트",
+      "slug": "secom-caps-hanwha-keeper-cctv-cost-comparison",
+      "title": "세콤·캡스·에스원 CCTV 가격, 직접 다 알아봤다 (ft. 한화비전 키퍼)",
+      "category": "tech",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "키퍼메이트/content/secom-caps-hanwha-keeper-cctv-cost-comparison.md",
+      "keyword": {
+        "main": "세콤 CCTV 가격",
+        "bestMatch": "에스원CCTV",
+        "total": 2010,
+        "score": 22,
+        "comp": "medium"
+      }
+    },
+    {
+      "affiliate": "키퍼메이트",
+      "slug": "caps-vs-keeper-contract-comparison",
+      "title": "캡스 vs 한화비전 키퍼 — 계약 조건 완전 비교",
+      "category": "tech",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "키퍼메이트/content/caps-vs-keeper-contract-comparison.md",
+      "keyword": {
+        "main": "캡스 CCTV vs 한화비전 키퍼",
+        "bestMatch": "한화비전키퍼",
+        "total": 480,
+        "score": 21,
+        "comp": "medium"
+      }
+    },
+    {
+      "affiliate": "키퍼메이트",
+      "slug": "cctv-rental-vs-purchase-cost-comparison",
+      "title": "CCTV 렌탈 vs 구매, 3년 쓰면 누가 이길까? 매장 사장님 비용 실화 공개",
+      "category": "tech",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "키퍼메이트/content/cctv-rental-vs-purchase-cost-comparison.md",
+      "keyword": {
+        "main": "CCTV 렌탈 vs 구매",
+        "bestMatch": "한화비전키퍼",
+        "total": 480,
+        "score": 21,
+        "comp": "medium"
+      }
+    },
+    {
+      "affiliate": "키퍼메이트",
+      "slug": "academy-cctv-installation-guide",
+      "title": "학원 CCTV 설치 가이드 — 교실·복도·학부모 동의 절차 완전 정리",
+      "category": "tech",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "키퍼메이트/content/academy-cctv-installation-guide.md",
+      "keyword": {
+        "main": "학원CCTV설치",
+        "bestMatch": "학원CCTV설치",
+        "total": 100,
+        "score": 5,
+        "comp": "high"
+      }
+    },
+    {
+      "affiliate": "키퍼메이트",
+      "slug": "cafe-cctv-installation-cost-under-10000",
+      "title": "카페 CCTV 설치비용 월 1만원대로 맞추는 방법 — 10평 기준 완전 분해",
+      "category": "tech",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "키퍼메이트/content/cafe-cctv-installation-cost-under-10000.md",
+      "keyword": {
+        "main": "카페CCTV설치비용",
+        "bestMatch": "카페CCTV",
+        "total": 160,
+        "score": 5,
+        "comp": "high"
+      }
+    },
+    {
+      "affiliate": "키퍼메이트",
+      "slug": "convenience-store-cctv-essential-spec",
+      "title": "편의점 CCTV 필수 스펙 — 24시간 무인 운영 완전 가이드",
+      "category": "tech",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "키퍼메이트/content/convenience-store-cctv-essential-spec.md",
+      "keyword": {
+        "main": "편의점CCTV",
+        "bestMatch": "편의점CCTV",
+        "total": 130,
+        "score": 5,
+        "comp": "high"
+      }
+    },
+    {
+      "affiliate": "키퍼메이트",
+      "slug": "store-cctv-resolution-selection",
+      "title": "매장 CCTV 화소 선택 기준 — 400만 vs 200만 vs 800만",
+      "category": "tech",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "키퍼메이트/content/store-cctv-resolution-selection.md",
+      "keyword": {
+        "main": "매장 CCTV 화소 선택",
+        "bestMatch": "CCTV화소",
+        "total": 130,
+        "score": 5,
+        "comp": "high"
+      }
+    },
+    {
+      "affiliate": "키퍼메이트",
+      "slug": "unmanned-store-cctv-evidence-standard",
+      "title": "무인매장 CCTV 증거능력 기준 총정리 — 경찰·보험사 인정 스펙",
+      "category": "tech",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "키퍼메이트/content/unmanned-store-cctv-evidence-standard.md",
+      "keyword": {
+        "main": "무인매장CCTV",
+        "bestMatch": "무인매장CCTV",
+        "total": 90,
+        "score": 5,
+        "comp": "high"
+      }
+    },
+    {
+      "affiliate": "키퍼메이트",
+      "slug": "cctv-legal-standards-2026",
+      "title": "CCTV 법적 설치 기준 5가지 — 2026년 개인정보보호법 완전 반영",
+      "category": "tech",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "키퍼메이트/content/cctv-legal-standards-2026.md",
+      "keyword": {
+        "main": "CCTV설치기준",
+        "bestMatch": null,
+        "total": null,
+        "score": null,
+        "comp": null
+      }
+    },
+    {
+      "affiliate": "키퍼메이트",
+      "slug": "small-business-cctv-subsidy-2026",
+      "title": "소상공인 CCTV 정부지원금 2026년 신청 가이드",
+      "category": "tech",
+      "status": "draft",
+      "createdAt": "2026-04-10",
+      "publishedAt": null,
+      "supabaseId": null,
+      "filePath": "키퍼메이트/content/small-business-cctv-subsidy-2026.md",
+      "keyword": {
+        "main": "소상공인 CCTV 정부지원금",
+        "bestMatch": null,
+        "total": null,
+        "score": null,
+        "comp": null
+      }
+    }
+  ]
+}

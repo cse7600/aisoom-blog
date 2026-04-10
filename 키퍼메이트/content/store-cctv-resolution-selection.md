@@ -1,12 +1,12 @@
 ---
-title: "매장 CCTV 화소 선택 기준 — 400만 vs 200만 vs 800만"
+title: "매장 CCTV 화소 선택 — 200만 400만 800만 저장 용량 비교"
 slug: "store-cctv-resolution-selection"
-description: "CCTV 화소별 실제 얼굴 식별 거리·저장 용량·비용 비교. 10평 카페부터 30평 음식점까지 매장 규모별 최적 화소 추천, 소상공인 기준 400만화소 권장 이유."
+description: "CCTV 화소별 얼굴 식별 거리·저장 용량·비용 비교. 10평 카페부터 30평 음식점까지 매장 규모별 최적 화소, 소상공인 4주 저장 기준 권장 스펙 정리."
 category: "tech"
-tags: ["CCTV화소", "매장CCTV추천", "CCTV해상도", "소상공인CCTV", "CCTV선택기준"]
+tags: ["매장CCTV", "CCTV화소", "CCTV해상도", "저조도CCTV", "키퍼메이트"]
 keywords:
-  main: "매장 CCTV 화소 선택"
-  sub: ["CCTV 200만 400만 차이", "4K CCTV 필요한가", "매장 CCTV 추천 화소", "CCTV 저장 용량 계산", "QHD CCTV 소상공인"]
+  main: "매장 CCTV 화소 200만 400만"
+  sub: ["저조도CCTV", "130만화소카메라", "매장CCTV가격", "영상보안", "CCTV저장용량"]
 date: "2026-04-10"
 author: "꿀정보 에디터"
 featured: false
@@ -177,6 +177,8 @@ IP 카메라 내장 IR LED의 사거리가 20m인지 40m인지에 따라 야간 
 **한화비전 키퍼의 400만화소 모델**은 이 균형점에 맞게 설계된 제품이다. 소상공인이 가장 많이 설치하는 카메라 2~4대 구성에서 비용 대비 성능이 가장 뛰어나다.
 
 ---
+
+[키퍼메이트 무료 상담 받기 →](https://keeper.ceo/keeper-mate)
 
 ## Q&A: 자주 묻는 질문
 

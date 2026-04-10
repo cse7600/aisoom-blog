@@ -1,12 +1,12 @@
 ---
-title: "CCTV 렌탈 vs 구매, 3년 쓰면 누가 이길까? 매장 사장님 비용 실화 공개"
+title: "CCTV 렌탈 vs 구매 3년 총비용 비교 — 캡스 세콤 해지 전 체크"
 slug: "cctv-rental-vs-purchase-cost-comparison"
-description: "매장 CCTV 렌탈과 구매형의 3년 총비용을 실제 숫자로 비교합니다. 월 렌탈비 6만원 vs 월 1만원대 구매형, 3년간 차이는 무려 144만원. 소상공인이 CCTV 고를 때 반드시 알아야 할 비용 구조를 정리했습니다."
+description: "매장 CCTV 렌탈과 구매형 3년 총비용을 실수치로 비교. 캡스·세콤 렌탈 해지 위약금과 키퍼 구매형 할부 비용을 항목별로 공개, 3년 144만원 차이가 나는 이유를 정리."
 category: "tech"
-tags: ["CCTV설치", "매장CCTV", "CCTV렌탈비교", "CCTV가격비교", "한화비전키퍼", "소상공인CCTV"]
+tags: ["CCTV렌탈", "CCTV구매", "캡스고객센터", "세콤고객센터", "한화비전키퍼", "매장CCTV"]
 keywords:
-  main: "CCTV 렌탈 vs 구매"
-  sub: ["매장CCTV 설치비용", "CCTV 렌탈 가격", "소상공인 CCTV 추천", "CCTV 3년 비용 비교", "한화비전 키퍼 가격"]
+  main: "CCTV 렌탈 구매 비교"
+  sub: ["캡스고객센터", "세콤고객센터", "캡스웹관제", "한화비전 키퍼 가격", "매장CCTV 비용"]
 date: "2026-04-10"
 author: "꿀정보 에디터"
 featured: false

@@ -1,12 +1,12 @@
 ---
-title: "CCTV 해킹 실제 사례 — 저가 IP 카메라 vs 한화비전 보안 차이"
+title: "CCTV 해킹 실제 사례 — IP카메라 영상보안 취약점과 대응"
 slug: "cctv-hacking-chinese-vs-korean"
-description: "KISA 통계 기준 IP 카메라 해킹 경로와 저가 장비의 하드코딩 패스워드·펌웨어 방치 취약점, 한화비전의 TLS 1.3 암호화·보안 패치 주기 비교 정리."
+description: "KISA 통계 기준 IP 카메라 해킹 경로와 저가 장비의 하드코딩 패스워드·펌웨어 방치 취약점 분석. 한화비전 TLS 1.3 영상보안과 주기적 패치 체계 비교."
 category: "tech"
-tags: ["CCTV해킹", "CCTV보안", "IP카메라보안", "한화비전", "소상공인보안"]
+tags: ["CCTV해킹", "영상보안", "IP카메라", "CCTV보안", "한화비전"]
 keywords:
-  main: "CCTV해킹"
-  sub: ["CCTV보안", "IP카메라보안", "IP카메라해킹", "CCTV취약점", "매장CCTV보안"]
+  main: "CCTV 해킹 영상보안"
+  sub: ["영상보안", "IP카메라보안", "가정용보안", "CCTV취약점", "매장CCTV보안"]
 date: "2026-04-10"
 author: "꿀정보 에디터"
 featured: false
@@ -129,6 +129,8 @@ KC 인증은 전기 안전 중심이라 사이버 보안을 직접 검증하지 
 서울 마포구의 한 음식점에서는 주방 CCTV가 뚫려 조리 과정·레시피가 경쟁업체에 유출된 것으로 의심되는 사건이 있었다. 피해 입증이 어려워 법적 대응은 못 했지만, 이후 해당 업주는 장비를 전면 교체했다.
 
 ---
+
+[키퍼메이트 무료 상담 받기 →](https://keeper.ceo/keeper-mate)
 
 ## Q&A: 자주 묻는 질문
 

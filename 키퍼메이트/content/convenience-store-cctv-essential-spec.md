@@ -1,12 +1,12 @@
 ---
-title: "편의점 CCTV 필수 스펙 — 24시간 무인 운영 완전 가이드"
+title: "편의점 CCTV 필수 스펙 — 24시간 무인 운영 영상보안 기준"
 slug: "convenience-store-cctv-essential-spec"
-description: "편의점 카운터·주류코너·출입구 5곳 필수 위치, 0.001 Lux 야간 저조도 촬영 기준, 카메라 3대 기준 4주 저장 용량 계산까지. 편의점 CCTV 스펙 정리."
+description: "편의점 카운터·주류코너·출입구 5곳 필수 위치, 0.001 Lux 야간 저조도 촬영 기준, 카메라 3대 기준 4주 저장 용량 계산. 편의점 영상보안 완전 가이드."
 category: "tech"
-tags: ["편의점CCTV", "24시간CCTV", "편의점보안", "무인편의점CCTV", "소상공인CCTV"]
+tags: ["편의점CCTV", "24시간CCTV", "영상보안", "무인편의점", "저조도CCTV"]
 keywords:
-  main: "편의점CCTV"
-  sub: ["24시간CCTV", "편의점보안", "무인편의점보안", "편의점카메라스펙", "야간CCTV"]
+  main: "편의점 CCTV 24시간"
+  sub: ["영상보안", "편의점보안", "저조도CCTV", "CCTV관제센터", "무인매장CCTV"]
 date: "2026-04-10"
 author: "꿀정보 에디터"
 featured: false
@@ -185,6 +185,8 @@ affiliate:
 **모션 감지 녹화** 방식을 적용하면 움직임이 없는 시간대는 녹화하지 않아 실제 사용 용량이 30~50% 줄어든다. 다만 야간 무인 매장에서는 전체 녹화가 더 안전하다.
 
 ---
+
+[키퍼메이트 무료 상담 받기 →](https://keeper.ceo/keeper-mate)
 
 ## Q&A: 자주 묻는 질문
 

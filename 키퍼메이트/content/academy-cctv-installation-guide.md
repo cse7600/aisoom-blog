@@ -1,12 +1,12 @@
 ---
-title: "학원 CCTV 설치 가이드 — 교실·복도·학부모 동의 절차 완전 정리"
+title: "학원 CCTV 설치 가이드 — 교실 복도 학부모 동의 절차 정리"
 slug: "academy-cctv-installation-guide"
-description: "학원법·아동복지법상 CCTV 의무 설치 구역부터 학부모 열람권, 강의실 1대·복도 2대 배치 기준까지. 학원 원장이 꼭 알아야 할 보안 설치 가이드."
+description: "학원법·아동복지법상 CCTV 의무 설치 구역, 학부모 열람권, 강의실 1대·복도 2대 배치 기준. 학원 원장 필수 체크리스트와 2026년 개인정보보호법 대응까지."
 category: "tech"
-tags: ["학원CCTV", "학원CCTV설치", "학원보안", "CCTV의무설치", "소상공인CCTV"]
+tags: ["학원CCTV", "교실CCTV", "학원보안", "영상보안", "CCTV설치"]
 keywords:
-  main: "학원CCTV설치"
-  sub: ["학원CCTV", "학원보안", "학원법CCTV", "교실CCTV", "학원동작감지"]
+  main: "학원 CCTV 설치"
+  sub: ["교실CCTV", "학원보안", "영상보안", "CCTV관제센터", "CCTV설치기준"]
 date: "2026-04-10"
 author: "꿀정보 에디터"
 featured: false
@@ -139,6 +139,8 @@ affiliate:
 개인정보보호법상 CCTV 영상은 **수집 목적 달성 후 즉시 파기**가 원칙이다. 실무에서는 **30일 보관**이 표준이다. 분쟁이 발생하면 해당 영상을 보관·백업하고, 경찰·법원 요청 시 제출하면 된다.
 
 ---
+
+[키퍼메이트 무료 상담 받기 →](https://keeper.ceo/keeper-mate)
 
 ## Q&A: 자주 묻는 질문
 

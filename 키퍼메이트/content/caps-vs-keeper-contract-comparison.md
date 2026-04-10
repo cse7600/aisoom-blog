@@ -1,12 +1,12 @@
 ---
-title: "캡스 vs 한화비전 키퍼 — 계약 조건 완전 비교"
+title: "캡스 CCTV vs 한화 키퍼 계약 비교 — 캡스고객센터 해지 전 체크"
 slug: "caps-vs-keeper-contract-comparison"
-description: "ADT캡스 렌탈과 한화비전 키퍼 구매형, 약정·위약금·장비 소유권·A/S 6항목 비교. 카메라 3대 기준 3년·5년 총비용 시뮬레이션 포함."
+description: "ADT캡스 렌탈과 한화비전 키퍼 구매형 계약 6항목 비교. 캡스 해지 위약금·웹관제 이관 절차·약정 없는 구매형 전환까지, 캡스고객센터 전화 전 알아둘 포인트 정리."
 category: "tech"
-tags: ["캡스CCTV", "한화비전키퍼", "CCTV계약비교", "CCTV렌탈해지", "소상공인CCTV"]
+tags: ["캡스CCTV", "캡스고객센터", "캡스웹관제", "한화비전키퍼", "CCTV해지"]
 keywords:
-  main: "캡스 CCTV vs 한화비전 키퍼"
-  sub: ["CCTV 렌탈 위약금", "CCTV 구매형 렌탈 차이", "캡스CCTV 해지", "한화비전 키퍼 계약", "CCTV 약정 없음"]
+  main: "캡스 CCTV 해지 비교"
+  sub: ["캡스고객센터", "캡스웹관제", "ATD캡스", "한화비전키퍼", "CAPS"]
 date: "2026-04-10"
 author: "꿀정보 에디터"
 featured: false
@@ -173,6 +173,8 @@ CCTV 계약서에 사인하기 전에 이것 하나만 기억하면 된다. "이
 - 분쟁 해결 조항 (중재/소송 관할)
 
 ---
+
+[키퍼메이트 무료 상담 받기 →](https://keeper.ceo/keeper-mate)
 
 ## Q&A: 자주 묻는 질문
 
