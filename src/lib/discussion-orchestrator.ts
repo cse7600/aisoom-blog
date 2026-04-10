@@ -411,15 +411,15 @@ function normalizeReplyType(value: unknown): ReplyType {
 
 const MAX_PARSE_RETRY = 3;
 
-async function callGeminiForScript(prompt: string, estimatedSlots: number): Promise<string | null> {
-  // 슬롯 수에 비례해 출력 토큰 할당
-  const perSlotTokens = 220;
+async function callClaudeForScript(prompt: string, estimatedSlots: number): Promise<string | null> {
+  // 슬롯 수에 비례해 출력 토큰 할당 (Claude는 JSON 구조를 잘 따름)
+  const perSlotTokens = 300;
   const maxOutputTokens = Math.min(8192, Math.max(1024, perSlotTokens * estimatedSlots + 512));
   for (let attempt = 0; attempt < MAX_PARSE_RETRY; attempt += 1) {
     const raw = await generateText(prompt, {
       temperature: 0.92,
       maxOutputTokens,
-      responseMimeType: "application/json",
+      useHighQuality: estimatedSlots >= 5, // 슬롯 5개 이상이면 Sonnet 사용
     });
     if (raw && raw.length > 0) return raw;
   }
@@ -693,7 +693,7 @@ export async function generateFullScript(
   }
 
   const prompt = await buildScriptPrompt(input, plans);
-  const raw = await callGeminiForScript(prompt, plans.length);
+  const raw = await callClaudeForScript(prompt, plans.length);
   if (!raw) {
     return {
       batchId: input.batchId,

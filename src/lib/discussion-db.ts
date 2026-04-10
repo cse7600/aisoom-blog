@@ -571,7 +571,7 @@ export async function upsertGenerationLog(
     comments_count: params.comments_count ?? 0,
     replies_count: params.replies_count ?? 0,
     keywords_used: params.keywords_used ?? [],
-    model_used: params.model_used ?? "gemini-2.0-flash",
+    model_used: params.model_used ?? "gemini-2.5-flash-lite",
     prompt_version: params.prompt_version ?? "v1",
     error_message: params.error_message ?? null,
     completed_at: params.completed_at ?? null,
