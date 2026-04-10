@@ -19,8 +19,16 @@
     "generate-content": "node scripts/generate-content.mjs",
     "refill-queue": "node scripts/research-and-queue.mjs",
     "discover": "node scripts/discover-topics.mjs",
+    "discover-force": "node scripts/discover-topics.mjs --force",
     "content-loop": "node scripts/content-loop.mjs",
-    "loop-dry": "node scripts/content-loop.mjs --dry"
+    "loop-dry": "node scripts/content-loop.mjs --dry",
+    "naver-login": "node scripts/naver-session.mjs login",
+    "naver-check": "node scripts/naver-session.mjs check",
+    "add-affiliate": "node scripts/add-affiliate.mjs",
+    "schedule-install": "node scripts/setup-schedule.mjs install",
+    "schedule-status": "node scripts/setup-schedule.mjs status",
+    "apply-personas": "node scripts/apply-persona-seeds.mjs",
+    "apply-personas-all": "node scripts/apply-persona-seeds.mjs --all"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.87.0",
@@ -38,8 +46,10 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.2.35",
+    "playwright": "^1.59.1",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
+    "tsx": "4.21.0",
     "typescript": "^5"
   }
 }

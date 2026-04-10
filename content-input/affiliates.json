@@ -85,5 +85,69 @@
         }
       ]
     }
+    ,
+    {
+      "name": "밀리의서재",
+      "contentDir": "밀리의서재/content",
+      "category": "tech",
+      "url": "https://www.millie.co.kr",
+      "disclosure": "이 포스팅은 밀리의서재 파트너스 활동으로, 소정의 수수료를 받을 수 있습니다.",
+      "author": "꿀정보 에디터",
+      "description": "국내 최대 전자책 구독 플랫폼. 12만 권 이상 무제한 독서. 월 9,900원 구독. 독서 습관 형성, 자기계발, 업무 인사이트 확보 목적.",
+      "personaSeedFile": "supabase/seed-personas-millie.sql",
+      "expertiseTargets": ["reading", "self-improvement", "ebook", "parenting", "career"],
+      "sources": [
+        {
+          "type": "naver-search",
+          "name": "밀리의서재 후기 검색",
+          "searchKeywords": ["밀리의서재 후기", "전자책 구독 비교", "밀리 vs 리디", "밀리의서재 단점", "독서 앱 추천"],
+          "relevance": "실사용자 경험 분석"
+        },
+        {
+          "type": "naver-cafe",
+          "name": "독서 모임 카페",
+          "searchKeywords": ["밀리의서재", "전자책 추천", "독서 습관", "책 추천 앱"],
+          "relevance": "독서 커뮤니티 관심사"
+        },
+        {
+          "type": "competitor",
+          "name": "리디셀렉트",
+          "url": "https://select.ridi.com",
+          "relevance": "경쟁 서비스 포지셔닝 분석"
+        }
+      ]
+    },
+    {
+      "name": "차별화상회",
+      "contentDir": "차별화상회/content",
+      "category": "home-living",
+      "url": "https://chabyulhwa.vercel.app",
+      "disclosure": "이 포스팅은 차별화상회 파트너스 활동으로, 소정의 수수료를 받을 수 있습니다.",
+      "author": "꿀정보 에디터",
+      "description": "외식업 사장님 전용 식자재 B2B 플랫폼. 소분 판매, 직납 가능. 한식·카페·베이커리·배달 전문점 타겟.",
+      "personaSeedFile": "supabase/seed-personas-chabyulhwa.sql",
+      "expertiseTargets": ["food-supply", "restaurant", "cost-management", "catering", "franchise"],
+      "sources": [
+        {
+          "type": "naver-cafe",
+          "name": "아프니까 사장이다",
+          "cafeId": "jihosoccer123",
+          "searchKeywords": ["식자재", "식재료 구매", "외식업 원가", "납품업체", "식재료 도매"],
+          "relevance": "외식업 사장 식자재 고민 파악"
+        },
+        {
+          "type": "web-crawl",
+          "name": "배민 외식업 광장",
+          "url": "https://ceo.baemin.com/knowhow",
+          "relevance": "외식업 원가·운영 트렌드"
+        },
+        {
+          "type": "naver-search",
+          "name": "식자재 도매 후기 검색",
+          "searchKeywords": ["식자재 도매 후기", "식재료 납품업체 추천", "음식점 식자재 소싱", "외식업 식재료 원가"],
+          "relevance": "실사용자 소싱 경험 분석"
+        }
+      ]
+    }
   ]
 }
