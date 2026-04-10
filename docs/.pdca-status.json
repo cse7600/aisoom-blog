@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-04-10T04:15:37.388Z",
+  "lastUpdated": "2026-04-10T06:40:28.083Z",
   "activeFeatures": [
     "blog-affiliate",
     "layout",
@@ -15,7 +15,14 @@
     "subscribe",
     "keyword-volume",
     "newsletter",
-    "analytics"
+    "analytics",
+    "discussion",
+    "generate-discussions",
+    "posts",
+    "[id]",
+    "comments",
+    "community",
+    "write"
   ],
   "primaryFeature": "blog-affiliate",
   "features": {
@@ -28,9 +35,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T02:43:31.949Z",
-        "lastUpdated": "2026-04-10T03:17:50.106Z"
+        "lastUpdated": "2026-04-10T06:22:04.163Z"
       },
-      "lastFile": "/Users/hokang2father/blog-affiliate/src/lib/seo.ts"
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/lib/community-seed.ts"
     },
     "layout": {
       "phase": "do",
@@ -41,9 +48,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T02:46:12.631Z",
-        "lastUpdated": "2026-04-10T02:46:22.467Z"
+        "lastUpdated": "2026-04-10T06:20:30.070Z"
       },
-      "lastFile": "/Users/hokang2father/blog-affiliate/src/components/layout/Footer.tsx"
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/components/layout/Header.tsx"
     },
     "ui": {
       "phase": "do",
@@ -67,9 +74,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T02:46:44.395Z",
-        "lastUpdated": "2026-04-10T04:15:14.833Z"
+        "lastUpdated": "2026-04-10T05:51:40.220Z"
       },
-      "lastFile": "/Users/hokang2father/blog-affiliate/src/components/content/RelatedPostsSection.tsx"
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/components/content/FloatingShareBar.tsx"
     },
     "seo": {
       "phase": "do",
@@ -132,7 +139,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T02:48:05.857Z",
-        "lastUpdated": "2026-04-10T04:15:37.388Z"
+        "lastUpdated": "2026-04-10T05:50:24.360Z"
       },
       "lastFile": "/Users/hokang2father/blog-affiliate/src/app/(main)/[category]/[slug]/page.tsx"
     },
@@ -200,6 +207,97 @@
         "lastUpdated": "2026-04-10T03:01:59.172Z"
       },
       "lastFile": "/Users/hokang2father/blog-affiliate/src/components/analytics/Analytics.tsx"
+    },
+    "discussion": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T05:48:51.084Z",
+        "lastUpdated": "2026-04-10T06:03:49.095Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/(main)/preview/discussion/page.tsx"
+    },
+    "generate-discussions": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T05:51:12.070Z",
+        "lastUpdated": "2026-04-10T05:52:33.993Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/api/cron/generate-discussions/route.ts"
+    },
+    "posts": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T06:15:12.817Z",
+        "lastUpdated": "2026-04-10T06:15:12.817Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/api/community/posts/route.ts"
+    },
+    "[id]": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T06:15:29.647Z",
+        "lastUpdated": "2026-04-10T06:18:58.236Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/(main)/community/[id]/page.tsx"
+    },
+    "comments": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T06:15:37.931Z",
+        "lastUpdated": "2026-04-10T06:15:37.931Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/api/community/posts/[id]/comments/route.ts"
+    },
+    "community": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T06:17:00.451Z",
+        "lastUpdated": "2026-04-10T06:40:28.083Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/components/community/CommunityPostRow.tsx"
+    },
+    "write": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T06:18:42.127Z",
+        "lastUpdated": "2026-04-10T06:18:42.127Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/(main)/community/write/page.tsx"
     }
   },
   "pipeline": {
@@ -210,7 +308,7 @@
   "session": {
     "startedAt": "2026-04-10T02:43:31.949Z",
     "onboardingCompleted": false,
-    "lastActivity": "2026-04-10T04:15:37.388Z"
+    "lastActivity": "2026-04-10T06:40:28.083Z"
   },
   "history": [
     {
@@ -528,6 +626,366 @@
     {
       "timestamp": "2026-04-10T04:15:37.388Z",
       "feature": "[slug]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T04:43:58.897Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T04:44:04.862Z",
+      "feature": "[slug]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T04:44:12.867Z",
+      "feature": "[slug]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:44:54.724Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:45:41.003Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:46:25.753Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:47:26.058Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:48:28.277Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:48:51.084Z",
+      "feature": "discussion",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:48:57.961Z",
+      "feature": "discussion",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:49:06.251Z",
+      "feature": "discussion",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:49:18.377Z",
+      "feature": "discussion",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:49:28.966Z",
+      "feature": "discussion",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:50:18.673Z",
+      "feature": "[slug]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:50:24.360Z",
+      "feature": "[slug]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:51:12.070Z",
+      "feature": "generate-discussions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:51:40.220Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:52:24.571Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:52:33.993Z",
+      "feature": "generate-discussions",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:53:07.023Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:53:20.808Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:53:36.412Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:53:49.864Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:54:02.086Z",
+      "feature": "discussion",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:54:20.869Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:54:35.082Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:54:51.450Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:55:05.619Z",
+      "feature": "discussion",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:55:34.692Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:56:00.057Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T05:56:19.155Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:02:37.401Z",
+      "feature": "discussion",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:03:13.656Z",
+      "feature": "discussion",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:03:49.095Z",
+      "feature": "discussion",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:13:30.478Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:13:44.404Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:14:19.276Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:14:28.062Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:14:34.248Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:14:59.535Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:15:12.817Z",
+      "feature": "posts",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:15:29.647Z",
+      "feature": "[id]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:15:37.931Z",
+      "feature": "comments",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:15:45.316Z",
+      "feature": "[id]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:17:00.451Z",
+      "feature": "community",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:17:12.015Z",
+      "feature": "community",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:17:27.205Z",
+      "feature": "community",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:17:46.389Z",
+      "feature": "community",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:17:59.675Z",
+      "feature": "community",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:18:20.475Z",
+      "feature": "community",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:18:33.617Z",
+      "feature": "community",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:18:42.127Z",
+      "feature": "write",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:18:58.236Z",
+      "feature": "[id]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:19:06.333Z",
+      "feature": "community",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:20:23.661Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:20:30.070Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:22:04.163Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:26:51.262Z",
+      "feature": "community",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:40:24.154Z",
+      "feature": "community",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T06:40:28.083Z",
+      "feature": "community",
       "phase": "do",
       "action": "updated"
     }
