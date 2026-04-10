@@ -17,7 +17,10 @@
     "generate-discussions": "node scripts/generate-discussions.mjs",
     "generate-community-posts": "node scripts/generate-community-posts.mjs",
     "generate-content": "node scripts/generate-content.mjs",
-    "refill-queue": "node scripts/research-and-queue.mjs"
+    "refill-queue": "node scripts/research-and-queue.mjs",
+    "discover": "node scripts/discover-topics.mjs",
+    "content-loop": "node scripts/content-loop.mjs",
+    "loop-dry": "node scripts/content-loop.mjs --dry"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.87.0",
