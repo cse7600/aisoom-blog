@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
 import { getPostBySlug, getRelatedPosts, getCategoryBySlug, incrementViewCount } from "@/lib/db";
 import { Breadcrumb } from "@/components/seo/Breadcrumb";
 import { ShareButtons } from "@/components/content/ShareButtons";
+import { FloatingShareBar } from "@/components/content/FloatingShareBar";
 import { ArticleTableOfContents } from "@/components/content/ArticleTableOfContents";
 import { InlineTableOfContents } from "@/components/content/InlineTableOfContents";
 import { RelatedPostsSection } from "@/components/content/RelatedPostsSection";
+import { DiscussionSection } from "@/components/discussion/DiscussionSection";
+import { DiscussionSkeleton } from "@/components/discussion/DiscussionSkeleton";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { generatePostMetadata, buildArticleJsonLd } from "@/lib/seo";
 import { SITE_CONFIG } from "@/lib/constants";
@@ -62,6 +66,13 @@ export default async function PostPage({ params }: PostPageProps) {
   return (
     <>
       <JsonLd structuredData={jsonLd} />
+
+      <FloatingShareBar
+        url={postUrl}
+        title={post.title}
+        description={post.description ?? ""}
+        imageUrl={post.image_url ?? undefined}
+      />
 
       <div className="mx-auto max-w-content px-4 sm:px-6 py-8">
         <Breadcrumb
@@ -141,6 +152,15 @@ export default async function PostPage({ params }: PostPageProps) {
             <ArticleTableOfContents contentHtml={contentHtml} />
           )}
         </div>
+
+        {/* 토론 (AI 페르소나) */}
+        <Suspense fallback={<DiscussionSkeleton />}>
+          <DiscussionSection
+            postSlug={post.slug}
+            postTitle={post.title}
+            postUrl={postUrl}
+          />
+        </Suspense>
 
         {/* 관련 글 */}
         <div className="max-w-narrow mx-auto">

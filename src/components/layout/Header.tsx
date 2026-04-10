@@ -29,6 +29,12 @@ export function Header() {
                 {category.name}
               </Link>
             ))}
+            <Link
+              href="/community"
+              className="px-3 py-2 text-body-md font-semibold text-primary rounded-button hover:bg-primary-light transition-all"
+            >
+              소통
+            </Link>
           </nav>
 
           <div className="flex items-center gap-2">
@@ -73,6 +79,13 @@ export function Header() {
               {category.name}
             </Link>
           ))}
+          <Link
+            href="/community"
+            className="block px-3 py-2.5 text-body-md font-semibold text-primary rounded-button hover:bg-primary-light transition-all"
+            onClick={() => setMobileMenuOpen(false)}
+          >
+            소통
+          </Link>
         </nav>
       </div>
     </header>
