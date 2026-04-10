@@ -7,19 +7,29 @@ interface DiscussionSectionProps {
   postSlug: string;
   postTitle: string;
   postUrl: string;
+  postPublishedAt: string;
+  postUpdatedAt: string;
 }
 
 export async function DiscussionSection({
   postSlug,
   postTitle,
   postUrl,
+  postPublishedAt,
+  postUpdatedAt,
 }: DiscussionSectionProps) {
   const discussions = await getDiscussionsByPostSlug(postSlug);
   if (discussions.length === 0) return <EmptyDiscussion />;
 
   return (
     <section className="discussion-section" aria-label="토론">
-      <DiscussionJsonLd postUrl={postUrl} postTitle={postTitle} discussions={discussions} />
+      <DiscussionJsonLd
+        postUrl={postUrl}
+        postTitle={postTitle}
+        postPublishedAt={postPublishedAt}
+        postUpdatedAt={postUpdatedAt}
+        discussions={discussions}
+      />
       <header className="discussion-section-header">
         <h2 className="discussion-heading">
           토론 <span className="discussion-count">({countTotal(discussions)})</span>

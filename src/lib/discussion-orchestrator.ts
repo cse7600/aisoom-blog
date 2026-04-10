@@ -103,6 +103,10 @@ const UNSAFE_PATTERNS: RegExp[] = [
   /꼭\s*사세요/,
   /강추합니다/,
   /광고\s*문의/,
+  // 링크/URL 스트리핑 — 스팸성 외부 유출 방지
+  /https?:\/\//i,
+  /www\./i,
+  /\.com|\.co\.kr|\.kr/i,
 ];
 
 function isUnsafe(content: string): boolean {

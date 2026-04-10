@@ -273,7 +273,40 @@ export async function insertDiscussion(
     console.error("[discussion-db] insertDiscussion:", error.message);
     return null;
   }
+
+  await touchPostUpdatedAt(params.post_slug);
   return data as PostDiscussionRow;
+}
+
+/**
+ * 댓글/대댓글 생성 시 상위 포스트의 updated_at을 갱신해
+ * Article JSON-LD의 dateModified가 최신 활동을 반영하도록 한다.
+ */
+async function touchPostUpdatedAt(postSlug: string): Promise<void> {
+  const db = createServiceClient();
+  const { error } = await db
+    .from("posts")
+    .update({ updated_at: new Date().toISOString() })
+    .eq("slug", postSlug);
+
+  if (error) {
+    console.error("[discussion-db] touchPostUpdatedAt:", error.message);
+  }
+}
+
+async function touchPostBySlugViaDiscussion(discussionId: string): Promise<void> {
+  const db = createServiceClient();
+  const { data, error } = await db
+    .from("post_discussions")
+    .select("post_slug")
+    .eq("id", discussionId)
+    .maybeSingle();
+
+  if (error || !data) {
+    if (error) console.error("[discussion-db] lookup post_slug:", error.message);
+    return;
+  }
+  await touchPostUpdatedAt(data.post_slug as string);
 }
 
 export async function insertReply(
@@ -303,6 +336,8 @@ export async function insertReply(
     console.error("[discussion-db] insertReply:", error.message);
     return null;
   }
+
+  await touchPostBySlugViaDiscussion(params.discussion_id);
   return data as DiscussionReplyRow;
 }
 

@@ -159,6 +159,8 @@ export default async function PostPage({ params }: PostPageProps) {
             postSlug={post.slug}
             postTitle={post.title}
             postUrl={postUrl}
+            postPublishedAt={post.published_at ?? post.created_at}
+            postUpdatedAt={post.updated_at}
           />
         </Suspense>
 

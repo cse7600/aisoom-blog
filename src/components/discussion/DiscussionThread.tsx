@@ -11,18 +11,21 @@ interface DiscussionThreadProps {
 
 export function DiscussionThread({ discussion }: DiscussionThreadProps) {
   return (
-    <article className="discussion-thread">
+    <article
+      className="discussion-thread"
+      id={`discussion-${discussion.id}`}
+    >
       <header className="mb-2">
         <PersonaBadge persona={discussion.persona} createdAt={discussion.created_at} />
       </header>
       <p className="discussion-body">{discussion.content}</p>
       <UpvoteRow upvotes={discussion.upvotes} size={13} />
       {discussion.replies.length > 0 && (
-        <ul className="discussion-replies">
+        <ol className="discussion-replies">
           {discussion.replies.map((reply) => (
             <ReplyItem key={reply.id} reply={reply} />
           ))}
-        </ul>
+        </ol>
       )}
     </article>
   );
@@ -30,7 +33,7 @@ export function DiscussionThread({ discussion }: DiscussionThreadProps) {
 
 function ReplyItem({ reply }: { reply: DiscussionReplyWithPersona }) {
   return (
-    <li className="discussion-reply">
+    <li className="discussion-reply" id={`reply-${reply.id}`}>
       <header className="mb-1">
         <PersonaBadge persona={reply.persona} createdAt={reply.created_at} />
       </header>

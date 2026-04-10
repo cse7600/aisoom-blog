@@ -34,7 +34,16 @@ export function PersonaBadge({ persona, createdAt }: PersonaBadgeProps) {
       </span>
       <span className="font-semibold text-foreground">{persona.nickname}</span>
       <span className="text-foreground/50">· {occupation}</span>
-      <span className="text-foreground/40">· {formatRelativeDate(createdAt)}</span>
+      <span className="text-foreground/40" aria-hidden>·</span>
+      <time dateTime={toIsoString(createdAt)} className="text-foreground/40">
+        {formatRelativeDate(createdAt)}
+      </time>
     </div>
   );
+}
+
+function toIsoString(dateString: string): string {
+  const parsed = new Date(dateString);
+  if (Number.isNaN(parsed.getTime())) return dateString;
+  return parsed.toISOString();
 }

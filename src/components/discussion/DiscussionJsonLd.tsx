@@ -1,9 +1,14 @@
-import type { DiscussionWithReplies, DiscussionReplyWithPersona } from "@/lib/discussion-types";
+import type {
+  DiscussionWithReplies,
+  DiscussionReplyWithPersona,
+} from "@/lib/discussion-types";
 import { SITE_CONFIG } from "@/lib/constants";
 
 interface DiscussionJsonLdProps {
   postUrl: string;
   postTitle: string;
+  postPublishedAt: string;
+  postUpdatedAt: string;
   discussions: DiscussionWithReplies[];
 }
 
@@ -13,38 +18,55 @@ interface PersonRef {
   url: string;
 }
 
-interface InteractionCounter {
-  "@type": "InteractionCounter";
-  interactionType: string;
-  userInteractionCount: number;
+interface OrganizationRef {
+  "@type": "Organization";
+  name: string;
+  url: string;
+}
+
+interface ParentRef {
+  "@id": string;
 }
 
 interface CommentNode {
   "@type": "Comment";
   "@id": string;
+  identifier: string;
   text: string;
-  datePublished: string;
+  dateCreated: string;
+  upvoteCount: number;
   author: PersonRef;
-  interactionStatistic?: InteractionCounter[];
+  parentItem?: ParentRef;
+  comment?: CommentNode[];
 }
 
 interface DiscussionForumPostingNode {
   "@context": "https://schema.org";
   "@type": "DiscussionForumPosting";
   "@id": string;
-  mainEntityOfPage: string;
+  url: string;
   headline: string;
-  text: string;
   datePublished: string;
-  author: PersonRef;
-  interactionStatistic: InteractionCounter[];
+  dateModified: string;
+  author: OrganizationRef;
+  commentCount: number;
   comment: CommentNode[];
 }
 
-export function DiscussionJsonLd({ postUrl, postTitle, discussions }: DiscussionJsonLdProps) {
+export function DiscussionJsonLd({
+  postUrl,
+  postTitle,
+  postPublishedAt,
+  postUpdatedAt,
+  discussions,
+}: DiscussionJsonLdProps) {
   if (discussions.length === 0) return null;
-  const payload = discussions.map((discussion) =>
-    buildDiscussionForumPosting(postUrl, postTitle, discussion)
+  const payload = buildForumPosting(
+    postUrl,
+    postTitle,
+    postPublishedAt,
+    postUpdatedAt,
+    discussions
   );
 
   return (
@@ -67,60 +89,91 @@ function buildPersonRef(nickname: string): PersonRef {
   };
 }
 
-function buildDiscussionForumPosting(
-  postUrl: string,
-  postTitle: string,
-  discussion: DiscussionWithReplies
-): DiscussionForumPostingNode {
-  const discussionId = `${postUrl}#discussion-${discussion.id}`;
+function buildOrganizationRef(): OrganizationRef {
   return {
-    "@context": "https://schema.org",
-    "@type": "DiscussionForumPosting",
-    "@id": discussionId,
-    mainEntityOfPage: postUrl,
-    headline: summarize(discussion.content, 80) || postTitle,
-    text: discussion.content,
-    datePublished: discussion.created_at,
-    author: buildPersonRef(discussion.persona.nickname),
-    interactionStatistic: [
-      {
-        "@type": "InteractionCounter",
-        interactionType: "https://schema.org/LikeAction",
-        userInteractionCount: discussion.upvotes ?? 0,
-      },
-      {
-        "@type": "InteractionCounter",
-        interactionType: "https://schema.org/CommentAction",
-        userInteractionCount: discussion.replies.length,
-      },
-    ],
-    comment: discussion.replies.map((reply) => buildCommentNode(postUrl, discussion.id, reply)),
+    "@type": "Organization",
+    name: SITE_CONFIG.name,
+    url: SITE_CONFIG.url,
   };
 }
 
-function buildCommentNode(
+function latestTimestamp(
+  postUpdatedAt: string,
+  discussions: DiscussionWithReplies[]
+): string {
+  let latest = new Date(postUpdatedAt).getTime();
+  for (const discussion of discussions) {
+    latest = Math.max(latest, new Date(discussion.created_at).getTime());
+    for (const reply of discussion.replies) {
+      latest = Math.max(latest, new Date(reply.created_at).getTime());
+    }
+  }
+  return new Date(latest).toISOString();
+}
+
+function countAllComments(discussions: DiscussionWithReplies[]): number {
+  return discussions.reduce(
+    (acc, discussion) => acc + 1 + discussion.replies.length,
+    0
+  );
+}
+
+function buildForumPosting(
   postUrl: string,
-  discussionId: string,
+  postTitle: string,
+  postPublishedAt: string,
+  postUpdatedAt: string,
+  discussions: DiscussionWithReplies[]
+): DiscussionForumPostingNode {
+  return {
+    "@context": "https://schema.org",
+    "@type": "DiscussionForumPosting",
+    "@id": `${postUrl}#discussion`,
+    url: postUrl,
+    headline: postTitle,
+    datePublished: postPublishedAt,
+    dateModified: latestTimestamp(postUpdatedAt, discussions),
+    author: buildOrganizationRef(),
+    commentCount: countAllComments(discussions),
+    comment: discussions.map((discussion) => buildTopComment(postUrl, discussion)),
+  };
+}
+
+function buildTopComment(
+  postUrl: string,
+  discussion: DiscussionWithReplies
+): CommentNode {
+  const commentId = `${postUrl}#discussion-${discussion.id}`;
+  const node: CommentNode = {
+    "@type": "Comment",
+    "@id": commentId,
+    identifier: discussion.id,
+    text: discussion.content,
+    dateCreated: discussion.created_at,
+    upvoteCount: discussion.upvotes ?? 0,
+    author: buildPersonRef(discussion.persona.nickname),
+  };
+  if (discussion.replies.length > 0) {
+    node.comment = discussion.replies.map((reply) =>
+      buildReplyComment(postUrl, commentId, reply)
+    );
+  }
+  return node;
+}
+
+function buildReplyComment(
+  postUrl: string,
+  parentId: string,
   reply: DiscussionReplyWithPersona
 ): CommentNode {
   return {
     "@type": "Comment",
-    "@id": `${postUrl}#discussion-${discussionId}-reply-${reply.id}`,
+    "@id": `${postUrl}#reply-${reply.id}`,
+    identifier: reply.id,
     text: reply.content,
-    datePublished: reply.created_at,
+    dateCreated: reply.created_at,
+    upvoteCount: reply.upvotes ?? 0,
     author: buildPersonRef(reply.persona.nickname),
-    interactionStatistic: [
-      {
-        "@type": "InteractionCounter",
-        interactionType: "https://schema.org/LikeAction",
-        userInteractionCount: reply.upvotes ?? 0,
-      },
-    ],
+    parentItem: { "@id": parentId },
   };
-}
-
-function summarize(text: string, maxChars: number): string {
-  const trimmed = text.replace(/\s+/g, " ").trim();
-  if (trimmed.length <= maxChars) return trimmed;
-  return `${trimmed.slice(0, maxChars - 1)}…`;
 }
