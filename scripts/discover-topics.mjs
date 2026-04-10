@@ -23,6 +23,8 @@ import crypto from "crypto";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { collectNaverCafePlaywright } from "./scrapers/naver-cafe-playwright.mjs";
+import { sessionExists } from "./naver-session.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -149,29 +151,61 @@ function stripHtml(text) {
 // ─── Source collectors ────────────────────────────────────────────────────
 
 /**
+ * naver-cafe 소스 수집:
+ * 1. Playwright 세션 있으면 → 브라우저 크롤링 (조회수/댓글수 포함)
+ * 2. 세션 없고 Naver Search API 키 있으면 → API fallback
+ * 3. 둘 다 없으면 → 경고 후 빈 배열
+ *
  * @param {DiscoverySource} source
  * @returns {Promise<CollectedItem[]>}
  */
 async function collectNaverCafe(source) {
-  const out = [];
-  for (const kw of source.searchKeywords ?? []) {
-    try {
-      const items = await callNaverSearch("cafearticle", kw);
-      for (const raw of items) {
-        out.push({
-          sourceName: source.name,
-          sourceType: "naver-cafe",
-          title: raw.title,
-          description: raw.description,
-          link: raw.link,
-          extra: `cafe=${raw.extra} query=${kw}`,
-        });
-      }
-    } catch (err) {
-      console.warn(`    [skip] ${source.name} cafearticle "${kw}": ${err.message.slice(0, 140)}`);
-    }
+  // 우선순위 1: Playwright (세션 기반 — 조회수/댓글수 포함)
+  if (sessionExists()) {
+    console.log(`    → Playwright 세션 사용`);
+    const playwrightItems = await collectNaverCafePlaywright({
+      name: source.name,
+      cafeId: source.cafeId ?? source.name,
+      searchKeywords: source.searchKeywords ?? [],
+    });
+    return playwrightItems.map((a) => ({
+      sourceName: a.sourceName,
+      sourceType: a.sourceType,
+      title: a.title,
+      description: a.description,
+      link: a.link,
+      extra: `view=${a.viewCount} comment=${a.commentCount} date=${a.date}`,
+    }));
   }
-  return out;
+
+  // 우선순위 2: Naver Search Open API
+  const clientId = process.env.NAVER_CLIENT_ID;
+  const clientSecret = process.env.NAVER_CLIENT_SECRET;
+  if (clientId && clientSecret) {
+    console.log(`    → Naver Search API fallback`);
+    const out = [];
+    for (const kw of source.searchKeywords ?? []) {
+      try {
+        const items = await callNaverSearch("cafearticle", kw);
+        for (const raw of items) {
+          out.push({
+            sourceName: source.name,
+            sourceType: "naver-cafe",
+            title: raw.title,
+            description: raw.description,
+            link: raw.link,
+            extra: `cafe=${raw.extra} query=${kw}`,
+          });
+        }
+      } catch (err) {
+        console.warn(`    [skip] ${source.name} cafearticle "${kw}": ${err.message.slice(0, 140)}`);
+      }
+    }
+    return out;
+  }
+
+  console.warn(`    [skip] ${source.name}: 세션 없음 + NAVER_CLIENT_ID 없음. 'npm run naver-login' 실행 필요.`);
+  return [];
 }
 
 /**

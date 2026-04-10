@@ -90,51 +90,40 @@ function loadAffiliates() {
   return map;
 }
 
-// ─── 시스템 프롬프트 ─────────────────────────────────────────────────────
+// ─── 시스템 프롬프트 (파일 기반) ─────────────────────────────────────────
+// 프롬프트는 content-input/prompts/{affiliateName}.md 파일에서 로드.
+// 새 어필리에이트 추가 시 코드 수정 불필요 — 파일만 추가하면 됨.
 
-const SYSTEM_PROMPTS = {
-  키퍼메이트: `당신은 소상공인 매장 CCTV 전문 블로그 에디터다. 한국 자영업 사장님(카페, 편의점, 무인매장, 학원, 음식점)을 대상으로 검색 의도를 정확히 충족하는 SEO 블로그 포스트를 작성한다.
+const PROMPTS_DIR = path.join(ROOT, "content-input", "prompts");
 
-핵심 규칙:
-- 제품 포지셔닝: 한화비전 키퍼(Keeper)는 세계 3위 CCTV 제조사 한화비전이 소상공인을 타겟으로 만든 구매형 CCTV. 렌탈 대비 약정 없고 장비 소유, 월 비용 낮음이 핵심 차별점
-- CTA 링크: https://keeper.ceo/keeper-mate (키퍼메이트 무료 상담 / 키퍼 메이트 공식 채널)
-- 금지: "출동 서비스", "홈카메라", "가정용" 표현 / 에스원·세콤·ADT캡스 비방 / 중국산 장비 비방 / 확정 수익·위약금 면제 단정
-- 허용: 렌탈 3사의 구조적 특성(장비 미소유, 약정, 고정 월비용)을 객관적 수치로 비교. 한화비전 공식 기업 정보 인용
+function loadSystemPrompt(affiliateName) {
+  const filePath = path.join(PROMPTS_DIR, `${affiliateName}.md`);
+  if (fs.existsSync(filePath)) {
+    return fs.readFileSync(filePath, "utf-8").trim();
+  }
+  // 파일 없으면 affiliates.json의 description으로 기본 프롬프트 생성
+  return null;
+}
 
-SEO & 콘텐츠 규칙:
-- 제목: 60자 이내, 메인 키워드 자연 포함, 검색 의도 반영 (비교/가격/방법/이유/후기)
-- description: 120~160자, 메인 키워드 + 수치 포함
-- 분량: 본문 2,000~3,000자 (목차, 출처 제외)
-- 구조: 목차 → H1 → 도입부(공감) → H2 섹션 3~5개 → Q&A 5개 → 정리 + CTA → 관련글 → 출처
-- 통계/수치 인용 시 반드시 출처 링크 삽입 (경찰청, 소방청, 중기부, 한화비전 공식)
-- 표·리스트 적극 활용. 각 섹션에 구체 숫자 1개 이상
-- 톤: 자영업자와 대화하듯 친근하게. "~한다" 체 기본. "~습니다" 남발 금지
-- 금지어: delve, tapestry, leverage, robust, seamless, "살펴보겠습니다", "알아보겠습니다"
-
-출력 형식:
-반드시 아래 frontmatter를 포함한 완전한 마크다운 파일을 출력한다. 다른 설명·메타 텍스트·코드펜스 금지. frontmatter --- 로 시작해야 함.`,
-
-  법인설립지원센터: `당신은 법인설립·세무 전문 블로그 에디터다. 개인사업자에서 법인전환을 고민 중이거나 창업 준비 중인 한국 사업가를 대상으로 SEO 블로그 포스트를 작성한다.
+function buildDefaultSystemPrompt(affiliateName, affiliate) {
+  return `당신은 ${affiliateName} 전문 블로그 에디터다. ${affiliate.description ?? affiliateName + " 서비스"}를 소개하는 SEO 블로그 포스트를 작성한다.
 
 핵심 규칙:
-- 서비스 포지셔닝: 법인설립지원센터는 법인설립 대행 서비스. 등기·정관·잔고증명까지 원스톱
-- CTA 링크: https://corp.apply.kr (법인설립지원센터 무료 상담)
-- 금지: "세무사가 진행한다" 단정 / "절세가 확정된다" 단정 / "무조건 법인이 이득" 단정 / 특정 업종 인허가 단정
-- 허용: 국세청·지방세법·중기부 공식 통계 및 세율 시뮬레이션. 케이스별 장단점 비교
+- CTA 링크: ${affiliate.url}
+- 금지: 확인되지 않은 수치 단정, 경쟁사 비방, 과장 표현
+- 허용: 공식 기관 통계 인용, 케이스별 장단점 비교
 
 SEO & 콘텐츠 규칙:
-- 제목: 60자 이내, 메인 키워드 + 연도(2026년) 자연 포함
-- description: 120~160자, 수치·절세액·비교 포함
+- 제목: 60자 이내, 메인 키워드 자연 포함
+- description: 120~160자, 핵심 수치 포함
 - 분량: 본문 2,000~3,000자
-- 구조: 목차 → H1 → 문제 제기 → 세율/비용 비교표 → 절차 안내 → Q&A 5개 → 정리 + CTA → 관련글 → 출처
-- 세금 수치 인용 시 반드시 출처 링크 (국세청, 법제처, 중기부)
-- 시뮬레이션 표 필수. 연매출/자본금 구간별 실제 숫자
-- 톤: 사업가의 의사결정을 돕는 실무 톤. 단정 금지, "~할 수 있다", "케이스에 따라 다르다" 표현 사용
+- 구조: 목차 → H1 → 도입부 → H2 섹션 3~5개 → Q&A 5개 → 정리 + CTA → 출처
+- 톤: 독자와 대화하듯 친근하게. "~한다" 체 기본
 - 금지어: delve, tapestry, leverage, robust, seamless, "살펴보겠습니다"
 
 출력 형식:
-반드시 아래 frontmatter를 포함한 완전한 마크다운 파일을 출력한다. 다른 설명·메타 텍스트·코드펜스 금지. frontmatter --- 로 시작해야 함.`,
-};
+반드시 아래 frontmatter를 포함한 완전한 마크다운 파일을 출력한다. 다른 설명·메타 텍스트·코드펜스 금지. frontmatter --- 로 시작해야 함.`;
+}
 
 // ─── Few-shot 예시 로드 ──────────────────────────────────────────────────
 
@@ -346,10 +335,8 @@ async function generateContent({ affiliateName, affiliate, topic, keywords, angl
   const examples = loadFewShotExamples(affiliateName, affiliate, 2);
   const today = new Date().toISOString().split("T")[0];
 
-  const systemPrompt = SYSTEM_PROMPTS[affiliateName];
-  if (!systemPrompt) {
-    throw new Error(`${affiliateName}에 대한 시스템 프롬프트 없음. SYSTEM_PROMPTS에 추가 필요.`);
-  }
+  const systemPrompt = loadSystemPrompt(affiliateName) ?? buildDefaultSystemPrompt(affiliateName, affiliate);
+  console.log(`  [프롬프트] ${fs.existsSync(path.join(PROMPTS_DIR, `${affiliateName}.md`)) ? "파일 로드" : "기본 프롬프트 사용"}: ${affiliateName}`);
 
   const userPrompt = buildUserPrompt({
     affiliateName,

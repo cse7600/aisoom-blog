@@ -31,8 +31,12 @@ if (!slug) {
 async function main() {
   const { getPostBySlug } = await loadModule("src/lib/db.ts");
   const { selectPersonasForPost } = await loadModule("src/lib/discussion-db.ts");
-  const { generateDiscussionsForPost, buildCommentPrompt } = await loadModule(
+  const { generateDiscussionsForPost } = await loadModule(
     "src/lib/discussion-generator.ts"
+  );
+  const { selectTemplate } = await loadModule("src/lib/discussion-templates.ts");
+  const { buildScriptPrompt } = await loadModule(
+    "src/lib/discussion-orchestrator.ts"
   );
 
   const post = await getPostBySlug(slug);
@@ -42,17 +46,37 @@ async function main() {
   }
   process.stdout.write(`target: ${post.slug} / ${post.title}\n`);
 
-  const personas = await selectPersonasForPost(post.slug, 3);
+  const template = selectTemplate(0);
+  const personas = await selectPersonasForPost(post.slug, template.slots.length + 3);
   process.stdout.write(
-    `selected personas (${personas.length}): ${personas.map((p) => p.nickname).join(", ")}\n`
+    `template: ${template.id} (slots=${template.slots.length})\n`
+  );
+  process.stdout.write(
+    `selected personas (${personas.length}): ${personas.map((p) => `${p.nickname}[${p.behavior_type}]`).join(", ")}\n`
   );
 
   if (dryRun) {
-    if (personas[0]) {
-      const sample = buildCommentPrompt(post, personas[0], post.keywords ?? []);
-      process.stdout.write(`\n--- sample prompt (${personas[0].nickname}) ---\n`);
-      process.stdout.write(sample.slice(0, 600) + "...\n");
+    const dryInput = {
+      post,
+      template,
+      personas,
+      targetKeywords: post.keywords ?? [],
+      batchId: `dry_${Date.now()}`,
+      publishedAt: post.published_at ?? post.created_at,
+      phase: "bootstrap",
+      longtailTargets: [],
+      maxItems: template.slots.length,
+    };
+    // buildScriptPrompt는 slot plan을 요구하지만, 드라이런 단계에선 오케스트레이터 내부 로직을 재사용하기엔 부담.
+    // 대신 간단히 템플릿/페르소나 매칭만 출력.
+    process.stdout.write(`\n--- dry run slot plan ---\n`);
+    for (const slot of template.slots) {
+      process.stdout.write(
+        `  ${slot.role} depth=${slot.depth} tier=${slot.qualityTier} behaviorFilter=${slot.behaviorFilter?.join("|") ?? "any"}\n`
+      );
     }
+    void dryInput;
+    void buildScriptPrompt;
     return;
   }
 

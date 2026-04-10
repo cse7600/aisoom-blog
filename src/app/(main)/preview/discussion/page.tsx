@@ -16,6 +16,17 @@ const d2 = new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString();
 const d1 = new Date(Date.now() - 1 * 24 * 60 * 60 * 1000).toISOString();
 const h6 = new Date(Date.now() - 6 * 60 * 60 * 1000).toISOString();
 
+const PERSONA_DEFAULTS = {
+  authority_level: "mid" as const,
+  signature_patterns: {},
+  bio: null,
+  expertise_domains: [] as string[],
+  quality_weights: {},
+  active_hours: [9, 10, 11, 12, 13, 18, 19, 20, 21],
+  active_weekdays: [1, 2, 3, 4, 5],
+  behavior_type: "normal" as const,
+};
+
 const MOCK_PERSONA_WORKER: PersonaRow = {
   id: "p1",
   nickname: "야근러버",
@@ -31,6 +42,7 @@ const MOCK_PERSONA_WORKER: PersonaRow = {
   active: true,
   post_count: 12,
   created_at: d3,
+  ...PERSONA_DEFAULTS,
 };
 
 const MOCK_PERSONA_STUDENT: PersonaRow = {
@@ -48,6 +60,8 @@ const MOCK_PERSONA_STUDENT: PersonaRow = {
   active: true,
   post_count: 7,
   created_at: d3,
+  ...PERSONA_DEFAULTS,
+  authority_level: "low",
 };
 
 const MOCK_PERSONA_PARENT: PersonaRow = {
@@ -65,6 +79,7 @@ const MOCK_PERSONA_PARENT: PersonaRow = {
   active: true,
   post_count: 5,
   created_at: d3,
+  ...PERSONA_DEFAULTS,
 };
 
 const MOCK_PERSONA_TECHIE: PersonaRow = {
@@ -82,6 +97,23 @@ const MOCK_PERSONA_TECHIE: PersonaRow = {
   active: true,
   post_count: 9,
   created_at: d3,
+  ...PERSONA_DEFAULTS,
+  authority_level: "high",
+};
+
+const DISCUSSION_DEFAULTS = {
+  thread_template: "expert_qa" as const,
+  scheduled_generation_at: null,
+  generation_phase: "growing" as const,
+  longtail_target: null,
+  quality_tier: "normal" as const,
+  char_count: 0,
+};
+
+const REPLY_DEFAULTS = {
+  quality_tier: "casual" as const,
+  char_count: 0,
+  response_model: null,
 };
 
 const MOCK_DISCUSSIONS: DiscussionWithReplies[] = [
@@ -100,6 +132,7 @@ const MOCK_DISCUSSIONS: DiscussionWithReplies[] = [
     scheduled_at: null,
     published: true,
     created_at: d3,
+    ...DISCUSSION_DEFAULTS,
     replies: [
       {
         id: "r1",
@@ -113,6 +146,7 @@ const MOCK_DISCUSSIONS: DiscussionWithReplies[] = [
         generation_batch: null,
         published: true,
         created_at: d2,
+        ...REPLY_DEFAULTS,
       },
       {
         id: "r2",
@@ -127,6 +161,7 @@ const MOCK_DISCUSSIONS: DiscussionWithReplies[] = [
         generation_batch: null,
         published: true,
         created_at: d2,
+        ...REPLY_DEFAULTS,
       },
     ],
   },
@@ -145,6 +180,7 @@ const MOCK_DISCUSSIONS: DiscussionWithReplies[] = [
     scheduled_at: null,
     published: true,
     created_at: d2,
+    ...DISCUSSION_DEFAULTS,
     replies: [
       {
         id: "r3",
@@ -159,6 +195,7 @@ const MOCK_DISCUSSIONS: DiscussionWithReplies[] = [
         generation_batch: null,
         published: true,
         created_at: d1,
+        ...REPLY_DEFAULTS,
       },
     ],
   },
@@ -177,6 +214,7 @@ const MOCK_DISCUSSIONS: DiscussionWithReplies[] = [
     scheduled_at: null,
     published: true,
     created_at: d1,
+    ...DISCUSSION_DEFAULTS,
     replies: [],
   },
   {
@@ -194,6 +232,7 @@ const MOCK_DISCUSSIONS: DiscussionWithReplies[] = [
     scheduled_at: null,
     published: true,
     created_at: h6,
+    ...DISCUSSION_DEFAULTS,
     replies: [],
   },
 ];

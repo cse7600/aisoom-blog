@@ -4,6 +4,10 @@
     {
       "path": "/api/cron/generate-discussions",
       "schedule": "0 */4 * * *"
+    },
+    {
+      "path": "/api/cron/seo-health",
+      "schedule": "0 0 * * *"
     }
   ]
 }

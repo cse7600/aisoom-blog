@@ -28,6 +28,13 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# naver browser session (contains auth cookies)
+.naver-session.json
+.naver-user-data/
+
+# content loop lock
+.content-loop.lock
+
 # planning
 .planning/
 .bkit/

@@ -192,6 +192,11 @@ function parseSeedComment(raw: string): GeneratedSeedComment | null {
 
 const MAX_RETRY = 3;
 const SEED_PASSWORD = process.env.COMMUNITY_SEED_PASSWORD ?? "seed-only-ai-generated";
+const REQUEST_SPACING_MS = 5000;
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
 async function generateSeedPostWithRetry(
   persona: PersonaRow,
@@ -275,8 +280,10 @@ export async function runCommunitySeed(
       const generated = await generateSeedPostWithRetry(author, category, topic);
       if (!generated) {
         errors.push(`post-failed:${category.category}:${index}`);
+        await sleep(REQUEST_SPACING_MS);
         continue;
       }
+      await sleep(REQUEST_SPACING_MS);
 
       if (dryRun) {
         process.stdout.write(
@@ -307,8 +314,10 @@ export async function runCommunitySeed(
         const commentGen = await generateSeedCommentWithRetry(commenter, generated);
         if (!commentGen) {
           errors.push(`comment-failed:${inserted.id}:${commenter.nickname}`);
+          await sleep(REQUEST_SPACING_MS);
           continue;
         }
+        await sleep(REQUEST_SPACING_MS);
         const insertedComment = await insertCommunityComment({
           post_id: inserted.id,
           parent_id: null,

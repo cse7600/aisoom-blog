@@ -6,12 +6,7 @@
       {
         "topic": "한화비전 키퍼 vs 세콤 CCTV 비교",
         "angle": "대기업 보안사 렌탈 대비 제조사 직판 구매형의 계약 조건과 3년 총비용 차이",
-        "keywords": [
-          "한화비전",
-          "세콤고객센터",
-          "세콤CCTV비교",
-          "매장CCTV"
-        ],
+        "keywords": ["한화비전", "세콤고객센터", "세콤CCTV비교", "매장CCTV"],
         "slugHint": "hanwha-keeper-vs-secom-cctv",
         "status": "generated",
         "generatedAt": "2026-04-10T06:25:03.143Z",
@@ -20,112 +15,90 @@
       {
         "topic": "무인매장 CCTV 증거능력 기준 총정리",
         "angle": "무인카페/무인점포 사고 발생 시 경찰·보험사가 인정하는 영상 스펙과 저장 기간",
-        "keywords": [
-          "무인매장CCTV",
-          "무인카페CCTV",
-          "CCTV증거능력"
-        ],
+        "keywords": ["무인매장CCTV", "무인카페CCTV", "CCTV증거능력"],
         "slugHint": "unmanned-store-cctv-evidence-standard",
-        "status": "pending"
+        "status": "generated",
+        "generatedAt": "2026-04-10T15:00:00.000Z",
+        "draftPath": "키퍼메이트/content/unmanned-store-cctv-evidence-standard.md"
       },
       {
         "topic": "카페 CCTV 설치비용 월 1만원대로 맞추는 방법",
         "angle": "10평 카페 기준 카메라 3대 구성과 클라우드 구독, 설치비 항목별 분해",
-        "keywords": [
-          "카페CCTV",
-          "카페CCTV설치비용",
-          "카페보안카메라"
-        ],
+        "keywords": ["카페CCTV", "카페CCTV설치비용", "카페보안카메라"],
         "slugHint": "cafe-cctv-installation-cost-under-10000",
-        "status": "pending"
+        "status": "generated",
+        "generatedAt": "2026-04-10T15:00:00.000Z",
+        "draftPath": "키퍼메이트/content/cafe-cctv-installation-cost-under-10000.md"
       },
       {
         "topic": "CCTV 법적 설치 기준 5가지 — 2026년 개인정보보호법 반영",
         "angle": "매장 CCTV 설치 고지, 촬영 범위, 음성 녹음 금지 등 최신 법규",
-        "keywords": [
-          "CCTV설치기준",
-          "CCTV법규",
-          "CCTV개인정보보호법"
-        ],
+        "keywords": ["CCTV설치기준", "CCTV법규", "CCTV개인정보보호법"],
         "slugHint": "cctv-legal-standards-2026",
-        "status": "pending"
+        "status": "generated",
+        "generatedAt": "2026-04-10T15:00:00.000Z",
+        "draftPath": "키퍼메이트/content/cctv-legal-standards-2026.md"
       },
       {
         "topic": "학원 CCTV 설치 가이드 — 교실·복도·학부모 동의",
         "angle": "학원법상 CCTV 의무 설치 구역과 학부모 동의 절차, 화질 기준",
-        "keywords": [
-          "학원CCTV",
-          "학원CCTV설치",
-          "학원보안"
-        ],
+        "keywords": ["학원CCTV", "학원CCTV설치", "학원보안"],
         "slugHint": "academy-cctv-installation-guide",
-        "status": "pending"
+        "status": "generated",
+        "generatedAt": "2026-04-10T15:00:00.000Z",
+        "draftPath": "키퍼메이트/content/academy-cctv-installation-guide.md"
       },
       {
         "topic": "CCTV 해킹 사례 — 중국산 저가 장비 vs 국산 한화비전",
         "angle": "IP 카메라 해킹 실제 사례와 펌웨어·보안 업데이트 차이",
-        "keywords": [
-          "CCTV해킹",
-          "CCTV보안",
-          "IP카메라보안"
-        ],
+        "keywords": ["CCTV해킹", "CCTV보안", "IP카메라보안"],
         "slugHint": "cctv-hacking-chinese-vs-korean",
-        "status": "pending"
+        "status": "generated",
+        "generatedAt": "2026-04-10T15:00:00.000Z",
+        "draftPath": "키퍼메이트/content/cctv-hacking-chinese-vs-korean.md"
       },
       {
         "topic": "편의점 CCTV 필수 스펙 — 24시간 무인 운영 기준",
         "angle": "야간 저조도 촬영, 카운터 화질, 주류 판매대 사각지대 제거",
-        "keywords": [
-          "편의점CCTV",
-          "24시간CCTV",
-          "편의점보안"
-        ],
+        "keywords": ["편의점CCTV", "24시간CCTV", "편의점보안"],
         "slugHint": "convenience-store-cctv-essential-spec",
-        "status": "pending"
+        "status": "generated",
+        "generatedAt": "2026-04-10T15:00:00.000Z",
+        "draftPath": "키퍼메이트/content/convenience-store-cctv-essential-spec.md"
       },
       {
         "topic": "소상공인 CCTV 정부지원금 2026년 신청 가이드",
         "angle": "중기부·지자체 보안 장비 지원 사업과 키퍼메이트 활용법",
-        "keywords": [
-          "CCTV지원금",
-          "소상공인CCTV지원",
-          "CCTV정부지원"
-        ],
+        "keywords": ["CCTV지원금", "소상공인CCTV지원", "CCTV정부지원"],
         "slugHint": "small-business-cctv-subsidy-2026",
-        "status": "pending"
+        "status": "generated",
+        "generatedAt": "2026-04-10T15:00:00.000Z",
+        "draftPath": "키퍼메이트/content/small-business-cctv-subsidy-2026.md"
       },
       {
         "topic": "캡스 vs 한화비전 키퍼 — 계약 조건 완전 비교",
         "angle": "약정 기간, 위약금, 장비 소유권, A/S 범위 항목별 비교",
-        "keywords": [
-          "캡스CCTV",
-          "한화비전키퍼",
-          "CCTV계약비교"
-        ],
+        "keywords": ["캡스CCTV", "한화비전키퍼", "CCTV계약비교"],
         "slugHint": "caps-vs-keeper-contract-comparison",
-        "status": "pending"
+        "status": "generated",
+        "generatedAt": "2026-04-10T15:00:00.000Z",
+        "draftPath": "키퍼메이트/content/caps-vs-keeper-contract-comparison.md"
       },
       {
         "topic": "매장 CCTV 화소 선택 기준 — 400만 vs 200만 vs 800만",
         "angle": "채널당 화소별 실제 식별 가능 거리와 저장 용량, 비용 차이",
-        "keywords": [
-          "CCTV화소",
-          "매장CCTV추천",
-          "CCTV해상도"
-        ],
+        "keywords": ["CCTV화소", "매장CCTV추천", "CCTV해상도"],
         "slugHint": "store-cctv-resolution-selection",
-        "status": "pending"
+        "status": "generated",
+        "generatedAt": "2026-04-10T15:00:00.000Z",
+        "draftPath": "키퍼메이트/content/store-cctv-resolution-selection.md"
       }
     ],
     "법인설립지원센터": [
       {
         "topic": "개인사업자 법인전환 시점 — 연매출별 절세 시뮬레이션",
         "angle": "연매출 5천만/1억/3억/5억 구간별 법인전환 시 실제 절세액 계산",
-        "keywords": [
-          "개인사업자법인전환",
-          "법인전환시기",
-          "법인전환절세"
-        ],
+        "keywords": ["개인사업자법인전환", "법인전환시기", "법인전환절세"],
         "slugHint": "sole-to-corp-conversion-simulation",
         "status": "generated",
         "generatedAt": "2026-04-10T06:27:28.884Z",
@@ -134,101 +107,83 @@
       {
         "topic": "1인 법인설립 4일 완성 — 실제 절차와 체크포인트",
         "angle": "상호 등록 → 정관 작성 → 잔고증명 → 등기까지 실제 일정표",
-        "keywords": [
-          "1인법인설립",
-          "1인법인절차",
-          "법인설립기간"
-        ],
+        "keywords": ["1인법인설립", "1인법인절차", "법인설립기간"],
         "slugHint": "one-person-corporation-4days-guide",
-        "status": "pending"
+        "status": "generated",
+        "generatedAt": "2026-04-10T15:00:00.000Z",
+        "draftPath": "법인설립지원센터/content/one-person-corporation-4days-guide.md"
       },
       {
         "topic": "법인설립 필요 서류 12종 체크리스트 — 2026년 기준",
         "angle": "정관, 주주명부, 임원 취임 승낙서 등 서류별 작성 포인트",
-        "keywords": [
-          "법인설립서류",
-          "법인설립요건",
-          "법인등기서류"
-        ],
+        "keywords": ["법인설립서류", "법인설립요건", "법인등기서류"],
         "slugHint": "corporation-setup-document-checklist",
-        "status": "pending"
+        "status": "generated",
+        "generatedAt": "2026-04-10T15:00:00.000Z",
+        "draftPath": "법인설립지원센터/content/corporation-setup-document-checklist.md"
       },
       {
         "topic": "프리랜서 1인 법인 전환 — 세금 시뮬레이션과 4대 보험",
         "angle": "프리랜서 3.3% 원천징수와 법인 대표 급여 방식 세부담 비교",
-        "keywords": [
-          "프리랜서법인설립",
-          "1인법인세금",
-          "프리랜서법인전환"
-        ],
+        "keywords": ["프리랜서법인설립", "1인법인세금", "프리랜서법인전환"],
         "slugHint": "freelancer-one-person-corporation-tax",
-        "status": "pending"
+        "status": "generated",
+        "generatedAt": "2026-04-10T15:00:00.000Z",
+        "draftPath": "법인설립지원센터/content/freelancer-one-person-corporation-tax.md"
       },
       {
         "topic": "법인설립 후 첫 달에 반드시 해야 할 8가지",
         "angle": "사업자등록, 법인통장 개설, 4대 보험, 전자세금계산서 발급 등",
-        "keywords": [
-          "법인설립후할일",
-          "법인운영",
-          "법인설립후절차"
-        ],
+        "keywords": ["법인설립후할일", "법인운영", "법인설립후절차"],
         "slugHint": "first-month-after-corporation-setup",
-        "status": "pending"
+        "status": "generated",
+        "generatedAt": "2026-04-10T15:00:00.000Z",
+        "draftPath": "법인설립지원센터/content/first-month-after-corporation-setup.md"
       },
       {
         "topic": "법인 대표이사 급여 설정 방법 — 세금 최적화 구간",
         "angle": "대표 급여 책정 시 근로소득세·4대 보험·법인세 상쇄 계산",
-        "keywords": [
-          "법인대표이사급여",
-          "법인급여",
-          "대표이사급여세금"
-        ],
+        "keywords": ["법인대표이사급여", "법인급여", "대표이사급여세금"],
         "slugHint": "corporation-ceo-salary-optimization",
-        "status": "pending"
+        "status": "generated",
+        "generatedAt": "2026-04-10T15:00:00.000Z",
+        "draftPath": "법인설립지원센터/content/corporation-ceo-salary-optimization.md"
       },
       {
         "topic": "2026년 부가가치세 — 법인 vs 개인사업자 차이",
         "angle": "과세 기간, 신고 방식, 환급 속도 등 실무 차이점",
-        "keywords": [
-          "부가세법인",
-          "법인부가가치세",
-          "법인부가세신고"
-        ],
+        "keywords": ["부가세법인", "법인부가가치세", "법인부가세신고"],
         "slugHint": "vat-corporation-vs-sole-2026",
-        "status": "pending"
+        "status": "generated",
+        "generatedAt": "2026-04-10T15:00:00.000Z",
+        "draftPath": "법인설립지원센터/content/vat-corporation-vs-sole-2026.md"
       },
       {
         "topic": "법인 차량 구매 세금 혜택 — 리스 vs 렌트 vs 구매",
         "angle": "업무용 차량 비용 처리 한도(연 1,500만원)와 3가지 구매 방식 비교",
-        "keywords": [
-          "법인차량",
-          "법인차구매",
-          "업무용승용차"
-        ],
+        "keywords": ["법인차량", "법인차구매", "업무용승용차"],
         "slugHint": "corporation-vehicle-tax-benefits",
-        "status": "pending"
+        "status": "generated",
+        "generatedAt": "2026-04-10T15:00:00.000Z",
+        "draftPath": "법인설립지원센터/content/corporation-vehicle-tax-benefits.md"
       },
       {
         "topic": "온라인 쇼핑몰 법인설립 타이밍 — 통신판매업 신고와 함께",
         "angle": "쇼핑몰 매출 규모별 법인전환 시점과 통신판매업 신고 연계",
-        "keywords": [
-          "쇼핑몰법인설립",
-          "온라인쇼핑몰법인",
-          "통신판매업법인"
-        ],
+        "keywords": ["쇼핑몰법인설립", "온라인쇼핑몰법인", "통신판매업법인"],
         "slugHint": "online-shop-corporation-setup-timing",
-        "status": "pending"
+        "status": "generated",
+        "generatedAt": "2026-04-10T15:00:00.000Z",
+        "draftPath": "법인설립지원센터/content/online-shop-corporation-setup-timing.md"
       },
       {
         "topic": "주식회사 vs 유한회사 설립 차이 — 뭘 선택해야 할까",
         "angle": "주주 구조, 공시 의무, 세무 차이, 외부 투자 유치 관점",
-        "keywords": [
-          "주식회사설립",
-          "유한회사설립",
-          "법인형태비교"
-        ],
+        "keywords": ["주식회사설립", "유한회사설립", "법인형태비교"],
         "slugHint": "stock-vs-limited-company-comparison",
-        "status": "pending"
+        "status": "generated",
+        "generatedAt": "2026-04-10T15:00:00.000Z",
+        "draftPath": "법인설립지원센터/content/stock-vs-limited-company-comparison.md"
       }
     ]
   }

@@ -23,6 +23,24 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
+const LOCK_PATH = path.join(ROOT, ".content-loop.lock");
+
+// ─── 중복 실행 방지 (lock file) ──────────────────────────────────────────────
+
+function acquireLock() {
+  if (fs.existsSync(LOCK_PATH)) {
+    const lockAge = Date.now() - fs.statSync(LOCK_PATH).mtimeMs;
+    if (lockAge < 60 * 60 * 1000) { // 1시간 이내 lock이면 중복 실행
+      throw new Error(`이미 실행 중 (lock 나이: ${Math.round(lockAge / 60000)}분). ${LOCK_PATH} 삭제 후 재시도.`);
+    }
+    console.warn("  [lock] 오래된 lock 파일 감지 — 강제 제거");
+  }
+  fs.writeFileSync(LOCK_PATH, String(process.pid));
+}
+
+function releaseLock() {
+  if (fs.existsSync(LOCK_PATH)) fs.unlinkSync(LOCK_PATH);
+}
 
 // ─── env ────────────────────────────────────────────────────────────────
 
@@ -105,6 +123,7 @@ function stepDiscover(opts) {
 function stepRefill(opts) {
   const args = ["node", "scripts/research-and-queue.mjs"];
   if (opts.target) args.push("--target", String(opts.target));
+  if (opts.affiliate) args.push("--affiliate", opts.affiliate);
   return runStep("refill", args);
 }
 
@@ -171,6 +190,11 @@ async function main() {
     console.log(`\n[DRY] 실행 없이 종료.`);
     return;
   }
+
+  acquireLock();
+  process.on("exit", releaseLock);
+  process.on("SIGINT", () => { releaseLock(); process.exit(0); });
+  process.on("SIGTERM", () => { releaseLock(); process.exit(0); });
 
   const steps = [];
 

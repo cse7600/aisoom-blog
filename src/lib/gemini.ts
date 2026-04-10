@@ -25,6 +25,37 @@ interface GenerateTextOptions {
   systemInstruction?: string;
 }
 
+const RATE_LIMIT_MAX_RETRY = 4;
+
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function parseRetryDelayMs(errText: string): number | null {
+  const match = errText.match(/"retryDelay"\s*:\s*"(\d+)s"/);
+  if (!match) return null;
+  const seconds = Number(match[1]);
+  return Number.isFinite(seconds) ? seconds * 1000 : null;
+}
+
+function buildGenerateBody(
+  prompt: string,
+  options: GenerateTextOptions
+): Record<string, unknown> {
+  const body: Record<string, unknown> = {
+    contents: [{ parts: [{ text: prompt }] }],
+    generationConfig: {
+      temperature: options.temperature ?? 0.9,
+      maxOutputTokens: options.maxOutputTokens ?? 512,
+      responseMimeType: options.responseMimeType ?? "text/plain",
+    },
+  };
+  if (options.systemInstruction) {
+    body.systemInstruction = { parts: [{ text: options.systemInstruction }] };
+  }
+  return body;
+}
+
 export async function generateText(
   prompt: string,
   options: GenerateTextOptions = {}
@@ -34,47 +65,42 @@ export async function generateText(
     return null;
   }
 
-  const body: Record<string, unknown> = {
-    contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: {
-      temperature: options.temperature ?? 0.9,
-      maxOutputTokens: options.maxOutputTokens ?? 512,
-      responseMimeType: options.responseMimeType ?? "text/plain",
-    },
-  };
+  const body = buildGenerateBody(prompt, options);
+  const url = `${GEMINI_API_URL}/${TEXT_MODEL}:generateContent?key=${GEMINI_API_KEY}`;
 
-  if (options.systemInstruction) {
-    body.systemInstruction = {
-      parts: [{ text: options.systemInstruction }],
-    };
-  }
-
-  try {
-    const response = await fetch(
-      `${GEMINI_API_URL}/${TEXT_MODEL}:generateContent?key=${GEMINI_API_KEY}`,
-      {
+  for (let attempt = 0; attempt <= RATE_LIMIT_MAX_RETRY; attempt += 1) {
+    try {
+      const response = await fetch(url, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),
-      }
-    );
+      });
 
-    if (!response.ok) {
-      const errText = await response.text();
-      console.error(`Gemini text API 오류: ${response.status} ${errText}`);
+      if (response.status === 429 && attempt < RATE_LIMIT_MAX_RETRY) {
+        const errText = await response.text();
+        const retryMs = parseRetryDelayMs(errText) ?? (attempt + 1) * 6000;
+        await sleep(retryMs + 500);
+        continue;
+      }
+
+      if (!response.ok) {
+        const errText = await response.text();
+        console.error(`Gemini text API 오류: ${response.status} ${errText}`);
+        return null;
+      }
+
+      const payload: GeminiGenerateContentResponse = await response.json();
+      const firstCandidate = payload.candidates?.[0];
+      if (!firstCandidate) return null;
+
+      const textPart = firstCandidate.content.parts.find((part) => part.text);
+      return textPart?.text ?? null;
+    } catch (error) {
+      console.error("Gemini 텍스트 생성 실패:", error);
       return null;
     }
-
-    const payload: GeminiGenerateContentResponse = await response.json();
-    const firstCandidate = payload.candidates?.[0];
-    if (!firstCandidate) return null;
-
-    const textPart = firstCandidate.content.parts.find((part) => part.text);
-    return textPart?.text ?? null;
-  } catch (error) {
-    console.error("Gemini 텍스트 생성 실패:", error);
-    return null;
   }
+  return null;
 }
 
 export async function generateImage(

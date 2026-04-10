@@ -6,6 +6,7 @@
 import { createServiceClient } from "./supabase";
 import type {
   PersonaRow,
+  PersonaBehaviorType,
   PostDiscussionRow,
   DiscussionReplyRow,
   DiscussionWithReplies,
@@ -13,7 +14,26 @@ import type {
   InsertDiscussionParams,
   InsertReplyParams,
   PostNeedingDiscussion,
+  PersonaHistoryEntry,
+  InsertPersonaHistoryParams,
+  LongtailTarget,
 } from "./discussion-types";
+
+/**
+ * Phase 8.8: behavior_type 컬럼이 마이그레이션되기 전 레거시 row 보호.
+ * DB에 컬럼이 없거나 null이면 'normal'로 간주한다.
+ */
+function normalizePersona(row: Record<string, unknown>): PersonaRow {
+  const raw = row.behavior_type as string | null | undefined;
+  const behavior: PersonaBehaviorType =
+    raw === "chatty" || raw === "lurker" || raw === "lol_reactor" ? raw : "normal";
+  return { ...(row as unknown as PersonaRow), behavior_type: behavior };
+}
+
+function normalizePersonas(rows: unknown[] | null): PersonaRow[] {
+  if (!rows) return [];
+  return rows.map((row) => normalizePersona(row as Record<string, unknown>));
+}
 
 // ─── 조회 ─────────────────────────────────────────────────────────────────
 
@@ -102,6 +122,64 @@ export async function getReplyCountForPost(postSlug: string): Promise<number> {
   return count ?? 0;
 }
 
+export async function getPersonaByNickname(
+  nickname: string
+): Promise<PersonaRow | null> {
+  const db = createServiceClient();
+  const { data, error } = await db
+    .from("discussion_personas")
+    .select("*")
+    .eq("nickname", nickname)
+    .eq("active", true)
+    .maybeSingle();
+
+  if (error) {
+    console.error("[discussion-db] getPersonaByNickname:", error.message);
+    return null;
+  }
+  if (!data) return null;
+  return normalizePersona(data as Record<string, unknown>);
+}
+
+export interface PersonaRecentActivity {
+  discussions: PostDiscussionRow[];
+  replies: DiscussionReplyRow[];
+}
+
+export async function getPersonaRecentActivity(
+  personaId: string,
+  limit = 20
+): Promise<PersonaRecentActivity> {
+  const db = createServiceClient();
+  const [discussionsResult, repliesResult] = await Promise.all([
+    db
+      .from("post_discussions")
+      .select("*")
+      .eq("persona_id", personaId)
+      .eq("published", true)
+      .order("created_at", { ascending: false })
+      .limit(limit),
+    db
+      .from("discussion_replies")
+      .select("*")
+      .eq("persona_id", personaId)
+      .eq("published", true)
+      .order("created_at", { ascending: false })
+      .limit(limit),
+  ]);
+
+  if (discussionsResult.error) {
+    console.error("[discussion-db] getPersonaRecentActivity(discussions):", discussionsResult.error.message);
+  }
+  if (repliesResult.error) {
+    console.error("[discussion-db] getPersonaRecentActivity(replies):", repliesResult.error.message);
+  }
+  return {
+    discussions: (discussionsResult.data ?? []) as PostDiscussionRow[],
+    replies: (repliesResult.data ?? []) as DiscussionReplyRow[],
+  };
+}
+
 export async function getPersonas(
   onlyActive = true
 ): Promise<PersonaRow[]> {
@@ -115,7 +193,7 @@ export async function getPersonas(
     console.error("[discussion-db] getPersonas:", error.message);
     return [];
   }
-  return (data ?? []) as PersonaRow[];
+  return normalizePersonas(data);
 }
 
 // ─── 페르소나 선택 알고리즘 ───────────────────────────────────────────────
@@ -168,6 +246,7 @@ export async function insertDiscussion(
   params: InsertDiscussionParams
 ): Promise<PostDiscussionRow | null> {
   const db = createServiceClient();
+  const charCount = params.char_count ?? Array.from(params.content).length;
   const { data, error } = await db
     .from("post_discussions")
     .insert({
@@ -180,6 +259,12 @@ export async function insertDiscussion(
       target_keyword: params.target_keyword ?? null,
       generation_batch: params.generation_batch ?? null,
       created_at: params.created_at ?? new Date().toISOString(),
+      thread_template: params.thread_template ?? "expert_qa",
+      scheduled_generation_at: params.scheduled_generation_at ?? null,
+      generation_phase: params.generation_phase ?? "pending",
+      longtail_target: params.longtail_target ?? null,
+      quality_tier: params.quality_tier ?? "casual",
+      char_count: charCount,
     })
     .select("*")
     .single();
@@ -195,6 +280,7 @@ export async function insertReply(
   params: InsertReplyParams
 ): Promise<DiscussionReplyRow | null> {
   const db = createServiceClient();
+  const charCount = params.char_count ?? Array.from(params.content).length;
   const { data, error } = await db
     .from("discussion_replies")
     .insert({
@@ -206,6 +292,9 @@ export async function insertReply(
       target_keyword: params.target_keyword ?? null,
       generation_batch: params.generation_batch ?? null,
       created_at: params.created_at ?? new Date().toISOString(),
+      quality_tier: params.quality_tier ?? "casual",
+      char_count: charCount,
+      response_model: params.response_model ?? null,
     })
     .select("*")
     .single();
@@ -377,6 +466,97 @@ export interface UpsertGenerationLogParams {
   prompt_version?: string;
   error_message?: string | null;
   completed_at?: string | null;
+}
+
+// ─── 일일 URL 카운트 ──────────────────────────────────────────────────────────
+
+export async function getTodayUrlCount(): Promise<number> {
+  const db = createServiceClient();
+  const todayStart = new Date();
+  todayStart.setHours(0, 0, 0, 0);
+
+  const { count, error } = await db
+    .from("post_discussions")
+    .select("id", { count: "exact", head: true })
+    .gte("created_at", todayStart.toISOString());
+
+  if (error) {
+    console.error("[discussion-db] getTodayUrlCount:", error.message);
+    return 0;
+  }
+  return count ?? 0;
+}
+
+// ─── 페르소나 히스토리 ────────────────────────────────────────────────────────
+
+export async function getPersonaRecentHistory(
+  personaId: string,
+  limit = 5
+): Promise<PersonaHistoryEntry[]> {
+  const db = createServiceClient();
+  const { data, error } = await db
+    .from("persona_history")
+    .select("*")
+    .eq("persona_id", personaId)
+    .order("created_at", { ascending: false })
+    .limit(limit);
+
+  if (error) {
+    console.error("[discussion-db] getPersonaRecentHistory:", error.message);
+    return [];
+  }
+  return (data ?? []) as PersonaHistoryEntry[];
+}
+
+export async function insertPersonaHistory(
+  params: InsertPersonaHistoryParams
+): Promise<void> {
+  const db = createServiceClient();
+  const { error } = await db.from("persona_history").insert({
+    persona_id: params.persona_id,
+    discussion_id: params.discussion_id,
+    post_slug: params.post_slug,
+    content_summary: params.content_summary,
+    stance: params.stance ?? null,
+    topics: params.topics ?? [],
+  });
+
+  if (error) {
+    console.error("[discussion-db] insertPersonaHistory:", error.message);
+  }
+}
+
+// ─── 롱테일 타겟 ─────────────────────────────────────────────────────────────
+
+export async function getLongtailTargets(
+  postSlug: string
+): Promise<LongtailTarget[]> {
+  const db = createServiceClient();
+  const { data, error } = await db
+    .from("post_longtail_targets")
+    .select("*")
+    .eq("post_slug", postSlug)
+    .eq("consumed", false)
+    .order("created_at", { ascending: true })
+    .limit(3);
+
+  if (error) {
+    console.error("[discussion-db] getLongtailTargets:", error.message);
+    return [];
+  }
+  return (data ?? []) as LongtailTarget[];
+}
+
+export async function markLongtailConsumed(id: string): Promise<void> {
+  const db = createServiceClient();
+  const { error } = await db
+    .from("post_longtail_targets")
+    .update({ consumed: true })
+    .eq("id", id);
+
+  if (error) {
+    console.error("[discussion-db] markLongtailConsumed:", error.message);
+  }
 }
 
 export async function upsertGenerationLog(
