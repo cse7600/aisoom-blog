@@ -1,0 +1,227 @@
+/**
+ * Supabase 쿼리 함수
+ * 모든 콘텐츠는 Supabase posts 테이블에서 읽는다
+ */
+
+import { createServiceClient } from "./supabase";
+
+// ─── DB 행 타입 (Supabase 컬럼 그대로) ──────────────────────────────────────
+
+export interface PostRow {
+  id: string;
+  slug: string;
+  title: string;
+  description: string | null;
+  content: string | null;
+  category: string;
+  tags: string[];
+  keywords: string[];
+  image_url: string | null;
+  author: string;
+  status: string;
+  featured: boolean;
+  view_count: number;
+  read_time: number | null;
+  published_at: string | null;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface CategoryRow {
+  id: string;
+  slug: string;
+  name: string;
+  description: string | null;
+  icon: string | null;
+  sort_order: number;
+  active: boolean;
+  created_at: string;
+}
+
+export interface PostRelationRow {
+  post_slug: string;
+  related_slug: string;
+  relation_type: string;
+  sort_order: number;
+}
+
+// ─── 쿼리 함수 ───────────────────────────────────────────────────────────────
+
+const POST_COLUMNS =
+  "id,slug,title,description,category,tags,keywords,image_url,author,status,featured,view_count,read_time,published_at,created_at,updated_at";
+
+export async function getFeaturedPosts(limit = 1): Promise<PostRow[]> {
+  const db = createServiceClient();
+  const { data, error } = await db
+    .from("posts")
+    .select(POST_COLUMNS)
+    .eq("status", "published")
+    .eq("featured", true)
+    .order("published_at", { ascending: false })
+    .limit(limit);
+
+  if (error) {
+    console.error("[db] getFeaturedPosts:", error.message);
+    return [];
+  }
+  return (data ?? []) as PostRow[];
+}
+
+export async function getRecentPosts(limit = 12, offset = 0): Promise<PostRow[]> {
+  const db = createServiceClient();
+  const { data, error } = await db
+    .from("posts")
+    .select(POST_COLUMNS)
+    .eq("status", "published")
+    .order("published_at", { ascending: false })
+    .range(offset, offset + limit - 1);
+
+  if (error) {
+    console.error("[db] getRecentPosts:", error.message);
+    return [];
+  }
+  return (data ?? []) as PostRow[];
+}
+
+export async function getPostsByCategory(
+  categorySlug: string,
+  limit = 12,
+  offset = 0
+): Promise<PostRow[]> {
+  const db = createServiceClient();
+  const { data, error } = await db
+    .from("posts")
+    .select(POST_COLUMNS)
+    .eq("status", "published")
+    .eq("category", categorySlug)
+    .order("published_at", { ascending: false })
+    .range(offset, offset + limit - 1);
+
+  if (error) {
+    console.error("[db] getPostsByCategory:", error.message);
+    return [];
+  }
+  return (data ?? []) as PostRow[];
+}
+
+export async function getPostCountByCategory(categorySlug: string): Promise<number> {
+  const db = createServiceClient();
+  const { count, error } = await db
+    .from("posts")
+    .select("id", { count: "exact", head: true })
+    .eq("status", "published")
+    .eq("category", categorySlug);
+
+  if (error) return 0;
+  return count ?? 0;
+}
+
+export async function getPostBySlug(slug: string): Promise<PostRow | null> {
+  const db = createServiceClient();
+  const { data, error } = await db
+    .from("posts")
+    .select("*")
+    .eq("status", "published")
+    .eq("slug", slug)
+    .single();
+
+  if (error) {
+    if (error.code !== "PGRST116") {
+      console.error("[db] getPostBySlug:", error.message);
+    }
+    return null;
+  }
+  return data as PostRow;
+}
+
+export async function getRelatedPosts(
+  currentSlug: string,
+  categorySlug: string,
+  limit = 3
+): Promise<PostRow[]> {
+  const db = createServiceClient();
+
+  // 1순위: post_relations 테이블에서 명시적 관계
+  const { data: relations } = await db
+    .from("post_relations")
+    .select("related_slug")
+    .eq("post_slug", currentSlug)
+    .order("sort_order")
+    .limit(limit);
+
+  if (relations && relations.length > 0) {
+    const slugs = relations.map((r: { related_slug: string }) => r.related_slug);
+    const { data } = await db
+      .from("posts")
+      .select(POST_COLUMNS)
+      .eq("status", "published")
+      .in("slug", slugs);
+    if (data && data.length > 0) return data as PostRow[];
+  }
+
+  // 2순위: 같은 카테고리 최신 글
+  const { data, error } = await db
+    .from("posts")
+    .select(POST_COLUMNS)
+    .eq("status", "published")
+    .eq("category", categorySlug)
+    .neq("slug", currentSlug)
+    .order("published_at", { ascending: false })
+    .limit(limit);
+
+  if (error) return [];
+  return (data ?? []) as PostRow[];
+}
+
+export async function getCategories(): Promise<CategoryRow[]> {
+  const db = createServiceClient();
+  const { data, error } = await db
+    .from("categories")
+    .select("*")
+    .eq("active", true)
+    .order("sort_order");
+
+  if (error) {
+    console.error("[db] getCategories:", error.message);
+    return [];
+  }
+  return (data ?? []) as CategoryRow[];
+}
+
+export async function getCategoryBySlug(slug: string): Promise<CategoryRow | null> {
+  const db = createServiceClient();
+  const { data, error } = await db
+    .from("categories")
+    .select("*")
+    .eq("slug", slug)
+    .eq("active", true)
+    .single();
+
+  if (error) return null;
+  return data as CategoryRow;
+}
+
+export async function getAllPublishedSlugs(): Promise<
+  { slug: string; category: string; updated_at: string }[]
+> {
+  const db = createServiceClient();
+  const { data, error } = await db
+    .from("posts")
+    .select("slug,category,updated_at")
+    .eq("status", "published")
+    .order("published_at", { ascending: false });
+
+  if (error) return [];
+  return (data ?? []) as { slug: string; category: string; updated_at: string }[];
+}
+
+/**
+ * 조회수 증가 — fire-and-forget, 에러 무시
+ */
+export async function incrementViewCount(slug: string): Promise<void> {
+  const db = createServiceClient();
+  await db.rpc("increment_view_count", { post_slug: slug }).then(
+    () => {},
+    () => {}
+  );
+}

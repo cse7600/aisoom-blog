@@ -1,0 +1,139 @@
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { getPostBySlug, getRelatedPosts, getCategoryBySlug, incrementViewCount } from "@/lib/db";
+import { Breadcrumb } from "@/components/seo/Breadcrumb";
+import { PostCard } from "@/components/content/PostCard";
+import { ShareButtons } from "@/components/content/ShareButtons";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { generatePostMetadata, buildArticleJsonLd } from "@/lib/seo";
+import { SITE_CONFIG } from "@/lib/constants";
+import { formatDate, calculateReadingTime } from "@/lib/utils";
+import Image from "next/image";
+
+interface PostPageProps {
+  params: { category: string; slug: string };
+}
+
+export const revalidate = 300;
+
+export async function generateMetadata({ params }: PostPageProps): Promise<Metadata> {
+  const post = await getPostBySlug(params.slug);
+  if (!post || post.category !== params.category) return {};
+  return generatePostMetadata({
+    title: post.title,
+    description: post.description ?? "",
+    slug: post.slug,
+    category: post.category,
+    imageUrl: post.image_url ?? undefined,
+    publishedAt: post.published_at ?? post.created_at,
+    updatedAt: post.updated_at,
+    keywords: post.keywords,
+    author: post.author,
+  });
+}
+
+export default async function PostPage({ params }: PostPageProps) {
+  const post = await getPostBySlug(params.slug);
+  if (!post || post.category !== params.category) notFound();
+
+  const [related, cat] = await Promise.all([
+    getRelatedPosts(post.slug, post.category, 3),
+    getCategoryBySlug(post.category),
+  ]);
+
+  // 조회수 증가 (비동기, 결과 무시)
+  void incrementViewCount(post.slug);
+
+  const readTime = post.read_time ?? (post.content ? calculateReadingTime(post.content) : null);
+  const postUrl = `${SITE_CONFIG.url}/${post.category}/${post.slug}`;
+  const jsonLd = buildArticleJsonLd({
+    title: post.title,
+    description: post.description ?? "",
+    imageUrl: post.image_url ?? SITE_CONFIG.ogImage,
+    publishedAt: post.published_at ?? post.created_at,
+    updatedAt: post.updated_at,
+    author: post.author,
+    url: postUrl,
+  });
+
+  return (
+    <>
+      <JsonLd structuredData={jsonLd} />
+      <div className="mx-auto max-w-content px-4 sm:px-6 py-8">
+        <Breadcrumb
+          items={[
+            { name: cat?.name ?? post.category, url: `/${post.category}` },
+            { name: post.title },
+          ]}
+        />
+
+        <article className="max-w-narrow mx-auto">
+          {/* 헤더 */}
+          <header className="mb-8">
+            <span className="inline-block px-2.5 py-1 text-caption font-medium bg-primary text-white rounded-badge mb-4">
+              {cat?.name ?? post.category}
+            </span>
+            <h1 className="text-display-sm md:text-display-md font-bold text-foreground mb-4 text-balance">
+              {post.title}
+            </h1>
+            {post.description && (
+              <p className="text-body-lg text-foreground/60 mb-5">{post.description}</p>
+            )}
+            <div className="flex items-center gap-4 text-body-sm text-foreground/40 pb-6 border-b border-border">
+              <span>{post.author}</span>
+              <span>{formatDate(post.published_at ?? post.created_at)}</span>
+              {readTime && <span>{readTime}분 읽기</span>}
+            </div>
+          </header>
+
+          {/* 대표 이미지 */}
+          {post.image_url && (
+            <div className="relative aspect-[16/9] rounded-card overflow-hidden mb-8">
+              <Image
+                src={post.image_url}
+                alt={post.title}
+                fill
+                className="object-cover"
+                priority
+                sizes="(max-width: 720px) 100vw, 720px"
+              />
+            </div>
+          )}
+
+          {/* 본문 */}
+          {post.content ? (
+            <div
+              className="prose-content"
+              dangerouslySetInnerHTML={{ __html: post.content }}
+            />
+          ) : (
+            <p className="text-body-md text-foreground/40 py-12 text-center">
+              콘텐츠 준비 중입니다.
+            </p>
+          )}
+
+          {/* 공유 */}
+          <div className="mt-10 pt-6 border-t border-border">
+            <ShareButtons
+              url={postUrl}
+              title={post.title}
+              description={post.description ?? ""}
+            />
+          </div>
+        </article>
+
+        {/* 관련 글 */}
+        {related.length > 0 && (
+          <section className="mt-16">
+            <h2 className="text-heading-lg font-bold text-foreground mb-6">관련 글</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+              {related.map((r) => (
+                <PostCard key={r.id} post={r} categoryName={cat?.name} />
+              ))}
+            </div>
+          </section>
+        )}
+      </div>
+    </>
+  );
+}

@@ -1,0 +1,511 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2026-04-10T03:18:11.390Z",
+  "activeFeatures": [
+    "blog-affiliate",
+    "layout",
+    "ui",
+    "content",
+    "seo",
+    "affiliate",
+    "(main)",
+    "[category]",
+    "[slug]",
+    "track-click",
+    "subscribe",
+    "keyword-volume",
+    "newsletter",
+    "analytics"
+  ],
+  "primaryFeature": "blog-affiliate",
+  "features": {
+    "blog-affiliate": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T02:43:31.949Z",
+        "lastUpdated": "2026-04-10T03:17:50.106Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/lib/seo.ts"
+    },
+    "layout": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T02:46:12.631Z",
+        "lastUpdated": "2026-04-10T02:46:22.467Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/components/layout/Footer.tsx"
+    },
+    "ui": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T02:46:34.095Z",
+        "lastUpdated": "2026-04-10T02:46:36.775Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/components/ui/Button.tsx"
+    },
+    "content": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T02:46:44.395Z",
+        "lastUpdated": "2026-04-10T03:16:16.977Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/components/content/FeaturedPostCard.tsx"
+    },
+    "seo": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T02:46:59.823Z",
+        "lastUpdated": "2026-04-10T02:49:07.272Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/components/seo/JsonLd.tsx"
+    },
+    "affiliate": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T02:47:17.539Z",
+        "lastUpdated": "2026-04-10T02:47:34.758Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/components/affiliate/ProductComparisonTable.tsx"
+    },
+    "(main)": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T02:47:54.454Z",
+        "lastUpdated": "2026-04-10T03:16:33.835Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/(main)/page.tsx"
+    },
+    "[category]": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T02:48:02.040Z",
+        "lastUpdated": "2026-04-10T03:16:43.960Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/(main)/[category]/page.tsx"
+    },
+    "[slug]": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T02:48:05.857Z",
+        "lastUpdated": "2026-04-10T03:18:11.390Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/(main)/[category]/[slug]/page.tsx"
+    },
+    "track-click": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T02:48:23.389Z",
+        "lastUpdated": "2026-04-10T02:48:23.389Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/api/track-click/route.ts"
+    },
+    "subscribe": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T03:01:08.005Z",
+        "lastUpdated": "2026-04-10T03:01:08.005Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/api/subscribe/route.ts"
+    },
+    "keyword-volume": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T03:01:14.544Z",
+        "lastUpdated": "2026-04-10T03:01:14.544Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/api/keyword-volume/route.ts"
+    },
+    "newsletter": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T03:01:26.785Z",
+        "lastUpdated": "2026-04-10T03:01:26.785Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/components/newsletter/SubscribeForm.tsx"
+    },
+    "analytics": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-10T03:01:59.172Z",
+        "lastUpdated": "2026-04-10T03:01:59.172Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/components/analytics/Analytics.tsx"
+    }
+  },
+  "pipeline": {
+    "currentPhase": 1,
+    "level": "Dynamic",
+    "phaseHistory": []
+  },
+  "session": {
+    "startedAt": "2026-04-10T02:43:31.949Z",
+    "onboardingCompleted": false,
+    "lastActivity": "2026-04-10T03:18:11.390Z"
+  },
+  "history": [
+    {
+      "timestamp": "2026-04-10T02:43:31.949Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:44:10.418Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:44:16.484Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:44:27.837Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:44:30.672Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:44:38.268Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:45:14.280Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:45:24.788Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:45:42.391Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:45:56.070Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:46:12.631Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:46:22.467Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:46:34.095Z",
+      "feature": "ui",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:46:36.775Z",
+      "feature": "ui",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:46:44.395Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:46:51.789Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:46:59.823Z",
+      "feature": "seo",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:47:05.583Z",
+      "feature": "seo",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:47:17.539Z",
+      "feature": "affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:47:34.758Z",
+      "feature": "affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:47:41.169Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:47:48.983Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:47:54.454Z",
+      "feature": "(main)",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:48:02.040Z",
+      "feature": "[category]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:48:05.857Z",
+      "feature": "[slug]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:48:08.701Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:48:10.022Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:48:13.258Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:48:23.389Z",
+      "feature": "track-click",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:48:49.205Z",
+      "feature": "[slug]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:49:07.272Z",
+      "feature": "seo",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T02:49:27.492Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T03:00:39.490Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T03:00:58.457Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T03:01:08.005Z",
+      "feature": "subscribe",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T03:01:14.544Z",
+      "feature": "keyword-volume",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T03:01:26.785Z",
+      "feature": "newsletter",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T03:01:59.172Z",
+      "feature": "analytics",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T03:02:03.209Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T03:02:06.625Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T03:15:46.015Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T03:16:06.871Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T03:16:16.977Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T03:16:33.835Z",
+      "feature": "(main)",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T03:16:43.960Z",
+      "feature": "[category]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T03:17:06.166Z",
+      "feature": "[slug]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T03:17:12.631Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T03:17:50.106Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-10T03:18:11.390Z",
+      "feature": "[slug]",
+      "phase": "do",
+      "action": "updated"
+    }
+  ]
+}
