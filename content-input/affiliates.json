@@ -1,0 +1,20 @@
+{
+  "affiliates": [
+    {
+      "name": "키퍼메이트",
+      "contentDir": "키퍼메이트/content",
+      "category": "tech",
+      "url": "https://keeper.ceo/keeper-mate",
+      "disclosure": "이 활동은 키퍼 메이트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.",
+      "author": "꿀정보 에디터"
+    },
+    {
+      "name": "법인설립지원센터",
+      "contentDir": "법인설립지원센터/content",
+      "category": "finance",
+      "url": "https://corp.apply.kr",
+      "disclosure": "이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다.",
+      "author": "꿀정보 에디터"
+    }
+  ]
+}

@@ -8,9 +8,19 @@
     "start": "next start",
     "lint": "next lint",
     "keyword-research": "node scripts/keyword-research.mjs",
-    "publish-post": "node scripts/publish-post.mjs"
+    "new-content": "node scripts/new-content.mjs",
+    "publish-post": "node scripts/publish-post.mjs",
+    "generate-image": "node scripts/generate-image.mjs",
+    "release": "node scripts/release-post.mjs",
+    "auto-publish": "node scripts/auto-publish.mjs",
+    "queue-check": "node scripts/auto-publish.mjs --dry",
+    "generate-discussions": "node scripts/generate-discussions.mjs",
+    "generate-community-posts": "node scripts/generate-community-posts.mjs",
+    "generate-content": "node scripts/generate-content.mjs",
+    "refill-queue": "node scripts/research-and-queue.mjs"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.87.0",
     "@supabase/supabase-js": "^2.103.0",
     "lucide-react": "^1.8.0",
     "marked": "^18.0.0",

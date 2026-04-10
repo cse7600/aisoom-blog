@@ -144,25 +144,48 @@ function markdownToHtml(markdownContent) {
 }
 
 async function upsertPost(record, update) {
-  const url = `${process.env.NEXT_PUBLIC_SUPABASE_URL}/rest/v1/posts`;
+  const baseUrl = `${process.env.NEXT_PUBLIC_SUPABASE_URL}/rest/v1/posts`;
   const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
 
-  const method = "POST";
-  const prefer = update ? "resolution=merge-duplicates,return=representation" : "return=representation";
+  if (update) {
+    // 1) 기존 행 존재 확인
+    const checkRes = await fetch(`${baseUrl}?slug=eq.${encodeURIComponent(record.slug)}&select=id`, {
+      headers: { apikey: key, Authorization: `Bearer ${key}` },
+    });
+    const existing = await checkRes.json();
 
-  const res = await fetch(url, {
-    method,
+    if (existing && existing.length > 0) {
+      // PATCH로 업데이트
+      const patchRes = await fetch(`${baseUrl}?slug=eq.${encodeURIComponent(record.slug)}`, {
+        method: "PATCH",
+        headers: {
+          apikey: key,
+          Authorization: `Bearer ${key}`,
+          "Content-Type": "application/json",
+          Prefer: "return=representation",
+        },
+        body: JSON.stringify(record),
+      });
+      const patchText = await patchRes.text();
+      if (!patchRes.ok) throw new Error(`Supabase PATCH ${patchRes.status}: ${patchText}`);
+      return JSON.parse(patchText);
+    }
+  }
+
+  // 새 행 삽입
+  const res = await fetch(baseUrl, {
+    method: "POST",
     headers: {
       apikey: key,
       Authorization: `Bearer ${key}`,
       "Content-Type": "application/json",
-      Prefer: prefer,
+      Prefer: "return=representation",
     },
     body: JSON.stringify([record]),
   });
 
   const text = await res.text();
-  if (!res.ok) throw new Error(`Supabase ${res.status}: ${text}`);
+  if (!res.ok) throw new Error(`Supabase POST ${res.status}: ${text}`);
   return JSON.parse(text);
 }
 
