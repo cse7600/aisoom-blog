@@ -124,6 +124,9 @@ function stepRefill(opts) {
   const args = ["node", "scripts/research-and-queue.mjs"];
   if (opts.target) args.push("--target", String(opts.target));
   if (opts.affiliate) args.push("--affiliate", opts.affiliate);
+  // 완전 자동화: 큐 보충 단계에서 생성과 동시에 즉시 발행
+  // (research-and-queue → generate-content --auto-release → release-post)
+  if (!opts.skipPublish) args.push("--auto-release");
   return runStep("refill", args);
 }
 

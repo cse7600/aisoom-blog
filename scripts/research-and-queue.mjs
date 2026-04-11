@@ -139,6 +139,7 @@ function parseArgs() {
     return idx !== -1 ? args[idx + 1] : null;
   };
   return {
+    affiliate: get("--affiliate"),
     force: args.includes("--force"),
     dry: args.includes("--dry"),
     autoRelease: args.includes("--auto-release"),
@@ -155,7 +156,15 @@ async function main() {
   console.log(`콘텐츠 큐 보충 ${opts.force ? "[FORCE]" : ""}${opts.dry ? "[DRY]" : ""}`);
   console.log(`${"═".repeat(60)}`);
 
-  const affiliates = loadAffiliates();
+  const allAffiliates = loadAffiliates();
+  const affiliates = opts.affiliate
+    ? allAffiliates.filter((a) => a.name === opts.affiliate)
+    : allAffiliates;
+
+  if (affiliates.length === 0) {
+    throw new Error(`대상 어필리에이트 없음: ${opts.affiliate ?? "(전체)"}`);
+  }
+
   const queue = loadQueue();
   const publishedSlugs = await fetchPublishedSlugs();
 

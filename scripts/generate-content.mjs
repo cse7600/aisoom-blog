@@ -12,7 +12,7 @@
  * 동작:
  *   1. .env.local 또는 환경변수에서 ANTHROPIC_API_KEY 로드
  *   2. 어필리에이트별 시스템 프롬프트 + few-shot 예시 구성
- *   3. Claude Sonnet 4.6 호출로 전체 마크다운 콘텐츠 생성
+ *   3. Claude Sonnet 4-6 호출로 전체 마크다운 콘텐츠 생성
  *   4. {affiliate}/content/{slug}.md 저장
  *   5. (--auto-release) release-post.mjs 자동 실행
  */
@@ -27,7 +27,7 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 
-const CLAUDE_MODEL = "claude-sonnet-4-5";
+const CLAUDE_MODEL = "claude-sonnet-4-6";
 const GEMINI_MODEL_CHAIN = [
   "gemini-flash-latest",
   "gemini-3-flash-preview",

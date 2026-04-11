@@ -29,7 +29,7 @@ import { sessionExists } from "./naver-session.mjs";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 
-const CLAUDE_MODEL = "claude-sonnet-4-5";
+const CLAUDE_MODEL = "claude-sonnet-4-6";
 const NAVER_RATE_LIMIT_MS = 120;
 const DEFAULT_MIN_PENDING = 5;
 const DEFAULT_PER_AFFILIATE = 5;
