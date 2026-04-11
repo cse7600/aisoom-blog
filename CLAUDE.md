@@ -100,6 +100,65 @@
 
 ---
 
+## 완전 자동화 콘텐츠 파이프라인
+
+**기준 커밋**: Phase 9.5 (2026-04-12)
+
+### 1-커맨드 실행
+```bash
+node scripts/content-loop.mjs
+```
+주제 발굴 → 본문 생성 → 발행까지 사람 개입 없이 end-to-end.
+
+### 체인 구조
+```
+content-loop.mjs
+  1. discover-topics.mjs      — Claude Sonnet 4-6로 주제 추출 + 키워드 검증 → topic-queue.json
+  2. research-and-queue.mjs   — 미발행 편수 확인 → generate-content.mjs --from-queue --auto-release 호출
+       └ generate-content.mjs — 어필리에이트 프롬프트 + few-shot 로드 → 마크다운 전체 생성
+            └ release-post.mjs — Supabase posts INSERT + 이미지 업로드
+  3. auto-publish.mjs         — DB 미발행 초안 백업 발행 루프
+```
+
+### LLM 모델
+- **기본**: Claude Sonnet 4-6 (`claude-sonnet-4-6`)
+- **폴백 체인**: gemini-flash-latest → 3-flash-preview → 2.5-flash-lite → 2.5-flash → 2.5-pro
+
+### 어필리에이트 프롬프트 파일
+위치: `content-input/prompts/{name}.md`
+- 키퍼메이트, 법인설립지원센터, 밀리의서재, 차별화상회 (4개 전부 존재)
+- 신규 어필리에이트 추가 시 `affiliates.json` 등록 + 프롬프트 파일 1개만 추가하면 코드 수정 불필요
+
+### 체크포인트 파일
+- `content-input/topic-queue.json` — 주제 큐 (pending/generated/published)
+- `content-input/loop-log.json` — 루프 실행 이력 (최근 100회)
+- `.content-loop.lock` — 중복 실행 방지 (1시간 TTL)
+
+### 주요 CLI 옵션
+```bash
+# 전체 1회 실행
+node scripts/content-loop.mjs
+
+# 특정 어필리에이트만
+node scripts/content-loop.mjs --affiliate 밀리의서재
+
+# 상태만 확인
+node scripts/content-loop.mjs --dry
+
+# 발행 건너뛰기 (초안만)
+node scripts/content-loop.mjs --skip-publish
+
+# 강제 실행 (큐 잔여 무시)
+node scripts/content-loop.mjs --force
+```
+
+### 변경 금지 사항
+- `generate-content.mjs`와 `discover-topics.mjs`의 `CLAUDE_MODEL`은 항상 동일 버전 유지
+- content-loop가 `stepRefill`에서 `--auto-release`를 자동 전달하는 로직(skip-publish 케이스 제외)
+- 프롬프트 파일 frontmatter `---` 시작 규정 (없으면 생성 스크립트가 에러)
+
+---
+
 ## 기술 스택 참조
 - Next.js 14 App Router + TypeScript strict
 - Tailwind CSS + CSS Variables (하드코딩 금지)
