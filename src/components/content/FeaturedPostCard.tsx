@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Clock, Eye } from "lucide-react";
 import { formatRelativeDate, formatNumber } from "@/lib/utils";
 import type { PostRow } from "@/lib/db";
+import { PostThumbnailFallback } from "./PostThumbnailFallback";
 
 interface FeaturedPostCardProps {
   post: PostRow;
@@ -30,9 +31,15 @@ export function FeaturedPostCard({ post, categoryName }: FeaturedPostCardProps) 
               priority
             />
           ) : (
-            <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-foreground/20 text-body-sm">{label}</span>
-            </div>
+            <PostThumbnailFallback
+              categorySlug={post.category}
+              categoryName={label}
+              title={post.title}
+              tags={post.tags}
+              keywords={post.keywords}
+              readTime={post.read_time}
+              variant="featured"
+            />
           )}
         </Link>
 

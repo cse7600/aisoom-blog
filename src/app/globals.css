@@ -55,6 +55,49 @@
   --persona-business-fg: #be185d;
   --persona-techie-bg: #e0f2fe;
   --persona-techie-fg: #0369a1;
+
+  /* ===== Category thumbnail tokens — 폴백 썸네일 디자인 ===== */
+  /* tech — 테크/가전 (지적인 인디고) */
+  --thumb-tech-bg-from: #eef2ff;
+  --thumb-tech-bg-to: #e0e7ff;
+  --thumb-tech-accent: #4f46e5;
+  --thumb-tech-ink: #312e81;
+  --thumb-tech-pattern: rgba(79, 70, 229, 0.08);
+
+  /* finance — 금융 (신뢰의 에메랄드) */
+  --thumb-finance-bg-from: #ecfdf5;
+  --thumb-finance-bg-to: #d1fae5;
+  --thumb-finance-accent: #059669;
+  --thumb-finance-ink: #064e3b;
+  --thumb-finance-pattern: rgba(5, 150, 105, 0.08);
+
+  /* beauty — 뷰티/건강 (따뜻한 로즈) */
+  --thumb-beauty-bg-from: #fff1f2;
+  --thumb-beauty-bg-to: #ffe4e6;
+  --thumb-beauty-accent: #e11d48;
+  --thumb-beauty-ink: #881337;
+  --thumb-beauty-pattern: rgba(225, 29, 72, 0.08);
+
+  /* home-living — 생활/홈 (부드러운 앰버) */
+  --thumb-home-living-bg-from: #fffbeb;
+  --thumb-home-living-bg-to: #fef3c7;
+  --thumb-home-living-accent: #d97706;
+  --thumb-home-living-ink: #78350f;
+  --thumb-home-living-pattern: rgba(217, 119, 6, 0.08);
+
+  /* travel — 여행 (청명한 스카이) */
+  --thumb-travel-bg-from: #ecfeff;
+  --thumb-travel-bg-to: #cffafe;
+  --thumb-travel-accent: #0891b2;
+  --thumb-travel-ink: #164e63;
+  --thumb-travel-pattern: rgba(8, 145, 178, 0.08);
+
+  /* default — 기본 (중립 슬레이트) */
+  --thumb-default-bg-from: #f8fafc;
+  --thumb-default-bg-to: #f1f5f9;
+  --thumb-default-accent: #475569;
+  --thumb-default-ink: #0f172a;
+  --thumb-default-pattern: rgba(71, 85, 105, 0.08);
 }
 
 /* Dark Mode */
@@ -94,6 +137,43 @@
   --persona-business-fg: #f9a8d4;
   --persona-techie-bg: #082f49;
   --persona-techie-fg: #7dd3fc;
+
+  /* Category thumbnail tokens — dark mode */
+  --thumb-tech-bg-from: #1e1b4b;
+  --thumb-tech-bg-to: #312e81;
+  --thumb-tech-accent: #a5b4fc;
+  --thumb-tech-ink: #e0e7ff;
+  --thumb-tech-pattern: rgba(165, 180, 252, 0.08);
+
+  --thumb-finance-bg-from: #064e3b;
+  --thumb-finance-bg-to: #065f46;
+  --thumb-finance-accent: #6ee7b7;
+  --thumb-finance-ink: #d1fae5;
+  --thumb-finance-pattern: rgba(110, 231, 183, 0.08);
+
+  --thumb-beauty-bg-from: #500724;
+  --thumb-beauty-bg-to: #881337;
+  --thumb-beauty-accent: #fda4af;
+  --thumb-beauty-ink: #ffe4e6;
+  --thumb-beauty-pattern: rgba(253, 164, 175, 0.08);
+
+  --thumb-home-living-bg-from: #451a03;
+  --thumb-home-living-bg-to: #78350f;
+  --thumb-home-living-accent: #fcd34d;
+  --thumb-home-living-ink: #fef3c7;
+  --thumb-home-living-pattern: rgba(252, 211, 77, 0.08);
+
+  --thumb-travel-bg-from: #083344;
+  --thumb-travel-bg-to: #164e63;
+  --thumb-travel-accent: #67e8f9;
+  --thumb-travel-ink: #cffafe;
+  --thumb-travel-pattern: rgba(103, 232, 249, 0.08);
+
+  --thumb-default-bg-from: #1e293b;
+  --thumb-default-bg-to: #334155;
+  --thumb-default-accent: #cbd5e1;
+  --thumb-default-ink: #f1f5f9;
+  --thumb-default-pattern: rgba(203, 213, 225, 0.08);
 }
 
 /* ===== Base Styles ===== */
