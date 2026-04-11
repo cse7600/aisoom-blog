@@ -161,7 +161,6 @@ function CommentBody({
       <div className="nv-comment__main">
         <div className="nv-comment__meta">
           <span className="nv-comment__nickname">{nickname}</span>
-          {isAi && <span className="nv-comment__ai-badge">AI</span>}
           <span className="nv-comment__time">{formatRelative(createdAt)}</span>
         </div>
         <p className="nv-comment__content">{content}</p>

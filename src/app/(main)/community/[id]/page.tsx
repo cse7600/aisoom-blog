@@ -61,14 +61,6 @@ export default async function CommunityDetailPage({
         </Link>
         <div className="community-detail__meta">
           <span className="community-detail__category">[{categoryName}]</span>
-          {post.is_ai_generated && (
-            <span
-              className="community-detail__badge"
-              title="AI 페르소나 작성"
-            >
-              AI 씨앗 글
-            </span>
-          )}
         </div>
         <h1 className="community-detail__title">{post.title}</h1>
         <div className="community-detail__info">
