@@ -64,12 +64,12 @@ export async function sendWelcomeEmail(to: string): Promise<void> {
                 <li>가격이 내려간 추천 제품 알림</li>
                 <li>아무도 말 안 해주는 금융 꿀팁</li>
               </ul>
-              <a href="https://kkulinfo.com" style="display:inline-block;background:#1c1917;color:#fff;text-decoration:none;padding:14px 28px;border-radius:8px;font-size:14px;font-weight:600;">최신 글 보러 가기</a>
+              <a href="https://www.factnote.co.kr" style="display:inline-block;background:#1c1917;color:#fff;text-decoration:none;padding:14px 28px;border-radius:8px;font-size:14px;font-weight:600;">최신 글 보러 가기</a>
             </td>
           </tr>
           <tr>
             <td style="padding:24px 40px;border-top:1px solid #f5f5f4;">
-              <p style="margin:0;font-size:12px;color:#a8a29e;">수신을 원하지 않으시면 <a href="https://kkulinfo.com/unsubscribe?email=${encodeURIComponent(to)}" style="color:#a8a29e;">구독 취소</a>하세요.</p>
+              <p style="margin:0;font-size:12px;color:#a8a29e;">수신을 원하지 않으시면 <a href="https://www.factnote.co.kr/unsubscribe?email=${encodeURIComponent(to)}" style="color:#a8a29e;">구독 취소</a>하세요.</p>
             </td>
           </tr>
         </table>

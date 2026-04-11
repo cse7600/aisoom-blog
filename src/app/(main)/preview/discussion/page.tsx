@@ -246,7 +246,7 @@ export default function DiscussionPreviewPage() {
   return (
     <>
       <FloatingShareBar
-        url="https://kkulinfo.com/tech/preview-post"
+        url="https://www.factnote.co.kr/tech/preview-post"
         title="[프리뷰] 토론 UI 미리보기 — 꿀정보"
         description="AI 페르소나 기반 커뮤니티 토론 섹션 프리뷰"
       />

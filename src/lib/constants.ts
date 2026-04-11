@@ -4,7 +4,7 @@ export const SITE_CONFIG = {
   tagline: "찐 비교, 찐 추천",
   description:
     "구매 전 꼭 확인하세요. 전문가가 직접 비교하고 테스트한 찐 추천 콘텐츠.",
-  url: "https://kkulinfo.com",
+  url: "https://www.factnote.co.kr",
   locale: "ko_KR",
   language: "ko",
   ogImage: "/og-default.png",

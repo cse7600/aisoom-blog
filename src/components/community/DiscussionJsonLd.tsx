@@ -9,7 +9,7 @@ import type {
   CommunityCommentThread,
 } from "@/lib/community-types";
 
-const SITE_ORIGIN = "https://kkulinfo.com";
+const SITE_ORIGIN = "https://www.factnote.co.kr";
 
 interface DiscussionJsonLdProps {
   post: CommunityPostPublic;
