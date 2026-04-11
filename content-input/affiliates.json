@@ -39,6 +39,15 @@
           "name": "에스원 블로그",
           "url": "https://blog.s1.co.kr",
           "relevance": "에스원 콘텐츠 주제 수집"
+        },
+        {
+          "type": "competitor",
+          "name": "키퍼 공식 블로그",
+          "url": "https://keeper.ceo/blog",
+          "relevance": "SEO 대행사가 운영하는 한화비전 키퍼 공식 블로그 — 주제 전략·키워드 벤치마크 + 공백 영역 발굴",
+          "crawlerScript": "scripts/scrapers/keeper-blog-crawler.mjs",
+          "monitorFrequency": "weekly",
+          "dataPath": "content-input/competitor-intel/keeper-blog.json"
         }
       ]
     },

@@ -1,21 +1,31 @@
 {
-  "_comment": "블로그 콘텐츠 주제 큐 — research-and-queue.mjs가 이 파일에서 주제를 꺼내어 generate-content.mjs로 전달함. 발행 완료 시 status를 'used'로 바꾸거나 삭제",
-  "updatedAt": "2026-04-10",
+  "_comment": "블로그 콘텐츠 주제 큐 — research-and-queue.mjs가 이 파일에서 주제를 꺼내어 generate-content.mjs로 전달함. 발행 완료 시 status를 'used'로 바꾸거나 삭제 | 2026-04-12: keeper.ceo/blog 경쟁사 분석 기반 블루오션 주제 10개 추가 (hit-scout)",
+  "updatedAt": "2026-04-12",
   "queue": {
     "키퍼메이트": [
       {
         "topic": "한화비전 키퍼 vs 세콤 CCTV 비교",
         "angle": "대기업 보안사 렌탈 대비 제조사 직판 구매형의 계약 조건과 3년 총비용 차이",
-        "keywords": ["한화비전", "세콤고객센터", "세콤CCTV비교", "매장CCTV"],
+        "keywords": [
+          "한화비전",
+          "세콤고객센터",
+          "세콤CCTV비교",
+          "매장CCTV"
+        ],
         "slugHint": "hanwha-keeper-vs-secom-cctv",
-        "status": "generated",
-        "generatedAt": "2026-04-10T06:25:03.143Z",
-        "draftPath": "키퍼메이트/content/hanwha-keeper-vs-secom-cctv.md"
+        "status": "published",
+        "generatedAt": "2026-04-11T17:28:57.443Z",
+        "draftPath": "키퍼메이트/content/hanwha-keeper-vs-secom-cctv-2026-04-11T17-28.md",
+        "publishedAt": "2026-04-11T17:29:35.481Z"
       },
       {
         "topic": "무인매장 CCTV 증거능력 기준 총정리",
         "angle": "무인카페/무인점포 사고 발생 시 경찰·보험사가 인정하는 영상 스펙과 저장 기간",
-        "keywords": ["무인매장CCTV", "무인카페CCTV", "CCTV증거능력"],
+        "keywords": [
+          "무인매장CCTV",
+          "무인카페CCTV",
+          "CCTV증거능력"
+        ],
         "slugHint": "unmanned-store-cctv-evidence-standard",
         "status": "generated",
         "generatedAt": "2026-04-10T15:00:00.000Z",
@@ -24,16 +34,25 @@
       {
         "topic": "카페 CCTV 설치비용 월 1만원대로 맞추는 방법",
         "angle": "10평 카페 기준 카메라 3대 구성과 클라우드 구독, 설치비 항목별 분해",
-        "keywords": ["카페CCTV", "카페CCTV설치비용", "카페보안카메라"],
+        "keywords": [
+          "카페CCTV",
+          "카페CCTV설치비용",
+          "카페보안카메라"
+        ],
         "slugHint": "cafe-cctv-installation-cost-under-10000",
-        "status": "generated",
-        "generatedAt": "2026-04-10T15:00:00.000Z",
-        "draftPath": "키퍼메이트/content/cafe-cctv-installation-cost-under-10000.md"
+        "status": "published",
+        "generatedAt": "2026-04-11T17:30:19.357Z",
+        "draftPath": "키퍼메이트/content/cafe-cctv-installation-cost-under-10000-2026-04-11T17-30.md",
+        "publishedAt": "2026-04-11T17:31:11.497Z"
       },
       {
         "topic": "CCTV 법적 설치 기준 5가지 — 2026년 개인정보보호법 반영",
         "angle": "매장 CCTV 설치 고지, 촬영 범위, 음성 녹음 금지 등 최신 법규",
-        "keywords": ["CCTV설치기준", "CCTV법규", "CCTV개인정보보호법"],
+        "keywords": [
+          "CCTV설치기준",
+          "CCTV법규",
+          "CCTV개인정보보호법"
+        ],
         "slugHint": "cctv-legal-standards-2026",
         "status": "generated",
         "generatedAt": "2026-04-10T15:00:00.000Z",
@@ -42,7 +61,11 @@
       {
         "topic": "학원 CCTV 설치 가이드 — 교실·복도·학부모 동의",
         "angle": "학원법상 CCTV 의무 설치 구역과 학부모 동의 절차, 화질 기준",
-        "keywords": ["학원CCTV", "학원CCTV설치", "학원보안"],
+        "keywords": [
+          "학원CCTV",
+          "학원CCTV설치",
+          "학원보안"
+        ],
         "slugHint": "academy-cctv-installation-guide",
         "status": "generated",
         "generatedAt": "2026-04-10T15:00:00.000Z",
@@ -51,7 +74,11 @@
       {
         "topic": "CCTV 해킹 사례 — 중국산 저가 장비 vs 국산 한화비전",
         "angle": "IP 카메라 해킹 실제 사례와 펌웨어·보안 업데이트 차이",
-        "keywords": ["CCTV해킹", "CCTV보안", "IP카메라보안"],
+        "keywords": [
+          "CCTV해킹",
+          "CCTV보안",
+          "IP카메라보안"
+        ],
         "slugHint": "cctv-hacking-chinese-vs-korean",
         "status": "generated",
         "generatedAt": "2026-04-10T15:00:00.000Z",
@@ -60,7 +87,11 @@
       {
         "topic": "편의점 CCTV 필수 스펙 — 24시간 무인 운영 기준",
         "angle": "야간 저조도 촬영, 카운터 화질, 주류 판매대 사각지대 제거",
-        "keywords": ["편의점CCTV", "24시간CCTV", "편의점보안"],
+        "keywords": [
+          "편의점CCTV",
+          "24시간CCTV",
+          "편의점보안"
+        ],
         "slugHint": "convenience-store-cctv-essential-spec",
         "status": "generated",
         "generatedAt": "2026-04-10T15:00:00.000Z",
@@ -69,16 +100,25 @@
       {
         "topic": "소상공인 CCTV 정부지원금 2026년 신청 가이드",
         "angle": "중기부·지자체 보안 장비 지원 사업과 키퍼메이트 활용법",
-        "keywords": ["CCTV지원금", "소상공인CCTV지원", "CCTV정부지원"],
+        "keywords": [
+          "CCTV지원금",
+          "소상공인CCTV지원",
+          "CCTV정부지원"
+        ],
         "slugHint": "small-business-cctv-subsidy-2026",
-        "status": "generated",
-        "generatedAt": "2026-04-10T15:00:00.000Z",
-        "draftPath": "키퍼메이트/content/small-business-cctv-subsidy-2026.md"
+        "status": "published",
+        "generatedAt": "2026-04-11T17:31:50.000Z",
+        "draftPath": "키퍼메이트/content/small-business-cctv-subsidy-2026-2026-04-11T17-31.md",
+        "publishedAt": "2026-04-11T17:32:23.029Z"
       },
       {
         "topic": "캡스 vs 한화비전 키퍼 — 계약 조건 완전 비교",
         "angle": "약정 기간, 위약금, 장비 소유권, A/S 범위 항목별 비교",
-        "keywords": ["캡스CCTV", "한화비전키퍼", "CCTV계약비교"],
+        "keywords": [
+          "캡스CCTV",
+          "한화비전키퍼",
+          "CCTV계약비교"
+        ],
         "slugHint": "caps-vs-keeper-contract-comparison",
         "status": "generated",
         "generatedAt": "2026-04-10T15:00:00.000Z",
@@ -87,18 +127,166 @@
       {
         "topic": "매장 CCTV 화소 선택 기준 — 400만 vs 200만 vs 800만",
         "angle": "채널당 화소별 실제 식별 가능 거리와 저장 용량, 비용 차이",
-        "keywords": ["CCTV화소", "매장CCTV추천", "CCTV해상도"],
+        "keywords": [
+          "CCTV화소",
+          "매장CCTV추천",
+          "CCTV해상도"
+        ],
         "slugHint": "store-cctv-resolution-selection",
         "status": "generated",
         "generatedAt": "2026-04-10T15:00:00.000Z",
         "draftPath": "키퍼메이트/content/store-cctv-resolution-selection.md"
+      },
+      {
+        "topic": "한화비전 키퍼 vs 에스원 CCTV 3년 총비용 비교",
+        "angle": "렌탈 대기업 에스원의 월 약정료 vs 한화비전 키퍼 구매형 3년 총 소유 비용 항목별 분해. 위약금·소유권·A/S 범위까지 실제 숫자 비교",
+        "keywords": [
+          "에스원CCTV비교",
+          "에스원약정",
+          "S1보안",
+          "CCTV3년비용"
+        ],
+        "slugHint": "keeper-vs-s1-cctv-3year-tco",
+        "intelSource": "keeper.ceo/blog analysis 2026-04-12 — keeper 40편에 에스원 언급 전무 (블루오션)",
+        "status": "pending",
+        "addedAt": "2026-04-12T00:00:00.000Z"
+      },
+      {
+        "topic": "CCTV 영상 보관 기간 30일 vs 60일 — 업종별 법적 의무 체크리스트",
+        "angle": "개인정보보호법 영상정보처리기기 운영 방침상 업종별 보관 기간 실무 표. 과태료 리스크와 자동 삭제 설정 방법",
+        "keywords": [
+          "CCTV보관기간",
+          "CCTV보관의무",
+          "영상정보처리기기",
+          "CCTV과태료"
+        ],
+        "slugHint": "cctv-retention-period-by-industry",
+        "intelSource": "keeper.ceo [35] Q&A 형식만 다룸 — 업종별 실무표 공백",
+        "status": "pending",
+        "addedAt": "2026-04-12T00:00:00.000Z"
+      },
+      {
+        "topic": "병원·약국 CCTV 설치 가이드 — 의료법 개인정보 동의 절차",
+        "angle": "의료기관 CCTV 의무 설치 구역, 환자 동의 절차, 개인정보보호법과 의료법 교차 적용. 수술실·진료실 설치 금지 기준",
+        "keywords": [
+          "병원CCTV",
+          "약국CCTV",
+          "의료법CCTV",
+          "병원보안카메라"
+        ],
+        "slugHint": "hospital-pharmacy-cctv-medical-law-guide",
+        "intelSource": "keeper.ceo 공백 업종 — 의료법 프레임은 경쟁사 전무",
+        "status": "pending",
+        "addedAt": "2026-04-12T00:00:00.000Z"
+      },
+      {
+        "topic": "주유소 CCTV 필수 스펙 — 방폭·방수·야간 고화질 기준",
+        "angle": "소방법상 주유소 설치 의무, IP66 이상 방수·방진, 야간 저조도 촬영 최소 스펙. 폭발 위험 구역 카메라 선택 가이드",
+        "keywords": [
+          "주유소CCTV",
+          "방폭CCTV",
+          "주유소보안",
+          "IP66카메라"
+        ],
+        "slugHint": "gas-station-cctv-explosion-proof-spec",
+        "intelSource": "keeper.ceo 공백 업종 — 특수 환경 키워드 블루오션",
+        "status": "pending",
+        "addedAt": "2026-04-12T00:00:00.000Z"
+      },
+      {
+        "topic": "한화비전 AI CCTV 얼굴인식 — 매장 출입 관리 도입 실제 사례",
+        "angle": "한화비전 AI 딥러닝 카메라의 얼굴인식·객체 감지 기능, 매장 VIP 관리·도난 방지·블랙리스트 자동 알림 활용 시나리오",
+        "keywords": [
+          "AI CCTV",
+          "얼굴인식CCTV",
+          "한화비전AI",
+          "스마트매장보안"
+        ],
+        "slugHint": "hanwha-ai-face-recognition-cctv-retail",
+        "intelSource": "keeper.ceo — 한화비전 AI 기술 보유하지만 미홍보 공백",
+        "status": "pending",
+        "addedAt": "2026-04-12T00:00:00.000Z"
+      },
+      {
+        "topic": "매장 화재 발생 시 CCTV 증거 제출 — 보험 청구 실전 절차",
+        "angle": "화재 발생 직후 24시간 내 영상 확보, 관할 소방서·보험사 제출 포맷, 원본 보존 방법. 화재배상책임보험 청구 체크리스트",
+        "keywords": [
+          "화재보험청구",
+          "CCTV증거",
+          "화재조사",
+          "매장화재대응"
+        ],
+        "slugHint": "fire-damage-cctv-evidence-insurance-claim",
+        "intelSource": "keeper.ceo [6] 화재보험 의무만 다룸 — 사후 청구 실무 공백",
+        "status": "pending",
+        "addedAt": "2026-04-12T00:00:00.000Z"
+      },
+      {
+        "topic": "카페 CCTV 견적 계산기 — 10평·20평·30평 평수별 실제 시뮬레이션",
+        "angle": "평수×카메라 대수×화소×저장 용량 4변수 조합별 3년 총비용 실제 견적표. 구매 vs 렌탈 BEP 월수 계산",
+        "keywords": [
+          "카페CCTV견적",
+          "CCTV설치비용",
+          "CCTV대수계산",
+          "카페보안카메라"
+        ],
+        "slugHint": "cafe-cctv-quote-calculator-by-area",
+        "intelSource": "keeper.ceo [14] 배치도 예시만 — 숫자 계산기는 없음",
+        "status": "pending",
+        "addedAt": "2026-04-12T00:00:00.000Z"
+      },
+      {
+        "topic": "세콤·캡스·에스원·한화비전 4사 고객센터·해지 위약금 전수 비교",
+        "angle": "각 사 고객센터 번호, 해지 절차, 위약금 계산 방식, 약정 만료 통지 시점. 재계약 협상 카드 정리",
+        "keywords": [
+          "세콤해지위약금",
+          "캡스해지",
+          "에스원해지",
+          "CCTV해지절차"
+        ],
+        "slugHint": "cctv-4-brands-cancellation-comparison",
+        "intelSource": "keeper.ceo 자사 홍보만 — 중립 4사 비교 블루오션",
+        "status": "pending",
+        "addedAt": "2026-04-12T00:00:00.000Z"
+      },
+      {
+        "topic": "PC방·스터디카페 24시간 무인 운영 CCTV 필수 스펙",
+        "angle": "24시간 야간 저조도 촬영, 1석 1카메라 기준, 방음부스/파티션 사각지대. PC방 자리별 모니터링과 스터디카페 결제 카운터 보안",
+        "keywords": [
+          "PC방CCTV",
+          "스터디카페CCTV",
+          "24시간무인점포",
+          "무인CCTV스펙"
+        ],
+        "slugHint": "pc-bang-study-cafe-cctv-spec-24h",
+        "intelSource": "keeper.ceo [29] 무인점포 일반론만 — PC방/스터디카페 세분화 공백",
+        "status": "pending",
+        "addedAt": "2026-04-12T00:00:00.000Z"
+      },
+      {
+        "topic": "2026 영상정보처리기기 개인정보 고시 개정 — CCTV 사장님 체크리스트",
+        "angle": "2026년 개인정보보호위원회 개정 고시 핵심 변화, 안내판 의무 문구, 촬영 범위 제한, 음성 녹음 금지, 보관 기간 단축 논의 정리",
+        "keywords": [
+          "영상정보처리기기",
+          "개인정보보호법2026",
+          "CCTV법규개정",
+          "개인정보보호위원회"
+        ],
+        "slugHint": "cctv-privacy-law-2026-update-checklist",
+        "intelSource": "keeper.ceo [35] 기존 보관 기간만 — 2026 개정 구체 반영 없음",
+        "status": "pending",
+        "addedAt": "2026-04-12T00:00:00.000Z"
       }
     ],
     "법인설립지원센터": [
       {
         "topic": "개인사업자 법인전환 시점 — 연매출별 절세 시뮬레이션",
         "angle": "연매출 5천만/1억/3억/5억 구간별 법인전환 시 실제 절세액 계산",
-        "keywords": ["개인사업자법인전환", "법인전환시기", "법인전환절세"],
+        "keywords": [
+          "개인사업자법인전환",
+          "법인전환시기",
+          "법인전환절세"
+        ],
         "slugHint": "sole-to-corp-conversion-simulation",
         "status": "generated",
         "generatedAt": "2026-04-10T06:27:28.884Z",
@@ -107,7 +295,11 @@
       {
         "topic": "1인 법인설립 4일 완성 — 실제 절차와 체크포인트",
         "angle": "상호 등록 → 정관 작성 → 잔고증명 → 등기까지 실제 일정표",
-        "keywords": ["1인법인설립", "1인법인절차", "법인설립기간"],
+        "keywords": [
+          "1인법인설립",
+          "1인법인절차",
+          "법인설립기간"
+        ],
         "slugHint": "one-person-corporation-4days-guide",
         "status": "generated",
         "generatedAt": "2026-04-10T15:00:00.000Z",
@@ -116,7 +308,11 @@
       {
         "topic": "법인설립 필요 서류 12종 체크리스트 — 2026년 기준",
         "angle": "정관, 주주명부, 임원 취임 승낙서 등 서류별 작성 포인트",
-        "keywords": ["법인설립서류", "법인설립요건", "법인등기서류"],
+        "keywords": [
+          "법인설립서류",
+          "법인설립요건",
+          "법인등기서류"
+        ],
         "slugHint": "corporation-setup-document-checklist",
         "status": "generated",
         "generatedAt": "2026-04-10T15:00:00.000Z",
@@ -125,7 +321,11 @@
       {
         "topic": "프리랜서 1인 법인 전환 — 세금 시뮬레이션과 4대 보험",
         "angle": "프리랜서 3.3% 원천징수와 법인 대표 급여 방식 세부담 비교",
-        "keywords": ["프리랜서법인설립", "1인법인세금", "프리랜서법인전환"],
+        "keywords": [
+          "프리랜서법인설립",
+          "1인법인세금",
+          "프리랜서법인전환"
+        ],
         "slugHint": "freelancer-one-person-corporation-tax",
         "status": "generated",
         "generatedAt": "2026-04-10T15:00:00.000Z",
@@ -134,7 +334,11 @@
       {
         "topic": "법인설립 후 첫 달에 반드시 해야 할 8가지",
         "angle": "사업자등록, 법인통장 개설, 4대 보험, 전자세금계산서 발급 등",
-        "keywords": ["법인설립후할일", "법인운영", "법인설립후절차"],
+        "keywords": [
+          "법인설립후할일",
+          "법인운영",
+          "법인설립후절차"
+        ],
         "slugHint": "first-month-after-corporation-setup",
         "status": "generated",
         "generatedAt": "2026-04-10T15:00:00.000Z",
@@ -143,7 +347,11 @@
       {
         "topic": "법인 대표이사 급여 설정 방법 — 세금 최적화 구간",
         "angle": "대표 급여 책정 시 근로소득세·4대 보험·법인세 상쇄 계산",
-        "keywords": ["법인대표이사급여", "법인급여", "대표이사급여세금"],
+        "keywords": [
+          "법인대표이사급여",
+          "법인급여",
+          "대표이사급여세금"
+        ],
         "slugHint": "corporation-ceo-salary-optimization",
         "status": "generated",
         "generatedAt": "2026-04-10T15:00:00.000Z",
@@ -152,7 +360,11 @@
       {
         "topic": "2026년 부가가치세 — 법인 vs 개인사업자 차이",
         "angle": "과세 기간, 신고 방식, 환급 속도 등 실무 차이점",
-        "keywords": ["부가세법인", "법인부가가치세", "법인부가세신고"],
+        "keywords": [
+          "부가세법인",
+          "법인부가가치세",
+          "법인부가세신고"
+        ],
         "slugHint": "vat-corporation-vs-sole-2026",
         "status": "generated",
         "generatedAt": "2026-04-10T15:00:00.000Z",
@@ -161,7 +373,11 @@
       {
         "topic": "법인 차량 구매 세금 혜택 — 리스 vs 렌트 vs 구매",
         "angle": "업무용 차량 비용 처리 한도(연 1,500만원)와 3가지 구매 방식 비교",
-        "keywords": ["법인차량", "법인차구매", "업무용승용차"],
+        "keywords": [
+          "법인차량",
+          "법인차구매",
+          "업무용승용차"
+        ],
         "slugHint": "corporation-vehicle-tax-benefits",
         "status": "generated",
         "generatedAt": "2026-04-10T15:00:00.000Z",
@@ -170,7 +386,11 @@
       {
         "topic": "온라인 쇼핑몰 법인설립 타이밍 — 통신판매업 신고와 함께",
         "angle": "쇼핑몰 매출 규모별 법인전환 시점과 통신판매업 신고 연계",
-        "keywords": ["쇼핑몰법인설립", "온라인쇼핑몰법인", "통신판매업법인"],
+        "keywords": [
+          "쇼핑몰법인설립",
+          "온라인쇼핑몰법인",
+          "통신판매업법인"
+        ],
         "slugHint": "online-shop-corporation-setup-timing",
         "status": "generated",
         "generatedAt": "2026-04-10T15:00:00.000Z",
@@ -179,7 +399,11 @@
       {
         "topic": "주식회사 vs 유한회사 설립 차이 — 뭘 선택해야 할까",
         "angle": "주주 구조, 공시 의무, 세무 차이, 외부 투자 유치 관점",
-        "keywords": ["주식회사설립", "유한회사설립", "법인형태비교"],
+        "keywords": [
+          "주식회사설립",
+          "유한회사설립",
+          "법인형태비교"
+        ],
         "slugHint": "stock-vs-limited-company-comparison",
         "status": "generated",
         "generatedAt": "2026-04-10T15:00:00.000Z",
