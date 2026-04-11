@@ -247,7 +247,7 @@ export default function DiscussionPreviewPage() {
     <>
       <FloatingShareBar
         url="https://www.factnote.co.kr/tech/preview-post"
-        title="[프리뷰] 토론 UI 미리보기 — 고른다(ㄱㄹㄷ)"
+        title="[프리뷰] 토론 UI 미리보기 — 팩트노트"
         description="AI 페르소나 기반 커뮤니티 토론 섹션 프리뷰"
       />
 
@@ -264,7 +264,7 @@ export default function DiscussionPreviewPage() {
             Supabase 없이 로컬에서 토론 섹션 UI를 미리 확인하는 페이지입니다.
           </p>
           <div className="flex items-center gap-4 text-body-sm text-foreground/40 pb-6 border-b border-border">
-            <span>고른다 에디터</span>
+            <span>팩트노트 에디터</span>
             <span>2026년 4월 10일</span>
             <span>5분 읽기</span>
           </div>

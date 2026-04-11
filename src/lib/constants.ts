@@ -1,14 +1,14 @@
 export const SITE_CONFIG = {
-  name: "고른다",
-  nameEn: "GRD",
-  tagline: "사기 전에 한 번, 고른다",
+  name: "팩트노트",
+  nameEn: "FactNote",
+  tagline: "정확한 정보, 팩트만",
   description:
-    "구매·계약·선택 전 한 번 거치는 큐레이션 허브. 전문가가 직접 비교하고 검증한 결정만 모읍니다.",
+    "어필리에이트 정보 큐레이션 허브. 실사용자 경험 기반의 팩트 정보만 제공합니다.",
   url: "https://www.factnote.co.kr",
   locale: "ko_KR",
   language: "ko",
   ogImage: "/og-default.png",
-  twitterHandle: "@grd_pick",
+  twitterHandle: "@factnote_kr",
 } as const;
 
 export const CATEGORIES = [
@@ -54,32 +54,32 @@ export type CategorySlug = (typeof CATEGORIES)[number]["slug"];
 export const AFFILIATE_PLATFORMS = {
   coupang: {
     name: "쿠팡",
-    trackingParam: "src=grd",
+    trackingParam: "src=factnote",
     commissionRate: "3-10%",
   },
   naver: {
     name: "네이버",
-    trackingParam: "ref=grd",
+    trackingParam: "ref=factnote",
     commissionRate: "1-5%",
   },
   amazon: {
     name: "아마존",
-    trackingParam: "tag=grd-20",
+    trackingParam: "tag=factnote-20",
     commissionRate: "1-10%",
   },
   financial: {
     name: "금융",
-    trackingParam: "partner=grd",
+    trackingParam: "partner=factnote",
     commissionRate: "CPA",
   },
 } as const;
 
 export const SEO_DEFAULTS = {
-  titleTemplate: "%s | 고른다",
+  titleTemplate: "%s | 팩트노트",
   titleSeparator: " | ",
-  defaultTitle: "고른다(ㄱㄹㄷ) - 사기 전에 한 번, 고른다",
+  defaultTitle: "팩트노트 - 정확한 정보, 팩트만",
   defaultDescription:
-    "구매·계약·선택 전 한 번 거치는 큐레이션 허브. 전문가가 비교·검증한 결정만 모읍니다. 테크, 금융, 뷰티, 생활, 여행 카테고리별 실용 정보.",
+    "어필리에이트 정보 큐레이션 허브. 실사용자 경험 기반의 팩트 정보만 제공합니다. CCTV, 법인설립, 전자책, 식자재 등 카테고리별 검증 콘텐츠.",
   maxTitleLength: 60,
   maxDescriptionLength: 155,
 } as const;

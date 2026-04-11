@@ -51,7 +51,7 @@ async function tryDispatchAlerts(alerts: HealthCheck[]): Promise<boolean> {
   try {
     await sendNewsletter({
       to: recipients,
-      subject: `[GRD SEO Health] ${alerts.length}개 항목 이상 감지`,
+      subject: `[FactNote SEO Health] ${alerts.length}개 항목 이상 감지`,
       html: renderHtml(alerts),
     });
     return true;

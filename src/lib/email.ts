@@ -10,7 +10,7 @@ function getResend(): Resend {
   return new Resend(key);
 }
 
-const FROM = process.env.RESEND_FROM ?? "고른다(ㄱㄹㄷ) 뉴스레터 <noreply@updates.puzl.co.kr>";
+const FROM = process.env.RESEND_FROM ?? "팩트노트 뉴스레터 <noreply@updates.puzl.co.kr>";
 
 export interface NewsletterPayload {
   to: string[];
@@ -34,14 +34,14 @@ export async function sendWelcomeEmail(to: string): Promise<void> {
   const { error } = await resend.emails.send({
     from: FROM,
     to: [to],
-    subject: "고른다(ㄱㄹㄷ) 뉴스레터 구독 완료",
+    subject: "팩트노트 뉴스레터 구독 완료",
     html: `
 <!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>고른다(ㄱㄹㄷ) 뉴스레터 구독 완료</title>
+  <title>팩트노트 뉴스레터 구독 완료</title>
 </head>
 <body style="margin:0;padding:0;background:#f5f5f4;font-family:'Apple SD Gothic Neo','Malgun Gothic',sans-serif;">
   <table width="100%" cellpadding="0" cellspacing="0" style="background:#f5f5f4;padding:40px 16px;">
@@ -50,14 +50,14 @@ export async function sendWelcomeEmail(to: string): Promise<void> {
         <table width="600" cellpadding="0" cellspacing="0" style="background:#fff;border-radius:12px;overflow:hidden;max-width:600px;width:100%;">
           <tr>
             <td style="background:#1c1917;padding:32px 40px;">
-              <p style="margin:0;color:#fff;font-size:22px;font-weight:700;letter-spacing:-0.5px;">고른다 (ㄱㄹㄷ)</p>
-              <p style="margin:4px 0 0;color:#a8a29e;font-size:13px;">사기 전에 한 번, 고른다</p>
+              <p style="margin:0;color:#fff;font-size:22px;font-weight:700;letter-spacing:-0.5px;">팩트노트</p>
+              <p style="margin:4px 0 0;color:#a8a29e;font-size:13px;">정확한 정보, 팩트만</p>
             </td>
           </tr>
           <tr>
             <td style="padding:40px;">
               <h1 style="margin:0 0 16px;font-size:20px;font-weight:700;color:#1c1917;letter-spacing:-0.5px;">구독해주셔서 감사합니다</h1>
-              <p style="margin:0 0 24px;font-size:15px;line-height:1.7;color:#44403c;">구매·계약·선택 전에 꼭 거쳐야 할 정보만 골라 보내드립니다. 광고 없이, 뻔한 추천 없이 — 직접 비교하고 검증한 것만.</p>
+              <p style="margin:0 0 24px;font-size:15px;line-height:1.7;color:#44403c;">실사용자 경험 기반의 팩트 정보만 선별해 보내드립니다. 광고 없이, 뻔한 추천 없이 — 직접 비교하고 검증한 것만.</p>
               <p style="margin:0 0 8px;font-size:14px;color:#78716c;">보내드리는 내용:</p>
               <ul style="margin:0 0 32px;padding-left:20px;font-size:14px;line-height:1.8;color:#44403c;">
                 <li>이번 주 검증된 비교 리뷰</li>
