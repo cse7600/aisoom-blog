@@ -11,7 +11,12 @@ import { RelatedPostsSection } from "@/components/content/RelatedPostsSection";
 import { DiscussionSection } from "@/components/discussion/DiscussionSection";
 import { DiscussionSkeleton } from "@/components/discussion/DiscussionSkeleton";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { generatePostMetadata, buildArticleJsonLd } from "@/lib/seo";
+import {
+  generatePostMetadata,
+  buildArticleJsonLd,
+  buildFaqJsonLd,
+  extractFaqFromHtml,
+} from "@/lib/seo";
 import { SITE_CONFIG } from "@/lib/constants";
 import { formatDate, calculateReadingTime } from "@/lib/utils";
 import Image from "next/image";
@@ -51,21 +56,35 @@ export default async function PostPage({ params }: PostPageProps) {
 
   const readTime = post.read_time ?? (post.content ? calculateReadingTime(post.content) : null);
   const postUrl = `${SITE_CONFIG.url}/${post.category}/${post.slug}`;
-  const jsonLd = buildArticleJsonLd({
+  const contentHtml = post.content ?? "";
+  const plainTextLength = contentHtml.replace(/<[^>]+>/g, "").length;
+  const authorProfileUrl = post.author
+    ? `${SITE_CONFIG.url}/community/users/${encodeURIComponent(post.author)}`
+    : undefined;
+
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars -- JSX 소비부(JsonLd)가 ESLint에 인식되지 않는 false positive
+  const articleJsonLd = buildArticleJsonLd({
     title: post.title,
     description: post.description ?? "",
     imageUrl: post.image_url ?? SITE_CONFIG.ogImage,
     publishedAt: post.published_at ?? post.created_at,
     updatedAt: post.updated_at,
     author: post.author,
+    authorUrl: authorProfileUrl,
     url: postUrl,
+    wordCount: plainTextLength > 0 ? plainTextLength : undefined,
+    keywords: post.keywords ?? undefined,
+    categoryName: cat?.name,
   });
 
-  const contentHtml = post.content ?? "";
+  const faqItems = extractFaqFromHtml(contentHtml);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars -- JSX 소비부(JsonLd)가 ESLint에 인식되지 않는 false positive
+  const faqJsonLd = faqItems.length >= 2 ? buildFaqJsonLd(faqItems) : null;
 
   return (
     <>
-      <JsonLd structuredData={jsonLd} />
+      <JsonLd structuredData={articleJsonLd} />
+      {faqJsonLd && <JsonLd structuredData={faqJsonLd} />}
 
       <FloatingShareBar
         url={postUrl}
