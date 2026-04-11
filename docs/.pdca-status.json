@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-04-11T16:25:11.063Z",
+  "lastUpdated": "2026-04-11T17:13:08.648Z",
   "activeFeatures": [
     "blog-affiliate",
     "layout",
@@ -47,9 +47,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T02:43:31.949Z",
-        "lastUpdated": "2026-04-11T15:56:18.005Z"
+        "lastUpdated": "2026-04-11T17:13:08.647Z"
       },
-      "lastFile": "/Users/hokang2father/blog-affiliate/src/lib/seo.ts"
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/apple-icon.tsx"
     },
     "layout": {
       "phase": "do",
@@ -229,7 +229,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T05:48:51.084Z",
-        "lastUpdated": "2026-04-11T15:47:47.989Z"
+        "lastUpdated": "2026-04-11T17:12:51.337Z"
       },
       "lastFile": "/Users/hokang2father/blog-affiliate/src/app/(main)/preview/discussion/page.tsx"
     },
@@ -255,7 +255,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T06:15:12.817Z",
-        "lastUpdated": "2026-04-11T15:47:36.433Z"
+        "lastUpdated": "2026-04-11T17:12:43.529Z"
       },
       "lastFile": "/Users/hokang2father/blog-affiliate/src/app/(main)/posts/page.tsx"
     },
@@ -320,7 +320,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T13:18:55.128Z",
-        "lastUpdated": "2026-04-11T15:53:24.992Z"
+        "lastUpdated": "2026-04-11T17:12:53.248Z"
       },
       "lastFile": "/Users/hokang2father/blog-affiliate/src/app/(main)/community/users/[nickname]/page.tsx"
     },
@@ -346,7 +346,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T13:20:15.796Z",
-        "lastUpdated": "2026-04-11T15:47:54.633Z"
+        "lastUpdated": "2026-04-11T17:12:54.481Z"
       },
       "lastFile": "/Users/hokang2father/blog-affiliate/src/app/api/cron/seo-health/route.ts"
     },
@@ -359,7 +359,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T13:20:59.621Z",
-        "lastUpdated": "2026-04-11T15:12:38.458Z"
+        "lastUpdated": "2026-04-11T17:12:33.740Z"
       },
       "lastFile": "/Users/hokang2father/blog-affiliate/src/app/sitemap-community.xml/route.ts"
     },
@@ -476,7 +476,7 @@
   "session": {
     "startedAt": "2026-04-10T02:43:31.949Z",
     "onboardingCompleted": false,
-    "lastActivity": "2026-04-11T16:25:11.063Z"
+    "lastActivity": "2026-04-11T17:13:08.648Z"
   },
   "history": [
     {
@@ -2030,6 +2030,90 @@
     {
       "timestamp": "2026-04-11T16:25:11.063Z",
       "feature": "community",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-11T17:12:10.552Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-11T17:12:15.327Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-11T17:12:20.569Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-11T17:12:24.736Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-11T17:12:33.740Z",
+      "feature": "sitemap-community.xml",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-11T17:12:34.495Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-11T17:12:42.313Z",
+      "feature": "posts",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-11T17:12:43.529Z",
+      "feature": "posts",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-11T17:12:50.221Z",
+      "feature": "discussion",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-11T17:12:51.337Z",
+      "feature": "discussion",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-11T17:12:53.248Z",
+      "feature": "[nickname]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-11T17:12:54.481Z",
+      "feature": "seo-health",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-11T17:13:05.190Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-11T17:13:08.647Z",
+      "feature": "blog-affiliate",
       "phase": "do",
       "action": "updated"
     }

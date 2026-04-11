@@ -47,10 +47,12 @@ async function fetchCommunityEntries(): Promise<CommunityUrlEntry[]> {
 }
 
 function buildSitemapXml(entries: CommunityUrlEntry[]): string {
+  // 커뮤니티 게시글은 어필리에이트 본문보다 낮은 크롤 우선도로 설정.
+  // priority 0.4, changefreq monthly — 사이트맵 크롤링 예산을 메인 콘텐츠로 집중.
   const urlNodes = entries
     .map(
       (entry) =>
-        `  <url>\n    <loc>${escapeXml(entry.loc)}</loc>\n    <lastmod>${entry.lastmod}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.5</priority>\n  </url>`
+        `  <url>\n    <loc>${escapeXml(entry.loc)}</loc>\n    <lastmod>${entry.lastmod}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.4</priority>\n  </url>`
     )
     .join("\n");
   const body = urlNodes ? `\n${urlNodes}\n` : "";
