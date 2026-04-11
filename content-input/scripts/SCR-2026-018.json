@@ -1,0 +1,46 @@
+{
+  "script_code": "SCR-2026-018",
+  "category": "qna",
+  "title": "법인 전자세금계산서 발행 어떻게 해요",
+  "body": "거래처에서 전자세금계산서 끊어달라는데 처음이라 어떻게 하는지 모르겠어요. 홈택스에서 하는 거 맞죠? 사업자등록증이랑 공동인증서만 있으면 되나요?",
+  "author_persona": "소규모베이커리창업",
+  "target_keyword": "전자세금계산서 발행 방법",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-20",
+  "tags": [
+    "세무",
+    "전자세금계산서"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "세무사실장10년",
+      "content": "홈택스 로그인 → 전자세금계산서 → 발행 순서로 가세요. 법인은 공동인증서 필수입니다. 첫 발행 전에 '발행자 등록'부터 해야 해요. 상대방 사업자번호, 공급가액, 세액만 입력하면 끝. 발행 후 상대방에게 이메일/SMS 자동 발송됩니다. 7일 내 수정 가능해요.",
+      "delay_minutes": 70,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "쇼핑몰대표",
+      "content": "저는 처음엔 발행자 등록 빠뜨려서 허둥댔어요ㅋㅋ 그거 먼저입니다.",
+      "delay_minutes": 180,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "소규모베이커리창업",
+      "content": "오 공동인증서 필요한 거 몰랐어요 감사합니다",
+      "delay_minutes": 270,
+      "sentiment": "positive",
+      "parent_sequence": 0
+    },
+    {
+      "sequence": 3,
+      "persona": "스쳐지나간바람",
+      "content": "...",
+      "delay_minutes": 620,
+      "sentiment": "neutral"
+    }
+  ]
+}

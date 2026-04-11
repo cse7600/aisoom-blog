@@ -1,0 +1,45 @@
+{
+  "script_code": "SCR-2026-021",
+  "category": "info",
+  "title": "법인세 신고 기한 놓치면 가산세 얼마인지 공유",
+  "body": "어제 세무사한테 물어봐서 정리한 거 공유합니다. 법인세 신고 기한 놓치면 무신고 가산세 20%, 납부 지연은 일 0.025% 씩 붙어요. 매출 1억 법인 기준 100만원 단위로 날리는 거니까 다들 기한 체크 잘 하세요. 3월 결산이면 6월말까지입니다.",
+  "author_persona": "쇼핑몰대표",
+  "target_keyword": "법인세 가산세",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-22",
+  "tags": [
+    "세무",
+    "법인세"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "세무사실장10년",
+      "content": "정확합니다. 추가로 부정 신고 가산세(40%)도 있으니 주의하세요. 기한 놓친 경우 즉시 수정신고하면 가산세 경감됩니다. 1개월 이내 10% 감면, 3개월 이내 5%.",
+      "delay_minutes": 85,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "자영업카페운영",
+      "content": "공유 감사합니다. 저도 작년에 3일 늦어서 가산세 30만원 맞은 경험이...",
+      "delay_minutes": 210,
+      "sentiment": "critical"
+    },
+    {
+      "sequence": 2,
+      "persona": "웃기면살아남",
+      "content": "ㅠㅠ 기한 무서워서 2주 전에 신고하게 됨ㅋㅋ",
+      "delay_minutes": 420,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 3,
+      "persona": "읽고감",
+      "content": "스크랩합니다",
+      "delay_minutes": 680,
+      "sentiment": "positive"
+    }
+  ]
+}

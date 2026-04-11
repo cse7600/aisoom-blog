@@ -1,0 +1,60 @@
+{
+  "script_code": "SCR-2026-012",
+  "category": "qna",
+  "title": "신축 상가 임대 처음인데 월세 계약서 뭘 확인해야 해요?",
+  "body": "상가 임대계약 처음이라 부동산에서 준 계약서 그대로 사인해도 될지 모르겠어요. 권리금, 관리비, 공과금 이런 것들 어떻게 써있는 게 정상인가요?",
+  "author_persona": "소규모베이커리창업",
+  "target_keyword": "상가 임대 계약서 확인사항",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-17",
+  "tags": [
+    "임대",
+    "상가계약"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "신축상가임대인",
+      "content": "상가 계약은 7가지 필수 확인: 1) 월세/보증금 + 부가세 포함 여부 2) 관리비 포함 항목 3) 공과금 납부 주체 4) 권리금 계약서 별도 작성 5) 원상복구 의무 범위 6) 계약기간 + 묵시적 갱신 조항 7) 해지 통보 기간. 특히 관리비 '실비'는 나중에 문제 됩니다.",
+      "delay_minutes": 75,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "한식당사장10년",
+      "content": "원상복구 진짜 중요해요. 저 이사갈 때 타일이랑 싱크대 복구비로 500 넘게 썼습니다.",
+      "delay_minutes": 200,
+      "sentiment": "critical"
+    },
+    {
+      "sequence": 2,
+      "persona": "카페사장3년차",
+      "content": "저는 관리비 '실비 정산' 으로 계약했다가 매달 30만원씩 추가로 나왔어요. 정액제 추천합니다.",
+      "delay_minutes": 310,
+      "sentiment": "critical"
+    },
+    {
+      "sequence": 3,
+      "persona": "소규모베이커리창업",
+      "content": "헐 원상복구 체크해야겠네요ㅠㅠ 감사합니다",
+      "delay_minutes": 405,
+      "sentiment": "neutral",
+      "parent_sequence": 0
+    },
+    {
+      "sequence": 4,
+      "persona": "눈팅전문가",
+      "content": "저도 저장합니다",
+      "delay_minutes": 680,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 5,
+      "persona": "짧게한마디",
+      "content": "꿀정보",
+      "delay_minutes": 920,
+      "sentiment": "positive"
+    }
+  ]
+}

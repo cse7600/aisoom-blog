@@ -1,0 +1,54 @@
+{
+  "script_code": "SCR-2026-010",
+  "category": "qna",
+  "title": "차별화상회 써본 분? B2B 공동구매 플랫폼 쓸만한가요",
+  "body": "소상공인끼리 공동구매로 원가 절감한다는 얘기 들었는데 실제로 얼마나 절약되나요? 저희 식자재 월 500 정도 쓰는데 가입해볼 가치 있을까요?",
+  "author_persona": "한식당사장10년",
+  "target_keyword": "차별화상회 후기",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-16",
+  "tags": [
+    "차별화상회",
+    "공동구매",
+    "식자재"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "분식집창업준비중",
+      "content": "저 6개월째 쓰는데 냉동 식자재 10~15% 정도 싸게 들어와요. 다만 수량 맞춰야 해서 소규모 업장은 재고 쌓일 수 있습니다.",
+      "delay_minutes": 55,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "카페사장3년차",
+      "content": "저희 카페는 커피 원두 공동구매로 월 30만원 정도 아꼈어요. 대신 신뢰할만한 업체랑 엮인 거 중요합니다.",
+      "delay_minutes": 145,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "한식당사장10년",
+      "content": "월 500이면 15%만 해도 75만원 절약... 한번 알아봐야겠네요 감사합니다",
+      "delay_minutes": 230,
+      "sentiment": "positive",
+      "parent_sequence": 0
+    },
+    {
+      "sequence": 3,
+      "persona": "사장님은힘들어",
+      "content": "저는 배송 지연돼서 피 본 적 한 번 있어요. 공동구매는 일정 맞추는 게 핵심입니다.",
+      "delay_minutes": 420,
+      "sentiment": "critical"
+    },
+    {
+      "sequence": 4,
+      "persona": "ㅋㅋ봇",
+      "content": "ㅋㅋ 배송 지연 극공감",
+      "delay_minutes": 580,
+      "sentiment": "neutral"
+    }
+  ]
+}

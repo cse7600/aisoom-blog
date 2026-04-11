@@ -1,0 +1,52 @@
+{
+  "script_code": "SCR-2026-002",
+  "category": "qna",
+  "title": "법인 설립 비용 얼마 들었어요? 예상이 안 잡힙니다",
+  "body": "1인 법인 만들려고 하는데 등록면허세, 등기수수료, 법무사비 다 합치면 얼마쯤 나올까요? 자본금 1000만원 기준으로요. 법무사 안 쓰고 셀프로 하면 얼마나 절약되나요?",
+  "author_persona": "초보창업마케터",
+  "target_keyword": "법인 설립 비용",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-12",
+  "tags": [
+    "법인설립",
+    "비용"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "법무사사무원",
+      "content": "자본금 1000만원 기준 대략 70~90만원 범위입니다. 등록면허세 42000원, 지방교육세 8400원, 등기수수료 30000원, 주주명부 공증이 있으면 추가 2~3만원, 법무사 수수료 40~60만원. 셀프로 하면 법무사비 빠져서 10만원 안쪽으로 가능한데 대신 시간 많이 드세요.",
+      "delay_minutes": 55,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "소규모베이커리창업",
+      "content": "저는 법인설립지원센터 통해서 했는데 70만원 안에 마무리됐어요. 어차피 세무기장도 넣으면 비용 비슷해서 그냥 맡겼어요.",
+      "delay_minutes": 140,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "신축상가임대인",
+      "content": "제 경험으론 셀프가 생각보다 어렵지는 않은데, 실수하면 보정명령 나와서 결국 시간 2배 들어요. 시간당 버는 돈 생각하면 맡기는 게 낫습니다.",
+      "delay_minutes": 290,
+      "sentiment": "critical"
+    },
+    {
+      "sequence": 3,
+      "persona": "ㅋㅋㅁㅌ",
+      "content": "ㄹㅇㅋㅋ 저도 셀프 하다가 보정 세 번 먹고 포기함 ㅠㅠ",
+      "delay_minutes": 420,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 4,
+      "persona": "읽고감",
+      "content": "정보 감사합니다 저장해둘게요",
+      "delay_minutes": 880,
+      "sentiment": "positive"
+    }
+  ]
+}

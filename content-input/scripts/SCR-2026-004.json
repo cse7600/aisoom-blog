@@ -1,0 +1,53 @@
+{
+  "script_code": "SCR-2026-004",
+  "category": "qna",
+  "title": "1인 법인 대표 월급 얼마로 잡아야 세금 유리한가요",
+  "body": "1인법인 대표이사 월급 세팅 고민 중인데요, 너무 낮게 잡으면 4대보험 기준이 낮아져서 국민연금 손해본다는 얘기도 있고 너무 높게 잡으면 법인세는 줄지만 개인소득세가 올라간다고 해서 어느 정도가 균형점인지 모르겠어요. 연매출 1억 정도 예상입니다.",
+  "author_persona": "쇼핑몰대표",
+  "target_keyword": "1인 법인 대표 월급",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-13",
+  "tags": [
+    "법인운영",
+    "세금절약"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "세무사실장10년",
+      "content": "연매출 1억이면 영업이익 기준으로 대표 월급을 산정하는 게 맞는데요, 보통 연 3000~4500만원 범위가 세금 효율적입니다. 이 구간이 근로소득공제 받으면서 15% 구간에 머물기 쉬워요. 다만 건강보험 피부양자 판정도 같이 봐야 해요.",
+      "delay_minutes": 78,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "신축상가임대인",
+      "content": "세무사님 말씀 맞구요, 추가로 배당도 섞으면 종합소득세 분산효과 있습니다. 월급만 올리면 세율구간 금방 올라가요.",
+      "delay_minutes": 195,
+      "sentiment": "positive",
+      "parent_sequence": 0
+    },
+    {
+      "sequence": 2,
+      "persona": "자영업카페운영",
+      "content": "저도 너무 낮게 잡았다가 국민연금 납부액이 만원대라서 나중에 손해 봤어요. 최소 월 200 이상은 잡으시길.",
+      "delay_minutes": 380,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 3,
+      "persona": "읽고감",
+      "content": "정보 고맙습니다 스크랩",
+      "delay_minutes": 900,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 4,
+      "persona": "진짜ㅋㅋ",
+      "content": "월급 많이 받고 싶다 ㅠㅠ",
+      "delay_minutes": 1200,
+      "sentiment": "neutral"
+    }
+  ]
+}

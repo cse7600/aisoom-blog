@@ -1,0 +1,53 @@
+{
+  "script_code": "SCR-2026-039",
+  "category": "review",
+  "title": "차별화상회 6개월 - 실제로 얼마 절약했는지",
+  "body": "카페 원두/우유/시럽 공동구매 6개월 했어요. 계산해보니 총 절약액 280만원. 월 평균 47만원. 원두가 제일 차이 커요 (일반 10kg 13만원 → 공동구매 9만원). 다만 배송 주기가 격주라서 재고 관리가 조금 스트레스였어요. 별점 4/5.",
+  "author_persona": "카페사장3년차",
+  "target_keyword": "차별화상회 절약 실제",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-05-01",
+  "tags": [
+    "차별화상회",
+    "후기"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "한식당사장10년",
+      "content": "월 47만원이면 어마어마하네요. 저도 식자재 공동구매 고민해봐야겠어요.",
+      "delay_minutes": 55,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "분식집창업준비중",
+      "content": "재고 관리는 어떻게 하세요? 저희는 창고가 좁아서 한 번에 많이 못 받아요.",
+      "delay_minutes": 170,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 2,
+      "persona": "카페사장3년차",
+      "content": "격주 배송이라 한 번에 2주치만 받아서 괜찮은 편이에요. 다만 성수기엔 조금 부족할 때도 있습니다.",
+      "delay_minutes": 245,
+      "sentiment": "positive",
+      "parent_sequence": 1
+    },
+    {
+      "sequence": 3,
+      "persona": "소규모베이커리창업",
+      "content": "저도 가입 예정인데 후기 감사합니다",
+      "delay_minutes": 400,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 4,
+      "persona": "유령회원",
+      "content": "정보 감사",
+      "delay_minutes": 680,
+      "sentiment": "positive"
+    }
+  ]
+}

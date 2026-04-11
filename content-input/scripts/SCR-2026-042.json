@@ -1,0 +1,45 @@
+{
+  "script_code": "SCR-2026-042",
+  "category": "review",
+  "title": "보안시공 첫 경험 솔직 후기 - 생각보다 복잡했어요",
+  "body": "30평 카페 CCTV + 출입통제 시공 받아봤어요. 업체 3곳 견적 비교 후 중간 가격 선택. 공사 시간 하루, 비용 220만원 (장비 포함). 좋았던 점: 사후관리 1년 무상. 아쉬운 점: 케이블 숨기는 공사에 추가비 10만원. 다음 번엔 벽 타공 위치 미리 상의하는 게 중요해요.",
+  "author_persona": "카페사장3년차",
+  "target_keyword": "보안시공 후기",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-05-02",
+  "tags": [
+    "보안",
+    "CCTV"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "보안시공기사",
+      "content": "시공 전 벽 구조 확인이 진짜 중요합니다. 업체 선정할 때 현장 사전조사 무상 제공하는지 꼭 물어보세요.",
+      "delay_minutes": 75,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "편의점사장7년차",
+      "content": "저는 사전조사 없이 시공 들어가서 케이블 노출된 상태로 끝났어요. 후회됩니다.",
+      "delay_minutes": 185,
+      "sentiment": "critical"
+    },
+    {
+      "sequence": 2,
+      "persona": "한식당사장10년",
+      "content": "220만원 가격 정도 괜찮네요. 저는 작년에 300만원 들었어요.",
+      "delay_minutes": 300,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 3,
+      "persona": "진짜ㅋㅋ",
+      "content": "꿀정보 감사 ㄳ",
+      "delay_minutes": 540,
+      "sentiment": "positive"
+    }
+  ]
+}

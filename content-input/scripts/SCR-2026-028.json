@@ -1,0 +1,53 @@
+{
+  "script_code": "SCR-2026-028",
+  "category": "info",
+  "title": "아파트 관리비 절감 노하우 공유합니다",
+  "body": "1000세대 단지 관리소장인데요, 관리비 절감 시도해서 세대당 월 평균 5000원 낮춘 경험 공유합니다. 1) LED 전면 교체 2) 승강기 운행 알고리즘 조정 3) 난방펌프 인버터 교체 4) 공용전기 입찰 재협상. 투자비 2년이면 회수됩니다.",
+  "author_persona": "아파트관리소장",
+  "target_keyword": "아파트 관리비 절감",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-25",
+  "tags": [
+    "관리소",
+    "절약"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "신축상가임대인",
+      "content": "LED 교체는 진짜 효과 확실하죠. 저희 상가도 작년에 바꿨는데 전기료 20% 줄었어요.",
+      "delay_minutes": 70,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "편의점사장7년차",
+      "content": "승강기 알고리즘이 뭔가요? 어떤 식으로 바꾸는 건지 궁금해요.",
+      "delay_minutes": 180,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 2,
+      "persona": "아파트관리소장",
+      "content": "출퇴근 시간대만 복수 운행, 새벽엔 1대만 운행하는 식으로 설정 바꾸는 거예요. 용역 업체에 요청하면 30분 만에 해줍니다.",
+      "delay_minutes": 250,
+      "sentiment": "positive",
+      "parent_sequence": 1
+    },
+    {
+      "sequence": 3,
+      "persona": "사장님은힘들어",
+      "content": "저도 관리비 어떻게든 줄여보려고 고민인데 참고됩니다",
+      "delay_minutes": 390,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 4,
+      "persona": "유령회원",
+      "content": "감사",
+      "delay_minutes": 680,
+      "sentiment": "positive"
+    }
+  ]
+}

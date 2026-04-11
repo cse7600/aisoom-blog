@@ -1,0 +1,52 @@
+{
+  "script_code": "SCR-2026-025",
+  "category": "info",
+  "title": "네이버 스마트플레이스 등록하면 매출 20% 오릅니다",
+  "body": "작년에 편의점 스마트플레이스 등록했더니 지도 노출 후 3개월 동안 내방 고객 20% 증가했어요. 무료니까 안 하면 손해입니다. 사진 5장, 영업시간, 메뉴/상품 리스트만 입력하면 끝. 네이버 지도 순위도 리뷰 쌓이면 금방 올라가요.",
+  "author_persona": "편의점사장7년차",
+  "target_keyword": "네이버 스마트플레이스 효과",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-24",
+  "tags": [
+    "마케팅",
+    "네이버"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "카페사장3년차",
+      "content": "저희도 이걸로 신규 고객 많이 늘었어요. 사진 예쁘게 찍는 게 핵심이더라구요.",
+      "delay_minutes": 85,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "한식당사장10년",
+      "content": "저는 등록하고 1년 째인데 리뷰 쌓인 후부터 매출 훅 올라갔어요. 초반 3개월은 별 효과 없었어서 포기하지 마세요.",
+      "delay_minutes": 200,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "초보창업마케터",
+      "content": "저도 당장 등록해야겠어요 공유 감사합니다",
+      "delay_minutes": 315,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 3,
+      "persona": "공감중독자",
+      "content": "ㄹㅇ 네이버 안 하면 한국에서 살아남기 힘듦ㅋㅋ",
+      "delay_minutes": 520,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 4,
+      "persona": "댓글은가끔",
+      "content": "참고할게요",
+      "delay_minutes": 820,
+      "sentiment": "positive"
+    }
+  ]
+}

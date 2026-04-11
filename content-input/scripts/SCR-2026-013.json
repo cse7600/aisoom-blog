@@ -1,0 +1,54 @@
+{
+  "script_code": "SCR-2026-013",
+  "category": "qna",
+  "title": "편의점 창업 자본금 얼마면 가능한가요 솔직히",
+  "body": "편의점 창업 알아보는 중인데 가맹본부에서는 3000~5000만원이면 된다고 하는데 실제 해보신 분들은 더 들었다는 후기가 많네요. 진짜 얼마가 현실적인가요?",
+  "author_persona": "초보창업마케터",
+  "target_keyword": "편의점 창업 자본금 현실",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-18",
+  "tags": [
+    "편의점",
+    "창업비용"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "편의점사장7년차",
+      "content": "솔직히 말씀드릴게요. 가맹본부 홍보는 '최소'입니다. 실제론 보증금 1500 + 권리금 2000 + 가맹비 1500 + 초기 재고 500 + 인테리어 500 + 여유자금 1000 해서 7000만원 최소예요. 여유자금 없으면 3개월 안에 무너집니다.",
+      "delay_minutes": 50,
+      "sentiment": "critical"
+    },
+    {
+      "sequence": 1,
+      "persona": "자영업카페운영",
+      "content": "저도 카페 창업 때 본부 말만 믿고 갔다가 오픈 첫 달에 자금 부족해서 대출 받았어요. 여유자금 진짜 중요합니다.",
+      "delay_minutes": 145,
+      "sentiment": "critical"
+    },
+    {
+      "sequence": 2,
+      "persona": "초보창업마케터",
+      "content": "ㅠㅠ 역시 본부 말은 믿으면 안 되는군요... 7000 모으려면 2년은 더 준비해야겠어요",
+      "delay_minutes": 250,
+      "sentiment": "neutral",
+      "parent_sequence": 0
+    },
+    {
+      "sequence": 3,
+      "persona": "편의점사장7년차",
+      "content": "2년 더 준비하세요. 진짜 안 망하고 버티려면 자본금이 생존률 1위입니다.",
+      "delay_minutes": 340,
+      "sentiment": "positive",
+      "parent_sequence": 2
+    },
+    {
+      "sequence": 4,
+      "persona": "아진짜못참",
+      "content": "ㄹㅇ 자본금 없으면 창업 하면 안됨ㅋㅋ",
+      "delay_minutes": 580,
+      "sentiment": "neutral"
+    }
+  ]
+}

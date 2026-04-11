@@ -1,0 +1,52 @@
+{
+  "script_code": "SCR-2026-034",
+  "category": "info",
+  "title": "편의점 본부별 수수료 체계 정리 2025",
+  "body": "본부 계약 전에 알아둬야 할 수수료 체계 정리했어요. GS25: 매출총이익의 65:35 (본부:점주), CU: 65:35 또는 70:30 선택, 세븐: 60:40 (권리금 무상), 이마트24: 월정액. 5년 계약 기준 총 비용 따져보면 매장 위치에 따라 유리한 본부가 달라요.",
+  "author_persona": "편의점사장7년차",
+  "target_keyword": "편의점 본부 수수료",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-28",
+  "tags": [
+    "편의점",
+    "본부계약"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "초보창업마케터",
+      "content": "본부별 차이 이렇게 정리된 거 처음 봐요. 진짜 감사합니다.",
+      "delay_minutes": 65,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "편의점사장7년차",
+      "content": "매출 높은 위치는 월정액(이마트24)이 유리하고, 매출 낮은 위치는 비율제(GS/CU)가 유리해요.",
+      "delay_minutes": 165,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "분식집창업준비중",
+      "content": "저 편의점 고민 중이었는데 진짜 큰 도움 됐어요",
+      "delay_minutes": 285,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 3,
+      "persona": "아진짜못참",
+      "content": "ㄷㄷ 정보력이 돈이다",
+      "delay_minutes": 480,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 4,
+      "persona": "눈팅전문가",
+      "content": "저장",
+      "delay_minutes": 780,
+      "sentiment": "positive"
+    }
+  ]
+}

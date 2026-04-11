@@ -1,0 +1,52 @@
+{
+  "script_code": "SCR-2026-044",
+  "category": "review",
+  "title": "법인 통장 5개 은행 비교 후기 - 최종 승자는?",
+  "body": "법인 설립 후 통장 만들러 5개 은행 모두 갔어요. 국민, 신한, 우리, 하나, 기업. 최종 기업 선택했습니다. 이유: 1) 법인 전용 상담사 있음 2) 수수료 가장 저렴 3) 오픈뱅킹 연동 직관적. 국민은 창구 응대 좋았지만 수수료가 아쉬웠어요. 신한/우리는 대기시간 길었고요.",
+  "author_persona": "초보창업마케터",
+  "target_keyword": "법인 통장 은행 비교",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-05-03",
+  "tags": [
+    "법인운영",
+    "법인통장"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "쇼핑몰대표",
+      "content": "기업 동의합니다. 법인 업무 특화라 진짜 편해요.",
+      "delay_minutes": 55,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "세무사실장10년",
+      "content": "기업은 법인 회계 연동도 좋아요. 세무기장 업체랑 연동 잘 되는 게 큰 장점입니다.",
+      "delay_minutes": 165,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "예비창업자J",
+      "content": "오 저도 기업으로 가야겠어요 감사합니다",
+      "delay_minutes": 280,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 3,
+      "persona": "한강치맥러",
+      "content": "국민 쓰는데 수수료 괜찮던데... 지점 차이인가?",
+      "delay_minutes": 420,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 4,
+      "persona": "웃기면살아남",
+      "content": "ㅋㅋ 저는 그냥 카카오뱅크",
+      "delay_minutes": 640,
+      "sentiment": "neutral"
+    }
+  ]
+}

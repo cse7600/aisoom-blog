@@ -1,0 +1,53 @@
+{
+  "script_code": "SCR-2026-005",
+  "category": "qna",
+  "title": "키퍼메이트 써보신 분 계신가요? 실제 어떤가요",
+  "body": "전자계약이랑 업무 자동화 된다고 해서 알아보고 있는데 실사용 후기가 많지 않아서요. 저희는 5인 이하 소규모인데 도입할 가치가 있을까요? 월 비용도 부담인데 기능 대비 어떤지 궁금해요.",
+  "author_persona": "분식집창업준비중",
+  "target_keyword": "키퍼메이트 후기",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-14",
+  "tags": [
+    "키퍼메이트",
+    "업무자동화"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "쇼핑몰대표",
+      "content": "저희 팀에서 3개월째 쓰고 있는데 계약서 반복 작성이 많다면 진짜 시간 절약됩니다. 다만 5인 이하면 체감은 작을 수 있어요. 거래처랑 전자서명 주고받는 일이 자주 있는지가 핵심 판단 기준입니다.",
+      "delay_minutes": 80,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "아파트관리소장",
+      "content": "관리사무소는 협력업체 계약이 많아서 저희는 도움 많이 받았어요. 월 요금은 인건비 생각하면 금방 회수되는 수준입니다.",
+      "delay_minutes": 220,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "분식집창업준비중",
+      "content": "오 그렇군요 5인 이하라 망설였는데 거래처 계약 빈도 생각해봐야겠어요 감사합니다",
+      "delay_minutes": 310,
+      "sentiment": "positive",
+      "parent_sequence": 0
+    },
+    {
+      "sequence": 3,
+      "persona": "편의점사장7년차",
+      "content": "저는 써봤는데 저희 업장에는 좀 과하더라구요. 매일 쓰는 거 아니면 무료 e계약이 더 나을 수도 있어요.",
+      "delay_minutes": 540,
+      "sentiment": "critical"
+    },
+    {
+      "sequence": 4,
+      "persona": "이거ㅋㅋ저장",
+      "content": "ㅁㅌㅊ 저장",
+      "delay_minutes": 780,
+      "sentiment": "neutral"
+    }
+  ]
+}

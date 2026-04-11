@@ -1,0 +1,53 @@
+{
+  "script_code": "SCR-2026-033",
+  "category": "info",
+  "title": "키퍼메이트 자동화 워크플로우 실제 사용 예시",
+  "body": "실제로 어떻게 쓰는지 궁금하신 분들 많을 것 같아서 공유해요. 저희는 이렇게 씁니다. 1) 거래처에서 계약서 요청 → 자동 초안 생성 2) 담당자 승인 → 전자서명 요청 3) 서명 완료 → 자동 아카이빙. 수동으로 하던 30분 작업이 5분으로 줄었어요.",
+  "author_persona": "쇼핑몰대표",
+  "target_keyword": "키퍼메이트 워크플로우",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-28",
+  "tags": [
+    "키퍼메이트",
+    "자동화"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "아파트관리소장",
+      "content": "저희도 비슷하게 쓰는데 자동 아카이빙이 진짜 편해요. 예전엔 계약서 찾느라 30분씩 걸렸는데 이제 검색 한 번이면 끝.",
+      "delay_minutes": 80,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "자영업카페운영",
+      "content": "초안 자동생성 템플릿은 어떻게 만드나요? 매번 수정해야 하나요?",
+      "delay_minutes": 190,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 2,
+      "persona": "쇼핑몰대표",
+      "content": "템플릿 5개 정도 만들어두면 거의 다 커버돼요. 거래처명, 금액, 날짜만 변수로 빼놓으면 자동 치환됩니다.",
+      "delay_minutes": 270,
+      "sentiment": "positive",
+      "parent_sequence": 1
+    },
+    {
+      "sequence": 3,
+      "persona": "분식집창업준비중",
+      "content": "오 편해 보여요 저도 결제해볼까봐요",
+      "delay_minutes": 420,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 4,
+      "persona": "공감중독자",
+      "content": "자동화 짱 ㄹㅇ",
+      "delay_minutes": 680,
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "script_code": "SCR-2026-015",
+  "category": "qna",
+  "title": "아파트 관리소장 연봉 얼마 받으세요",
+  "body": "전직 생각 중인데 관리소장 연봉이 궁금해요. 경력 5년 넘어가면 얼마까지 가능한가요? 단지 규모별로 차이가 많이 난다고 들었는데 평균 정도만 알려주세요.",
+  "author_persona": "사장님은힘들어",
+  "target_keyword": "아파트 관리소장 연봉",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-19",
+  "tags": [
+    "관리소장",
+    "연봉"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "아파트관리소장",
+      "content": "단지 규모 기준으로 답변드릴게요. 500세대 이하는 3500~4200만원, 500~1000세대는 4200~4800만원, 1000세대 이상은 5000~6000만원대입니다. 경력 5년 넘어가면 5000 선은 가능해요. 다만 위탁회사별로 차이 크니 면접 때 4대보험 포함 여부 꼭 확인하세요.",
+      "delay_minutes": 65,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "신축상가임대인",
+      "content": "세후 실수령 기준으로 봐야 해요. 위탁회사는 계약직 많고 복지 차이 큽니다.",
+      "delay_minutes": 170,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 2,
+      "persona": "사장님은힘들어",
+      "content": "감사합니다 구체적인 숫자까지 알려주셔서",
+      "delay_minutes": 290,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 3,
+      "persona": "댓글은가끔",
+      "content": "참고 됐어요",
+      "delay_minutes": 540,
+      "sentiment": "positive"
+    }
+  ]
+}

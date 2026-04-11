@@ -1,0 +1,52 @@
+{
+  "script_code": "SCR-2026-023",
+  "category": "info",
+  "title": "법인 설립 서류 체크리스트 정리본입니다",
+  "body": "제가 법인 만들 때 법무사가 준 체크리스트 그대로 공유해요. 1) 대표 신분증 2) 대표 인감도장 + 인감증명서 3) 주주 전원 신분증 + 인감 4) 정관 초안 5) 자본금 입금 증명 6) 주소지 확정 (자택 가능) 7) 법인인감 주문. 이거만 있으면 법무사 통해 1주일 안에 등기 끝납니다.",
+  "author_persona": "법무사사무원",
+  "target_keyword": "법인 설립 서류",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-23",
+  "tags": [
+    "법인설립",
+    "서류"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "예비창업자J",
+      "content": "헐 이거 진짜 필요했어요 저장합니다 감사해요ㅠㅠ",
+      "delay_minutes": 50,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "분식집창업준비중",
+      "content": "저는 주주명부 공증도 추가로 했는데 이건 자본금 10억 이상일 때만 필요하더라구요.",
+      "delay_minutes": 160,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 2,
+      "persona": "소규모베이커리창업",
+      "content": "체크리스트 정리 최고입니다",
+      "delay_minutes": 290,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 3,
+      "persona": "편의점사장7년차",
+      "content": "이거 지금 창업 준비하는 후배한테도 보내줘야겠어요",
+      "delay_minutes": 410,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 4,
+      "persona": "이거ㅋㅋ저장",
+      "content": "저장함 ㄳ",
+      "delay_minutes": 700,
+      "sentiment": "positive"
+    }
+  ]
+}

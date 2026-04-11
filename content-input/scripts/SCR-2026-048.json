@@ -1,0 +1,51 @@
+{
+  "script_code": "SCR-2026-048",
+  "category": "free",
+  "title": "요즘 날씨 너무 변덕스러워서 매출 직격타네요",
+  "body": "지난주만 해도 맑다가 이번 주 매일 비... 손님이 반토막 났어요 ㅠㅠ 다들 날씨 영향 많이 받으세요?",
+  "author_persona": "날씨민감러",
+  "target_keyword": "자영업 날씨",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-05-05",
+  "tags": [
+    "자유토크"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "카페사장3년차",
+      "content": "카페는 비 오면 오히려 손님이 늘어요 ㅋㅋ 비 맞기 싫어서 실내 오래 계시거든요.",
+      "delay_minutes": 55,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "한식당사장10년",
+      "content": "식당도 비 오는 날은 배달 위주로 돌아가서 괜찮아요. 역전 효과.",
+      "delay_minutes": 150,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 2,
+      "persona": "편의점사장7년차",
+      "content": "편의점은 날씨 영향 별로 없어요. 24시간 상권이라.",
+      "delay_minutes": 240,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 3,
+      "persona": "날씨민감러",
+      "content": "업종마다 다르네요... 저는 야외 매장이라 직격타 ㅠㅠ",
+      "delay_minutes": 340,
+      "sentiment": "critical"
+    },
+    {
+      "sequence": 4,
+      "persona": "아진짜못참",
+      "content": "비 오면 집에서 쉬고 싶음ㅋㅋ",
+      "delay_minutes": 520,
+      "sentiment": "neutral"
+    }
+  ]
+}

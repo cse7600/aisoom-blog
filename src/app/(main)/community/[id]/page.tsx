@@ -8,6 +8,7 @@ import {
 import { COMMUNITY_CATEGORIES } from "@/lib/community-types";
 import { CommunityComments } from "@/components/community/CommunityComments";
 import { CommunityPostActions } from "@/components/community/CommunityPostActions";
+import { DiscussionJsonLd } from "@/components/community/DiscussionJsonLd";
 
 interface CommunityDetailPageProps {
   params: { id: string };
@@ -46,6 +47,7 @@ export default async function CommunityDetailPage({
 
   return (
     <article className="community-detail">
+      <DiscussionJsonLd post={post} comments={comments} />
       <header className="community-detail__header">
         <Link href="/community" className="community-detail__back">
           소통 목록

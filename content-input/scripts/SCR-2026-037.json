@@ -1,0 +1,52 @@
+{
+  "script_code": "SCR-2026-037",
+  "category": "review",
+  "title": "법인설립지원센터 vs 셀프 둘 다 해본 후기",
+  "body": "첫 법인은 셀프로, 두 번째는 지원센터 통해서 만들어봤어요. 셀프: 비용 10만원대, 시간 2주, 보정 2번. 지원센터: 비용 70만원, 시간 5일, 편함. 시간 가치 생각하면 지원센터가 결국 싸다는 결론. 셀프는 한 번 해보는 경험 정도로만 추천해요.",
+  "author_persona": "쇼핑몰대표",
+  "target_keyword": "법인설립지원센터 후기",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-30",
+  "tags": [
+    "법인설립",
+    "후기"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "예비창업자J",
+      "content": "와 두 번 다 해보신 분 찾고 있었어요! 역시 지원센터가 낫네요 ㅠㅠ",
+      "delay_minutes": 50,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "법무사사무원",
+      "content": "셀프도 익숙해지면 할만한데 처음엔 지원센터 이용이 답입니다. 보정명령 한 번 받아보면 깨닫죠.",
+      "delay_minutes": 160,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "신축상가임대인",
+      "content": "저도 첫 법인 때 셀프 시도했다가 한 달 걸렸어요. 다시 하면 무조건 지원센터.",
+      "delay_minutes": 280,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 3,
+      "persona": "ㅋㅋ봇",
+      "content": "셀프 해보신 용자 ㄷㄷ",
+      "delay_minutes": 480,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 4,
+      "persona": "댓글은가끔",
+      "content": "참고 됐어요",
+      "delay_minutes": 720,
+      "sentiment": "positive"
+    }
+  ]
+}

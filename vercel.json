@@ -8,6 +8,14 @@
     {
       "path": "/api/cron/seo-health",
       "schedule": "0 0 * * *"
+    },
+    {
+      "path": "/api/cron/plan-daily",
+      "schedule": "10 15 * * *"
+    },
+    {
+      "path": "/api/cron/dispatch-scripts",
+      "schedule": "*/15 * * * *"
     }
   ]
 }

@@ -1,0 +1,52 @@
+{
+  "script_code": "SCR-2026-038",
+  "category": "review",
+  "title": "밀리의서재 1년 구독 후기 - 진짜 본 책 수 세어봤어요",
+  "body": "정확히 1년 쓰고 셌어요. 완독 23권, 중도 포기 14권, 목차만 훑기 31권. 월 평균 6권 정도 봤네요. 연간 요금 대비 권당 500원꼴이라 정말 싸게 읽은 셈. 특히 자기계발/소설 분야가 빠르게 업데이트되는 점이 좋았어요. 평점 5/5.",
+  "author_persona": "할일미루기왕",
+  "target_keyword": "밀리의서재 1년 후기",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-30",
+  "tags": [
+    "밀리의서재",
+    "독서"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "지하철러",
+      "content": "권당 500원이면 진짜 혜자네요. 저도 구독 중인데 데이터 이렇게 정리해본 적은 없었어요.",
+      "delay_minutes": 60,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "애엄마수다",
+      "content": "저는 애들 때문에 완독은 못하고 목차만 훑기 70% 인데 그래도 값어치 해요 ㅎㅎ",
+      "delay_minutes": 175,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "날씨민감러",
+      "content": "저는 비 오는 날에만 들어가서 보는데 ㅋㅋ 월 2권도 안 되는 듯",
+      "delay_minutes": 290,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 3,
+      "persona": "퇴근빔예약남",
+      "content": "퇴근 후 맥주 + 밀리 조합 최고입니다 ㅋㅋ",
+      "delay_minutes": 420,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 4,
+      "persona": "공감중독자",
+      "content": "ㅇㅈ 저도 구독 중 ㅋㅋ",
+      "delay_minutes": 620,
+      "sentiment": "positive"
+    }
+  ]
+}

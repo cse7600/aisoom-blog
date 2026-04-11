@@ -1,0 +1,58 @@
+{
+  "script_code": "SCR-2026-049",
+  "category": "free",
+  "title": "퇴근하면 뭐 하세요 진짜 궁금해요",
+  "body": "자영업자도 퇴근이란 게 있긴 한데 ㅋㅋ 저는 집에 가면 바로 맥주 한 캔에 예능 보면서 녹초가 됩니다. 다들 퇴근 후 루틴 있으세요?",
+  "author_persona": "퇴근빔예약남",
+  "target_keyword": "자영업 퇴근 후",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-05-06",
+  "tags": [
+    "자유토크"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "한강치맥러",
+      "content": "ㄹㅇ 한강 치맥이 정답이죠 ㅋㅋ 주 2회 고정입니다.",
+      "delay_minutes": 50,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "야근시러",
+      "content": "저는 바로 샤워하고 넷플릭스예요. 자영업 하면 저녁 약속이 거의 없어져서 ㅠㅠ",
+      "delay_minutes": 140,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 2,
+      "persona": "강쥐집사누나",
+      "content": "강쥐랑 산책 후 바로 빠져들어요 ㅎㅎ",
+      "delay_minutes": 230,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 3,
+      "persona": "할일미루기왕",
+      "content": "밀리의서재 + 이불 + 전기장판 = 행복",
+      "delay_minutes": 320,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 4,
+      "persona": "지하철러",
+      "content": "저는 퇴근 후 지하철 2시간이라 그때 쉬는 시간",
+      "delay_minutes": 450,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 5,
+      "persona": "ㅋㅋ봇",
+      "content": "ㅋㅋㅋ 자영업자 퇴근 뭐임",
+      "delay_minutes": 640,
+      "sentiment": "neutral"
+    }
+  ]
+}

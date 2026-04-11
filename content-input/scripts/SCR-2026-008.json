@@ -1,0 +1,53 @@
+{
+  "script_code": "SCR-2026-008",
+  "category": "qna",
+  "title": "밀리의서재 직장인한테 가성비 어떤가요",
+  "body": "출퇴근 지하철이 왕복 2시간이라 책 읽으려고 구독 서비스 알아보고 있어요. 밀리의서재 월 얼마 정도 하는데 실제로 많이 활용하게 되는 건지 후기 궁금합니다.",
+  "author_persona": "지하철러",
+  "target_keyword": "밀리의서재 후기",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-15",
+  "tags": [
+    "밀리의서재",
+    "독서"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "할일미루기왕",
+      "content": "저는 1년째 쓰고 있는데 진짜 아까운 적 한 번도 없어요. 신간 업데이트도 빠르고 오디오북도 같이 되니까 운전할 때도 듣게 되더라구요. 가격 생각하면 책 한 권 가격인데 매달 20권씩 보는 건 남는 장사죠.",
+      "delay_minutes": 60,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "날씨민감러",
+      "content": "저도 구독 중이에요. 근데 원하는 책이 없을 때가 좀 아쉬워요. 베스트셀러는 거의 다 있긴 합니다.",
+      "delay_minutes": 165,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 2,
+      "persona": "지하철러",
+      "content": "오 오디오북도 포함이었군요! 운전 출근하는 날에 좋겠네요 감사해요",
+      "delay_minutes": 245,
+      "sentiment": "positive",
+      "parent_sequence": 0
+    },
+    {
+      "sequence": 3,
+      "persona": "애엄마수다",
+      "content": "저희 애들 동화책도 많아서 좋아요 ㅋㅋ 어른/아이 둘 다 활용",
+      "delay_minutes": 420,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 4,
+      "persona": "공감중독자",
+      "content": "ㄹㅇㅋㅋ 출퇴근 시간이 다르게 쓰이는 기분",
+      "delay_minutes": 600,
+      "sentiment": "positive"
+    }
+  ]
+}

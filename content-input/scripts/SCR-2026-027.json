@@ -1,0 +1,53 @@
+{
+  "script_code": "SCR-2026-027",
+  "category": "info",
+  "title": "CCTV 클라우드 녹화 vs 로컬 녹화 어떤게 싸요",
+  "body": "CCTV 녹화 방식 고민 많이 해봤는데요, 30평 매장 기준으로 2년 총 비용 따져봤어요. 클라우드 월 3만원 × 24개월 = 72만원. 로컬 NVR 1회 구매 60만원. 로컬이 싸긴 한데 NVR 고장나면 전체 날아가는 리스크 있어요. 저는 하이브리드(클라우드+로컬) 추천합니다.",
+  "author_persona": "보안시공기사",
+  "target_keyword": "CCTV 클라우드 로컬",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-25",
+  "tags": [
+    "보안",
+    "CCTV"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "편의점사장7년차",
+      "content": "저는 로컬만 쓰는데 한 번 HDD 나가서 3개월치 영상 날렸어요. 하이브리드 진짜 동감합니다.",
+      "delay_minutes": 65,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "한식당사장10년",
+      "content": "클라우드는 인터넷 끊기면 녹화도 끊기는 거 조심하세요. 저희는 그래서 로컬 + 백업용 클라우드.",
+      "delay_minutes": 170,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 2,
+      "persona": "신축상가임대인",
+      "content": "하이브리드 비용이 얼마쯤 나와요? 저희도 고민 중이라",
+      "delay_minutes": 270,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 3,
+      "persona": "보안시공기사",
+      "content": "30평이면 초기 80만원 + 월 1.5만원 정도면 하이브리드 구축 가능해요. 2년에 114만원.",
+      "delay_minutes": 340,
+      "sentiment": "positive",
+      "parent_sequence": 2
+    },
+    {
+      "sequence": 4,
+      "persona": "아진짜못참",
+      "content": "오 정보 감사",
+      "delay_minutes": 580,
+      "sentiment": "positive"
+    }
+  ]
+}

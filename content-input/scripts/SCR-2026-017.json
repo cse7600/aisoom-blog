@@ -1,0 +1,45 @@
+{
+  "script_code": "SCR-2026-017",
+  "category": "qna",
+  "title": "세무기장 월 얼마 적정선인가요 1인법인 기준",
+  "body": "1인법인인데 세무기장 견적 받아봤더니 월 15만원부터 30만원까지 업체마다 달라요. 1인법인 기준으로 적정선이 얼마인가요? 너무 싸면 부실할까봐 걱정돼요.",
+  "author_persona": "카페사장3년차",
+  "target_keyword": "1인법인 세무기장 비용",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-20",
+  "tags": [
+    "세무",
+    "기장료"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "세무사실장10년",
+      "content": "1인법인 기준 월 10~15만원이 적정선입니다. 매출 1억 미만이면 10만원, 1억 넘으면 15만원 내외. 20만원 넘게 부르는 곳은 부가세 신고/연말정산까지 포함된 패키지인 경우가 많아요. 싸다고 부실한 건 아닙니다. 다만 세무사 직접 상담이 가능한지 확인하세요.",
+      "delay_minutes": 55,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "분식집창업준비중",
+      "content": "저는 월 12만원에 맡기고 있는데 매년 결산도 포함되어 있어요. 세무사님 직접 전화받는지 확인했습니다.",
+      "delay_minutes": 170,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "카페사장3년차",
+      "content": "감사합니다 10~15만원 기준으로 다시 비교해볼게요",
+      "delay_minutes": 280,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 3,
+      "persona": "읽고감",
+      "content": "저장",
+      "delay_minutes": 520,
+      "sentiment": "positive"
+    }
+  ]
+}

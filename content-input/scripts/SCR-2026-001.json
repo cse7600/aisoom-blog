@@ -1,0 +1,62 @@
+{
+  "script_code": "SCR-2026-001",
+  "category": "qna",
+  "title": "법인 설립 첫 달 뭐부터 해야 해요? 진짜 막막합니다",
+  "body": "이번 주에 법인 등기 마쳤는데요, 다음 주부터 뭐부터 손대야 할지 진짜 막막합니다. 일단 통장은 만들었고요. 세무서 신고가 먼저인가요 아니면 사업자등록이 먼저인가요. 4대보험도 알아봐야 하는데 법인은 대표도 가입해야 한다고 하던데 맞나요? 경험자분들 순서 좀 알려주세요ㅠㅠ",
+  "author_persona": "예비창업자J",
+  "target_keyword": "법인 설립 후 절차",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-12",
+  "tags": [
+    "법인설립",
+    "세무",
+    "사업자등록"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "세무사실장10년",
+      "content": "순서 정리해드릴게요. 1) 법인설립등기 (완료) → 2) 사업자등록 (설립일로부터 20일 이내) → 3) 법인통장 개설 → 4) 4대보험 (대표자 가입 의무, 직원 채용 전이라도) → 5) 세무기장 계약. 사업자등록이 세무서 신고보다 먼저입니다. 사업자등록 때 업종코드, 매출 예상, 임대차계약서(사업장 증빙) 챙기세요.",
+      "delay_minutes": 42,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "법무사사무원",
+      "content": "등기필증이랑 인감증명서 여러 부 미리 떼두세요. 은행, 세무서, 4대보험공단 제출 때마다 필요해서 나중에 한 번 더 가게 됩니다.",
+      "delay_minutes": 95,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "예비창업자J",
+      "content": "와 감사해요ㅠㅠ 그런데 법인통장은 어느 은행이 수수료 싸요? 기업은행 가려는데 국민 추천받는 분도 있어서 고민이네요.",
+      "delay_minutes": 180,
+      "sentiment": "neutral",
+      "parent_sequence": 0
+    },
+    {
+      "sequence": 3,
+      "persona": "쇼핑몰대표",
+      "content": "저희는 국민 씁니다. 오픈뱅킹 연동이 편하고, 법인체크카드 수수료가 괜찮아요. 다만 지점마다 담당자 경험 차이가 커서 상담 잘 해주는 지점 찾는 게 중요해요.",
+      "delay_minutes": 340,
+      "sentiment": "neutral",
+      "parent_sequence": 2
+    },
+    {
+      "sequence": 4,
+      "persona": "사장님은힘들어",
+      "content": "저도 작년에 정확히 똑같이 헤맸어요ㅠㅠ 설립지원센터 같은 데 도움 받으니까 훨씬 편하더라구요. 혼자 다 하려면 진짜 한 달 넘게 걸립니다.",
+      "delay_minutes": 620,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 5,
+      "persona": "댓글은가끔",
+      "content": "저장해놓고 봐야겠어요 정보 감사합니다",
+      "delay_minutes": 1120,
+      "sentiment": "positive"
+    }
+  ]
+}

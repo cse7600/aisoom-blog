@@ -1,0 +1,45 @@
+{
+  "script_code": "SCR-2026-011",
+  "category": "qna",
+  "title": "4대보험 대표이사 가입 의무 피할 방법 있나요?",
+  "body": "1인법인이고 대표 혼자인데 4대보험 비용이 월 40만원 넘게 나와서 부담이에요. 배우자 직장 피부양자로 들어가면 건강보험은 안 내도 되나요?",
+  "author_persona": "예비창업자J",
+  "target_keyword": "법인 대표 4대보험 피하기",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-17",
+  "tags": [
+    "법인운영",
+    "4대보험"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "세무사실장10년",
+      "content": "대표이사 국민연금/건강보험은 가입 의무입니다. 피부양자 전환은 원칙적으로 안 돼요. 다만 대표 월급을 낮추면 보험료는 내려갑니다. 최저 월급 기준(2024년 기준 월 100만원 이하)이면 건강보험료가 10만원 내외로 줄어요.",
+      "delay_minutes": 60,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "쇼핑몰대표",
+      "content": "저희 아내가 직장인이라서 저도 피부양자 시도해봤는데 대표 등재 상태면 불가능합니다. 월급 낮추는 게 답이에요.",
+      "delay_minutes": 175,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 2,
+      "persona": "자영업카페운영",
+      "content": "월 40만원... 저도 초반에 똑같이 고민했어요. 월급 낮췄더니 20만원대로 내려갔습니다.",
+      "delay_minutes": 350,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 3,
+      "persona": "읽고감",
+      "content": "저장합니다",
+      "delay_minutes": 720,
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "script_code": "SCR-2026-040",
+  "category": "review",
+  "title": "한식당 오픈 1년 후기 - 솔직히 실패 직전입니다",
+  "body": "작년 4월 한식당 오픈했는데 매출이 기대의 60% 수준이에요. 배달 매출 30%, 홀 70%. 고정비(임대료+인건비+원자재)만 월 1200만원이라 매달 적자. 지금 폐업 고민 중입니다. 비슷한 상황인 분 있으신가요? 어떻게 버티셨어요?",
+  "author_persona": "사장님은힘들어",
+  "target_keyword": "식당 창업 실패",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-05-01",
+  "tags": [
+    "창업실패",
+    "식당"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "한식당사장10년",
+      "content": "제가 10년째 식당인데요, 1년 차는 원래 적자 나는 시기예요. 문제는 3년 안에 흑자 전환 가능한지 보는 거. 매출 성장 곡선이 어떻게 되는지 보여주시면 조언 더 드릴 수 있어요.",
+      "delay_minutes": 50,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "편의점사장7년차",
+      "content": "저도 편의점 첫 해 8개월 적자였어요. 고정비부터 다시 검토해보세요. 인건비는 시급제 전환, 임대료는 재협상 시도.",
+      "delay_minutes": 145,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "자영업카페운영",
+      "content": "ㅠㅠ 너무 마음 아프네요. 저도 비슷한 시기 있었는데 SNS 마케팅 집중해서 반년 만에 회복했어요. 힘내세요.",
+      "delay_minutes": 270,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 3,
+      "persona": "사장님은힘들어",
+      "content": "여러분 댓글에 힘이 나네요... 한 번 더 고정비 정리해보고 3개월 더 버텨볼게요 ㅠㅠ",
+      "delay_minutes": 380,
+      "sentiment": "neutral",
+      "parent_sequence": 0
+    },
+    {
+      "sequence": 4,
+      "persona": "반응없는그사람",
+      "content": "화이팅입니다",
+      "delay_minutes": 580,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 5,
+      "persona": "스쳐지나간바람",
+      "content": "저도 응원합니다",
+      "delay_minutes": 820,
+      "sentiment": "positive"
+    }
+  ]
+}

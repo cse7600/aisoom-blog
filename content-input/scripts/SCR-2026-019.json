@@ -1,0 +1,46 @@
+{
+  "script_code": "SCR-2026-019",
+  "category": "qna",
+  "title": "법인 운영 중 개인 돈 빌려주면 문제 되나요?",
+  "body": "법인 운영자금이 부족해서 제 개인 통장에서 법인 통장으로 돈 옮겼는데요, 이게 가지급금인지 단기차입금인지 헷갈려요. 나중에 세금 문제 없나요?",
+  "author_persona": "신축상가임대인",
+  "target_keyword": "법인 가지급금 대표 차입",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-21",
+  "tags": [
+    "세무",
+    "가지급금"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "세무사실장10년",
+      "content": "대표가 법인에 빌려주는 건 '단기차입금'으로 분개해야 합니다. 가지급금은 법인이 대표에게 빌려준 반대 케이스예요. 차입금 처리하면 법인이 대표에게 이자 지급할 수 있고 손비처리도 됩니다. 무이자로 해도 되지만 국세청 기준 금리(가중평균차입이자율) 이상 이자 지급 권장해요.",
+      "delay_minutes": 75,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "법무사사무원",
+      "content": "차입금 증빙 꼭 남기세요. 차용증 안 쓰면 나중에 증여로 볼 수 있습니다.",
+      "delay_minutes": 190,
+      "sentiment": "critical"
+    },
+    {
+      "sequence": 2,
+      "persona": "신축상가임대인",
+      "content": "차용증 꼭 써야 하는군요 감사합니다ㅠㅠ",
+      "delay_minutes": 305,
+      "sentiment": "neutral",
+      "parent_sequence": 1
+    },
+    {
+      "sequence": 3,
+      "persona": "진짜ㅋㅋ",
+      "content": "ㄷㄷ 세금 무서움",
+      "delay_minutes": 520,
+      "sentiment": "neutral"
+    }
+  ]
+}

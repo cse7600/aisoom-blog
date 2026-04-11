@@ -1,0 +1,45 @@
+{
+  "script_code": "SCR-2026-032",
+  "category": "info",
+  "title": "1인법인 세금 얼마 나오는지 실제 계산 공유",
+  "body": "연매출 8000만원 1인법인 기준으로 1년 세금 얼마 나오는지 실제 영수증 기반으로 공유해요. 법인세 약 370만원(9%), 대표 근로소득세 180만원, 부가세 환급은 매입매출 차 기준. 개인사업자였으면 440만원쯤 나왔을 거라 법인이 확실히 유리한 구간이에요.",
+  "author_persona": "쇼핑몰대표",
+  "target_keyword": "1인법인 세금 실제",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-27",
+  "tags": [
+    "세무",
+    "법인세"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "세무사실장10년",
+      "content": "정확한 실사례네요. 매출 5000만원 기준 법인 전환 분기점이에요. 이 아래는 개인이 유리, 위는 법인이 유리.",
+      "delay_minutes": 65,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "초보창업마케터",
+      "content": "8000에 법인세만 370이면 세금 생각보다 적네요 충격",
+      "delay_minutes": 180,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "소규모베이커리창업",
+      "content": "저도 5000 조금 넘는데 법인 전환 고민 중이에요. 실사례 감사합니다",
+      "delay_minutes": 295,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 3,
+      "persona": "ㅋㅋㅁㅌ",
+      "content": "저 매출 2000인데 그냥 개인 할게요 ㅠ",
+      "delay_minutes": 510,
+      "sentiment": "neutral"
+    }
+  ]
+}

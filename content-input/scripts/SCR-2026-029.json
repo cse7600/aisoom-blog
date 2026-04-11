@@ -1,0 +1,45 @@
+{
+  "script_code": "SCR-2026-029",
+  "category": "info",
+  "title": "차별화상회 초보 가이드 - 가입 전 체크할 5가지",
+  "body": "공동구매 플랫폼 가입 전에 알아두면 좋은 것 5가지 공유합니다. 1) 최소 주문량 확인 2) 배송 주기 (월 1~2회) 3) 결제 방식 (선결제 vs 후결제) 4) 환불 정책 5) 업체 신뢰도 리뷰. 특히 선결제는 업체 부도 리스크 있으니 소액부터 시작하세요.",
+  "author_persona": "분식집창업준비중",
+  "target_keyword": "차별화상회 가입 체크",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-26",
+  "tags": [
+    "차별화상회",
+    "공동구매"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "한식당사장10년",
+      "content": "선결제는 진짜 조심해야 해요. 저 한 번 손해본 적 있어요 ㅠㅠ 첫 주문은 5만원 정도만 해서 검증하세요.",
+      "delay_minutes": 80,
+      "sentiment": "critical"
+    },
+    {
+      "sequence": 1,
+      "persona": "카페사장3년차",
+      "content": "체크리스트 진짜 유용합니다. 저도 처음 가입할 때 이거 몰라서 리뷰 안 보고 덥석 가입했어요.",
+      "delay_minutes": 195,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "소규모베이커리창업",
+      "content": "최소 주문량 체크 진짜 중요해요. 저는 너무 커서 재고 쌓였던 적이...",
+      "delay_minutes": 310,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 3,
+      "persona": "진짜ㅋㅋ",
+      "content": "ㄹㅇ 꿀팁 저장",
+      "delay_minutes": 540,
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "script_code": "SCR-2026-003",
+  "category": "qna",
+  "title": "사업자등록할 때 업종코드 복수 선택해도 되나요?",
+  "body": "저희 업장이 온라인 판매랑 오프라인 카페를 같이 하려고 하는데요, 사업자등록 때 업종코드 두 개 다 넣어도 문제 없나요? 나중에 추가 신고도 가능하다고 듣긴 했는데 처음부터 넣는 게 낫다는 얘기도 있어서 헷갈려요.",
+  "author_persona": "카페사장3년차",
+  "target_keyword": "사업자등록 업종 복수",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-13",
+  "tags": [
+    "사업자등록",
+    "업종코드"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "세무사실장10년",
+      "content": "복수 등록 가능합니다. 처음부터 주된 업종 + 부업종 형태로 넣는 게 좋아요. 나중에 추가해도 되지만 세무서 재방문해야 하고 사업자등록증 재발급됩니다. 주의할 점은 주된 업종 기준으로 간이과세/일반과세 판정돼요.",
+      "delay_minutes": 65,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "한식당사장10년",
+      "content": "카페+온라인이면 부가세 신고가 좀 복잡해집니다. 포스 매출이랑 온라인 매출 구분해서 기장해야 해요. 세무기장 꼭 맡기시길.",
+      "delay_minutes": 155,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 2,
+      "persona": "편의점사장7년차",
+      "content": "저도 편의점이랑 배달 복수 등록했어요. 처음엔 헷갈렸는데 익숙해지면 괜찮습니다.",
+      "delay_minutes": 400,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 3,
+      "persona": "눈팅전문가",
+      "content": "오 저도 고민하던 부분이네요",
+      "delay_minutes": 720,
+      "sentiment": "positive"
+    }
+  ]
+}

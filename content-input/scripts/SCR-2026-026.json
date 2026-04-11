@@ -1,0 +1,45 @@
+{
+  "script_code": "SCR-2026-026",
+  "category": "info",
+  "title": "소상공인 정책자금 2025년 바뀐 점 정리",
+  "body": "올해 정책자금 신청해보고 공유해요. 1) 한도 5000만원 → 1억으로 상향 2) 금리 연 3.5% → 3.0% 3) 신용등급 6등급까지 허용. 특히 청년창업은 한도 1.5배 더 나옵니다. 소상공인시장진흥공단에서 온라인 신청 가능해요.",
+  "author_persona": "자영업카페운영",
+  "target_keyword": "소상공인 정책자금",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-24",
+  "tags": [
+    "정부지원",
+    "대출"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "분식집창업준비중",
+      "content": "올해 한도 늘어난 거 처음 알았어요! 청년은 1.5배 진짜 큰 혜택이네요.",
+      "delay_minutes": 60,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "편의점사장7년차",
+      "content": "저 작년에 받았는데 금리 낮고 상환 유예도 있어서 진짜 숨통 트였어요. 꼭 알아보세요.",
+      "delay_minutes": 180,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "쇼핑몰대표",
+      "content": "신용 6등급까지 허용이면 문턱 많이 낮아진 거네요. 좋은 정보 감사합니다.",
+      "delay_minutes": 290,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 3,
+      "persona": "읽고감",
+      "content": "저장",
+      "delay_minutes": 640,
+      "sentiment": "positive"
+    }
+  ]
+}

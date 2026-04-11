@@ -1,0 +1,45 @@
+{
+  "script_code": "SCR-2026-024",
+  "category": "info",
+  "title": "밀리의서재 연간결제 할인 코드 받는 방법",
+  "body": "매달 결제하다가 연간 바꾸려고 알아봤는데요, 월간 구독 해지 시도할 때 '할인 쿠폰 드릴게요' 팝업 떠요. 거기서 40% 할인 받아서 연간 결제했습니다. 이미 월간 쓰고 계신 분들만 해당돼요.",
+  "author_persona": "할일미루기왕",
+  "target_keyword": "밀리의서재 할인",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-23",
+  "tags": [
+    "밀리의서재",
+    "할인팁"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "지하철러",
+      "content": "오 해지 버튼 눌러야 나오는 건가요? 저도 해볼게요",
+      "delay_minutes": 75,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "애엄마수다",
+      "content": "저는 신규 가입 쿠폰으로 50% 받았어요. 처음 가입이면 더 싸게 해요ㅎㅎ",
+      "delay_minutes": 190,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "날씨민감러",
+      "content": "저도 성공했습니다 감사해요",
+      "delay_minutes": 320,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 3,
+      "persona": "ㅋㅋ봇",
+      "content": "ㅋㅋ 해지하는 척",
+      "delay_minutes": 500,
+      "sentiment": "neutral"
+    }
+  ]
+}

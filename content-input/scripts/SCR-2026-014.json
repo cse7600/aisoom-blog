@@ -1,0 +1,45 @@
+{
+  "script_code": "SCR-2026-014",
+  "category": "qna",
+  "title": "보안시공 할 때 CCTV 몇 개가 적당한가요 30평 매장",
+  "body": "30평 편의점 열려고 하는데 CCTV 설치 견적 받아보니 6개는 달라고 하더라구요. 적당한 건지 과한 건지 모르겠어요. 매장 넓이별 권장 개수 같은 거 있나요?",
+  "author_persona": "분식집창업준비중",
+  "target_keyword": "30평 매장 CCTV 개수",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-18",
+  "tags": [
+    "보안",
+    "CCTV"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "보안시공기사",
+      "content": "30평 매장은 4~6대가 표준입니다. 계산대 1대, 입구 1대, 진열대 전경 1~2대, 백룸/창고 1대. 화질은 200만 화소 이상 권장해요. 야간 적외선 기능도 필수. 업체가 8대 넘게 권하면 과한 겁니다. 녹화 저장은 30일 이상 설정하세요.",
+      "delay_minutes": 45,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "편의점사장7년차",
+      "content": "저희는 5대 쓰는데 충분해요. 다만 계산대는 각도 잘 맞춰야 절도 증거 확보돼요.",
+      "delay_minutes": 160,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "한식당사장10년",
+      "content": "저희 식당은 4대 썼는데 주방 쪽도 한 대 더 달 걸 후회해요. 위생 문제 생기면 증거 되거든요.",
+      "delay_minutes": 275,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 3,
+      "persona": "유령회원",
+      "content": "정보 감사합니다",
+      "delay_minutes": 600,
+      "sentiment": "positive"
+    }
+  ]
+}

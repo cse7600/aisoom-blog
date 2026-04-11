@@ -1,0 +1,45 @@
+{
+  "script_code": "SCR-2026-036",
+  "category": "review",
+  "title": "키퍼메이트 6개월 사용 후기 - 솔직하게 써봅니다",
+  "body": "6개월 풀로 써본 후기 솔직하게 공유해요. 장점: 전자서명 빠르고 템플릿 관리 편함. 자동화 기능 유용. 고객센터 응답 빠름. 단점: 모바일 앱 UX 아쉬움. 월 비용 소규모에는 부담. 해외 거래처는 불편. 총평: 국내 거래 많은 업장에 추천. 별점 4/5.",
+  "author_persona": "쇼핑몰대표",
+  "target_keyword": "키퍼메이트 6개월 후기",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-29",
+  "tags": [
+    "키퍼메이트",
+    "후기"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "아파트관리소장",
+      "content": "저도 모바일 앱 아쉬운 거 동의해요. 데스크톱이 훨씬 낫습니다.",
+      "delay_minutes": 70,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 1,
+      "persona": "분식집창업준비중",
+      "content": "소규모에는 부담이라고 하시니 저는 좀 더 고민해봐야겠어요.",
+      "delay_minutes": 180,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 2,
+      "persona": "카페사장3년차",
+      "content": "저는 3개월 쓰고 해지했어요. 저희 업장엔 진짜 과한 기능이라.",
+      "delay_minutes": 295,
+      "sentiment": "critical"
+    },
+    {
+      "sequence": 3,
+      "persona": "이거ㅋㅋ저장",
+      "content": "솔직한 후기 고마워요",
+      "delay_minutes": 540,
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "script_code": "SCR-2026-020",
+  "category": "qna",
+  "title": "법인 임대사업자 등록 요건 뭐가 있나요",
+  "body": "제 개인 건물을 법인 명의로 임대사업 하려고 하는데 법인 임대사업자 등록 조건이 까다롭다고 들었어요. 소형 오피스텔 2개 있으면 가능한가요?",
+  "author_persona": "신축상가임대인",
+  "target_keyword": "법인 임대사업자 등록",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-21",
+  "tags": [
+    "임대",
+    "법인"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "법무사사무원",
+      "content": "법인 임대사업자는 자본금 최소 3억 + 임대물건 최소 5호 이상 요건이 있었는데 최근 규제가 조금 바뀌었어요. 현재는 주택임대사업자 자체가 신규 등록 제한적입니다. 상가/오피스는 자유롭게 가능하고요. 소형 오피스텔 2개면 주거용인지 업무용인지 구분부터 해야 합니다.",
+      "delay_minutes": 85,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "쇼핑몰대표",
+      "content": "주택 임대는 현재 아파트 신규 불가입니다. 오피스텔은 용도에 따라 달라요. 세무사랑 법무사 같이 상담 받으세요.",
+      "delay_minutes": 210,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 2,
+      "persona": "신축상가임대인",
+      "content": "바뀐 게 많네요 전문가 상담 받겠습니다 감사해요",
+      "delay_minutes": 340,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 3,
+      "persona": "눈팅전문가",
+      "content": "이거 저도 궁금",
+      "delay_minutes": 590,
+      "sentiment": "neutral"
+    }
+  ]
+}

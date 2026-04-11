@@ -1,0 +1,53 @@
+{
+  "script_code": "SCR-2026-016",
+  "category": "qna",
+  "title": "법인 은행 대출 처음부터 받을 수 있나요?",
+  "body": "법인 설립한지 3개월 됐는데 운영자금 대출 가능한지 궁금해요. 매출 이력이 짧아서 안 된다는 얘기도 있고 법인이면 쉽다는 얘기도 있어서 헷갈립니다.",
+  "author_persona": "자영업카페운영",
+  "target_keyword": "신설법인 대출",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-19",
+  "tags": [
+    "법인운영",
+    "대출"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "쇼핑몰대표",
+      "content": "신설법인은 기본적으로 신용대출 어렵습니다. 다만 신용보증기금/기술보증기금 통하면 가능해요. 보증서 발급받으면 은행이 대출해줍니다. 한도는 매출 없이도 5000~1억 가능하고, 금리는 연 4% 내외예요. 상담은 기보/신보에 직접 문의하시면 됩니다.",
+      "delay_minutes": 80,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "신축상가임대인",
+      "content": "저도 기보 통해서 첫 대출 받았어요. 서류 준비만 제대로 하면 2~3주 안에 나옵니다.",
+      "delay_minutes": 200,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "자영업카페운영",
+      "content": "기보/신보 처음 들어봤어요 알아보겠습니다 감사해요",
+      "delay_minutes": 310,
+      "sentiment": "positive",
+      "parent_sequence": 0
+    },
+    {
+      "sequence": 3,
+      "persona": "지하철러",
+      "content": "이거 저도 궁금했던 건데 감사합니다",
+      "delay_minutes": 490,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 4,
+      "persona": "ㅋㅋㅁㅌ",
+      "content": "ㄹㅇ 꿀정보",
+      "delay_minutes": 700,
+      "sentiment": "positive"
+    }
+  ]
+}

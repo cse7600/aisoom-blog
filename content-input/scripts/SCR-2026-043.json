@@ -1,0 +1,45 @@
+{
+  "script_code": "SCR-2026-043",
+  "category": "review",
+  "title": "소상공인 정책자금 3000만원 받아본 후기",
+  "body": "신청부터 입금까지 정확히 42일 걸렸어요. 금리 연 3%, 2년 거치 3년 분할상환. 서류 준비: 사업자등록증, 최근 3개월 매출내역, 재무제표, 사업계획서. 가장 까다로운 건 사업계획서예요. 정부 사이트 템플릿 활용하면 편합니다. 전반적으로 만족스러웠어요.",
+  "author_persona": "자영업카페운영",
+  "target_keyword": "소상공인 정책자금 후기",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-05-03",
+  "tags": [
+    "정책자금",
+    "대출"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "분식집창업준비중",
+      "content": "사업계획서가 제일 힘들다고 하니 미리 준비해야겠어요. 42일이면 생각보다 빠르네요.",
+      "delay_minutes": 65,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "쇼핑몰대표",
+      "content": "저는 작년에 45일 걸렸어요. 서류 한 번 보정 있어서. 처음부터 완벽하게 제출하면 30일 안에도 가능합니다.",
+      "delay_minutes": 170,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "초보창업마케터",
+      "content": "2년 거치면 숨통 트일만 하네요. 저도 신청해봐야겠어요",
+      "delay_minutes": 280,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 3,
+      "persona": "짧게한마디",
+      "content": "굿",
+      "delay_minutes": 480,
+      "sentiment": "positive"
+    }
+  ]
+}

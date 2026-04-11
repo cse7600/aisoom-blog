@@ -1,0 +1,67 @@
+{
+  "script_code": "SCR-2026-050",
+  "category": "free",
+  "title": "사장님들 스트레스 어떻게 푸세요",
+  "body": "매출 걱정, 직원 관리, 세금 신고 등등 스트레스 진짜 많은데요 다들 어떻게 푸세요? 저는 요즘 밤에 잠이 잘 안 와서 고민이에요.",
+  "author_persona": "사장님은힘들어",
+  "target_keyword": "자영업 스트레스 해소",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-05-06",
+  "tags": [
+    "자유토크",
+    "일상"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "한식당사장10년",
+      "content": "저는 10년 차인데 여전히 스트레스 있어요. 운동이 제일 효과적이었어요. 주 3회 헬스장 가면 확실히 잠도 잘 와요.",
+      "delay_minutes": 45,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "편의점사장7년차",
+      "content": "저는 일요일 오전에 무조건 카페 가서 책 읽어요. 그 시간만은 사장 아닌 사람으로 돌아가요.",
+      "delay_minutes": 135,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "카페사장3년차",
+      "content": "가끔 매장 일찍 닫고 영화 보러 가요 ㅎㅎ 죄책감 들지만 필요한 시간이에요.",
+      "delay_minutes": 230,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 3,
+      "persona": "사장님은힘들어",
+      "content": "운동 시작해볼게요... 카페/영화 좋네요 저도 시도해볼게요 ㅠㅠ 감사합니다",
+      "delay_minutes": 330,
+      "sentiment": "neutral",
+      "parent_sequence": 0
+    },
+    {
+      "sequence": 4,
+      "persona": "공감중독자",
+      "content": "ㅠㅠ 자영업자 파이팅",
+      "delay_minutes": 480,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 5,
+      "persona": "반응없는그사람",
+      "content": "힘내세요",
+      "delay_minutes": 680,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 6,
+      "persona": "스쳐지나간바람",
+      "content": "저도 비슷해요",
+      "delay_minutes": 900,
+      "sentiment": "neutral"
+    }
+  ]
+}

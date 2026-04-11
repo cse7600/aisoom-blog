@@ -1,0 +1,60 @@
+{
+  "script_code": "SCR-2026-009",
+  "category": "qna",
+  "title": "법인 폐업하는 게 유지보다 나을 수도 있나요?",
+  "body": "법인 만든지 2년 됐는데 매출이 거의 없어서 매년 세무기장비랑 부가세 신고비만 나가고 있어요. 유지 비용이 1년에 150만원 정도 드는데 그냥 폐업하고 개인사업자로 전환하는 게 나을까요? 폐업 절차도 만만치 않다고 해서 고민됩니다.",
+  "author_persona": "사장님은힘들어",
+  "target_keyword": "법인 폐업 개인사업자 전환",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-16",
+  "tags": [
+    "법인운영",
+    "폐업"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "세무사실장10년",
+      "content": "매출이 연 3000만원 미만이면 법인 유지는 거의 손해입니다. 폐업 후 개인사업자 전환이 합리적인 선택이에요. 다만 폐업 시 청산 배당이나 부가세 정산이 있어서 절차 꼼꼼히 챙기셔야 합니다. 2~3개월 정도 걸려요.",
+      "delay_minutes": 85,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "법무사사무원",
+      "content": "청산등기까지 하면 법무사비 추가로 듭니다. 해산등기 + 청산종결등기 2번이라 90만원쯤 들었어요 저는.",
+      "delay_minutes": 180,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 2,
+      "persona": "사장님은힘들어",
+      "content": "ㅠㅠ 2~3개월 걸리는군요... 세무사님께 한번 상담받아봐야겠어요",
+      "delay_minutes": 305,
+      "sentiment": "neutral",
+      "parent_sequence": 0
+    },
+    {
+      "sequence": 3,
+      "persona": "신축상가임대인",
+      "content": "저도 한 번 폐업해봤는데 생각보다 간단했어요. 매출 없으면 깔끔하게 폐업하는 게 정신건강에 좋습니다.",
+      "delay_minutes": 520,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 4,
+      "persona": "반응없는그사람",
+      "content": "...",
+      "delay_minutes": 880,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 5,
+      "persona": "댓글은가끔",
+      "content": "저장해둬야지",
+      "delay_minutes": 1180,
+      "sentiment": "positive"
+    }
+  ]
+}

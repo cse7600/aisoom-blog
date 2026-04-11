@@ -1,0 +1,60 @@
+{
+  "script_code": "SCR-2026-045",
+  "category": "review",
+  "title": "편의점 창업 2년 차 생존 중 - 수익률 공개",
+  "body": "편의점 오픈 2년 됐어요. 월 매출 평균 4500만원, 본부 수수료 35% 떼고 매출총이익 2900만원. 고정비(임대 350, 인건비 900, 기타 300) = 1550. 순이익 월 1350만원. 24시간 운영이라 제가 주야 2교대로 개입하고 있어요. 솔직히 힘들지만 버틸만해요.",
+  "author_persona": "편의점사장7년차",
+  "target_keyword": "편의점 수익률 실제",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-05-04",
+  "tags": [
+    "편의점",
+    "수익"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "초보창업마케터",
+      "content": "순이익 1350이면 연 1.6억이네요... 24시간 개입 조건이긴 하지만 정말 대단합니다.",
+      "delay_minutes": 60,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "분식집창업준비중",
+      "content": "인건비 900 고정이 무서운 숫자네요. 저도 가족 도움 없이는 못할 것 같아요.",
+      "delay_minutes": 175,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 2,
+      "persona": "자영업카페운영",
+      "content": "저도 카페인데 수익률은 편의점이 확실히 안정적이네요. 부럽습니다.",
+      "delay_minutes": 290,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 3,
+      "persona": "편의점사장7년차",
+      "content": "안정적이긴 한데 본부 의존도가 높아서 리스크도 있어요. 재료 단가 인상되면 바로 수익 깎입니다.",
+      "delay_minutes": 390,
+      "sentiment": "neutral",
+      "parent_sequence": 0
+    },
+    {
+      "sequence": 4,
+      "persona": "아진짜못참",
+      "content": "ㄹㅇ 자영업자 존경",
+      "delay_minutes": 620,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 5,
+      "persona": "읽고감",
+      "content": "참고합니다",
+      "delay_minutes": 880,
+      "sentiment": "positive"
+    }
+  ]
+}

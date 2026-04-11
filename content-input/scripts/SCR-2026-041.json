@@ -1,0 +1,45 @@
+{
+  "script_code": "SCR-2026-041",
+  "category": "review",
+  "title": "키퍼메이트 팀 10명 써봤습니다 - 도입 후 변화",
+  "body": "직원 10명 중소기업인데 키퍼메이트 3개월 전에 도입했어요. 결과: 계약 업무 30% 단축, 서류 분실 0건, 서명 대기 시간 80% 감소. 월 18만원 (10인 패키지) 비용 생각하면 확실히 남는 장사. 다만 초기 교육에 2주 걸렸어요. 개인 추천합니다.",
+  "author_persona": "쇼핑몰대표",
+  "target_keyword": "키퍼메이트 팀 도입",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-05-02",
+  "tags": [
+    "키퍼메이트",
+    "팀도입"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "아파트관리소장",
+      "content": "초기 교육 2주는 감내할 만한 투자죠. 저희도 비슷한 기간 들었어요.",
+      "delay_minutes": 60,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "분식집창업준비중",
+      "content": "10인 패키지 18만원이면 1인당 월 1.8만원인데 진짜 저렴한 거네요.",
+      "delay_minutes": 175,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "자영업카페운영",
+      "content": "저희는 5인 이하라 패키지 혜택 없어서 비용 부담인데 10인 이상이면 확실히 남아요.",
+      "delay_minutes": 290,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 3,
+      "persona": "이거ㅋㅋ저장",
+      "content": "팀 도입 케이스 귀해요 저장",
+      "delay_minutes": 520,
+      "sentiment": "positive"
+    }
+  ]
+}

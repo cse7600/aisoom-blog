@@ -1,0 +1,53 @@
+{
+  "script_code": "SCR-2026-035",
+  "category": "info",
+  "title": "법인 홈페이지 만드는 비용 얼마 들어요",
+  "body": "법인 설립하고 홈페이지 만들려는데 업체별 견적 받아본 거 공유합니다. 반응형 기본 80~150만원, 쇼핑몰 통합 250~500만원, 맞춤 개발 500만원 이상. 임시로 워드프레스+호스팅으로 만들면 10만원대도 가능해요. 사업 초기엔 큰돈 쓰지 마세요.",
+  "author_persona": "자영업카페운영",
+  "target_keyword": "법인 홈페이지 비용",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-29",
+  "tags": [
+    "법인운영",
+    "마케팅"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "초보창업마케터",
+      "content": "워드프레스 진짜 가성비 최고예요. 저도 15만원으로 시작했는데 지금도 잘 씁니다.",
+      "delay_minutes": 55,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "쇼핑몰대표",
+      "content": "쇼핑몰이면 카페24나 메이크샵 같은 플랫폼이 초기엔 나아요. 매출 생기면 맞춤 개발로 옮기는 게 좋습니다.",
+      "delay_minutes": 165,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "소규모베이커리창업",
+      "content": "저희는 인스타만 해도 되려나 고민이에요ㅋㅋ",
+      "delay_minutes": 280,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 3,
+      "persona": "쇼핑몰대표",
+      "content": "인스타만 해도 B2C는 충분해요. B2B는 홈페이지 있어야 거래처 신뢰도 생겨요.",
+      "delay_minutes": 370,
+      "sentiment": "positive",
+      "parent_sequence": 2
+    },
+    {
+      "sequence": 4,
+      "persona": "웃기면살아남",
+      "content": "ㄹㅇ 인스타가 답ㅋㅋ",
+      "delay_minutes": 620,
+      "sentiment": "neutral"
+    }
+  ]
+}

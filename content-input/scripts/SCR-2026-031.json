@@ -1,0 +1,53 @@
+{
+  "script_code": "SCR-2026-031",
+  "category": "info",
+  "title": "상가 권리금 적정선 계산법 공유",
+  "body": "상가 권리금 협상할 때 기준 몰라서 당황스러우실 텐데요. 월 매출 × 12개월 × 0.3~0.5 가 통상 권리금입니다. 월 매출 1000만원이면 3600만원 ~ 6000만원 사이. 위치/유동인구/계약 잔여기간에 따라 변동돼요. 묵시적 갱신 중인 매물은 권리금 더 깎을 수 있습니다.",
+  "author_persona": "신축상가임대인",
+  "target_keyword": "상가 권리금 계산",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-27",
+  "tags": [
+    "상가",
+    "권리금"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "한식당사장10년",
+      "content": "이 공식 진짜 맞아요. 저 상가 볼 때 이 기준으로 비싸다 싶으면 안 들어갔어요.",
+      "delay_minutes": 75,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "편의점사장7년차",
+      "content": "편의점은 본사 매출 자료 보면 돼서 권리금 계산 쉬운데 개인매장은 매출 부풀리는 경우 있으니 현장에서 사흘 정도 관찰하세요.",
+      "delay_minutes": 190,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "분식집창업준비중",
+      "content": "3일 관찰 꿀팁이네요. 어떻게 관찰하셨어요?",
+      "delay_minutes": 290,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 3,
+      "persona": "편의점사장7년차",
+      "content": "평일/주말 각각 하루 2시간씩 앉아서 시간당 손님 수 세요. 평균 객단가 곱하면 일매출 나옵니다.",
+      "delay_minutes": 390,
+      "sentiment": "positive",
+      "parent_sequence": 2
+    },
+    {
+      "sequence": 4,
+      "persona": "읽고감",
+      "content": "저장",
+      "delay_minutes": 720,
+      "sentiment": "positive"
+    }
+  ]
+}

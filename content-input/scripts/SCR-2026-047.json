@@ -1,0 +1,52 @@
+{
+  "script_code": "SCR-2026-047",
+  "category": "free",
+  "title": "사장님들 점심 뭐 드세요 진짜 궁금해요",
+  "body": "저는 매일 김밥 아니면 편의점 도시락이에요... 하루 1만원도 안 쓰는 거 같네요. 다들 점심은 어떻게 해결하세요?",
+  "author_persona": "점심뭐먹지녀",
+  "target_keyword": "자영업 점심",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-05-05",
+  "tags": [
+    "자유토크",
+    "일상"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "한식당사장10년",
+      "content": "저는 식당 운영이라 재료로 뚝딱 만들어 먹어요 ㅎㅎ 직원들이랑 같이 먹는 시간이 제일 즐거워요.",
+      "delay_minutes": 40,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "편의점사장7년차",
+      "content": "저도 편의점 도시락 ㅋㅋ 빨리 먹고 손님 응대해야 하니까요.",
+      "delay_minutes": 120,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 2,
+      "persona": "분식집창업준비중",
+      "content": "분식집 준비 중인데 매일 점심은 분식이겠네요ㅠㅠ",
+      "delay_minutes": 210,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 3,
+      "persona": "ㅋㅋㅁㅌ",
+      "content": "ㅋㅋㅋ 점심 안 먹고 일하는 날도 많음",
+      "delay_minutes": 340,
+      "sentiment": "neutral"
+    },
+    {
+      "sequence": 4,
+      "persona": "강쥐집사누나",
+      "content": "저는 반려견이랑 산책 겸 밖에 나가서 해결해요 ㅎㅎ",
+      "delay_minutes": 480,
+      "sentiment": "positive"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "script_code": "SCR-2026-022",
+  "category": "info",
+  "title": "키퍼메이트 무료체험 15일 연장되는 꿀팁 공유",
+  "body": "고객센터에 문의하면 체험기간 15일 더 줍니다. 저는 30일 썼는데 결제 직전에 한 번 더 연장 요청하니까 추가로 15일 더 받아서 총 45일 무료로 썼어요. 정말 급한 일 있을 때 쓰는 건 아니고 진짜 결제 고민 중일 때만 쓰세요.",
+  "author_persona": "초보창업마케터",
+  "target_keyword": "키퍼메이트 무료체험 연장",
+  "thumb_variant": "default",
+  "planned_post_date": "2026-04-22",
+  "tags": [
+    "키퍼메이트",
+    "팁"
+  ],
+  "notes": null,
+  "comments": [
+    {
+      "sequence": 0,
+      "persona": "자영업카페운영",
+      "content": "오 이런 방법이 있었군요! 저는 그냥 30일 쓰고 결제했는데 ㅠㅠ",
+      "delay_minutes": 95,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 1,
+      "persona": "쇼핑몰대표",
+      "content": "저도 실제로 연장 받아봤는데 상담사 분이 흔쾌히 해주시더라구요. 감사한 마음으로 결제 했습니다.",
+      "delay_minutes": 210,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 2,
+      "persona": "공감중독자",
+      "content": "이런 꿀팁 좋다 ㄹㅇ 저장",
+      "delay_minutes": 420,
+      "sentiment": "positive"
+    },
+    {
+      "sequence": 3,
+      "persona": "짧게한마디",
+      "content": "좋다",
+      "delay_minutes": 780,
+      "sentiment": "positive"
+    }
+  ]
+}
