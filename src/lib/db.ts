@@ -116,6 +116,46 @@ export async function getPostCountByCategory(categorySlug: string): Promise<numb
   return count ?? 0;
 }
 
+/**
+ * 전체 발행 포스트 수
+ */
+export async function getPublishedPostCount(): Promise<number> {
+  const db = createServiceClient();
+  const { count, error } = await db
+    .from("posts")
+    .select("id", { count: "exact", head: true })
+    .eq("status", "published");
+
+  if (error) {
+    console.error("[db] getPublishedPostCount:", error.message);
+    return 0;
+  }
+  return count ?? 0;
+}
+
+/**
+ * 카테고리별 포스트 수 한 번에 조회 — 전체보기/네비게이션용
+ * Returns: { [slug]: count }
+ */
+export async function getPostCountsByCategory(): Promise<Record<string, number>> {
+  const db = createServiceClient();
+  const { data, error } = await db
+    .from("posts")
+    .select("category")
+    .eq("status", "published");
+
+  if (error) {
+    console.error("[db] getPostCountsByCategory:", error.message);
+    return {};
+  }
+
+  const counts: Record<string, number> = {};
+  for (const row of (data ?? []) as Array<{ category: string }>) {
+    counts[row.category] = (counts[row.category] ?? 0) + 1;
+  }
+  return counts;
+}
+
 export async function getPostBySlug(slug: string): Promise<PostRow | null> {
   const db = createServiceClient();
   const { data, error } = await db

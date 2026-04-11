@@ -1,16 +1,25 @@
-import { getFeaturedPosts, getRecentPosts, getCategories } from "@/lib/db";
+import {
+  getFeaturedPosts,
+  getRecentPosts,
+  getCategories,
+  getPostCountsByCategory,
+  getPublishedPostCount,
+} from "@/lib/db";
 import { FeaturedPostCard } from "@/components/content/FeaturedPostCard";
 import { PostCard } from "@/components/content/PostCard";
+import { CategoryNavBar } from "@/components/content/CategoryNavBar";
 import SubscribeForm from "@/components/newsletter/SubscribeForm";
 import Link from "next/link";
 
 export const revalidate = 60;
 
 export default async function HomePage() {
-  const [featured, recent, categories] = await Promise.all([
+  const [featured, recent, categories, counts, totalCount] = await Promise.all([
     getFeaturedPosts(1),
     getRecentPosts(8),
     getCategories(),
+    getPostCountsByCategory(),
+    getPublishedPostCount(),
   ]);
 
   const featuredPost = featured[0];
@@ -41,23 +50,13 @@ export default async function HomePage() {
         </section>
       )}
 
-      {/* 카테고리 바 */}
+      {/* 카테고리 네비게이션 바 */}
       {categories.length > 0 && (
-        <section className="border-y border-border bg-surface-2">
-          <div className="mx-auto max-w-content px-4 sm:px-6">
-            <div className="flex items-center gap-1 overflow-x-auto scrollbar-thin py-3">
-              {categories.map((cat) => (
-                <Link
-                  key={cat.slug}
-                  href={`/${cat.slug}`}
-                  className="shrink-0 px-4 py-1.5 text-body-sm font-medium rounded-full border border-border text-foreground/60 hover:text-primary hover:border-primary transition-all"
-                >
-                  {cat.name}
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
+        <CategoryNavBar
+          categories={categories}
+          counts={counts}
+          totalCount={totalCount}
+        />
       )}
 
       {/* 최신 글 그리드 */}
@@ -66,6 +65,12 @@ export default async function HomePage() {
           <div className="mx-auto max-w-content px-4 sm:px-6">
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-heading-lg font-bold text-foreground">최신 글</h2>
+              <Link
+                href="/posts"
+                className="text-body-sm font-medium text-primary hover:text-primary-hover transition-colors"
+              >
+                전체보기 →
+              </Link>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
               {recent.map((post, i) => (
