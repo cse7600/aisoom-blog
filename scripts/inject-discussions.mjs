@@ -8,6 +8,11 @@ import { createClient } from "@supabase/supabase-js";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import {
+  generateFakeIpHash,
+  distributeCommentTimestamps,
+  pickReplyTimestamp,
+} from "./lib/anti-bot-utils.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -78,6 +83,9 @@ function ts(base, addHours) {
 
 // 기준 날짜: 3일 전 (자연스러운 최근 포스트)
 const BASE = new Date(Date.now() - 3 * 24 * 60 * 60 * 1000).toISOString();
+
+// anti-bot 유틸 seed 카운터 — 각 댓글마다 고유 IP hash 생성
+let ABSEED = Math.floor(Date.now() / 1000) % 100000;
 
 // ─── 각본 데이터 ──────────────────────────────────────────────────────────
 const SCRIPTS = [
@@ -451,19 +459,26 @@ const SCRIPTS = [
 
 async function insertPost(script, baseTime) {
   const { slug, batch, template, discussions } = script;
-  let commentOffset = 0;
   let totalComments = 0;
   let totalReplies = 0;
 
-  for (const disc of discussions) {
+  // 자연스러운 댓글 타임스탬프 분산 (한국 활성 시간대 + 7~21일 스프레드)
+  const anchor = new Date(baseTime);
+  const timestamps = distributeCommentTimestamps(anchor, discussions.length, {
+    maxDays: 14,
+    peakBiasDays: 2.5,
+  });
+
+  for (let idx = 0; idx < discussions.length; idx += 1) {
+    const disc = discussions[idx];
     const personaId = P[disc.persona];
     if (!personaId) {
-      console.warn(`  ⚠ 페르소나 없음: ${disc.persona}`);
+      console.warn(`  페르소나 없음: ${disc.persona}`);
       continue;
     }
 
-    const createdAt = ts(baseTime, commentOffset);
-    commentOffset += Math.random() * 2 + 0.5; // 0.5~2.5시간 간격
+    const createdAt = timestamps[idx];
+    const ipHash = generateFakeIpHash(ABSEED++);
 
     const { data: inserted, error } = await supabase
       .from("post_discussions")
@@ -480,25 +495,27 @@ async function insertPost(script, baseTime) {
         generation_phase: "bootstrap",
         quality_tier: disc.tier,
         char_count: disc.content.length,
-        created_at: createdAt,
+        ip_hash: ipHash,
+        created_at: createdAt.toISOString(),
       })
       .select("id")
       .single();
 
     if (error) {
-      console.error(`  ✗ 댓글 삽입 실패 [${disc.persona}]: ${error.message}`);
+      console.error(`  댓글 삽입 실패 [${disc.persona}]: ${error.message}`);
       continue;
     }
 
     totalComments++;
     const discussionId = inserted.id;
 
-    // 대댓글
+    // 대댓글 — 부모 타임스탬프 기준 15분~12시간 랜덤
     for (const rep of disc.replies ?? []) {
       const repPersonaId = P[rep.persona];
       if (!repPersonaId) continue;
 
-      const repTime = ts(createdAt, Math.random() * 1.5 + 0.2);
+      const repTime = pickReplyTimestamp(createdAt);
+      const repIp = generateFakeIpHash(ABSEED++);
       const { error: repErr } = await supabase
         .from("discussion_replies")
         .insert({
@@ -512,11 +529,12 @@ async function insertPost(script, baseTime) {
           quality_tier: rep.tier,
           char_count: rep.content.length,
           response_model: "immediate",
-          created_at: repTime,
+          ip_hash: repIp,
+          created_at: repTime.toISOString(),
         });
 
       if (repErr) {
-        console.error(`    ✗ 대댓글 실패 [${rep.persona}]: ${repErr.message}`);
+        console.error(`    대댓글 실패 [${rep.persona}]: ${repErr.message}`);
         continue;
       }
       totalReplies++;
@@ -527,20 +545,31 @@ async function insertPost(script, baseTime) {
 }
 
 async function main() {
-  console.log("Phase 8.8 각본 직접 삽입 시작\n");
+  console.log("Phase 8.8 각본 직접 삽입 시작 (anti-bot 분산 활성화)\n");
 
-  // 포스트별 시작 시간: 3일 전부터 하루씩 분산
-  const baseDate = new Date(Date.now() - 3 * 24 * 60 * 60 * 1000);
-
+  // 포스트별 anchor: 해당 포스트 발행일 기준으로 받는 것이 이상적이나,
+  // 현재 스크립트는 slug 기준이므로 posts 테이블에서 published_at 조회.
   let grandTotal = { comments: 0, replies: 0 };
 
-  for (let i = 0; i < SCRIPTS.length; i++) {
-    const script = SCRIPTS[i];
-    // 포스트마다 12시간 간격으로 분산
-    const postBase = new Date(baseDate.getTime() + i * 12 * 60 * 60 * 1000).toISOString();
-    process.stdout.write(`[${i + 1}/${SCRIPTS.length}] ${script.slug}\n`);
+  for (let index = 0; index < SCRIPTS.length; index += 1) {
+    const script = SCRIPTS[index];
+    process.stdout.write(`[${index + 1}/${SCRIPTS.length}] ${script.slug}\n`);
 
-    const { totalComments, totalReplies } = await insertPost(script, postBase);
+    // 해당 포스트 발행일 조회
+    const { data: postRow } = await supabase
+      .from("posts")
+      .select("published_at,created_at")
+      .eq("slug", script.slug)
+      .maybeSingle();
+
+    const rawDate = postRow?.published_at ?? postRow?.created_at;
+    const anchor = rawDate
+      ? new Date(rawDate)
+      : new Date(Date.now() - (7 + index) * 24 * 3600 * 1000);
+    // 발행 30분~3시간 후부터 첫 댓글 가능
+    anchor.setTime(anchor.getTime() + (30 + Math.random() * 150) * 60 * 1000);
+
+    const { totalComments, totalReplies } = await insertPost(script, anchor.toISOString());
     grandTotal.comments += totalComments;
     grandTotal.replies += totalReplies;
     console.log(`  → 댓글 ${totalComments}개, 대댓글 ${totalReplies}개\n`);
