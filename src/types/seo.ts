@@ -26,6 +26,16 @@ export interface JsonLdArticle {
     "@type": "WebPage";
     "@id": string;
   };
+  /** AEO/GEO 강화 필드 */
+  inLanguage?: string;
+  wordCount?: number;
+  articleSection?: string;
+  keywords?: string;
+  isPartOf?: {
+    "@type": "WebSite";
+    name: string;
+    url: string;
+  };
 }
 
 export interface JsonLdAuthor {

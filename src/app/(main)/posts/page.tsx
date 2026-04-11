@@ -18,14 +18,14 @@ export const revalidate = 60;
 const PAGE_SIZE = 20;
 
 export const metadata: Metadata = {
-  title: "전체 글 목록 - 찐 비교 & 추천",
+  title: "전체 글 목록 - 사기 전에 한 번, 고른다",
   description:
-    "꿀정보에 발행된 모든 글을 최신순으로 확인하세요. CCTV·법인설립·전자책·식자재 등 카테고리별 찐 비교와 찐 추천을 한 곳에서.",
+    "고른다(ㄱㄹㄷ)에 발행된 모든 글을 최신순으로 확인하세요. CCTV·법인설립·전자책·식자재 등 카테고리별 비교·검증 콘텐츠를 한 곳에서.",
   alternates: { canonical: `${SITE_CONFIG.url}/posts` },
   openGraph: {
     type: "website",
     title: `전체 글 목록 | ${SITE_CONFIG.name}`,
-    description: "꿀정보 발행 콘텐츠 전체 목록. 최신순 정렬.",
+    description: "고른다 발행 콘텐츠 전체 목록. 최신순 정렬.",
     url: `${SITE_CONFIG.url}/posts`,
     siteName: SITE_CONFIG.name,
   },
@@ -61,7 +61,7 @@ export default async function AllPostsPage({ searchParams }: AllPostsPageProps) 
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: "전체 글 목록",
-    description: "꿀정보 발행 콘텐츠 전체 목록",
+    description: "고른다 발행 콘텐츠 전체 목록",
     url: `${SITE_CONFIG.url}/posts`,
     isPartOf: {
       "@type": "WebSite",

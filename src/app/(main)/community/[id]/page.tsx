@@ -9,6 +9,7 @@ import { COMMUNITY_CATEGORIES } from "@/lib/community-types";
 import { CommunityComments } from "@/components/community/CommunityComments";
 import { CommunityPostActions } from "@/components/community/CommunityPostActions";
 import { DiscussionJsonLd } from "@/components/community/DiscussionJsonLd";
+import { SITE_CONFIG } from "@/lib/constants";
 
 interface CommunityDetailPageProps {
   params: { id: string };
@@ -19,14 +20,20 @@ export async function generateMetadata({
 }: CommunityDetailPageProps): Promise<Metadata> {
   const detail = await getCommunityPostDetail(params.id);
   if (!detail) {
-    return { title: "게시글 | 소통 | 꿀정보" };
+    return { title: "소통 게시글" };
   }
+  const snippet = detail.post.content.replace(/\s+/g, " ").slice(0, 155);
+  const canonical = `${SITE_CONFIG.url}/community/${detail.post.id}`;
   return {
-    title: `${detail.post.title} | 소통 | 꿀정보`,
-    description: detail.post.content.slice(0, 140),
+    title: `${detail.post.title} · 소통`,
+    description: snippet,
+    alternates: { canonical },
     openGraph: {
+      type: "article",
       title: detail.post.title,
-      description: detail.post.content.slice(0, 140),
+      description: snippet,
+      url: canonical,
+      siteName: SITE_CONFIG.name,
     },
   };
 }

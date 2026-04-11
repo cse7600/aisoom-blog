@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CommunityWriteForm } from "@/components/community/CommunityWriteForm";
+import { SITE_CONFIG } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "글쓰기 | 소통 | 꿀정보",
-  description: "소통 게시판에 글을 남겨 보세요.",
+  title: "글쓰기 · 소통",
+  description: "소통 게시판에 글을 남겨 보세요. 마케팅·광고·도배 글은 삭제됩니다.",
+  alternates: { canonical: `${SITE_CONFIG.url}/community/write` },
+  robots: { index: false, follow: true },
 };
 
 export default function CommunityWritePage() {

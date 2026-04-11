@@ -208,7 +208,7 @@ async function publishFile(filePath, { dry, update }) {
     tags: Array.isArray(meta.tags) ? meta.tags : [],
     keywords: flattenKeywords(meta.keywords),
     image_url: meta.image_url ?? null,
-    author: meta.author ?? "꿀정보 에디터",
+    author: meta.author ?? "고른다 에디터",
     status: "published",
     featured: meta.featured === "true" || meta.featured === true,
     read_time: calcReadTime(content),

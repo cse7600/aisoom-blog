@@ -1,14 +1,14 @@
 export const SITE_CONFIG = {
-  name: "꿀정보",
-  nameEn: "KkulInfo",
-  tagline: "찐 비교, 찐 추천",
+  name: "고른다",
+  nameEn: "GRD",
+  tagline: "사기 전에 한 번, 고른다",
   description:
-    "구매 전 꼭 확인하세요. 전문가가 직접 비교하고 테스트한 찐 추천 콘텐츠.",
+    "구매·계약·선택 전 한 번 거치는 큐레이션 허브. 전문가가 직접 비교하고 검증한 결정만 모읍니다.",
   url: "https://www.factnote.co.kr",
   locale: "ko_KR",
   language: "ko",
   ogImage: "/og-default.png",
-  twitterHandle: "@kkulinfo",
+  twitterHandle: "@grd_pick",
 } as const;
 
 export const CATEGORIES = [
@@ -54,32 +54,32 @@ export type CategorySlug = (typeof CATEGORIES)[number]["slug"];
 export const AFFILIATE_PLATFORMS = {
   coupang: {
     name: "쿠팡",
-    trackingParam: "src=kkulinfo",
+    trackingParam: "src=grd",
     commissionRate: "3-10%",
   },
   naver: {
     name: "네이버",
-    trackingParam: "ref=kkulinfo",
+    trackingParam: "ref=grd",
     commissionRate: "1-5%",
   },
   amazon: {
     name: "아마존",
-    trackingParam: "tag=kkulinfo-20",
+    trackingParam: "tag=grd-20",
     commissionRate: "1-10%",
   },
   financial: {
     name: "금융",
-    trackingParam: "partner=kkulinfo",
+    trackingParam: "partner=grd",
     commissionRate: "CPA",
   },
 } as const;
 
 export const SEO_DEFAULTS = {
-  titleTemplate: "%s | 꿀정보",
+  titleTemplate: "%s | 고른다",
   titleSeparator: " | ",
-  defaultTitle: "꿀정보 - 찐 비교, 찐 추천",
+  defaultTitle: "고른다(ㄱㄹㄷ) - 사기 전에 한 번, 고른다",
   defaultDescription:
-    "구매 전 꼭 확인하세요. 전문가가 직접 비교하고 테스트한 찐 추천 콘텐츠. 테크, 금융, 뷰티, 생활, 여행 카테고리별 실용 정보.",
+    "구매·계약·선택 전 한 번 거치는 큐레이션 허브. 전문가가 비교·검증한 결정만 모읍니다. 테크, 금융, 뷰티, 생활, 여행 카테고리별 실용 정보.",
   maxTitleLength: 60,
   maxDescriptionLength: 155,
 } as const;

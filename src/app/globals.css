@@ -668,6 +668,20 @@ body {
   color: var(--color-text-tertiary);
 }
 
+.community-page__section-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 1.5rem 0 0.75rem;
+  letter-spacing: -0.01em;
+}
+
+.community-page__section-count {
+  font-weight: 500;
+  color: var(--color-text-tertiary);
+  font-size: 0.8125rem;
+}
+
 .community-page__write,
 .community-page__back {
   display: inline-flex;

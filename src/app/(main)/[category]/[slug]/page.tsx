@@ -62,7 +62,6 @@ export default async function PostPage({ params }: PostPageProps) {
     ? `${SITE_CONFIG.url}/community/users/${encodeURIComponent(post.author)}`
     : undefined;
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars -- JSX 소비부(JsonLd)가 ESLint에 인식되지 않는 false positive
   const articleJsonLd = buildArticleJsonLd({
     title: post.title,
     description: post.description ?? "",
@@ -78,7 +77,6 @@ export default async function PostPage({ params }: PostPageProps) {
   });
 
   const faqItems = extractFaqFromHtml(contentHtml);
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars -- JSX 소비부(JsonLd)가 ESLint에 인식되지 않는 false positive
   const faqJsonLd = faqItems.length >= 2 ? buildFaqJsonLd(faqItems) : null;
 
   return (

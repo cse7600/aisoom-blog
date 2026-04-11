@@ -38,18 +38,23 @@ export async function generateMetadata({
   const persona = await getPersonaByNickname(nickname);
   if (!persona) {
     return {
-      title: `${nickname} | 꿀정보 커뮤니티 프로필`,
+      title: `${nickname} 프로필 · 소통`,
+      robots: { index: false, follow: true },
     };
   }
-  const description = persona.bio ?? `${persona.nickname}의 커뮤니티 프로필`;
+  const description =
+    persona.bio ?? `${persona.nickname}의 커뮤니티 활동 — 경험 기반 후기와 토론 이력.`;
+  const profileUrl = `${SITE_CONFIG.url}/community/users/${encodeURIComponent(persona.nickname)}`;
   return {
-    title: `${persona.nickname} 프로필 | 꿀정보 커뮤니티`,
+    title: `${persona.nickname} 프로필 · 소통`,
     description,
+    alternates: { canonical: profileUrl },
     openGraph: {
       type: "profile",
-      title: `${persona.nickname} | 꿀정보 커뮤니티`,
+      title: `${persona.nickname} · ${SITE_CONFIG.name} 소통`,
       description,
-      url: `${SITE_CONFIG.url}/community/users/${encodeURIComponent(persona.nickname)}`,
+      url: profileUrl,
+      siteName: SITE_CONFIG.name,
     },
   };
 }
@@ -119,7 +124,7 @@ function ExpertiseChips({ domains }: { domains: string[] }) {
 function NoticeBanner() {
   return (
     <aside className="mb-6 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-xs text-amber-800">
-      이 프로필은 꿀정보 커뮤니티 페르소나 계정입니다. 경험 기반 토론을 시뮬레이션합니다.
+      이 프로필은 고른다(ㄱㄹㄷ) 커뮤니티 페르소나 계정입니다. 경험 기반 토론을 시뮬레이션합니다.
     </aside>
   );
 }

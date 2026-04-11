@@ -10,9 +10,8 @@ export const metadata: Metadata = {
   },
   description: SEO_DEFAULTS.defaultDescription,
   metadataBase: new URL(SITE_CONFIG.url),
-  alternates: {
-    canonical: "/",
-  },
+  // NOTE: 루트 레이아웃에서 canonical을 지정하면 모든 하위 페이지가 홈으로 귀속된다.
+  // 각 페이지가 자체 `alternates.canonical`을 설정하도록 여기서는 비워 둔다.
   openGraph: {
     type: "website",
     locale: SITE_CONFIG.locale,

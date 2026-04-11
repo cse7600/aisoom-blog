@@ -8,14 +8,19 @@ import {
 } from "@/lib/community-types";
 import { CommunityCategories } from "@/components/community/CommunityCategories";
 import { CommunityPostList } from "@/components/community/CommunityPostList";
+import { SITE_CONFIG } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "소통 | 꿀정보",
+  title: "소통",
   description:
-    "누구나 자유롭게 이야기 나누는 공간. 자유토크부터 질문/답변, 후기까지.",
+    "누구나 자유롭게 이야기 나누는 공간. 자유토크부터 질문/답변, 후기까지. 구매·선택 고민을 나눠 보세요.",
+  alternates: { canonical: `${SITE_CONFIG.url}/community` },
   openGraph: {
-    title: "소통 | 꿀정보",
+    type: "website",
+    title: `소통 | ${SITE_CONFIG.name}`,
     description: "누구나 자유롭게 이야기 나누는 공간.",
+    url: `${SITE_CONFIG.url}/community`,
+    siteName: SITE_CONFIG.name,
   },
 };
 
@@ -43,13 +48,16 @@ export default async function CommunityPage({
     search,
   });
 
+  const activeCategoryLabel = categoryLabel(category);
+  const sortLabel = sortDescription(sort);
+
   return (
     <div className="community-page">
       <header className="community-page__hero">
         <div>
-          <h1 className="community-page__title">소통</h1>
+          <h1 className="community-page__title">소통 커뮤니티</h1>
           <p className="community-page__subtitle">
-            누구나 자유롭게 이야기 나누는 공간
+            구매·계약·선택 고민을 함께 나누는 공간. 자유토크, 질문/답변, 후기까지.
           </p>
         </div>
         <Link href="/community/write" className="community-page__write">
@@ -57,22 +65,59 @@ export default async function CommunityPage({
         </Link>
       </header>
 
-      <CommunityCategories totalCount={result.total} />
+      <section aria-labelledby="community-categories-heading">
+        <h2 id="community-categories-heading" className="sr-only">
+          카테고리 및 정렬
+        </h2>
+        <CommunityCategories totalCount={result.total} />
+      </section>
 
-      <CommunityPostList
-        posts={result.posts}
-        page={result.page}
-        pageSize={result.pageSize}
-        total={result.total}
-        basePath="/community"
-        searchParams={{
-          cat: category === "all" ? undefined : category,
-          sort: sort === "recent" ? undefined : sort,
-          q: search,
-        }}
-      />
+      <section aria-labelledby="community-posts-heading">
+        <h2 id="community-posts-heading" className="community-page__section-title">
+          {activeCategoryLabel} · {sortLabel}
+          <span className="community-page__section-count">
+            {" "}
+            ({result.total.toLocaleString("ko-KR")}건)
+          </span>
+        </h2>
+        <CommunityPostList
+          posts={result.posts}
+          page={result.page}
+          pageSize={result.pageSize}
+          total={result.total}
+          basePath="/community"
+          searchParams={{
+            cat: category === "all" ? undefined : category,
+            sort: sort === "recent" ? undefined : sort,
+            q: search,
+          }}
+        />
+      </section>
     </div>
   );
+}
+
+function categoryLabel(slug: CommunityCategorySlug): string {
+  switch (slug) {
+    case "free":
+      return "자유토크";
+    case "qna":
+      return "질문/답변";
+    case "review":
+      return "후기/리뷰";
+    case "info":
+      return "정보공유";
+    case "humor":
+      return "유머/짤";
+    default:
+      return "전체 글";
+  }
+}
+
+function sortDescription(sort: CommunitySortKey): string {
+  if (sort === "popular") return "조회수 많은 순";
+  if (sort === "comments") return "댓글 많은 순";
+  return "최신순";
 }
 
 function normalizeCategory(raw: string | undefined): CommunityCategorySlug {

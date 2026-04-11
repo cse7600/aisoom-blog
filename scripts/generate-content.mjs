@@ -84,7 +84,7 @@ function loadAffiliates() {
       category: aff.category,
       url: aff.url,
       disclosure: aff.disclosure,
-      author: aff.author ?? "꿀정보 에디터",
+      author: aff.author ?? "고른다 에디터",
     };
   }
   return map;

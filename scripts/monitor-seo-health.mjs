@@ -60,7 +60,7 @@ function severityMarker(severity) {
 
 async function dispatchAlertEmail(alerts) {
   const { sendNewsletter } = await loadModule("src/lib/email.ts");
-  const subject = `[KkulInfo SEO Health] ${alerts.length}개 항목 이상 감지`;
+  const subject = `[GRD SEO Health] ${alerts.length}개 항목 이상 감지`;
   const html = renderAlertHtml(alerts);
   await sendNewsletter({ to: ALERT_TO, subject, html });
   process.stdout.write(`[monitor-seo-health] 경고 이메일 발송 완료 -> ${ALERT_TO.join(", ")}\n`);

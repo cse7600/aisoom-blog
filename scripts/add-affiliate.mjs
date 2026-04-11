@@ -329,7 +329,7 @@ async function interactiveAdd(affiliatesData, queue) {
     category,
     url,
     disclosure,
-    author: "꿀정보 에디터",
+    author: "고른다 에디터",
     description,
     sources: [],
   };

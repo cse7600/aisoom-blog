@@ -21,7 +21,7 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 
-const PLIST_LABEL = "com.kkulinfo.content-loop";
+const PLIST_LABEL = "com.grd.content-loop";
 const PLIST_PATH = path.join(
   process.env.HOME,
   "Library/LaunchAgents",
