@@ -36,7 +36,13 @@
     "gsc-setup": "node scripts/gsc-setup.mjs",
     "gsc-queries": "node scripts/gsc-monitor.mjs --queries",
     "gsc-pages": "node scripts/gsc-monitor.mjs --pages",
-    "gsc-history": "node scripts/gsc-monitor.mjs --history"
+    "gsc-history": "node scripts/gsc-monitor.mjs --history",
+    "pipeline:d0": "node scripts/content-pipeline.mjs --phase d0",
+    "pipeline:d2": "node scripts/content-pipeline.mjs --phase d2",
+    "pipeline:d7": "node scripts/content-pipeline.mjs --phase d7",
+    "pipeline:d30": "node scripts/content-pipeline.mjs --phase d30",
+    "content:plan": "node scripts/batch-content-plan.mjs",
+    "content:status": "node scripts/content-status.mjs --pipeline"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.87.0",

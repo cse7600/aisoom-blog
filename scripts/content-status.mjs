@@ -18,6 +18,27 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const REGISTRY_PATH = path.join(ROOT, "content-input", "content-registry.json");
+const SCHEDULE_PATH = path.join(ROOT, "scripts", "content-schedule.json");
+
+/**
+ * scripts/content-schedule.json 로드 — slug별 phase 완료 배열 맵을 반환.
+ * 파일이 없으면 빈 Map.
+ */
+function loadPipelineSchedule() {
+  if (!fs.existsSync(SCHEDULE_PATH)) return new Map();
+  const raw = JSON.parse(fs.readFileSync(SCHEDULE_PATH, "utf-8"));
+  const map = new Map();
+  for (const row of raw.schedule ?? []) {
+    map.set(row.slug, {
+      publishAt: row.publishAt,
+      d2: row.d2,
+      d7: row.d7,
+      d30: row.d30,
+      done: row.done ?? [],
+    });
+  }
+  return map;
+}
 
 // ── frontmatter 파서 ────────────────────────────────────────────────────────
 function parseFrontmatter(raw) {
@@ -139,7 +160,8 @@ function buildRegistry() {
 
 // ── 출력 ──────────────────────────────────────────────────────────────────────
 function printSummary(registry, opts = {}) {
-  const { affiliateFilter, statusFilter, showKeywords } = opts;
+  const { affiliateFilter, statusFilter, showKeywords, showPipeline } = opts;
+  const pipelineMap = showPipeline ? loadPipelineSchedule() : null;
   let posts = registry.posts;
   if (affiliateFilter) posts = posts.filter(p => p.affiliate === affiliateFilter);
   if (statusFilter) posts = posts.filter(p => p.status === statusFilter);
@@ -164,14 +186,17 @@ function printSummary(registry, opts = {}) {
     for (const p of allPosts) {
       const tag = p.status === "published" ? "[발행]" : "[초안]";
       const kw = p.keyword.score ? `점수:${p.keyword.score} 검색:${p.keyword.total}` : "키워드 미매핑";
+      const phaseTag = pipelineMap ? formatPhaseTag(pipelineMap.get(p.slug)) : "";
       if (showKeywords) {
         console.log(`  ${tag} ${p.slug}`);
         console.log(`        제목: ${p.title.slice(0, 40)}...`);
         console.log(`        키워드: ${p.keyword.main || "-"} (${kw})`);
+        if (phaseTag) console.log(`        파이프라인: ${phaseTag}`);
         if (p.publishedAt) console.log(`        발행일: ${p.publishedAt}`);
       } else {
         const pub = p.publishedAt ? ` → 발행: ${p.publishedAt.slice(0, 10)}` : "";
-        console.log(`  ${tag} ${p.slug.slice(0, 45).padEnd(45)} ${kw}${pub}`);
+        const phase = phaseTag ? ` ${phaseTag}` : "";
+        console.log(`  ${tag} ${p.slug.slice(0, 45).padEnd(45)} ${kw}${pub}${phase}`);
       }
     }
   }
@@ -188,10 +213,24 @@ function printSummary(registry, opts = {}) {
   console.log("");
 }
 
+// ── phase 태그 포맷터 ───────────────────────────────────────────────────────
+/**
+ * 파이프라인 phase 완료 여부를 짧은 마커 문자열로 렌더.
+ * 입력: { done: ["d0","d2",...] } 또는 undefined.
+ * 출력: "[D0=O D2=. D7=. D30=.]"
+ */
+function formatPhaseTag(entry) {
+  if (!entry) return "";
+  const done = new Set(entry.done ?? []);
+  const mark = (name) => (done.has(name) ? "O" : ".");
+  return `[D0=${mark("d0")} D2=${mark("d2")} D7=${mark("d7")} D30=${mark("d30")}]`;
+}
+
 // ── main ─────────────────────────────────────────────────────────────────────
 const args = process.argv.slice(2);
 const rebuild = args.includes("--rebuild");
 const showKeywords = args.includes("--keywords");
+const showPipeline = args.includes("--pipeline");
 const affiliateFilter = args.includes("--affiliate") ? args[args.indexOf("--affiliate") + 1] : null;
 const statusFilter = args.includes("--status") ? args[args.indexOf("--status") + 1] : null;
 
@@ -204,4 +243,4 @@ if (rebuild || !fs.existsSync(REGISTRY_PATH)) {
   registry = JSON.parse(fs.readFileSync(REGISTRY_PATH, "utf-8"));
 }
 
-printSummary(registry, { affiliateFilter, statusFilter, showKeywords });
+printSummary(registry, { affiliateFilter, statusFilter, showKeywords, showPipeline });
