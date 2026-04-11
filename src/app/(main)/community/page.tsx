@@ -10,6 +10,10 @@ import { CommunityCategories } from "@/components/community/CommunityCategories"
 import { CommunityPostList } from "@/components/community/CommunityPostList";
 import { SITE_CONFIG } from "@/lib/constants";
 
+// 커뮤니티 글은 실시간 반영이 필수. Supabase fetch가 빌드 캐시에 갇히는 것을 방지.
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 export const metadata: Metadata = {
   title: "소통",
   description:
