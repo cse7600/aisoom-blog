@@ -159,6 +159,77 @@ node scripts/content-loop.mjs --force
 
 ---
 
+## SEO · AEO · GEO 콘텐츠 표준 (Phase 9.5)
+
+**기준 문서**: `content-input/SEO-AEO-GEO-RULES.md`
+**설계 문서**: `.planning/phase-9.5-seo-aeo-geo/DESIGN.md`
+**기준일**: 2026-04-12
+
+### 3종 엔진 통합 최적화
+모든 콘텐츠 프롬프트(`content-input/prompts/*.md`)는 아래 3종 엔진 인용을 동시에 목표로 한다.
+
+- **SEO** — Google, Naver 전통 검색 인덱스
+- **AEO** — Perplexity, ChatGPT Search, Google AI Overview, Copilot 답변 엔진
+- **GEO** — Claude, Gemini, GPT, Grok 생성형 AI 학습·인용
+
+### 필수 구조 스켈레톤
+```
+[frontmatter + 공시]
+## 목차
+# H1
+> 한 줄 답변: {수치 포함 핵심 답변 80자 이내}
+[직접 답변 도입부 80~150자]
+## H2 섹션 (4~6개, 40%+ 의문문, 1개는 Top N 리스트)
+## 자주 묻는 질문 (H3 Q. 패턴, 5~7개, 답변 80~150자)
+## 정리 — TL;DR + CTA
+## 관련 글
+## 출처 (공식 기관 3개+)
+```
+
+### 핵심 수치 규칙 (왜)
+- **본문 2,500~4,000자** — GEO topical depth 기준 1,500단어 이상
+- **첫 45단어(≈90자) 내 수치 답변** — AI Overview 인용 55%가 본문 상위 30%
+- **의문문 H2 비율 40%+** — heading-query 매칭으로 passage extraction 대상
+- **Top N 리스트 섹션 1개+** — AI 인용 74.2%가 Top N 구조
+- **통계 밀도 300자당 3개+** — citation 2.1배
+- **FAQ 5~7개, 답변 80~150자** — FAQPage JSON-LD citation +30%
+- **`2026년 기준` 명시** — 90일 이내 미업데이트 시 citation 3배 손실
+- **일인칭 경험 1회+** — Google 2026 March Core Update E-E-A-T 가중치
+
+### FAQ 섹션 포맷 (FAQPage JSON-LD 자동 추출 조건)
+현재 `src/lib/seo.ts::extractFaqFromHtml`가 다음 패턴을 파싱해 FAQPage 스키마를 자동 주입한다. 프롬프트는 반드시 이 포맷을 준수해야 한다.
+
+```markdown
+## 자주 묻는 질문    ← H2 제목에 "자주 묻는 질문" / "FAQ" / "Q&A" 중 하나 필수
+
+### Q. 질문 텍스트    ← H3, Q. 접두
+답변 본문 80~150자.   ← 바로 다음 단락
+
+### Q. 다음 질문
+...
+```
+
+벗어나면 `extractFaqFromHtml`이 2개 미만을 반환해 FAQPage JSON-LD가 주입되지 않고 citation 부스트를 놓친다.
+
+### 인프라 매핑 (`src/lib/seo.ts`)
+- `buildArticleJsonLd` — BlogPosting, 모든 포스트 자동 주입 (O)
+- `buildFaqJsonLd` + `extractFaqFromHtml` — 2개 이상 FAQ 자동 주입 (O)
+- `buildBreadcrumbJsonLd` — 카테고리 경로 (O)
+- `buildOrganizationJsonLd` / `buildWebSiteJsonLd` — 전역 (O)
+- `buildHowToJsonLd` — **정의만 존재, 포스트 페이지 연결 Phase 9.6 작업**
+
+### 금지어 Tier 1 (절대 금지)
+delve, tapestry, landscape, leverage, robust, seamless, streamline, empower, unlock, foster, testament, vibrant, pivotal, underscore, garner, intricate, showcase, enhance, crucial, cutting-edge
+
+**한국어 슬롭**: "살펴보겠습니다", "알아보겠습니다", "마무리하겠습니다", "~라고 할 수 있습니다" 남발
+
+### 변경 금지
+- FAQ H2 제목에서 "자주 묻는 질문" / "FAQ" / "Q&A" 키워드 제거 금지 (JSON-LD 자동 추출 실패)
+- FAQ H3에서 `### Q. ` 접두사 제거 금지
+- 프롬프트 내 SEO/AEO/GEO 수치 규칙은 `SEO-AEO-GEO-RULES.md`와 동기화 유지
+
+---
+
 ## 기술 스택 참조
 - Next.js 14 App Router + TypeScript strict
 - Tailwind CSS + CSS Variables (하드코딩 금지)
