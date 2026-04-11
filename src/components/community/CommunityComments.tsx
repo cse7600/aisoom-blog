@@ -56,7 +56,6 @@ function CommentItem({ postId, comment }: CommentItemProps) {
         nickname={comment.nickname}
         content={comment.content}
         createdAt={comment.created_at}
-        isAi={comment.is_ai_generated}
         onReply={() => setShowReplyForm((v) => !v)}
         replyOpen={showReplyForm}
       />
@@ -84,7 +83,6 @@ function CommentItem({ postId, comment }: CommentItemProps) {
                 nickname={reply.nickname}
                 content={reply.content}
                 createdAt={reply.created_at}
-                isAi={reply.is_ai_generated}
                 isReply
               />
             </li>
@@ -102,7 +100,6 @@ interface CommentBodyProps {
   nickname: string;
   content: string;
   createdAt: string;
-  isAi: boolean;
   isReply?: boolean;
   onReply?: () => void;
   replyOpen?: boolean;
@@ -113,7 +110,6 @@ function CommentBody({
   nickname,
   content,
   createdAt,
-  isAi,
   isReply = false,
   onReply,
   replyOpen,
