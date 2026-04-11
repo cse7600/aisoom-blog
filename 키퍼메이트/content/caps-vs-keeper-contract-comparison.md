@@ -12,7 +12,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "키퍼메이트"
-  url: "https://keeper.ceo/keeper-mate"
+  url: "https://keeper.ceo/"
 ---
 
 > 이 활동은 키퍼 메이트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
@@ -174,7 +174,7 @@ CCTV 계약서에 사인하기 전에 이것 하나만 기억하면 된다. "이
 
 ---
 
-[키퍼메이트 무료 상담 받기 →](https://keeper.ceo/keeper-mate)
+[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/)
 
 ## Q&A: 자주 묻는 질문
 
@@ -210,7 +210,7 @@ A/S 정책은 업체마다 다르다. 한화비전 키퍼는 3년 무상 A/S를 
 
 현재 렌탈 계약 중이라면 계약 만료일을 확인하고, 만료 직전에 키퍼메이트 상담을 받는 것이 전환 비용을 최소화하는 방법이다.
 
-[키퍼메이트 무료 상담 받기 →](https://keeper.ceo/keeper-mate)
+[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/)
 
 ---
 

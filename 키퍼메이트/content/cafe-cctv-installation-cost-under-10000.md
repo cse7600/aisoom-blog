@@ -12,7 +12,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "키퍼메이트"
-  url: "https://keeper.ceo/keeper-mate"
+  url: "https://keeper.ceo/"
 ---
 
 > 이 활동은 키퍼 메이트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
@@ -176,7 +176,7 @@ CCTV 견적서에 올라오는 항목을 모르면 어디서 바가지를 쓰는
 
 ---
 
-[키퍼메이트 무료 상담 받기 →](https://keeper.ceo/keeper-mate)
+[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/)
 
 ## Q&A: 자주 묻는 질문
 
@@ -214,7 +214,7 @@ CCTV 견적서에 올라오는 항목을 모르면 어디서 바가지를 쓰는
 
 한화비전 키퍼는 소상공인 맞춤형 구매형 CCTV로, 자체 설치 가이드와 전화 상담을 통해 카페 구성 설계를 무료로 받아볼 수 있다.
 
-[키퍼메이트 무료 상담 받기 →](https://keeper.ceo/keeper-mate)
+[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/)
 
 ---
 
