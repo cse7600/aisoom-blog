@@ -18,7 +18,7 @@ export function CommunityPostRow({ post }: CommunityPostRowProps) {
 
   return (
     <li className={hotClass}>
-      <Link href={detailHref} className="community-row__link">
+      <Link href={detailHref} className="community-row__link" role="link">
         <span className="community-row__category">[{categoryName}]</span>
         <span className="community-row__title">
           {post.title}

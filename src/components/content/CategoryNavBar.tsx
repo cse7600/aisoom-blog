@@ -33,7 +33,7 @@ export function CategoryNavBar({
             <Link
               href="/posts"
               aria-current={isAllActive ? "page" : undefined}
-              className={`shrink-0 inline-flex items-center gap-1.5 px-4 py-2.5 text-body-sm font-medium rounded-full border transition-all min-h-[44px] ${
+              className={`shrink-0 inline-flex items-center gap-1.5 px-4 py-2.5 text-body-sm font-medium rounded-full border transition-all min-h-[44px] whitespace-nowrap ${
                 isAllActive
                   ? "bg-primary text-white border-primary shadow-card-sm"
                   : "border-border text-foreground/70 hover:text-primary hover:border-primary"
@@ -58,7 +58,7 @@ export function CategoryNavBar({
                 <Link
                   href={`/${cat.slug}`}
                   aria-current={isActive ? "page" : undefined}
-                  className={`shrink-0 inline-flex items-center gap-1.5 px-4 py-2.5 text-body-sm font-medium rounded-full border transition-all min-h-[44px] ${
+                  className={`shrink-0 inline-flex items-center gap-1.5 px-4 py-2.5 text-body-sm font-medium rounded-full border transition-all min-h-[44px] whitespace-nowrap ${
                     isActive
                       ? "bg-primary text-white border-primary shadow-card-sm"
                       : "border-border text-foreground/70 hover:text-primary hover:border-primary"
