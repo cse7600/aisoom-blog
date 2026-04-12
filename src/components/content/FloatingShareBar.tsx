@@ -50,7 +50,7 @@ export function FloatingShareBar({
       role="complementary"
       aria-label="공유 바"
     >
-      <div className="bg-surface-1 border-t border-border shadow-card-lg">
+      <div className="bg-surface-1 border-t border-border shadow-card-lg pb-[env(safe-area-inset-bottom)]">
         <div className="mx-auto max-w-content px-4 sm:px-6 py-3 relative flex items-center justify-center">
           <button
             type="button"

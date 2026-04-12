@@ -184,6 +184,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* iOS 자동 줌인 방지 — 폼 입력 시 16px 미만이면 Safari가 자동 줌 */
+@media screen and (max-width: 640px) {
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="url"],
+  input[type="number"],
+  select,
+  textarea {
+    font-size: 1rem;
+  }
+}
+
 /* ===== Typography ===== */
 @layer base {
   h1, h2, h3, h4, h5, h6 {
@@ -281,6 +296,8 @@ body {
 .prose-content img {
   border-radius: var(--radius-card);
   margin: 1.5rem 0;
+  height: auto;
+  max-width: 100%;
 }
 
 .prose-content a {
@@ -350,6 +367,26 @@ body {
   display: block;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) transparent;
+}
+
+@media (max-width: 640px) {
+  .prose-content th,
+  .prose-content td {
+    padding: 0.5rem 0.625rem;
+    font-size: 0.8125rem;
+  }
+
+  .prose-content h2 {
+    font-size: 1.25rem;
+    margin-top: 2rem;
+  }
+
+  .prose-content h3 {
+    font-size: 1.125rem;
+    margin-top: 1.5rem;
+  }
 }
 
 /* 외부 링크 아이콘 (href가 http로 시작하는 링크) */

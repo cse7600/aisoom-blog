@@ -53,7 +53,7 @@ export function ShareButtons({ url, title, description }: ShareButtonsProps) {
           href={target.url}
           target="_blank"
           rel="noopener noreferrer"
-          className={`px-2.5 py-1.5 text-caption font-medium text-foreground/50 border border-border rounded-badge ${target.color} hover:border-foreground/20 transition-all`}
+          className={`px-3 py-2.5 text-body-sm font-medium text-foreground/50 border border-border rounded-badge ${target.color} hover:border-foreground/20 transition-all min-h-[44px] inline-flex items-center`}
         >
           {target.name}
         </a>
@@ -61,7 +61,7 @@ export function ShareButtons({ url, title, description }: ShareButtonsProps) {
       <button
         type="button"
         onClick={copyLink}
-        className="px-2.5 py-1.5 text-caption font-medium text-foreground/50 border border-border rounded-badge hover:text-primary hover:border-primary/30 transition-all flex items-center gap-1"
+        className="px-3 py-2.5 text-body-sm font-medium text-foreground/50 border border-border rounded-badge hover:text-primary hover:border-primary/30 transition-all flex items-center gap-1 min-h-[44px]"
       >
         <LinkIcon className="w-3 h-3" />
         {copied ? "복사됨" : "링크"}

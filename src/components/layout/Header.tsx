@@ -65,7 +65,7 @@ export function Header() {
       <div
         className={cn(
           "md:hidden border-t border-border overflow-hidden transition-all duration-200",
-          mobileMenuOpen ? "max-h-80" : "max-h-0"
+          mobileMenuOpen ? "max-h-[28rem]" : "max-h-0"
         )}
       >
         <nav className="px-4 py-3 space-y-1">
@@ -73,7 +73,7 @@ export function Header() {
             <Link
               key={category.slug}
               href={category.path}
-              className="block px-3 py-2.5 text-body-md text-foreground/70 hover:text-primary rounded-button hover:bg-primary-light transition-all"
+              className="block px-3 py-3 text-body-md text-foreground/70 hover:text-primary rounded-button hover:bg-primary-light transition-all min-h-[44px]"
               onClick={() => setMobileMenuOpen(false)}
             >
               {category.name}
@@ -81,7 +81,7 @@ export function Header() {
           ))}
           <Link
             href="/community"
-            className="block px-3 py-2.5 text-body-md font-semibold text-primary rounded-button hover:bg-primary-light transition-all"
+            className="block px-3 py-3 text-body-md font-semibold text-primary rounded-button hover:bg-primary-light transition-all min-h-[44px]"
             onClick={() => setMobileMenuOpen(false)}
           >
             소통

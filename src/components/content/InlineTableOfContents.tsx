@@ -67,7 +67,7 @@ export function InlineTableOfContents({ contentHtml }: InlineTableOfContentsProp
           <li key={id}>
             <a
               href={`#${id}`}
-              className={`block text-body-sm text-foreground/55 hover:text-primary transition-colors ${
+              className={`block py-1.5 text-body-sm text-foreground/55 hover:text-primary transition-colors min-h-[44px] flex items-center ${
                 level === 3 ? "pl-4" : ""
               }`}
               onClick={() => setExpanded(false)}

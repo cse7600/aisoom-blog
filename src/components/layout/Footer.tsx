@@ -23,12 +23,12 @@ export function Footer() {
             <h3 className="text-body-md font-semibold text-foreground mb-3">
               카테고리
             </h3>
-            <ul className="space-y-2">
+            <ul className="space-y-1">
               {CATEGORIES.map((category) => (
                 <li key={category.slug}>
                   <Link
                     href={category.path}
-                    className="text-body-sm text-foreground/50 hover:text-primary transition-colors"
+                    className="inline-block py-1.5 text-body-sm text-foreground/50 hover:text-primary transition-colors min-h-[44px] leading-[44px]"
                   >
                     {category.name}
                   </Link>
@@ -41,11 +41,11 @@ export function Footer() {
             <h3 className="text-body-md font-semibold text-foreground mb-3">
               안내
             </h3>
-            <ul className="space-y-2">
+            <ul className="space-y-1">
               <li>
                 <Link
                   href="/about"
-                  className="text-body-sm text-foreground/50 hover:text-primary transition-colors"
+                  className="inline-block py-1.5 text-body-sm text-foreground/50 hover:text-primary transition-colors min-h-[44px] leading-[44px]"
                 >
                   소개
                 </Link>
@@ -53,7 +53,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/privacy"
-                  className="text-body-sm text-foreground/50 hover:text-primary transition-colors"
+                  className="inline-block py-1.5 text-body-sm text-foreground/50 hover:text-primary transition-colors min-h-[44px] leading-[44px]"
                 >
                   개인정보처리방침
                 </Link>
@@ -61,7 +61,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/terms"
-                  className="text-body-sm text-foreground/50 hover:text-primary transition-colors"
+                  className="inline-block py-1.5 text-body-sm text-foreground/50 hover:text-primary transition-colors min-h-[44px] leading-[44px]"
                 >
                   이용약관
                 </Link>
@@ -69,7 +69,7 @@ export function Footer() {
               <li>
                 <Link
                   href="/contact"
-                  className="text-body-sm text-foreground/50 hover:text-primary transition-colors"
+                  className="inline-block py-1.5 text-body-sm text-foreground/50 hover:text-primary transition-colors min-h-[44px] leading-[44px]"
                 >
                   문의
                 </Link>

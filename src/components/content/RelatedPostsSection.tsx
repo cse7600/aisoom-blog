@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Clock, Eye } from "lucide-react";
 import { formatRelativeDate, formatNumber } from "@/lib/utils";
 import type { PostRow } from "@/lib/db";
+import { PostThumbnailFallback } from "./PostThumbnailFallback";
 
 interface RelatedPostsSectionProps {
   posts: PostRow[];
@@ -40,23 +41,29 @@ export function RelatedPostsSection({ posts, categoryName }: RelatedPostsSection
                 className="block relative aspect-[16/9] overflow-hidden bg-surface-3"
               >
                 {post.image_url ? (
-                  <Image
-                    src={post.image_url}
-                    alt={post.title}
-                    fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="object-cover group-hover:scale-[1.03] transition-transform duration-300"
-                  />
-                ) : (
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-foreground/20 text-body-sm">
+                  <>
+                    <Image
+                      src={post.image_url}
+                      alt={post.title}
+                      fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      className="object-cover group-hover:scale-[1.03] transition-transform duration-300"
+                    />
+                    <span className="absolute top-3 left-3 px-2 py-1 text-caption font-medium bg-primary text-white rounded-badge">
                       {label}
                     </span>
-                  </div>
+                  </>
+                ) : (
+                  <PostThumbnailFallback
+                    categorySlug={post.category}
+                    categoryName={label}
+                    title={post.title}
+                    tags={post.tags}
+                    keywords={post.keywords}
+                    readTime={post.read_time}
+                    variant="card"
+                  />
                 )}
-                <span className="absolute top-3 left-3 px-2 py-1 text-caption font-medium bg-primary text-white rounded-badge">
-                  {label}
-                </span>
               </Link>
 
               <div className="p-4">
