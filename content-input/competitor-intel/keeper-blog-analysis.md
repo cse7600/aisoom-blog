@@ -130,6 +130,35 @@ factnote.co.kr의 차별화 전략:
 - **알림 훅**: `totalPosts` 증가 시 `.planning/competitor-alerts.log`에 diff 기록 (후속 작업)
 - **고려**: affiliates.json의 sources에 `{type: "competitor", crawlerScript: ...}` 항목 추가 완료
 
+## 9.5. 블루오션 10편 발행 현황 (2026-04-12 실행)
+
+8번 섹션에서 선정한 공략 주제 10편을 한 번에 생성한 뒤 화·금 주 2회 패턴으로 분산 발행한다.
+
+### 생성 → 분산 발행 전략
+- 생성: `research-and-queue.mjs --force --count 10 --affiliate 키퍼메이트` (auto-release 금지)
+- 발행: 각 파일을 `publish-post.mjs --publish-date YYYY-MM-DD`로 지정 날짜 박아 순차 INSERT
+- 슬롯: 2026-04-03 (기존 마지막 발행)에서 이어져 2026-04-08 ~ 2026-05-09까지 11일 간격 × 10편
+
+### 발행 슬롯 배분 (실제 화·금 요일 기준)
+| 편 | 발행일 | 요일 | 주제 (slug) |
+|---|---|---|---|
+| 1 | 2026-04-07 | 화 | keeper-vs-s1-cctv-3year-tco |
+| 2 | 2026-04-10 | 금 | cctv-retention-period-by-industry |
+| 3 | 2026-04-14 | 화 | hospital-pharmacy-cctv-medical-law-guide |
+| 4 | 2026-04-17 | 금 | gas-station-cctv-explosion-proof-spec |
+| 5 | 2026-04-21 | 화 | hanwha-ai-face-recognition-cctv-retail |
+| 6 | 2026-04-24 | 금 | fire-damage-cctv-evidence-insurance-claim |
+| 7 | 2026-04-28 | 화 | cafe-cctv-quote-calculator-by-area |
+| 8 | 2026-05-01 | 금 | cctv-4-brands-cancellation-comparison |
+| 9 | 2026-05-05 | 화 | pc-bang-study-cafe-cctv-spec-24h |
+| 10 | 2026-05-08 | 금 | cctv-privacy-law-2026-update-checklist |
+
+### 성과 측정 포인트 (30일 후)
+- 각 slug별 `factnote.co.kr/tech/{slug}` GSC 노출수 ≥ 50
+- CTR ≥ 2% 유지
+- `keeper-vs-s1-cctv-3year-tco` (블루오션 1등급) 키워드 "에스원 CCTV 비교" 3페이지 진입 여부
+- 키퍼메이트 전환 클릭 trackingId 집계
+
 ## 10. 리스크 및 주의
 
 1. **저작권**: 본문 전체 복제 금지. 제목/카테고리/섹션/요약(500자 이내)만 수집. 크롤러가 자동 enforce.

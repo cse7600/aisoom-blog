@@ -1,6 +1,6 @@
 {
   "_comment": "블로그 콘텐츠 주제 큐 — research-and-queue.mjs가 이 파일에서 주제를 꺼내어 generate-content.mjs로 전달함. 발행 완료 시 status를 'used'로 바꾸거나 삭제 | 2026-04-12: keeper.ceo/blog 경쟁사 분석 기반 블루오션 주제 10개 추가 (hit-scout)",
-  "updatedAt": "2026-04-12",
+  "updatedAt": "2026-04-11",
   "queue": {
     "키퍼메이트": [
       {
@@ -27,9 +27,10 @@
           "CCTV증거능력"
         ],
         "slugHint": "unmanned-store-cctv-evidence-standard",
-        "status": "generated",
+        "status": "published",
         "generatedAt": "2026-04-10T15:00:00.000Z",
-        "draftPath": "키퍼메이트/content/unmanned-store-cctv-evidence-standard.md"
+        "draftPath": "키퍼메이트/content/unmanned-store-cctv-evidence-standard.md",
+        "publishedAt": "2026-02-13T01:03:16+00:00"
       },
       {
         "topic": "카페 CCTV 설치비용 월 1만원대로 맞추는 방법",
@@ -54,9 +55,10 @@
           "CCTV개인정보보호법"
         ],
         "slugHint": "cctv-legal-standards-2026",
-        "status": "generated",
+        "status": "published",
         "generatedAt": "2026-04-10T15:00:00.000Z",
-        "draftPath": "키퍼메이트/content/cctv-legal-standards-2026.md"
+        "draftPath": "키퍼메이트/content/cctv-legal-standards-2026.md",
+        "publishedAt": "2026-03-06T01:54:50+00:00"
       },
       {
         "topic": "학원 CCTV 설치 가이드 — 교실·복도·학부모 동의",
@@ -67,9 +69,10 @@
           "학원보안"
         ],
         "slugHint": "academy-cctv-installation-guide",
-        "status": "generated",
+        "status": "published",
         "generatedAt": "2026-04-10T15:00:00.000Z",
-        "draftPath": "키퍼메이트/content/academy-cctv-installation-guide.md"
+        "draftPath": "키퍼메이트/content/academy-cctv-installation-guide.md",
+        "publishedAt": "2026-02-06T03:27:35+00:00"
       },
       {
         "topic": "CCTV 해킹 사례 — 중국산 저가 장비 vs 국산 한화비전",
@@ -80,9 +83,10 @@
           "IP카메라보안"
         ],
         "slugHint": "cctv-hacking-chinese-vs-korean",
-        "status": "generated",
+        "status": "published",
         "generatedAt": "2026-04-10T15:00:00.000Z",
-        "draftPath": "키퍼메이트/content/cctv-hacking-chinese-vs-korean.md"
+        "draftPath": "키퍼메이트/content/cctv-hacking-chinese-vs-korean.md",
+        "publishedAt": "2026-03-20T04:04:36+00:00"
       },
       {
         "topic": "편의점 CCTV 필수 스펙 — 24시간 무인 운영 기준",
@@ -93,9 +97,10 @@
           "편의점보안"
         ],
         "slugHint": "convenience-store-cctv-essential-spec",
-        "status": "generated",
+        "status": "published",
         "generatedAt": "2026-04-10T15:00:00.000Z",
-        "draftPath": "키퍼메이트/content/convenience-store-cctv-essential-spec.md"
+        "draftPath": "키퍼메이트/content/convenience-store-cctv-essential-spec.md",
+        "publishedAt": "2026-02-24T02:31:28+00:00"
       },
       {
         "topic": "소상공인 CCTV 정부지원금 2026년 신청 가이드",
@@ -120,9 +125,10 @@
           "CCTV계약비교"
         ],
         "slugHint": "caps-vs-keeper-contract-comparison",
-        "status": "generated",
+        "status": "published",
         "generatedAt": "2026-04-10T15:00:00.000Z",
-        "draftPath": "키퍼메이트/content/caps-vs-keeper-contract-comparison.md"
+        "draftPath": "키퍼메이트/content/caps-vs-keeper-contract-comparison.md",
+        "publishedAt": "2026-03-27T01:06:42+00:00"
       },
       {
         "topic": "매장 CCTV 화소 선택 기준 — 400만 vs 200만 vs 800만",
@@ -133,9 +139,10 @@
           "CCTV해상도"
         ],
         "slugHint": "store-cctv-resolution-selection",
-        "status": "generated",
+        "status": "published",
         "generatedAt": "2026-04-10T15:00:00.000Z",
-        "draftPath": "키퍼메이트/content/store-cctv-resolution-selection.md"
+        "draftPath": "키퍼메이트/content/store-cctv-resolution-selection.md",
+        "publishedAt": "2026-03-13T03:32:33+00:00"
       },
       {
         "topic": "한화비전 키퍼 vs 에스원 CCTV 3년 총비용 비교",
@@ -148,8 +155,11 @@
         ],
         "slugHint": "keeper-vs-s1-cctv-3year-tco",
         "intelSource": "keeper.ceo/blog analysis 2026-04-12 — keeper 40편에 에스원 언급 전무 (블루오션)",
-        "status": "pending",
-        "addedAt": "2026-04-12T00:00:00.000Z"
+        "status": "published",
+        "addedAt": "2026-04-12T00:00:00.000Z",
+        "generatedAt": "2026-04-11T17:59:43.477Z",
+        "draftPath": "키퍼메이트/content/keeper-vs-s1-cctv-3year-tco.md",
+        "publishedAt": "2026-04-07T01:32:17+00:00"
       },
       {
         "topic": "CCTV 영상 보관 기간 30일 vs 60일 — 업종별 법적 의무 체크리스트",
@@ -162,8 +172,11 @@
         ],
         "slugHint": "cctv-retention-period-by-industry",
         "intelSource": "keeper.ceo [35] Q&A 형식만 다룸 — 업종별 실무표 공백",
-        "status": "pending",
-        "addedAt": "2026-04-12T00:00:00.000Z"
+        "status": "published",
+        "addedAt": "2026-04-12T00:00:00.000Z",
+        "generatedAt": "2026-04-11T18:00:16.686Z",
+        "draftPath": "키퍼메이트/content/cctv-retention-period-by-industry.md",
+        "publishedAt": "2026-04-10T01:13:54+00:00"
       },
       {
         "topic": "병원·약국 CCTV 설치 가이드 — 의료법 개인정보 동의 절차",
@@ -176,8 +189,11 @@
         ],
         "slugHint": "hospital-pharmacy-cctv-medical-law-guide",
         "intelSource": "keeper.ceo 공백 업종 — 의료법 프레임은 경쟁사 전무",
-        "status": "pending",
-        "addedAt": "2026-04-12T00:00:00.000Z"
+        "status": "published",
+        "addedAt": "2026-04-12T00:00:00.000Z",
+        "generatedAt": "2026-04-11T18:00:48.802Z",
+        "draftPath": "키퍼메이트/content/hospital-pharmacy-cctv-medical-law-guide.md",
+        "publishedAt": "2026-04-14T01:39:17+00:00"
       },
       {
         "topic": "주유소 CCTV 필수 스펙 — 방폭·방수·야간 고화질 기준",
@@ -190,8 +206,11 @@
         ],
         "slugHint": "gas-station-cctv-explosion-proof-spec",
         "intelSource": "keeper.ceo 공백 업종 — 특수 환경 키워드 블루오션",
-        "status": "pending",
-        "addedAt": "2026-04-12T00:00:00.000Z"
+        "status": "published",
+        "addedAt": "2026-04-12T00:00:00.000Z",
+        "generatedAt": "2026-04-11T18:01:23.278Z",
+        "draftPath": "키퍼메이트/content/gas-station-cctv-explosion-proof-spec.md",
+        "publishedAt": "2026-04-17T02:21:44+00:00"
       },
       {
         "topic": "한화비전 AI CCTV 얼굴인식 — 매장 출입 관리 도입 실제 사례",
@@ -204,8 +223,11 @@
         ],
         "slugHint": "hanwha-ai-face-recognition-cctv-retail",
         "intelSource": "keeper.ceo — 한화비전 AI 기술 보유하지만 미홍보 공백",
-        "status": "pending",
-        "addedAt": "2026-04-12T00:00:00.000Z"
+        "status": "published",
+        "addedAt": "2026-04-12T00:00:00.000Z",
+        "generatedAt": "2026-04-11T18:02:09.513Z",
+        "draftPath": "키퍼메이트/content/hanwha-ai-face-recognition-cctv-retail.md",
+        "publishedAt": "2026-04-21T03:17:49+00:00"
       },
       {
         "topic": "매장 화재 발생 시 CCTV 증거 제출 — 보험 청구 실전 절차",
@@ -218,8 +240,11 @@
         ],
         "slugHint": "fire-damage-cctv-evidence-insurance-claim",
         "intelSource": "keeper.ceo [6] 화재보험 의무만 다룸 — 사후 청구 실무 공백",
-        "status": "pending",
-        "addedAt": "2026-04-12T00:00:00.000Z"
+        "status": "published",
+        "addedAt": "2026-04-12T00:00:00.000Z",
+        "generatedAt": "2026-04-11T18:02:45.545Z",
+        "draftPath": "키퍼메이트/content/fire-damage-cctv-evidence-insurance-claim.md",
+        "publishedAt": "2026-04-24T02:44:19+00:00"
       },
       {
         "topic": "카페 CCTV 견적 계산기 — 10평·20평·30평 평수별 실제 시뮬레이션",
@@ -232,8 +257,11 @@
         ],
         "slugHint": "cafe-cctv-quote-calculator-by-area",
         "intelSource": "keeper.ceo [14] 배치도 예시만 — 숫자 계산기는 없음",
-        "status": "pending",
-        "addedAt": "2026-04-12T00:00:00.000Z"
+        "status": "published",
+        "addedAt": "2026-04-12T00:00:00.000Z",
+        "generatedAt": "2026-04-11T18:03:20.129Z",
+        "draftPath": "키퍼메이트/content/cafe-cctv-quote-calculator-by-area.md",
+        "publishedAt": "2026-04-28T03:52:48+00:00"
       },
       {
         "topic": "세콤·캡스·에스원·한화비전 4사 고객센터·해지 위약금 전수 비교",
@@ -246,8 +274,11 @@
         ],
         "slugHint": "cctv-4-brands-cancellation-comparison",
         "intelSource": "keeper.ceo 자사 홍보만 — 중립 4사 비교 블루오션",
-        "status": "pending",
-        "addedAt": "2026-04-12T00:00:00.000Z"
+        "status": "published",
+        "addedAt": "2026-04-12T00:00:00.000Z",
+        "generatedAt": "2026-04-11T18:03:57.402Z",
+        "draftPath": "키퍼메이트/content/cctv-4-brands-cancellation-comparison.md",
+        "publishedAt": "2026-05-01T04:12:49+00:00"
       },
       {
         "topic": "PC방·스터디카페 24시간 무인 운영 CCTV 필수 스펙",
@@ -260,8 +291,11 @@
         ],
         "slugHint": "pc-bang-study-cafe-cctv-spec-24h",
         "intelSource": "keeper.ceo [29] 무인점포 일반론만 — PC방/스터디카페 세분화 공백",
-        "status": "pending",
-        "addedAt": "2026-04-12T00:00:00.000Z"
+        "status": "published",
+        "addedAt": "2026-04-12T00:00:00.000Z",
+        "generatedAt": "2026-04-11T18:04:33.851Z",
+        "draftPath": "키퍼메이트/content/pc-bang-study-cafe-cctv-spec-24h.md",
+        "publishedAt": "2026-05-05T02:45:53+00:00"
       },
       {
         "topic": "2026 영상정보처리기기 개인정보 고시 개정 — CCTV 사장님 체크리스트",
@@ -274,8 +308,11 @@
         ],
         "slugHint": "cctv-privacy-law-2026-update-checklist",
         "intelSource": "keeper.ceo [35] 기존 보관 기간만 — 2026 개정 구체 반영 없음",
-        "status": "pending",
-        "addedAt": "2026-04-12T00:00:00.000Z"
+        "status": "published",
+        "addedAt": "2026-04-12T00:00:00.000Z",
+        "generatedAt": "2026-04-11T18:05:11.227Z",
+        "draftPath": "키퍼메이트/content/cctv-privacy-law-2026-update-checklist.md",
+        "publishedAt": "2026-05-08T03:10:25+00:00"
       }
     ],
     "법인설립지원센터": [

@@ -5,9 +5,13 @@
  * Usage:
  *   node scripts/publish-post.mjs path/to/post.md
  *   node scripts/publish-post.mjs path/to/post1.md path/to/post2.md
+ *   node scripts/publish-post.mjs --publish-date 2026-04-15 path/to/post.md
  *
  * --dry: DB 삽입 없이 파싱 결과만 출력
  * --update: 같은 slug가 있으면 덮어쓰기 (없으면 이미 존재 시 스킵)
+ * --publish-date YYYY-MM-DD: published_at / created_at 을 지정한 날짜로 강제
+ *                             (미지정 시 frontmatter `date` 필드, 없으면 현재 시각)
+ * --seed N: 시간 랜덤화 시드 (기본 20260412) — 10:00~13:59 KST 사이 재현 가능 랜덤 시각
  */
 
 import fs from "fs";
@@ -125,6 +129,48 @@ function calcReadTime(text) {
   return Math.max(1, Math.round(words / 300));
 }
 
+// ─── 날짜/시간 유틸 (KST 기반 발행일 강제) ────────────────────────────────
+const KST_OFFSET_MIN = 9 * 60;
+
+function createRng(seed) {
+  let state = seed >>> 0;
+  return () => {
+    state = (state * 1664525 + 1013904223) >>> 0;
+    return state / 0x100000000;
+  };
+}
+
+/**
+ * YYYY-MM-DD (KST) → UTC ISO 문자열.
+ * 10:00~13:59 KST 사이 시드 기반 랜덤 시각을 부여한다.
+ */
+function ymdToPublishedIso(ymd, seed, slugSalt) {
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(ymd.trim());
+  if (!match) throw new Error(`publish-date 형식 오류 (YYYY-MM-DD): ${ymd}`);
+  const [, y, m, d] = match.map((v, i) => (i === 0 ? v : Number(v)));
+
+  // slug 해시로 seed 보정 — 동일 날짜 여러 편이 같은 시각을 받지 않도록
+  let salt = 0;
+  for (const ch of slugSalt ?? "") salt = ((salt << 5) - salt + ch.charCodeAt(0)) >>> 0;
+  const rng = createRng((seed >>> 0) ^ salt);
+
+  const hour = 10 + Math.floor(rng() * 4);   // 10,11,12,13
+  const minute = Math.floor(rng() * 60);
+  const second = Math.floor(rng() * 60);
+
+  // KST → UTC 환산 (UTC = KST - 9h)
+  const utcMs = Date.UTC(y, m - 1, d, hour - 9, minute, second);
+  return new Date(utcMs).toISOString();
+}
+
+function resolvePublishedAt({ cliPublishDate, frontmatterDate, seed, slug }) {
+  if (cliPublishDate) return ymdToPublishedIso(cliPublishDate, seed, slug);
+  if (frontmatterDate && /^\d{4}-\d{2}-\d{2}$/.test(frontmatterDate.trim())) {
+    return ymdToPublishedIso(frontmatterDate.trim(), seed, slug);
+  }
+  return new Date().toISOString();
+}
+
 // keywords: { main, sub } → string[]
 function flattenKeywords(kw) {
   if (!kw) return [];
@@ -189,7 +235,7 @@ async function upsertPost(record, update) {
   return JSON.parse(text);
 }
 
-async function publishFile(filePath, { dry, update }) {
+async function publishFile(filePath, { dry, update, publishDate, seed }) {
   const abs = path.resolve(ROOT, filePath);
   if (!fs.existsSync(abs)) throw new Error(`파일 없음: ${abs}`);
 
@@ -198,6 +244,13 @@ async function publishFile(filePath, { dry, update }) {
 
   // 마크다운 → HTML 변환
   const htmlContent = markdownToHtml(content);
+
+  const publishedAt = resolvePublishedAt({
+    cliPublishDate: publishDate,
+    frontmatterDate: meta.date,
+    seed,
+    slug: meta.slug,
+  });
 
   const record = {
     slug: meta.slug,
@@ -212,7 +265,8 @@ async function publishFile(filePath, { dry, update }) {
     status: "published",
     featured: meta.featured === "true" || meta.featured === true,
     read_time: calcReadTime(content),
-    published_at: new Date().toISOString(),
+    published_at: publishedAt,
+    created_at: publishedAt,
   };
 
   console.log(`\n${"─".repeat(60)}`);
@@ -223,6 +277,7 @@ async function publishFile(filePath, { dry, update }) {
   console.log(`태그: ${record.tags.join(", ")}`);
   console.log(`키워드: ${record.keywords.join(", ")}`);
   console.log(`HTML 변환: ${htmlContent.length}자`);
+  console.log(`published_at: ${record.published_at}`);
 
   if (dry) {
     console.log(`[DRY RUN] DB 삽입 생략`);
@@ -244,15 +299,32 @@ loadEnv();
 const args = process.argv.slice(2);
 const dry = args.includes("--dry");
 const update = args.includes("--update");
+
+function takeArg(name) {
+  const idx = args.indexOf(name);
+  if (idx === -1) return null;
+  const val = args[idx + 1];
+  args.splice(idx, 2);
+  return val;
+}
+
+const publishDate = takeArg("--publish-date");
+const seedRaw = takeArg("--seed");
+const seed = seedRaw ? Number(seedRaw) : 20260412;
+
 const files = args.filter(a => !a.startsWith("--"));
 
 if (!files.length) {
-  console.error("Usage: node scripts/publish-post.mjs [--dry] [--update] path/to/post.md ...");
+  console.error(
+    "Usage: node scripts/publish-post.mjs [--dry] [--update]\n" +
+    "                                [--publish-date YYYY-MM-DD] [--seed N]\n" +
+    "                                path/to/post.md ..."
+  );
   process.exit(1);
 }
 
 for (const f of files) {
-  await publishFile(f, { dry, update });
+  await publishFile(f, { dry, update, publishDate, seed });
 }
 
 console.log(`\n완료. ${files.length}편 처리됨.`);

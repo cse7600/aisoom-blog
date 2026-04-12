@@ -230,6 +230,47 @@ delve, tapestry, landscape, leverage, robust, seamless, streamline, empower, unl
 
 ---
 
+## 콘텐츠 발행 일정 규칙 (Batch → Distributed)
+
+**기준 커밋**: Phase 9.6 완료 시점
+
+### 핵심 원칙
+배치로 다수 콘텐츠를 생성해도 Supabase `published_at`은 반드시 날짜 분산한다. 한 번에 여러 편을 같은 타임스탬프로 삽입하면 SEO 관점에서 부자연스럽고 `backdate-posts.mjs` 재실행 비용이 발생한다.
+
+### 기본 패턴
+- 주 2회 발행: **화요일, 금요일** (한국 블로그 표준 리듬)
+- 시간대: 10:00~13:59 KST 사이 (시드 기반 랜덤)
+- 생성과 발행 분리: 생성은 한 번에, 발행은 반드시 분산
+
+### 배치 생성 + 분산 발행 워크플로우
+```bash
+# 1) 콘텐츠 N편 한 번에 생성 (auto-release 금지)
+node scripts/research-and-queue.mjs --force --count 10 --affiliate 키퍼메이트
+
+# 2) 각 파일을 지정 날짜로 개별 발행
+node scripts/publish-post.mjs --publish-date 2026-04-15 키퍼메이트/content/slug-a.md
+node scripts/publish-post.mjs --publish-date 2026-04-18 키퍼메이트/content/slug-b.md
+...
+```
+
+### publish-post.mjs 플래그
+| 플래그 | 효과 |
+|---|---|
+| `--publish-date YYYY-MM-DD` | `published_at` + `created_at` 강제 지정 (최우선) |
+| frontmatter `date:` 필드 | fallback (CLI 미지정 시) |
+| (둘 다 없음) | `new Date().toISOString()` — 단일 포스트 발행 시에만 허용 |
+| `--seed N` | 시간 랜덤 시드 (기본 20260412) |
+
+### 금지
+- `research-and-queue.mjs --force --count N --auto-release` 배치 사용 (N개가 같은 시각에 몰림)
+- `content-loop.mjs`로 하루 10편 이상 연속 생성 (주 2회 슬롯 초과)
+- `backdate-posts.mjs` 의존 — 사후 재배치는 임시방편이며, 원칙은 발행 시점 제어
+
+### 슬롯 계산
+기존 마지막 published_at에서 시작해서 화(TUE)→금(FRI)→화→금 간격 3일/4일 교대로 미래 슬롯 배정. `backdate-posts.mjs:buildBackdateSlots`를 역방향 참조.
+
+---
+
 ## 기술 스택 참조
 - Next.js 14 App Router + TypeScript strict
 - Tailwind CSS + CSS Variables (하드코딩 금지)
