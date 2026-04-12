@@ -50,12 +50,18 @@ export interface PostRelationRow {
 const POST_COLUMNS =
   "id,slug,title,description,category,tags,keywords,image_url,author,status,featured,view_count,read_time,published_at,created_at,updated_at";
 
+/** 현재 시각 이하의 published_at만 노출 — 미래 예약 포스트 숨김 */
+function nowIso() {
+  return new Date().toISOString();
+}
+
 export async function getFeaturedPosts(limit = 1): Promise<PostRow[]> {
   const db = createServiceClient();
   const { data, error } = await db
     .from("posts")
     .select(POST_COLUMNS)
     .eq("status", "published")
+    .lte("published_at", nowIso())
     .eq("featured", true)
     .order("published_at", { ascending: false })
     .limit(limit);
@@ -73,6 +79,7 @@ export async function getRecentPosts(limit = 12, offset = 0): Promise<PostRow[]>
     .from("posts")
     .select(POST_COLUMNS)
     .eq("status", "published")
+    .lte("published_at", nowIso())
     .order("published_at", { ascending: false })
     .range(offset, offset + limit - 1);
 
@@ -93,6 +100,7 @@ export async function getPostsByCategory(
     .from("posts")
     .select(POST_COLUMNS)
     .eq("status", "published")
+    .lte("published_at", nowIso())
     .eq("category", categorySlug)
     .order("published_at", { ascending: false })
     .range(offset, offset + limit - 1);
@@ -110,6 +118,7 @@ export async function getPostCountByCategory(categorySlug: string): Promise<numb
     .from("posts")
     .select("id", { count: "exact", head: true })
     .eq("status", "published")
+    .lte("published_at", nowIso())
     .eq("category", categorySlug);
 
   if (error) return 0;
@@ -124,7 +133,8 @@ export async function getPublishedPostCount(): Promise<number> {
   const { count, error } = await db
     .from("posts")
     .select("id", { count: "exact", head: true })
-    .eq("status", "published");
+    .eq("status", "published")
+    .lte("published_at", nowIso());
 
   if (error) {
     console.error("[db] getPublishedPostCount:", error.message);
@@ -142,7 +152,8 @@ export async function getPostCountsByCategory(): Promise<Record<string, number>>
   const { data, error } = await db
     .from("posts")
     .select("category")
-    .eq("status", "published");
+    .eq("status", "published")
+    .lte("published_at", nowIso());
 
   if (error) {
     console.error("[db] getPostCountsByCategory:", error.message);
@@ -162,6 +173,7 @@ export async function getPostBySlug(slug: string): Promise<PostRow | null> {
     .from("posts")
     .select("*")
     .eq("status", "published")
+    .lte("published_at", nowIso())
     .eq("slug", slug)
     .single();
 
@@ -204,6 +216,7 @@ export async function getRelatedPosts(
     .from("posts")
     .select(POST_COLUMNS)
     .eq("status", "published")
+    .lte("published_at", nowIso())
     .eq("category", categorySlug)
     .neq("slug", currentSlug)
     .order("published_at", { ascending: false })
@@ -249,6 +262,7 @@ export async function getAllPublishedSlugs(): Promise<
     .from("posts")
     .select("slug,category,updated_at")
     .eq("status", "published")
+    .lte("published_at", nowIso())
     .order("published_at", { ascending: false });
 
   if (error) return [];
