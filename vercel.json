@@ -20,6 +20,10 @@
     {
       "path": "/api/cron/gsc-sync",
       "schedule": "0 2 * * *"
+    },
+    {
+      "path": "/api/cron/auto-schedule",
+      "schedule": "0 1 * * *"
     }
   ]
 }
