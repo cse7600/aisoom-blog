@@ -13,6 +13,7 @@
     "generate-image": "node scripts/generate-image.mjs",
     "release": "node scripts/release-post.mjs",
     "auto-publish": "node scripts/auto-publish.mjs",
+    "auto-schedule": "node scripts/auto-schedule.mjs",
     "queue-check": "node scripts/auto-publish.mjs --dry",
     "generate-discussions": "node scripts/generate-discussions.mjs",
     "generate-community-posts": "tsx scripts/generate-community-posts.mjs",

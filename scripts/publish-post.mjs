@@ -252,6 +252,10 @@ async function publishFile(filePath, { dry, update, publishDate, seed }) {
     slug: meta.slug,
   });
 
+  // 미래 날짜면 scheduled, 과거/현재면 published
+  const isFuture = new Date(publishedAt) > new Date();
+  const status = isFuture ? "scheduled" : "published";
+
   const record = {
     slug: meta.slug,
     title: meta.title,
@@ -262,7 +266,7 @@ async function publishFile(filePath, { dry, update, publishDate, seed }) {
     keywords: flattenKeywords(meta.keywords),
     image_url: meta.image_url ?? null,
     author: meta.author ?? "고른다 에디터",
-    status: "published",
+    status,
     featured: meta.featured === "true" || meta.featured === true,
     read_time: calcReadTime(content),
     published_at: publishedAt,
@@ -273,7 +277,7 @@ async function publishFile(filePath, { dry, update, publishDate, seed }) {
   console.log(`파일: ${path.relative(ROOT, abs)}`);
   console.log(`slug: ${record.slug}`);
   console.log(`제목: ${record.title}`);
-  console.log(`카테고리: ${record.category} | 읽기시간: ${record.read_time}분`);
+  console.log(`카테고리: ${record.category} | 읽기시간: ${record.read_time}분 | status: ${record.status}`);
   console.log(`태그: ${record.tags.join(", ")}`);
   console.log(`키워드: ${record.keywords.join(", ")}`);
   console.log(`HTML 변환: ${htmlContent.length}자`);

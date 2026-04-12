@@ -261,6 +261,13 @@ node scripts/publish-post.mjs --publish-date 2026-04-18 키퍼메이트/content/
 | (둘 다 없음) | `new Date().toISOString()` — 단일 포스트 발행 시에만 허용 |
 | `--seed N` | 시간 랜덤 시드 (기본 20260412) |
 
+### 예약 발행(scheduled) 워크플로우
+- 미래 날짜 포스트: `publish-post.mjs`가 자동으로 `status='scheduled'`로 저장
+- 매일 1회 실행: `node scripts/auto-schedule.mjs`
+- `published_at <= now()` 조건 충족 시 자동으로 `status='published'` 전환
+- 수동 즉시 확인: `node scripts/auto-schedule.mjs --dry`
+- 실행 이력: `content-input/schedule-log.json`
+
 ### 금지
 - `research-and-queue.mjs --force --count N --auto-release` 배치 사용 (N개가 같은 시각에 몰림)
 - `content-loop.mjs`로 하루 10편 이상 연속 생성 (주 2회 슬롯 초과)
