@@ -278,6 +278,38 @@ node scripts/publish-post.mjs --publish-date 2026-04-18 키퍼메이트/content/
 
 ---
 
+## 구조화 데이터 (JSON-LD) 품질 규정
+
+**기준 커밋**: `78bb0a8` (fix: DiscussionForumPosting author Organization → Person)
+**분석 문서**: `docs/03-analysis/blog-affiliate-structured-data.analysis.md`
+
+### 핵심 규칙 (위반 시 Google Rich Results 오류 발생)
+
+| 규칙 | 파일 | 내용 |
+|------|------|------|
+| DiscussionForumPosting author | `discussion/DiscussionJsonLd.tsx` | 반드시 `Person` 타입. `Organization` 금지. |
+| headline 110자 | `lib/seo.ts:buildArticleJsonLd` | `.slice(0, 110)` 적용 필수 |
+| Breadcrumb 홈 항목 | `seo/Breadcrumb.tsx` | JSON-LD에 항상 `{ name: "홈", url: "/" }` prepend |
+| Comment @id | `community/DiscussionJsonLd.tsx` | 각 Comment에 `@id`, `identifier`, `parentItem` 포함 |
+
+### 본문 H1 금지 (콘텐츠 파이프라인)
+
+`generate-content.mjs` 시스템 프롬프트와 각 어필리에이트 프롬프트 모두:
+- `# 제목` (H1) 본문 생성 금지
+- 구조: `목차 → H2(=글 제목) → 한 줄 답변 → 도입부 → H2 섹션들`
+- 페이지 `<h1>`은 `[category]/[slug]/page.tsx` 템플릿이 별도 렌더
+
+기존 콘텐츠 파일의 H1을 발견하면 `# 제목` 라인과 바로 뒤 빈 줄 1개를 제거.
+`page.tsx`는 렌더 시점에 `h1 → h2` 변환하므로 DB 콘텐츠는 수정 불필요.
+
+### SITE_ORIGIN 이원화 금지
+
+`src/components/community/DiscussionJsonLd.tsx`:
+- `const SITE_ORIGIN = SITE_CONFIG.url` (import SITE_CONFIG from `@/lib/constants`)
+- 하드코딩 `"https://www.factnote.co.kr"` 사용 금지
+
+---
+
 ## 기술 스택 참조
 - Next.js 14 App Router + TypeScript strict
 - Tailwind CSS + CSS Variables (하드코딩 금지)

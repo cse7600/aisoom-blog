@@ -13,7 +13,7 @@ interface BreadcrumbProps {
 }
 
 export function Breadcrumb({ items }: BreadcrumbProps) {
-  const jsonLd = buildBreadcrumbJsonLd(items);
+  const jsonLd = buildBreadcrumbJsonLd([{ name: "홈", url: "/" }, ...items]);
 
   return (
     <>

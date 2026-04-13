@@ -93,7 +93,7 @@ export function buildArticleJsonLd(input: ArticleJsonLdInput): JsonLdArticle {
   return {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    headline: input.title,
+    headline: input.title.slice(0, 110),
     description: input.description,
     image: input.imageUrl,
     datePublished: input.publishedAt,

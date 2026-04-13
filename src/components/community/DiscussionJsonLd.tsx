@@ -9,7 +9,9 @@ import type {
   CommunityCommentThread,
 } from "@/lib/community-types";
 
-const SITE_ORIGIN = "https://www.factnote.co.kr";
+import { SITE_CONFIG } from "@/lib/constants";
+
+const SITE_ORIGIN = SITE_CONFIG.url;
 
 interface DiscussionJsonLdProps {
   post: CommunityPostPublic;
@@ -56,8 +58,11 @@ function buildDiscussionSchema(
 }
 
 function buildCommentSchema(thread: CommunityCommentThread) {
+  const commentId = `${SITE_ORIGIN}/community/${thread.post_id}#comment-${thread.id}`;
   const base = {
     "@type": "Comment",
+    "@id": commentId,
+    identifier: thread.id,
     text: thread.content,
     author: buildAuthor(thread.nickname),
     datePublished: thread.created_at,
@@ -65,12 +70,18 @@ function buildCommentSchema(thread: CommunityCommentThread) {
   if (thread.replies.length === 0) return base;
   return {
     ...base,
-    comment: thread.replies.map((reply) => ({
-      "@type": "Comment",
-      text: reply.content,
-      author: buildAuthor(reply.nickname),
-      datePublished: reply.created_at,
-    })),
+    comment: thread.replies.map((reply) => {
+      const replyId = `${SITE_ORIGIN}/community/${reply.post_id}#comment-${reply.id}`;
+      return {
+        "@type": "Comment",
+        "@id": replyId,
+        identifier: reply.id,
+        text: reply.content,
+        author: buildAuthor(reply.nickname),
+        datePublished: reply.created_at,
+        parentItem: { "@id": commentId },
+      };
+    }),
   };
 }
 
