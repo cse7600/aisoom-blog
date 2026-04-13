@@ -3,7 +3,13 @@
  * /preview/discussion 에서 접근
  */
 
+import type { Metadata } from "next";
 import { DiscussionThread } from "@/components/discussion/DiscussionThread";
+
+export const metadata: Metadata = {
+  title: "[프리뷰] 토론 UI",
+  robots: { index: false, follow: false },
+};
 import { DiscussionSkeleton } from "@/components/discussion/DiscussionSkeleton";
 import { FloatingShareBar } from "@/components/content/FloatingShareBar";
 import type {
