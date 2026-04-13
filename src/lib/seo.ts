@@ -45,9 +45,21 @@ export function generatePostMetadata(post: PostMetaInput): Metadata {
       title,
       description,
       images: [image],
+      site: SITE_CONFIG.twitterHandle,
     },
   };
 }
+
+/** 카테고리 슬러그별 SEO 최적화 기본 description — DB 값이 없을 때 fallback */
+const CATEGORY_DESCRIPTIONS: Record<string, string> = {
+  tech: "스마트폰·노트북·가전제품·보안카메라 비교 리뷰. 실사용자 경험 기반의 팩트 정보. CCTV·키퍼메이트 전문.",
+  finance:
+    "신용카드·적금·보험·법인설립 비용 비교 분석. 법인 설립 절차와 비용 계산법 완전 정리.",
+  beauty: "화장품·건강기능식품 솔직 리뷰. 성분·효과·가격 팩트 비교.",
+  "home-living":
+    "생활용품·인테리어·주방용품·식자재 추천. 외식업 원가 절감 실전 가이드.",
+  travel: "국내외 여행 가이드, 숙소·항공·보험 비교. 비용 절감 팁.",
+};
 
 export function generateCategoryMetadata(
   categoryName: string,
@@ -56,17 +68,27 @@ export function generateCategoryMetadata(
 ): Metadata {
   const title = `${categoryName} - 찐 비교 & 추천`;
   const url = `${SITE_CONFIG.url}/${categorySlug}`;
+  const description =
+    categoryDescription ||
+    CATEGORY_DESCRIPTIONS[categorySlug] ||
+    SEO_DEFAULTS.defaultDescription;
 
   return {
     title,
-    description: categoryDescription,
+    description,
     alternates: { canonical: url },
     openGraph: {
       type: "website",
       title: `${title} | ${SITE_CONFIG.name}`,
-      description: categoryDescription,
+      description,
       url,
       siteName: SITE_CONFIG.name,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${title} | ${SITE_CONFIG.name}`,
+      description,
+      site: SITE_CONFIG.twitterHandle,
     },
   };
 }
