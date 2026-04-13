@@ -1,6 +1,6 @@
 "use client";
 
-import { Share2, Link as LinkIcon } from "lucide-react";
+import { Link as LinkIcon, Check } from "lucide-react";
 import { useState } from "react";
 
 interface ShareButtonsProps {
@@ -9,12 +9,8 @@ interface ShareButtonsProps {
   description: string;
 }
 
-export function ShareButtons({ url, title, description }: ShareButtonsProps) {
+export function ShareButtons({ url }: ShareButtonsProps) {
   const [copied, setCopied] = useState(false);
-
-  const encodedUrl = encodeURIComponent(url);
-  const encodedTitle = encodeURIComponent(title);
-  const encodedDescription = encodeURIComponent(description);
 
   async function copyLink() {
     try {
@@ -26,45 +22,22 @@ export function ShareButtons({ url, title, description }: ShareButtonsProps) {
     }
   }
 
-  const shareTargets = [
-    {
-      name: "카카오톡",
-      url: `https://story.kakao.com/share?url=${encodedUrl}`,
-      color: "hover:text-[#FEE500]",
-    },
-    {
-      name: "X",
-      url: `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`,
-      color: "hover:text-foreground",
-    },
-    {
-      name: "페이스북",
-      url: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}&quote=${encodedDescription}`,
-      color: "hover:text-[#1877F2]",
-    },
-  ];
-
   return (
-    <div className="flex items-center gap-2">
-      <Share2 className="w-4 h-4 text-foreground/40" />
-      {shareTargets.map((target) => (
-        <a
-          key={target.name}
-          href={target.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={`px-3 py-2.5 text-body-sm font-medium text-foreground/50 border border-border rounded-badge ${target.color} hover:border-foreground/20 transition-all min-h-[44px] inline-flex items-center`}
-        >
-          {target.name}
-        </a>
-      ))}
+    <div className="flex items-center">
       <button
         type="button"
         onClick={copyLink}
-        className="px-3 py-2.5 text-body-sm font-medium text-foreground/50 border border-border rounded-badge hover:text-primary hover:border-primary/30 transition-all flex items-center gap-1 min-h-[44px]"
+        className="inline-flex items-center gap-2 px-5 py-3 text-body-sm font-semibold border-2 rounded-badge transition-all min-h-[44px]
+          border-primary text-primary hover:bg-primary hover:text-white
+          data-[copied=true]:border-green-500 data-[copied=true]:text-green-600 data-[copied=true]:hover:bg-green-500 data-[copied=true]:hover:text-white"
+        data-copied={copied}
       >
-        <LinkIcon className="w-3 h-3" />
-        {copied ? "복사됨" : "링크"}
+        {copied ? (
+          <Check className="w-4 h-4" />
+        ) : (
+          <LinkIcon className="w-4 h-4" />
+        )}
+        {copied ? "링크 복사됨" : "링크 복사"}
       </button>
     </div>
   );
