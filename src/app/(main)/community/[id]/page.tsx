@@ -82,7 +82,11 @@ export default async function CommunityDetailPage({
         ))}
       </div>
 
-      <CommunityPostActions postId={post.id} />
+      <CommunityPostActions
+        postId={post.id}
+        likeCount={post.like_count ?? 0}
+        bookmarkCount={post.bookmark_count ?? 0}
+      />
 
       <CommunityComments postId={post.id} comments={comments} />
     </article>

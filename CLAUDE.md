@@ -310,6 +310,41 @@ node scripts/publish-post.mjs --publish-date 2026-04-18 키퍼메이트/content/
 
 ---
 
+## SEO 인프라 규정 (2026-04-14 추가)
+
+**기준 커밋**: `1b4494a` (feat(seo): bwissue.com 벤치마킹 기반 SEO 즉시 적용 패키지)
+
+### robots.txt 규칙
+파일: `public/robots.txt`
+- `User-agent: Yeti` + `Allow: /` — 네이버봇 명시 허용 필수 (삭제 금지)
+- Sitemap URL 명시 필수: `Sitemap: https://www.factnote.co.kr/sitemap.xml`
+
+### Twitter Card 규칙
+`src/lib/seo.ts`:
+- `generatePostMetadata` — `twitter.site: SITE_CONFIG.twitterHandle` 포함
+- `generateCategoryMetadata` — `twitter` 블록 전체 포함 (card + title + description + site)
+- 두 함수 모두 twitter 블록 제거 금지
+
+### 카테고리 description fallback 맵
+`src/lib/seo.ts::CATEGORY_DESCRIPTIONS`:
+- DB `categories.description` 비어있을 때 자동 fallback
+- 우선순위: `DB값` → `CATEGORY_DESCRIPTIONS[slug]` → `SEO_DEFAULTS.defaultDescription`
+- 카테고리 추가 시 `CATEGORY_DESCRIPTIONS`에도 추가
+
+### 제목 프리픽스 패턴 (콘텐츠 파이프라인)
+모든 어필리에이트 프롬프트(`content-input/prompts/*.md`)에 적용:
+- 생성 글 제목 앞에 반드시 프리픽스 1개 포함
+- `【비교】` `【후기】` `【계산법】` `【Q&A】` `【주의】` `【2026년】`
+- frontmatter `title:` 필드에도 동일 프리픽스 포함
+- 두 개 이상 중첩 금지
+
+### 카테고리 description DB 업데이트 도구
+`scripts/update-category-descriptions.mjs`
+- `--dry` 옵션으로 미리보기
+- 카테고리 description 변경 시 이 스크립트 사용
+
+---
+
 ## 기술 스택 참조
 - Next.js 14 App Router + TypeScript strict
 - Tailwind CSS + CSS Variables (하드코딩 금지)

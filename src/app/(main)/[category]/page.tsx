@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import {
   getCategoryBySlug,
   getPostsByCategory,
   getCategories,
   getPostCountsByCategory,
   getPublishedPostCount,
+  getTagsByCategory,
 } from "@/lib/db";
 import { PostCard } from "@/components/content/PostCard";
 import { CategoryNavBar } from "@/components/content/CategoryNavBar";
@@ -37,12 +39,13 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
 }
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
-  const [cat, posts, categories, counts, totalCount] = await Promise.all([
+  const [cat, posts, categories, counts, totalCount, tags] = await Promise.all([
     getCategoryBySlug(params.category),
     getPostsByCategory(params.category, 20),
     getCategories(),
     getPostCountsByCategory(),
     getPublishedPostCount(),
+    getTagsByCategory(params.category),
   ]);
 
   if (!cat) notFound();
@@ -98,6 +101,21 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             <p className="text-body-lg text-foreground/50">{cat.description}</p>
           )}
         </header>
+
+        {tags.length > 0 && (
+          <div className="flex flex-wrap gap-2 mb-6">
+            {tags.slice(0, 12).map(({ tag, count }) => (
+              <Link
+                key={tag}
+                href={`/${cat.slug}/tag/${encodeURIComponent(tag)}`}
+                className="inline-flex items-center gap-1 px-3 py-1 rounded-full text-body-sm bg-surface-secondary text-foreground/70 hover:text-foreground hover:bg-surface-tertiary transition-colors"
+              >
+                #{tag}
+                <span className="text-foreground/40">{count}</span>
+              </Link>
+            ))}
+          </div>
+        )}
 
         {posts.length === 0 ? (
           <p className="text-body-md text-foreground/40 py-16 text-center">

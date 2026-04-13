@@ -35,6 +35,11 @@ export function CommunityPostRow({ post }: CommunityPostRowProps) {
       <span className="community-row__author" title={post.nickname}>
         {post.nickname}
       </span>
+      {post.bookmark_count > 0 && (
+        <span className="community-row__bookmark" aria-label="스크랩">
+          [{post.bookmark_count}]
+        </span>
+      )}
       <span
         className={
           post.view_count >= 100

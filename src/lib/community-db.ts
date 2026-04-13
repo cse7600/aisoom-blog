@@ -19,7 +19,7 @@ import type {
 } from "./community-types";
 
 const POST_PUBLIC_COLUMNS =
-  "id,category,title,content,nickname,view_count,comment_count,is_hot,is_ai_generated,persona_id,image_url,created_at,updated_at";
+  "id,category,title,content,nickname,view_count,comment_count,like_count,bookmark_count,is_hot,is_ai_generated,persona_id,image_url,created_at,updated_at";
 
 const COMMENT_PUBLIC_COLUMNS =
   "id,post_id,parent_id,nickname,content,is_ai_generated,persona_id,created_at";
@@ -124,6 +124,40 @@ export async function incrementCommunityPostView(
     .eq("id", postId);
   if (error) {
     console.error("[community-db] incrementCommunityPostView:", error.message);
+  }
+}
+
+export async function incrementCommunityPostLike(postId: string): Promise<void> {
+  const db = createServiceClient();
+  const { data } = await db
+    .from("community_posts")
+    .select("like_count")
+    .eq("id", postId)
+    .maybeSingle();
+  const current = Number((data as { like_count?: number } | null)?.like_count ?? 0);
+  const { error } = await db
+    .from("community_posts")
+    .update({ like_count: current + 1 })
+    .eq("id", postId);
+  if (error) {
+    console.error("[community-db] incrementCommunityPostLike:", error.message);
+  }
+}
+
+export async function incrementCommunityPostBookmark(postId: string): Promise<void> {
+  const db = createServiceClient();
+  const { data } = await db
+    .from("community_posts")
+    .select("bookmark_count")
+    .eq("id", postId)
+    .maybeSingle();
+  const current = Number((data as { bookmark_count?: number } | null)?.bookmark_count ?? 0);
+  const { error } = await db
+    .from("community_posts")
+    .update({ bookmark_count: current + 1 })
+    .eq("id", postId);
+  if (error) {
+    console.error("[community-db] incrementCommunityPostBookmark:", error.message);
   }
 }
 

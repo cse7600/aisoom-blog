@@ -270,6 +270,62 @@ export async function getAllPublishedSlugs(): Promise<
 }
 
 /**
+ * 카테고리 + 태그로 필터된 포스트 목록
+ */
+export async function getPostsByCategoryAndTag(
+  categorySlug: string,
+  tag: string,
+  limit = 20,
+  offset = 0
+): Promise<PostRow[]> {
+  const db = createServiceClient();
+  const { data, error } = await db
+    .from("posts")
+    .select(POST_COLUMNS)
+    .eq("status", "published")
+    .lte("published_at", nowIso())
+    .eq("category", categorySlug)
+    .contains("tags", [tag])
+    .order("published_at", { ascending: false })
+    .range(offset, offset + limit - 1);
+
+  if (error) {
+    console.error("[db] getPostsByCategoryAndTag:", error.message);
+    return [];
+  }
+  return (data ?? []) as PostRow[];
+}
+
+/**
+ * 카테고리의 태그 목록 + 각 태그별 포스트 수 (상위 20개)
+ */
+export async function getTagsByCategory(
+  categorySlug: string
+): Promise<Array<{ tag: string; count: number }>> {
+  const db = createServiceClient();
+  const { data, error } = await db
+    .from("posts")
+    .select("tags")
+    .eq("status", "published")
+    .lte("published_at", nowIso())
+    .eq("category", categorySlug);
+
+  if (error || !data) return [];
+
+  const tagCount: Record<string, number> = {};
+  for (const row of data as { tags: string[] }[]) {
+    for (const tag of row.tags ?? []) {
+      tagCount[tag] = (tagCount[tag] ?? 0) + 1;
+    }
+  }
+
+  return Object.entries(tagCount)
+    .map(([tag, count]) => ({ tag, count }))
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 20);
+}
+
+/**
  * 조회수 증가 — fire-and-forget, 에러 무시
  */
 export async function incrementViewCount(slug: string): Promise<void> {
