@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-04-11T17:13:08.648Z",
+  "lastUpdated": "2026-04-13T01:02:35.047Z",
   "activeFeatures": [
     "blog-affiliate",
     "layout",
@@ -34,7 +34,8 @@
     "gsc",
     "callback",
     "report",
-    "gsc-sync"
+    "gsc-sync",
+    "auto-schedule"
   ],
   "primaryFeature": "blog-affiliate",
   "features": {
@@ -47,9 +48,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T02:43:31.949Z",
-        "lastUpdated": "2026-04-11T17:13:08.647Z"
+        "lastUpdated": "2026-04-13T00:46:35.870Z"
       },
-      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/apple-icon.tsx"
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/robots.ts"
     },
     "layout": {
       "phase": "do",
@@ -60,7 +61,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T02:46:12.631Z",
-        "lastUpdated": "2026-04-10T06:20:30.070Z"
+        "lastUpdated": "2026-04-12T15:05:00.923Z"
       },
       "lastFile": "/Users/hokang2father/blog-affiliate/src/components/layout/Header.tsx"
     },
@@ -86,9 +87,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T02:46:44.395Z",
-        "lastUpdated": "2026-04-11T14:31:31.151Z"
+        "lastUpdated": "2026-04-13T01:02:35.047Z"
       },
-      "lastFile": "/Users/hokang2father/blog-affiliate/src/components/content/FloatingShareBar.tsx"
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/components/content/ShareButtons.tsx"
     },
     "seo": {
       "phase": "do",
@@ -151,7 +152,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T02:48:05.857Z",
-        "lastUpdated": "2026-04-11T15:56:36.224Z"
+        "lastUpdated": "2026-04-13T00:56:22.486Z"
       },
       "lastFile": "/Users/hokang2father/blog-affiliate/src/app/(main)/[category]/[slug]/page.tsx"
     },
@@ -229,7 +230,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T05:48:51.084Z",
-        "lastUpdated": "2026-04-11T17:12:51.337Z"
+        "lastUpdated": "2026-04-13T00:46:32.671Z"
       },
       "lastFile": "/Users/hokang2father/blog-affiliate/src/app/(main)/preview/discussion/page.tsx"
     },
@@ -268,7 +269,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T06:15:29.647Z",
-        "lastUpdated": "2026-04-11T15:53:10.464Z"
+        "lastUpdated": "2026-04-11T17:39:59.580Z"
       },
       "lastFile": "/Users/hokang2father/blog-affiliate/src/app/(main)/community/[id]/page.tsx"
     },
@@ -294,9 +295,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T06:17:00.451Z",
-        "lastUpdated": "2026-04-11T16:25:11.063Z"
+        "lastUpdated": "2026-04-12T15:33:56.371Z"
       },
-      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/(main)/community/page.tsx"
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/components/community/CommunityPostRow.tsx"
     },
     "write": {
       "phase": "do",
@@ -320,7 +321,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T13:18:55.128Z",
-        "lastUpdated": "2026-04-11T17:12:53.248Z"
+        "lastUpdated": "2026-04-13T00:43:30.177Z"
       },
       "lastFile": "/Users/hokang2father/blog-affiliate/src/app/(main)/community/users/[nickname]/page.tsx"
     },
@@ -466,6 +467,19 @@
         "lastUpdated": "2026-04-11T15:37:30.904Z"
       },
       "lastFile": "/Users/hokang2father/blog-affiliate/src/app/api/cron/gsc-sync/route.ts"
+    },
+    "auto-schedule": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-12T15:28:14.689Z",
+        "lastUpdated": "2026-04-12T15:28:14.689Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/api/cron/auto-schedule/route.ts"
     }
   },
   "pipeline": {
@@ -476,7 +490,7 @@
   "session": {
     "startedAt": "2026-04-10T02:43:31.949Z",
     "onboardingCompleted": false,
-    "lastActivity": "2026-04-11T17:13:08.648Z"
+    "lastActivity": "2026-04-13T01:02:35.047Z"
   },
   "history": [
     {
@@ -2114,6 +2128,246 @@
     {
       "timestamp": "2026-04-11T17:13:08.647Z",
       "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-11T17:39:59.580Z",
+      "feature": "[id]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-11T17:40:00.158Z",
+      "feature": "community",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-11T17:54:50.282Z",
+      "feature": "community",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-11T17:54:54.798Z",
+      "feature": "community",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-11T17:54:59.502Z",
+      "feature": "community",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:03:08.109Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:03:11.986Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:03:17.830Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:03:26.844Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:03:37.719Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:03:42.587Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:03:49.420Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:03:54.893Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:04:00.337Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:04:07.205Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:04:35.884Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:04:44.342Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:04:52.183Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:04:56.228Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:05:00.923Z",
+      "feature": "layout",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:05:16.706Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:15:20.968Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:15:24.879Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:15:28.447Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:15:32.526Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:15:36.338Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:15:41.391Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:15:45.384Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:15:51.253Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:15:55.083Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:28:14.689Z",
+      "feature": "auto-schedule",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:33:48.944Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:33:53.130Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-12T15:33:56.371Z",
+      "feature": "community",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-13T00:43:27.010Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-13T00:43:30.177Z",
+      "feature": "[nickname]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-13T00:46:32.671Z",
+      "feature": "discussion",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-13T00:46:35.870Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-13T00:56:22.486Z",
+      "feature": "[slug]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-13T01:02:35.047Z",
+      "feature": "content",
       "phase": "do",
       "action": "updated"
     }
