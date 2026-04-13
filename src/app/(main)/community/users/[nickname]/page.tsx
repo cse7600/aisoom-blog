@@ -37,10 +37,7 @@ export async function generateMetadata({
   const nickname = decodeURIComponent(params.nickname);
   const persona = await getPersonaByNickname(nickname);
   if (!persona) {
-    return {
-      title: `${nickname} 프로필 · 소통`,
-      robots: { index: false, follow: true },
-    };
+    return { title: `${nickname} 프로필 · 소통` };
   }
   const description =
     persona.bio ?? `${persona.nickname}의 커뮤니티 활동 — 경험 기반 후기와 토론 이력.`;
