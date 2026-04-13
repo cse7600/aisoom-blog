@@ -56,7 +56,10 @@ export default async function PostPage({ params }: PostPageProps) {
 
   const readTime = post.read_time ?? (post.content ? calculateReadingTime(post.content) : null);
   const postUrl = `${SITE_CONFIG.url}/${post.category}/${post.slug}`;
-  const contentHtml = post.content ?? "";
+  // 페이지 헤더에 <h1>이 이미 존재하므로 본문 H1 태그를 H2로 변환
+  const contentHtml = (post.content ?? "")
+    .replace(/<h1(\s[^>]*)?>/gi, "<h2$1>")
+    .replace(/<\/h1>/gi, "</h2>");
   const plainTextLength = contentHtml.replace(/<[^>]+>/g, "").length;
   const authorProfileUrl = post.author
     ? `${SITE_CONFIG.url}/community/users/${encodeURIComponent(post.author)}`

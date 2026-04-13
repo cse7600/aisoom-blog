@@ -22,13 +22,15 @@ import { marked } from "marked";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 
-// marked 설정 — heading에 id 자동 부여
+// marked 설정 — heading에 id 자동 부여 + H1→H2 다운그레이드
+// 페이지 헤더에 이미 <h1>이 존재하므로 본문 H1은 H2로 변환해 H1 중복 방지
 marked.use({
   renderer: {
     heading({ tokens, depth }) {
       const text = tokens.map(t => t.raw).join("");
       const id = slugifyHeading(text);
-      return `<h${depth} id="${id}">${this.parser.parseInline(tokens)}</h${depth}>\n`;
+      const level = depth === 1 ? 2 : depth;
+      return `<h${level} id="${id}">${this.parser.parseInline(tokens)}</h${level}>\n`;
     },
   },
 });
