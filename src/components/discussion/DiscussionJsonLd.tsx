@@ -10,6 +10,7 @@ interface DiscussionJsonLdProps {
   postPublishedAt: string;
   postUpdatedAt: string;
   discussions: DiscussionWithReplies[];
+  postAuthor?: string | null;
 }
 
 interface PersonRef {
@@ -18,11 +19,6 @@ interface PersonRef {
   url: string;
 }
 
-interface OrganizationRef {
-  "@type": "Organization";
-  name: string;
-  url: string;
-}
 
 interface ParentRef {
   "@id": string;
@@ -48,7 +44,7 @@ interface DiscussionForumPostingNode {
   headline: string;
   datePublished: string;
   dateModified: string;
-  author: OrganizationRef;
+  author: PersonRef;
   commentCount: number;
   comment: CommentNode[];
 }
@@ -59,6 +55,7 @@ export function DiscussionJsonLd({
   postPublishedAt,
   postUpdatedAt,
   discussions,
+  postAuthor,
 }: DiscussionJsonLdProps) {
   if (discussions.length === 0) return null;
   const payload = buildForumPosting(
@@ -66,7 +63,8 @@ export function DiscussionJsonLd({
     postTitle,
     postPublishedAt,
     postUpdatedAt,
-    discussions
+    discussions,
+    postAuthor ?? "편집부"
   );
 
   return (
@@ -89,13 +87,6 @@ function buildPersonRef(nickname: string): PersonRef {
   };
 }
 
-function buildOrganizationRef(): OrganizationRef {
-  return {
-    "@type": "Organization",
-    name: SITE_CONFIG.name,
-    url: SITE_CONFIG.url,
-  };
-}
 
 function latestTimestamp(
   postUpdatedAt: string,
@@ -123,7 +114,8 @@ function buildForumPosting(
   postTitle: string,
   postPublishedAt: string,
   postUpdatedAt: string,
-  discussions: DiscussionWithReplies[]
+  discussions: DiscussionWithReplies[],
+  authorName: string
 ): DiscussionForumPostingNode {
   return {
     "@context": "https://schema.org",
@@ -133,7 +125,7 @@ function buildForumPosting(
     headline: postTitle,
     datePublished: postPublishedAt,
     dateModified: latestTimestamp(postUpdatedAt, discussions),
-    author: buildOrganizationRef(),
+    author: buildPersonRef(authorName),
     commentCount: countAllComments(discussions),
     comment: discussions.map((discussion) => buildTopComment(postUrl, discussion)),
   };

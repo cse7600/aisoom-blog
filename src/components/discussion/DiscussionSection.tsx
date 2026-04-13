@@ -9,6 +9,7 @@ interface DiscussionSectionProps {
   postUrl: string;
   postPublishedAt: string;
   postUpdatedAt: string;
+  postAuthor?: string | null;
 }
 
 export async function DiscussionSection({
@@ -17,6 +18,7 @@ export async function DiscussionSection({
   postUrl,
   postPublishedAt,
   postUpdatedAt,
+  postAuthor,
 }: DiscussionSectionProps) {
   const discussions = await getDiscussionsByPostSlug(postSlug);
   if (discussions.length === 0) return <EmptyDiscussion />;
@@ -29,6 +31,7 @@ export async function DiscussionSection({
         postPublishedAt={postPublishedAt}
         postUpdatedAt={postUpdatedAt}
         discussions={discussions}
+        postAuthor={postAuthor}
       />
       <header className="discussion-section-header">
         <h2 className="discussion-heading">
