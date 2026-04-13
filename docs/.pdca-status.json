@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-04-13T14:47:36.127Z",
+  "lastUpdated": "2026-04-13T15:53:44.611Z",
   "activeFeatures": [
     "blog-affiliate",
     "layout",
@@ -35,7 +35,9 @@
     "callback",
     "report",
     "gsc-sync",
-    "auto-schedule"
+    "auto-schedule",
+    "like",
+    "bookmark"
   ],
   "primaryFeature": "blog-affiliate",
   "features": {
@@ -48,9 +50,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T02:43:31.949Z",
-        "lastUpdated": "2026-04-13T14:42:28.828Z"
+        "lastUpdated": "2026-04-13T15:52:03.315Z"
       },
-      "lastFile": "/Users/hokang2father/blog-affiliate/src/lib/seo.ts"
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/lib/community-db.ts"
     },
     "layout": {
       "phase": "do",
@@ -269,7 +271,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T06:15:29.647Z",
-        "lastUpdated": "2026-04-11T17:39:59.580Z"
+        "lastUpdated": "2026-04-13T15:53:41.970Z"
       },
       "lastFile": "/Users/hokang2father/blog-affiliate/src/app/(main)/community/[id]/page.tsx"
     },
@@ -295,9 +297,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T06:17:00.451Z",
-        "lastUpdated": "2026-04-13T14:47:36.126Z"
+        "lastUpdated": "2026-04-13T15:53:44.611Z"
       },
-      "lastFile": "/Users/hokang2father/blog-affiliate/src/components/community/DiscussionJsonLd.tsx"
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/components/community/CommunityPostRow.tsx"
     },
     "write": {
       "phase": "do",
@@ -480,6 +482,32 @@
         "lastUpdated": "2026-04-12T15:28:14.689Z"
       },
       "lastFile": "/Users/hokang2father/blog-affiliate/src/app/api/cron/auto-schedule/route.ts"
+    },
+    "like": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-13T15:53:22.714Z",
+        "lastUpdated": "2026-04-13T15:53:22.714Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/api/community/posts/[id]/like/route.ts"
+    },
+    "bookmark": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-13T15:53:23.495Z",
+        "lastUpdated": "2026-04-13T15:53:23.495Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/api/community/posts/[id]/bookmark/route.ts"
     }
   },
   "pipeline": {
@@ -490,7 +518,7 @@
   "session": {
     "startedAt": "2026-04-10T02:43:31.949Z",
     "onboardingCompleted": false,
-    "lastActivity": "2026-04-13T14:47:36.127Z"
+    "lastActivity": "2026-04-13T15:53:44.611Z"
   },
   "history": [
     {
@@ -2451,6 +2479,72 @@
     },
     {
       "timestamp": "2026-04-13T14:47:36.126Z",
+      "feature": "community",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-13T15:42:58.469Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-13T15:43:02.892Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-13T15:43:54.222Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-13T15:51:53.407Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-13T15:51:56.802Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-13T15:52:03.315Z",
+      "feature": "blog-affiliate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-13T15:53:22.714Z",
+      "feature": "like",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-13T15:53:23.495Z",
+      "feature": "bookmark",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-13T15:53:38.155Z",
+      "feature": "community",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-13T15:53:41.970Z",
+      "feature": "[id]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-13T15:53:44.611Z",
       "feature": "community",
       "phase": "do",
       "action": "updated"

@@ -34,6 +34,8 @@ export interface CommunityPostRow {
   password_hash: string;
   view_count: number;
   comment_count: number;
+  like_count: number;
+  bookmark_count: number;
   is_hot: boolean;
   is_ai_generated: boolean;
   persona_id: string | null;
