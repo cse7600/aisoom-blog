@@ -152,10 +152,39 @@ node scripts/content-loop.mjs --skip-publish
 node scripts/content-loop.mjs --force
 ```
 
+### 키워드 검증 필수 규칙 (2026-04-14 추가)
+
+**기준 커밋**: 키퍼메이트 10편 키워드 검증 누락 사건 (PIPELINE-CHANGELOG.md 참고)
+
+#### 왜 필요한가
+`content-input/keywords/*.json`에 2,333개 실측 키워드(score·total·comp) DB가 있음에도 기존 파이프라인은 이를 로드하지 않았다. 결과적으로 팀 에이전트가 경쟁사 분석만으로 주제를 선정하면 검색량 0 키워드로 본문이 생성되어 SEO 실패.
+
+#### 강제 게이트
+- 모든 주제는 `discover-topics.mjs`를 통해 `content-input/keywords/*.json` DB와 교차 매핑 후 `topic-queue.json`에 등록. `opportunityScore`와 `bestMatch {keyword, total, comp, score, matchType}` 필드 필수.
+- `research-and-queue.mjs`는 `opportunityScore < 20` 항목을 기본 스킵. `--force-unscored` 플래그로만 우회 가능.
+- `generate-content.mjs --from-queue`는 `opportunityScore < 20`이면 에러 종료. `--force-unscored` 필요.
+- `generate-content.mjs`는 생성된 마크다운 frontmatter에 `keywords.bestMatch`, `keywords.score`, `keywords.total`, `keywords.comp`, `keywords.matchType` 자동 주입.
+
+#### 팀 에이전트 직접 주제 생성 금지
+PO/팀 에이전트가 경쟁사 분석·사용자 요청 기반으로 주제를 떠올리더라도 **반드시** `scripts/discover-topics.mjs`를 경유해 큐에 등록해야 한다. `topic-queue.json`에 직접 수기 INSERT 금지.
+
+예외적으로 수기 등록이 필요하면:
+```bash
+# 1) 주제 리스트를 임시 파일에 작성 후
+# 2) 아래 공식 헬퍼 실행 (DB 매핑 자동 수행)
+node scripts/enqueue-topics.mjs --affiliate 키퍼메이트 --from-file /tmp/topics.json
+```
+
+#### 공용 모듈
+- `scripts/lib/keyword-db.mjs` — `loadKeywordDB(root)`, `findBestMatchForTopic(db, {topic, tags, keywords})`, `lookupKeywords(db, keywords)` 제공
+- 신규 스크립트도 이 모듈을 통해 DB를 로드해야 한다. DB 파일 직접 파싱 금지.
+
 ### 변경 금지 사항
 - `generate-content.mjs`와 `discover-topics.mjs`의 `CLAUDE_MODEL`은 항상 동일 버전 유지
 - content-loop가 `stepRefill`에서 `--auto-release`를 자동 전달하는 로직(skip-publish 케이스 제외)
 - 프롬프트 파일 frontmatter `---` 시작 규정 (없으면 생성 스크립트가 에러)
+- `scripts/lib/keyword-db.mjs` 인터페이스 변경 시 discover/research/generate 3개 스크립트 동기 업데이트
+- 키워드 검증 게이트 제거 금지 — 우회는 항상 `--force-unscored` 명시적 플래그로만
 
 ---
 

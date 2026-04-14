@@ -23,6 +23,7 @@ import fs from "fs";
 import path from "path";
 import { execSync } from "child_process";
 import { fileURLToPath } from "url";
+import { loadKeywordDB, findBestMatchForTopic } from "./lib/keyword-db.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -448,7 +449,74 @@ function parseArgs() {
     fromQueue: args.includes("--from-queue"),
     autoRelease: args.includes("--auto-release"),
     dry: args.includes("--dry"),
+    forceUnscored: args.includes("--force-unscored"),
+    minScore: parseInt(get("--min-score") || "20", 10),
   };
+}
+
+/**
+ * 마크다운 frontmatter에 keywords.bestMatch/total/score/comp 필드 주입
+ * 기존 keywords 블록이 있으면 확장, 없으면 새로 삽입
+ *
+ * @param {string} markdown
+ * @param {{keyword:string, total:number, comp:string|null, score:number, matchType:string}|null} match
+ * @returns {string}
+ */
+function injectKeywordMeta(markdown, match) {
+  if (!match) {
+    // DB 매칭 실패 — score: 0 명시
+    const stub = "  bestMatch: null\n  score: 0\n  total: 0\n  comp: \"unmatched\"\n";
+    return insertIntoKeywordsBlock(markdown, stub);
+  }
+  const lines = [
+    `  bestMatch: "${match.keyword.replace(/"/g, '\\"')}"`,
+    `  score: ${match.score}`,
+    `  total: ${match.total}`,
+    `  comp: "${match.comp ?? "unknown"}"`,
+    `  matchType: "${match.matchType}"`,
+  ];
+  return insertIntoKeywordsBlock(markdown, lines.join("\n") + "\n");
+}
+
+function insertIntoKeywordsBlock(markdown, insertion) {
+  const fmMatch = markdown.match(/^---\n([\s\S]+?)\n---/);
+  if (!fmMatch) return markdown; // frontmatter 없음 → 변경 없이 반환
+
+  const fm = fmMatch[1];
+  const lines = fm.split("\n");
+
+  const kwIdx = lines.findIndex((ln) => ln === "keywords:" || ln.startsWith("keywords:"));
+  if (kwIdx === -1) {
+    // keywords 블록 없음 → frontmatter 끝에 추가
+    const newFm = fm + `\nkeywords:\n${insertion.trimEnd()}`;
+    return markdown.replace(fmMatch[0], `---\n${newFm}\n---`);
+  }
+
+  // 블록 범위: 다음 최상위 키(들여쓰기 없는 라인)까지
+  let endIdx = lines.length;
+  for (let i = kwIdx + 1; i < lines.length; i++) {
+    if (lines[i].length === 0) continue;
+    if (!lines[i].startsWith(" ")) {
+      endIdx = i;
+      break;
+    }
+  }
+
+  const existingBlock = lines.slice(kwIdx + 1, endIdx);
+  const cleaned = existingBlock.filter(
+    (ln) => !/^  (bestMatch|score|total|comp|matchType):/.test(ln)
+  );
+
+  const insertionLines = insertion.trimEnd().split("\n");
+  const newLines = [
+    ...lines.slice(0, kwIdx + 1),
+    ...cleaned,
+    ...insertionLines,
+    ...lines.slice(endIdx),
+  ];
+
+  const newFm = newLines.join("\n");
+  return markdown.replace(fmMatch[0], `---\n${newFm}\n---`);
 }
 
 async function main() {
@@ -480,6 +548,18 @@ async function main() {
     angle = angle || topicEntry.angle;
     keywords = keywords || (topicEntry.keywords || []).join(",");
     slugHint = slugHint || topicEntry.slugHint;
+
+    // score gate: topic-queue에서 꺼낸 항목의 opportunityScore 검증
+    const queueScore = Number(topicEntry.opportunityScore) || 0;
+    if (!opts.forceUnscored && queueScore < opts.minScore) {
+      throw new Error(
+        `주제 "${topic}" score ${queueScore} < ${opts.minScore}. ` +
+        `discover-topics.mjs로 재검증하거나 --force-unscored 플래그 사용.`
+      );
+    }
+    if (queueScore === 0) {
+      console.warn(`  [WARN] opportunityScore 0 — --force-unscored로 통과. frontmatter에 score:0 기록`);
+    }
   }
 
   if (!affiliateName || !topic) {
@@ -505,7 +585,7 @@ async function main() {
     return;
   }
 
-  const markdown = await generateContent({
+  let markdown = await generateContent({
     affiliateName,
     affiliate,
     topic,
@@ -514,6 +594,32 @@ async function main() {
     research: opts.research,
     slugHint,
   });
+
+  // 키워드 DB 매칭 결과를 frontmatter에 주입
+  let injectedMatch = null;
+  if (topicEntry?.bestMatch) {
+    injectedMatch = topicEntry.bestMatch;
+  } else {
+    // topicEntry에 bestMatch가 없으면 실시간 매칭
+    const keywordDB = loadKeywordDB(ROOT);
+    const keywordList = typeof keywords === "string"
+      ? keywords.split(/[,\s]+/).filter(Boolean)
+      : Array.isArray(keywords) ? keywords : [];
+    injectedMatch = findBestMatchForTopic(keywordDB, {
+      topic,
+      tags: keywordList,
+      keywords: keywordList,
+    });
+  }
+  markdown = injectKeywordMeta(markdown, injectedMatch);
+  if (injectedMatch) {
+    console.log(
+      `  [keyword-meta] bestMatch="${injectedMatch.keyword}" score=${injectedMatch.score} ` +
+      `total=${injectedMatch.total} comp=${injectedMatch.comp ?? "?"} [${injectedMatch.matchType}]`
+    );
+  } else {
+    console.warn(`  [keyword-meta] DB 매칭 실패 — frontmatter score:0 기록`);
+  }
 
   const outPath = saveDraft(markdown, affiliate, slugHint, topic);
 

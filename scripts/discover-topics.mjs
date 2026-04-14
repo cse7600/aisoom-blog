@@ -25,6 +25,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { collectNaverCafePlaywright } from "./scrapers/naver-cafe-playwright.mjs";
 import { sessionExists } from "./naver-session.mjs";
+import { loadKeywordDB, findBestMatchForTopic } from "./lib/keyword-db.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -518,35 +519,69 @@ async function scoreKeywords(keywords) {
 }
 
 /**
+ * 주제 배열에 키워드 DB 매핑 적용 + (가능 시) SA API 교차 검증
+ * 모든 주제에 bestMatch 키워드 데이터를 첨부하고 opportunityScore를 결정한다.
+ *
  * @param {TopicSuggestion[]} topics
  * @param {number} minScore
- * @returns {Promise<(TopicSuggestion & {opportunityScore:number})[]>}
+ * @param {import("./lib/keyword-db.mjs").KeywordDB} keywordDB
+ * @returns {Promise<(TopicSuggestion & {opportunityScore:number, bestMatch: object|null})[]>}
  */
-async function validateTopics(topics, minScore) {
+async function validateTopics(topics, minScore, keywordDB) {
+  // 1단계: 로컬 키워드 DB로 best-match 매핑 (SA API 없이 즉시 동작)
+  const withDBMatch = topics.map((t) => {
+    const match = findBestMatchForTopic(keywordDB, {
+      topic: t.topic,
+      tags: t.keywords ?? [],
+      keywords: t.keywords ?? [],
+    });
+    return { ...t, bestMatch: match };
+  });
+
+  // 2단계: SA API로 실시간 검증 (env 있을 때만)
   const allKeywords = topics.flatMap((t) => (t.keywords ?? []).slice(0, 3));
-  if (allKeywords.length === 0) {
-    console.log(`    [검증] 키워드 없음 — 전체 통과`);
-    return topics.map((t) => ({ ...t, opportunityScore: 0 }));
+  let saScoreMap = null;
+  if (allKeywords.length > 0 && process.env.NAVER_API_KEY && process.env.NAVER_SA_SECRET && process.env.NAVER_ACCOUNT_ID) {
+    try {
+      saScoreMap = await scoreKeywords(allKeywords);
+    } catch (err) {
+      console.warn(`    [검증] SA API 호출 실패 — DB 매핑만 사용: ${err.message.slice(0, 140)}`);
+    }
   }
 
-  let scoreMap;
-  try {
-    scoreMap = await scoreKeywords(allKeywords);
-  } catch (err) {
-    console.warn(`    [검증] SA API 사용 불가 — 필터 스킵: ${err.message.slice(0, 140)}`);
-    return topics.map((t) => ({ ...t, opportunityScore: 0 }));
-  }
-
-  const scored = topics.map((t) => {
-    const topScore = Math.max(
-      0,
-      ...(t.keywords ?? []).slice(0, 3).map((kw) => scoreMap.get(kw)?.score ?? 0)
-    );
-    return { ...t, opportunityScore: topScore };
+  // 3단계: DB 매핑 score와 SA API score 중 큰 값을 최종 opportunityScore로 사용
+  const scored = withDBMatch.map((t) => {
+    const dbScore = t.bestMatch?.score ?? 0;
+    const saScore = saScoreMap
+      ? Math.max(0, ...(t.keywords ?? []).slice(0, 3).map((kw) => saScoreMap.get(kw)?.score ?? 0))
+      : 0;
+    // SA API에서 확인된 실시간 데이터가 있으면 bestMatch에 반영
+    if (saScoreMap && saScore > dbScore) {
+      const bestSaKw = (t.keywords ?? [])
+        .slice(0, 3)
+        .map((kw) => ({ kw, data: saScoreMap.get(kw) }))
+        .filter((x) => x.data)
+        .sort((a, b) => b.data.score - a.data.score)[0];
+      if (bestSaKw) {
+        t.bestMatch = {
+          keyword: bestSaKw.kw,
+          total: bestSaKw.data.total,
+          comp: bestSaKw.data.comp,
+          score: bestSaKw.data.score,
+          matchType: "sa-api",
+          searchedBy: bestSaKw.kw,
+        };
+      }
+    }
+    return { ...t, opportunityScore: Math.max(dbScore, saScore) };
   });
 
   const passed = scored.filter((t) => t.opportunityScore >= minScore);
-  console.log(`    [검증] ${scored.length}개 → 통과 ${passed.length}개 (min score ${minScore})`);
+  const unmatched = scored.filter((t) => !t.bestMatch).length;
+  console.log(
+    `    [검증] ${scored.length}개 → 통과 ${passed.length}개 (min score ${minScore})` +
+      (unmatched > 0 ? ` · DB 매칭 실패 ${unmatched}개` : "")
+  );
   return passed;
 }
 
@@ -613,10 +648,14 @@ function appendToQueue(queue, affiliateName, topics) {
       source: suggestion.source ?? "discovery",
       rationale: suggestion.rationale ?? "",
       opportunityScore: suggestion.opportunityScore ?? 0,
+      bestMatch: suggestion.bestMatch ?? null,
     });
     existing.push(suggestion.topic);
     added++;
-    console.log(`    · [추가] ${suggestion.topic} (score ${suggestion.opportunityScore})`);
+    const matchInfo = suggestion.bestMatch
+      ? ` [${suggestion.bestMatch.keyword} total=${suggestion.bestMatch.total} comp=${suggestion.bestMatch.comp}]`
+      : ` [DB 매칭 실패]`;
+    console.log(`    · [추가] ${suggestion.topic} (score ${suggestion.opportunityScore})${matchInfo}`);
   }
   return added;
 }
@@ -628,7 +667,7 @@ function countPending(queue, affiliateName) {
   return list.filter((t) => t.status === "pending").length;
 }
 
-async function discoverForAffiliate({ affiliate, queue, opts }) {
+async function discoverForAffiliate({ affiliate, queue, opts, keywordDB }) {
   console.log(`\n── [${affiliate.name}] 주제 발굴 ──`);
 
   const pending = countPending(queue, affiliate.name);
@@ -655,7 +694,7 @@ async function discoverForAffiliate({ affiliate, queue, opts }) {
   );
   console.log(`  Claude 제안: ${suggestions.length}개`);
 
-  const validated = await validateTopics(suggestions, opts.minScore);
+  const validated = await validateTopics(suggestions, opts.minScore, keywordDB);
 
   if (opts.dry) {
     console.log(`  [DRY] 추가 없이 출력만`);
@@ -712,11 +751,13 @@ async function main() {
   }
 
   const queue = loadQueue();
+  const keywordDB = loadKeywordDB(ROOT);
+  console.log(`  [keyword-db] ${keywordDB.size}개 키워드 로드`);
   const summary = [];
 
   for (const affiliate of targets) {
     try {
-      const result = await discoverForAffiliate({ affiliate, queue, opts });
+      const result = await discoverForAffiliate({ affiliate, queue, opts, keywordDB });
       summary.push({ name: affiliate.name, ...result });
     } catch (err) {
       console.error(`  [ERROR] ${affiliate.name}: ${err.message}`);

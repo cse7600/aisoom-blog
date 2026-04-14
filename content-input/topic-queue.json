@@ -1,6 +1,6 @@
 {
   "_comment": "블로그 콘텐츠 주제 큐 — research-and-queue.mjs가 이 파일에서 주제를 꺼내어 generate-content.mjs로 전달함. 발행 완료 시 status를 'used'로 바꾸거나 삭제 | 2026-04-12: keeper.ceo/blog 경쟁사 분석 기반 블루오션 주제 10개 추가 (hit-scout)",
-  "updatedAt": "2026-04-11",
+  "updatedAt": "2026-04-14",
   "queue": {
     "키퍼메이트": [
       {
@@ -445,6 +445,442 @@
         "status": "generated",
         "generatedAt": "2026-04-10T15:00:00.000Z",
         "draftPath": "법인설립지원센터/content/stock-vs-limited-company-comparison.md"
+      },
+      {
+        "topic": "【2026년】법인세율 완전 정리 — 과세표준 구간별 세율표와 계산법",
+        "angle": "2026년 적용 법인세율 4구간(2억/200억/3000억) 세율 표와 누진공제 계산법, 중소기업 특례까지 한 페이지 정리",
+        "keywords": [
+          "법인세율",
+          "법인세"
+        ],
+        "slugHint": "corporate-tax-rate-2026-bracket-guide",
+        "status": "scheduled",
+        "discoveredAt": "2026-04-14T09:49:32.516Z",
+        "source": "manual-priority",
+        "rationale": "",
+        "opportunityScore": 37,
+        "bestMatch": {
+          "keyword": "법인세율",
+          "total": 26290,
+          "comp": "high",
+          "score": 37,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법인세율"
+        },
+        "generatedAt": "2026-04-14T09:50:59.345Z",
+        "draftPath": "법인설립지원센터/content/corporate-tax-rate-2026-bracket-guide.md",
+        "scheduledAt": "2026-04-17",
+        "publishedAt": "2026-04-14T10:01:20.965Z"
+      },
+      {
+        "topic": "【계산법】법인세 계산기 — 매출 1억·3억·5억 실제 납부 세액",
+        "angle": "연매출 구간별 손익 시뮬레이션과 실제 법인세 계산 단계, 중간예납·결산 차감 반영",
+        "keywords": [
+          "법인세",
+          "법인세신고"
+        ],
+        "slugHint": "corporate-tax-calculator-revenue-1to5-billion",
+        "status": "scheduled",
+        "discoveredAt": "2026-04-14T09:49:32.516Z",
+        "source": "manual-priority",
+        "rationale": "",
+        "opportunityScore": 21,
+        "bestMatch": {
+          "keyword": "법인세",
+          "total": 13120,
+          "comp": "high",
+          "score": 21,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법인세"
+        },
+        "generatedAt": "2026-04-14T09:51:33.447Z",
+        "draftPath": "법인설립지원센터/content/corporate-tax-calculator-revenue-1to5-billion.md",
+        "scheduledAt": "2026-04-21",
+        "publishedAt": "2026-04-14T10:01:20.966Z"
+      },
+      {
+        "topic": "【비교】종합소득세 vs 법인세 — 절세 분기점은 연매출 얼마?",
+        "angle": "개인사업자 종소세 6~45% 누진과 법인세 9/19/21/24% 비교 시뮬레이션, 법인 전환 분기점 매출액 도출",
+        "keywords": [
+          "종합소득세신고",
+          "법인세율",
+          "개인사업자세금"
+        ],
+        "slugHint": "income-tax-vs-corporate-tax-break-even-point",
+        "status": "scheduled",
+        "discoveredAt": "2026-04-14T09:49:32.516Z",
+        "source": "manual-priority",
+        "rationale": "",
+        "opportunityScore": 37,
+        "bestMatch": {
+          "keyword": "법인세율",
+          "total": 26290,
+          "comp": "high",
+          "score": 37,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법인세율"
+        },
+        "generatedAt": "2026-04-14T09:52:12.724Z",
+        "draftPath": "법인설립지원센터/content/income-tax-vs-corporate-tax-break-even-point.md",
+        "scheduledAt": "2026-04-24",
+        "publishedAt": "2026-04-14T10:01:20.966Z"
+      },
+      {
+        "topic": "【2026년】종합소득세 신고 — 개인사업자가 법인 선택해야 할 타이밍",
+        "angle": "5월 종소세 신고 결과로 보는 법인 전환 의사결정 기준, 세무사 상담 전 자가진단 체크리스트",
+        "keywords": [
+          "종합소득세신고",
+          "법인개인사업자"
+        ],
+        "slugHint": "comprehensive-income-tax-2026-corporation-timing",
+        "status": "scheduled",
+        "discoveredAt": "2026-04-14T09:49:32.516Z",
+        "source": "manual-priority",
+        "rationale": "",
+        "opportunityScore": 32,
+        "bestMatch": {
+          "keyword": "종합소득세신고",
+          "total": 22480,
+          "comp": "high",
+          "score": 32,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "종합소득세신고"
+        },
+        "generatedAt": "2026-04-14T09:52:45.849Z",
+        "draftPath": "법인설립지원센터/content/comprehensive-income-tax-2026-corporation-timing.md",
+        "scheduledAt": "2026-04-28",
+        "publishedAt": "2026-04-14T10:01:20.966Z"
+      },
+      {
+        "topic": "【주의】법인 가지급금 인정이자란? 계산법·해소 방법 완전 정리",
+        "angle": "가지급금 발생 원인, 당좌대출이자율 4.6% 인정이자 계산법, 5가지 합법 해소 방법",
+        "keywords": [
+          "가지급금인정이자",
+          "법인세"
+        ],
+        "slugHint": "corporate-provisional-payment-deemed-interest",
+        "status": "scheduled",
+        "discoveredAt": "2026-04-14T09:49:32.516Z",
+        "source": "manual-priority",
+        "rationale": "",
+        "opportunityScore": 21,
+        "bestMatch": {
+          "keyword": "법인세",
+          "total": 13120,
+          "comp": "high",
+          "score": 21,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법인세"
+        },
+        "generatedAt": "2026-04-14T09:53:18.849Z",
+        "draftPath": "법인설립지원센터/content/corporate-provisional-payment-deemed-interest.md",
+        "scheduledAt": "2026-05-01",
+        "publishedAt": "2026-04-14T10:01:20.966Z"
+      },
+      {
+        "topic": "【Q&A】대표이사 급여는 얼마가 최적? — 절세 시뮬레이션",
+        "angle": "법인세율 vs 근로소득세율 분기점 분석, 월 300/500/700만원 케이스별 총세액 시뮬레이션",
+        "keywords": [
+          "소득세법",
+          "법인세율"
+        ],
+        "slugHint": "ceo-salary-tax-optimization-qa",
+        "status": "scheduled",
+        "discoveredAt": "2026-04-14T09:49:32.516Z",
+        "source": "manual-priority",
+        "rationale": "",
+        "opportunityScore": 37,
+        "bestMatch": {
+          "keyword": "법인세율",
+          "total": 26290,
+          "comp": "high",
+          "score": 37,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법인세율"
+        },
+        "generatedAt": "2026-04-14T09:54:01.007Z",
+        "draftPath": "법인설립지원센터/content/ceo-salary-tax-optimization-qa.md",
+        "scheduledAt": "2026-05-05",
+        "publishedAt": "2026-04-14T10:01:20.966Z"
+      },
+      {
+        "topic": "【계산법】세무기장 비용 현실 — 법인 vs 개인사업자 기장료 비교",
+        "angle": "월 기장료 평균 시세, 법인이 개인보다 비싼 이유, 세무대리 vs 셀프기장 손익분기",
+        "keywords": [
+          "세무기장",
+          "세무회계"
+        ],
+        "slugHint": "tax-bookkeeping-cost-corp-vs-sole-comparison",
+        "status": "scheduled",
+        "discoveredAt": "2026-04-14T09:49:32.516Z",
+        "source": "manual-priority",
+        "rationale": "",
+        "opportunityScore": 12,
+        "bestMatch": {
+          "keyword": "법인",
+          "total": 5670,
+          "comp": "high",
+          "score": 12,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법인"
+        },
+        "generatedAt": "2026-04-14T09:54:34.054Z",
+        "draftPath": "법인설립지원센터/content/tax-bookkeeping-cost-corp-vs-sole-comparison.md",
+        "scheduledAt": "2026-05-08",
+        "publishedAt": "2026-04-14T10:01:20.966Z"
+      },
+      {
+        "topic": "【주의】법인 세무조사 대비 — 흔한 리스크 5가지와 예방법",
+        "angle": "국세청 정기·수시 세무조사 트리거 사례, 가지급금/접대비/대표이사 급여 점검 항목",
+        "keywords": [
+          "세무조사",
+          "법인세법"
+        ],
+        "slugHint": "corporate-tax-audit-risk-prevention-5",
+        "status": "scheduled",
+        "discoveredAt": "2026-04-14T09:49:32.516Z",
+        "source": "manual-priority",
+        "rationale": "",
+        "opportunityScore": 16,
+        "bestMatch": {
+          "keyword": "법인세법",
+          "total": 9210,
+          "comp": "high",
+          "score": 16,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법인세법"
+        },
+        "generatedAt": "2026-04-14T09:55:09.928Z",
+        "draftPath": "법인설립지원센터/content/corporate-tax-audit-risk-prevention-5.md",
+        "scheduledAt": "2026-05-12",
+        "publishedAt": "2026-04-14T10:01:20.966Z"
+      },
+      {
+        "topic": "【2026년】법인세 중간예납이란? 신고 기한·납부 방법 정리",
+        "angle": "8월 31일 신고기한, 전기 실적 1/2 vs 가결산 방법 비교, 분납·이자 계산",
+        "keywords": [
+          "법인세중간예납",
+          "법인세신고"
+        ],
+        "slugHint": "corporate-tax-interim-prepayment-2026",
+        "status": "scheduled",
+        "discoveredAt": "2026-04-14T09:49:32.516Z",
+        "source": "manual-priority",
+        "rationale": "",
+        "opportunityScore": 9,
+        "bestMatch": {
+          "keyword": "법인세신고",
+          "total": 3230,
+          "comp": "high",
+          "score": 9,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법인세신고"
+        },
+        "generatedAt": "2026-04-14T09:55:51.435Z",
+        "draftPath": "법인설립지원센터/content/corporate-tax-interim-prepayment-2026.md",
+        "scheduledAt": "2026-05-15",
+        "publishedAt": "2026-04-14T10:01:20.966Z"
+      },
+      {
+        "topic": "【비교】법인 배당 vs 대표이사 급여 — 세금 유리한 쪽은?",
+        "angle": "급여 근로소득세 vs 배당 분리과세(2000만원 기준) 시뮬레이션, 4대보험 영향 포함 종합 비교",
+        "keywords": [
+          "배당",
+          "소득세법",
+          "법인세율"
+        ],
+        "slugHint": "dividend-vs-salary-tax-comparison",
+        "status": "scheduled",
+        "discoveredAt": "2026-04-14T09:49:32.516Z",
+        "source": "manual-priority",
+        "rationale": "",
+        "opportunityScore": 37,
+        "bestMatch": {
+          "keyword": "법인세율",
+          "total": 26290,
+          "comp": "high",
+          "score": 37,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법인세율"
+        },
+        "generatedAt": "2026-04-14T09:56:28.564Z",
+        "draftPath": "법인설립지원센터/content/dividend-vs-salary-tax-comparison.md",
+        "scheduledAt": "2026-05-19",
+        "publishedAt": "2026-04-14T10:01:20.966Z"
+      },
+      {
+        "topic": "【후기】개인사업자→법인 전환 1년 — 실제 절세 금액은?",
+        "angle": "연매출 5억 사업자가 법인 전환 후 12개월간 실제 절세한 금액과 추가 비용 가계부",
+        "keywords": [
+          "개인사업자법인전환",
+          "법인세절세"
+        ],
+        "slugHint": "sole-to-corporate-1year-real-tax-savings-review",
+        "status": "scheduled",
+        "discoveredAt": "2026-04-14T09:49:32.516Z",
+        "source": "manual-priority",
+        "rationale": "",
+        "opportunityScore": 7,
+        "bestMatch": {
+          "keyword": "개인사업자법인전환",
+          "total": 1520,
+          "comp": "high",
+          "score": 7,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "개인사업자법인전환"
+        },
+        "generatedAt": "2026-04-14T09:57:06.347Z",
+        "draftPath": "법인설립지원센터/content/sole-to-corporate-1year-real-tax-savings-review.md",
+        "scheduledAt": "2026-05-22",
+        "publishedAt": "2026-04-14T10:01:20.966Z"
+      },
+      {
+        "topic": "【2026년】법인 정관 변경 방법 — 비용·절차·과태료 리스크",
+        "angle": "사업목적·임원·자본금 변경 절차, 등기 비용, 변경 미신고 과태료 500만원 회피법",
+        "keywords": [
+          "정관변경",
+          "법인정관",
+          "법인등기"
+        ],
+        "slugHint": "corporate-articles-amendment-procedure-2026",
+        "status": "scheduled",
+        "discoveredAt": "2026-04-14T09:49:32.516Z",
+        "source": "manual-priority",
+        "rationale": "",
+        "opportunityScore": 9,
+        "bestMatch": {
+          "keyword": "법인등기",
+          "total": 3190,
+          "comp": "high",
+          "score": 9,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법인등기"
+        },
+        "generatedAt": "2026-04-14T09:57:42.748Z",
+        "draftPath": "법인설립지원센터/content/corporate-articles-amendment-procedure-2026.md",
+        "scheduledAt": "2026-05-26",
+        "publishedAt": "2026-04-14T10:01:20.966Z"
+      },
+      {
+        "topic": "【Q&A】가업상속공제 요건 2026 — 법인이 유리한 이유",
+        "angle": "10년 영위 중소기업 600억 한도 공제, 개인사업자 vs 법인 적용 차이와 사후관리 7년 요건",
+        "keywords": [
+          "가업상속공제",
+          "법인세율"
+        ],
+        "slugHint": "family-business-inheritance-deduction-2026",
+        "status": "scheduled",
+        "discoveredAt": "2026-04-14T09:49:32.516Z",
+        "source": "manual-priority",
+        "rationale": "",
+        "opportunityScore": 37,
+        "bestMatch": {
+          "keyword": "법인세율",
+          "total": 26290,
+          "comp": "high",
+          "score": 37,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법인세율"
+        },
+        "generatedAt": "2026-04-14T09:58:19.662Z",
+        "draftPath": "법인설립지원센터/content/family-business-inheritance-deduction-2026.md",
+        "scheduledAt": "2026-05-29",
+        "publishedAt": "2026-04-14T10:01:20.966Z"
+      },
+      {
+        "topic": "【계산법】법인세 조정수수료 — 세무사 선임 전 알아야 할 것",
+        "angle": "법인세 조정료 시세, 매출 규모별 평균 비용, 기장료와 별도 청구 항목 분해",
+        "keywords": [
+          "법인세조정료",
+          "세무기장"
+        ],
+        "slugHint": "corporate-tax-adjustment-fee-calculation",
+        "status": "scheduled",
+        "discoveredAt": "2026-04-14T09:49:32.516Z",
+        "source": "manual-priority",
+        "rationale": "",
+        "opportunityScore": 8,
+        "bestMatch": {
+          "keyword": "법인세조정료",
+          "total": 2150,
+          "comp": "high",
+          "score": 8,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법인세조정료"
+        },
+        "generatedAt": "2026-04-14T09:58:55.411Z",
+        "draftPath": "법인설립지원센터/content/corporate-tax-adjustment-fee-calculation.md",
+        "scheduledAt": "2026-06-02",
+        "publishedAt": "2026-04-14T10:01:20.966Z"
+      },
+      {
+        "topic": "【주의】법인 설립 후 첫 부가세 신고 — 실수하기 쉬운 항목",
+        "angle": "설립 후 1~3개월차 첫 부가세 신고 시 매입세액 공제 누락, 간이과세 전환 불가 등 7가지 함정",
+        "keywords": [
+          "법인세신고",
+          "법인개인사업자"
+        ],
+        "slugHint": "first-vat-filing-after-incorporation-mistakes",
+        "status": "scheduled",
+        "discoveredAt": "2026-04-14T09:49:32.516Z",
+        "source": "manual-priority",
+        "rationale": "",
+        "opportunityScore": 10,
+        "bestMatch": {
+          "keyword": "법인개인사업자",
+          "total": 4420,
+          "comp": "high",
+          "score": 10,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법인개인사업자"
+        },
+        "generatedAt": "2026-04-14T09:59:34.073Z",
+        "draftPath": "법인설립지원센터/content/first-vat-filing-after-incorporation-mistakes.md",
+        "scheduledAt": "2026-06-05",
+        "publishedAt": "2026-04-14T10:01:20.966Z"
+      },
+      {
+        "topic": "【비교】법인세 vs 소득세 최적 분배 — 대표이사 보수 설계",
+        "angle": "법인 유보 vs 급여 vs 배당 3축 분배 전략, 누진세 회피 보수 설계 케이스 스터디",
+        "keywords": [
+          "소득세법",
+          "법인세율",
+          "배당"
+        ],
+        "slugHint": "corporate-vs-personal-tax-optimal-allocation",
+        "status": "scheduled",
+        "discoveredAt": "2026-04-14T09:49:32.516Z",
+        "source": "manual-priority",
+        "rationale": "",
+        "opportunityScore": 37,
+        "bestMatch": {
+          "keyword": "법인세율",
+          "total": 26290,
+          "comp": "high",
+          "score": 37,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법인세율"
+        },
+        "generatedAt": "2026-04-14T10:00:12.208Z",
+        "draftPath": "법인설립지원센터/content/corporate-vs-personal-tax-optimal-allocation.md",
+        "scheduledAt": "2026-06-09",
+        "publishedAt": "2026-04-14T10:01:20.966Z"
       }
     ]
   }

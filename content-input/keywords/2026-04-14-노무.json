@@ -1,0 +1,8043 @@
+{
+  "updatedAt": "2026-04-14",
+  "affiliate": "노무-HR",
+  "keywords": [
+    {
+      "keyword": "국민연금",
+      "pc": 113300,
+      "mobile": 132900,
+      "total": 246200,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 100
+    },
+    {
+      "keyword": "시간계산기",
+      "pc": 14600,
+      "mobile": 26900,
+      "total": 41500,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 90
+    },
+    {
+      "keyword": "최저임금",
+      "pc": 30500,
+      "mobile": 34500,
+      "total": 65000,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 80
+    },
+    {
+      "keyword": "실업급여계산기",
+      "pc": 37400,
+      "mobile": 106100,
+      "total": 143500,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 80
+    },
+    {
+      "keyword": "실수령액계산기",
+      "pc": 40000,
+      "mobile": 92300,
+      "total": 132300,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 80
+    },
+    {
+      "keyword": "포괄임금제",
+      "pc": 15300,
+      "mobile": 32300,
+      "total": 47600,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 77
+    },
+    {
+      "keyword": "3.3%계산기",
+      "pc": 5640,
+      "mobile": 22100,
+      "total": 27740,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 73
+    },
+    {
+      "keyword": "4대보험계산기",
+      "pc": 58400,
+      "mobile": 58200,
+      "total": 116600,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 65
+    },
+    {
+      "keyword": "주휴수당계산기",
+      "pc": 19600,
+      "mobile": 85200,
+      "total": 104800,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 65
+    },
+    {
+      "keyword": "4대보험",
+      "pc": 48500,
+      "mobile": 43300,
+      "total": 91800,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 65
+    },
+    {
+      "keyword": "실업급여조건",
+      "pc": 29200,
+      "mobile": 117800,
+      "total": 147000,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 65
+    },
+    {
+      "keyword": "주휴수당",
+      "pc": 15200,
+      "mobile": 60800,
+      "total": 76000,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 65
+    },
+    {
+      "keyword": "알바",
+      "pc": 16300,
+      "mobile": 35700,
+      "total": 52000,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 65
+    },
+    {
+      "keyword": "퇴직금계산기",
+      "pc": 109800,
+      "mobile": 243500,
+      "total": 353300,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 65
+    },
+    {
+      "keyword": "시급계산기",
+      "pc": 57300,
+      "mobile": 162500,
+      "total": 219800,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 65
+    },
+    {
+      "keyword": "급여계산기",
+      "pc": 31600,
+      "mobile": 53800,
+      "total": 85400,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 65
+    },
+    {
+      "keyword": "부가세계산기",
+      "pc": 71700,
+      "mobile": 31700,
+      "total": 103400,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 65
+    },
+    {
+      "keyword": "월급계산기",
+      "pc": 36600,
+      "mobile": 104900,
+      "total": 141500,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 65
+    },
+    {
+      "keyword": "실업급여신청방법",
+      "pc": 17200,
+      "mobile": 39400,
+      "total": 56600,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 65
+    },
+    {
+      "keyword": "주휴수당조건",
+      "pc": 8040,
+      "mobile": 41700,
+      "total": 49740,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 65
+    },
+    {
+      "keyword": "실업급여신청",
+      "pc": 32400,
+      "mobile": 77200,
+      "total": 109600,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 65
+    },
+    {
+      "keyword": "고용보험",
+      "pc": 66100,
+      "mobile": 59200,
+      "total": 125300,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 65
+    },
+    {
+      "keyword": "양도세계산기",
+      "pc": 16300,
+      "mobile": 41400,
+      "total": 57700,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 65
+    },
+    {
+      "keyword": "연봉계산기",
+      "pc": 164300,
+      "mobile": 315000,
+      "total": 479300,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 65
+    },
+    {
+      "keyword": "퇴직연금",
+      "pc": 17700,
+      "mobile": 35900,
+      "total": 53600,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 65
+    },
+    {
+      "keyword": "퇴직금지급기준",
+      "pc": 8150,
+      "mobile": 37600,
+      "total": 45750,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 60
+    },
+    {
+      "keyword": "퇴직금",
+      "pc": 9850,
+      "mobile": 35300,
+      "total": 45150,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 59
+    },
+    {
+      "keyword": "결재",
+      "pc": 17600,
+      "mobile": 26900,
+      "total": 44500,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 58
+    },
+    {
+      "keyword": "노무사",
+      "pc": 9290,
+      "mobile": 33100,
+      "total": 42390,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 56
+    },
+    {
+      "keyword": "주휴수당계산법",
+      "pc": 2580,
+      "mobile": 10600,
+      "total": 13180,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 56
+    },
+    {
+      "keyword": "양도소득세",
+      "pc": 10000,
+      "mobile": 31800,
+      "total": 41800,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 55
+    },
+    {
+      "keyword": "원리금균등계산기",
+      "pc": 6470,
+      "mobile": 22500,
+      "total": 28970,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 55
+    },
+    {
+      "keyword": "세전세후계산",
+      "pc": 2570,
+      "mobile": 9760,
+      "total": 12330,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 55
+    },
+    {
+      "keyword": "사직서양식",
+      "pc": 18300,
+      "mobile": 9950,
+      "total": 28250,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 54
+    },
+    {
+      "keyword": "서울시교육청연수원",
+      "pc": 21900,
+      "mobile": 6350,
+      "total": 28250,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 54
+    },
+    {
+      "keyword": "월급세후계산기",
+      "pc": 2730,
+      "mobile": 8410,
+      "total": 11140,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 53
+    },
+    {
+      "keyword": "시말서",
+      "pc": 3900,
+      "mobile": 7280,
+      "total": 11180,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 53
+    },
+    {
+      "keyword": "근로기준법",
+      "pc": 29900,
+      "mobile": 8970,
+      "total": 38870,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 52
+    },
+    {
+      "keyword": "매도",
+      "pc": 8340,
+      "mobile": 29600,
+      "total": 37940,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 51
+    },
+    {
+      "keyword": "4대보험급여계산기",
+      "pc": 940,
+      "mobile": 8260,
+      "total": 9200,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 51
+    },
+    {
+      "keyword": "세후계산기",
+      "pc": 3290,
+      "mobile": 5330,
+      "total": 8620,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 50
+    },
+    {
+      "keyword": "휴게시간",
+      "pc": 2720,
+      "mobile": 5740,
+      "total": 8460,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 50
+    },
+    {
+      "keyword": "권고",
+      "pc": 3150,
+      "mobile": 4350,
+      "total": 7500,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 49
+    },
+    {
+      "keyword": "알바시급계산기",
+      "pc": 1160,
+      "mobile": 6550,
+      "total": 7710,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 49
+    },
+    {
+      "keyword": "시급계산",
+      "pc": 2220,
+      "mobile": 3280,
+      "total": 5500,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 47
+    },
+    {
+      "keyword": "고용보험계산",
+      "pc": 2320,
+      "mobile": 3130,
+      "total": 5450,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 47
+    },
+    {
+      "keyword": "알바주휴수당계산기",
+      "pc": 600,
+      "mobile": 5270,
+      "total": 5870,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 47
+    },
+    {
+      "keyword": "연차계산기",
+      "pc": 21400,
+      "mobile": 12900,
+      "total": 34300,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 46
+    },
+    {
+      "keyword": "차용증양식",
+      "pc": 15100,
+      "mobile": 19400,
+      "total": 34500,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 46
+    },
+    {
+      "keyword": "양도소득세계산기",
+      "pc": 11900,
+      "mobile": 22100,
+      "total": 34000,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 46
+    },
+    {
+      "keyword": "연차개수계산기",
+      "pc": 2320,
+      "mobile": 2980,
+      "total": 5300,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 46
+    },
+    {
+      "keyword": "월급실수령액계산기",
+      "pc": 1610,
+      "mobile": 2380,
+      "total": 3990,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 45
+    },
+    {
+      "keyword": "세이브택스",
+      "pc": 1400,
+      "mobile": 2970,
+      "total": 4370,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 45
+    },
+    {
+      "keyword": "4대보험계산",
+      "pc": 2110,
+      "mobile": 1890,
+      "total": 4000,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 45
+    },
+    {
+      "keyword": "LAWYER",
+      "pc": 590,
+      "mobile": 3410,
+      "total": 4000,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 45
+    },
+    {
+      "keyword": "양식",
+      "pc": 2560,
+      "mobile": 17300,
+      "total": 19860,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 44
+    },
+    {
+      "keyword": "퇴직연금계산기",
+      "pc": 1280,
+      "mobile": 1830,
+      "total": 3110,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 44
+    },
+    {
+      "keyword": "연차수당계산",
+      "pc": 1790,
+      "mobile": 920,
+      "total": 2710,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 43
+    },
+    {
+      "keyword": "총회",
+      "pc": 680,
+      "mobile": 1590,
+      "total": 2270,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 43
+    },
+    {
+      "keyword": "원천징수계산기",
+      "pc": 1140,
+      "mobile": 1030,
+      "total": 2170,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 43
+    },
+    {
+      "keyword": "고용보험계산기",
+      "pc": 1300,
+      "mobile": 830,
+      "total": 2130,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 43
+    },
+    {
+      "keyword": "퇴직금정산",
+      "pc": 860,
+      "mobile": 1440,
+      "total": 2300,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 43
+    },
+    {
+      "keyword": "출석",
+      "pc": 940,
+      "mobile": 1520,
+      "total": 2460,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 43
+    },
+    {
+      "keyword": "세후급여계산기",
+      "pc": 1000,
+      "mobile": 1280,
+      "total": 2280,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 43
+    },
+    {
+      "keyword": "야근수당계산기",
+      "pc": 760,
+      "mobile": 1670,
+      "total": 2430,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 43
+    },
+    {
+      "keyword": "통상임금계산",
+      "pc": 1120,
+      "mobile": 330,
+      "total": 1450,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 42
+    },
+    {
+      "keyword": "주휴수당계산방법",
+      "pc": 540,
+      "mobile": 1290,
+      "total": 1830,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 42
+    },
+    {
+      "keyword": "기본급계산",
+      "pc": 400,
+      "mobile": 880,
+      "total": 1280,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 42
+    },
+    {
+      "keyword": "근로소득세계산",
+      "pc": 1330,
+      "mobile": 340,
+      "total": 1670,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 42
+    },
+    {
+      "keyword": "원천세계산기",
+      "pc": 1300,
+      "mobile": 600,
+      "total": 1900,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 42
+    },
+    {
+      "keyword": "연장수당계산기",
+      "pc": 630,
+      "mobile": 1030,
+      "total": 1660,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 42
+    },
+    {
+      "keyword": "급여소득세계산기",
+      "pc": 890,
+      "mobile": 530,
+      "total": 1420,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 42
+    },
+    {
+      "keyword": "퇴직급여계산",
+      "pc": 810,
+      "mobile": 790,
+      "total": 1600,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 42
+    },
+    {
+      "keyword": "유연근무",
+      "pc": 580,
+      "mobile": 720,
+      "total": 1300,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 42
+    },
+    {
+      "keyword": "연차발생계산기",
+      "pc": 1210,
+      "mobile": 720,
+      "total": 1930,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 42
+    },
+    {
+      "keyword": "노동전문변호사",
+      "pc": 130,
+      "mobile": 1140,
+      "total": 1270,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 42
+    },
+    {
+      "keyword": "일용직4대보험계산기",
+      "pc": 740,
+      "mobile": 970,
+      "total": 1710,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 42
+    },
+    {
+      "keyword": "인건비계산",
+      "pc": 210,
+      "mobile": 220,
+      "total": 430,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "얼마",
+      "pc": 260,
+      "mobile": 760,
+      "total": 1020,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "N잡러",
+      "pc": 320,
+      "mobile": 690,
+      "total": 1010,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "소일거리",
+      "pc": 200,
+      "mobile": 620,
+      "total": 820,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "야간수당계산",
+      "pc": 160,
+      "mobile": 290,
+      "total": 450,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "인테리어계약서양식",
+      "pc": 260,
+      "mobile": 270,
+      "total": 530,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "점유자",
+      "pc": 270,
+      "mobile": 530,
+      "total": 800,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "근무기간계산",
+      "pc": 480,
+      "mobile": 110,
+      "total": 590,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "페이존",
+      "pc": 1000,
+      "mobile": 150,
+      "total": 1150,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "SAVETAX",
+      "pc": 350,
+      "mobile": 670,
+      "total": 1020,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "휴일수당계산기",
+      "pc": 310,
+      "mobile": 410,
+      "total": 720,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "소견서양식",
+      "pc": 250,
+      "mobile": 170,
+      "total": 420,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "근무일수계산",
+      "pc": 550,
+      "mobile": 200,
+      "total": 750,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "연월차계산",
+      "pc": 180,
+      "mobile": 270,
+      "total": 450,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "연차일수계산기",
+      "pc": 650,
+      "mobile": 310,
+      "total": 960,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "HELPER",
+      "pc": 170,
+      "mobile": 460,
+      "total": 630,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "아마노주차",
+      "pc": 140,
+      "mobile": 420,
+      "total": 560,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "대구소년원",
+      "pc": 200,
+      "mobile": 650,
+      "total": 850,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "중노위",
+      "pc": 660,
+      "mobile": 510,
+      "total": 1170,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "기본급계산기",
+      "pc": 230,
+      "mobile": 300,
+      "total": 530,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "알바퇴직금계산",
+      "pc": 140,
+      "mobile": 970,
+      "total": 1110,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "일할계산기",
+      "pc": 300,
+      "mobile": 120,
+      "total": 420,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "주차계산기",
+      "pc": 460,
+      "mobile": 240,
+      "total": 700,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "에스폼",
+      "pc": 890,
+      "mobile": 170,
+      "total": 1060,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "근로소득계산",
+      "pc": 290,
+      "mobile": 210,
+      "total": 500,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "근속연수계산",
+      "pc": 520,
+      "mobile": 190,
+      "total": 710,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "연장근로수당계산기",
+      "pc": 230,
+      "mobile": 330,
+      "total": 560,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "월급일할계산",
+      "pc": 410,
+      "mobile": 560,
+      "total": 970,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "일용직고용보험계산",
+      "pc": 540,
+      "mobile": 320,
+      "total": 860,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "주유계산기",
+      "pc": 180,
+      "mobile": 740,
+      "total": 920,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 41
+    },
+    {
+      "keyword": "직원월급계산",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "퇴직금계산",
+      "pc": 8520,
+      "mobile": 20400,
+      "total": 28920,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "연월차수당계산",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "임원퇴직금계산기",
+      "pc": 130,
+      "mobile": 10,
+      "total": 140,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "연차개수",
+      "pc": 5280,
+      "mobile": 11100,
+      "total": 16380,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "4대보험계산기소득세",
+      "pc": 40,
+      "mobile": 50,
+      "total": 90,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "교대근무월급계산기",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "연장수당계산",
+      "pc": 150,
+      "mobile": 110,
+      "total": 260,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "시간외수당계산법",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "심야수당계산법",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "야간근로수당계산",
+      "pc": 50,
+      "mobile": 20,
+      "total": 70,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "야간수당계산방법",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "연월차수당계산법",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "월차수당계산방법",
+      "pc": 40,
+      "mobile": 60,
+      "total": 100,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "잔업수당계산기",
+      "pc": 70,
+      "mobile": 300,
+      "total": 370,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "포괄임금계산기",
+      "pc": 30,
+      "mobile": 10,
+      "total": 40,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "월급계산법",
+      "pc": 50,
+      "mobile": 200,
+      "total": 250,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "미사용연차수당계산",
+      "pc": 90,
+      "mobile": 20,
+      "total": 110,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "연월차수당계산기",
+      "pc": 30,
+      "mobile": 10,
+      "total": 40,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "퇴사연차수당계산기",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "퇴직시연차수당계산기",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "휴일근무수당계산기",
+      "pc": 50,
+      "mobile": 40,
+      "total": 90,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "수당계산기",
+      "pc": 110,
+      "mobile": 110,
+      "total": 220,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "급여계산기엑셀",
+      "pc": 70,
+      "mobile": 10,
+      "total": 80,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "급여대장계산기",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "급여정산",
+      "pc": 40,
+      "mobile": 70,
+      "total": 110,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "급여소득세계산",
+      "pc": 190,
+      "mobile": 30,
+      "total": 220,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "알바급여계산",
+      "pc": 30,
+      "mobile": 90,
+      "total": 120,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "시급계산기엑셀",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "시급급여계산",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "연장근무시간계산",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "초과근무시간계산",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "온라인문진표",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "전자인장시스템",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "급여명세서카톡",
+      "pc": 20,
+      "mobile": 150,
+      "total": 170,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "계약관리",
+      "pc": 40,
+      "mobile": 10,
+      "total": 50,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "퇴직금자동계산",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "4대보험간편계산기",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "갑근세율표",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "갑근세주민세계산",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "산재보험",
+      "pc": 14300,
+      "mobile": 15200,
+      "total": 29500,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "상여금소득세계산",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "중도퇴사자급여계산",
+      "pc": 80,
+      "mobile": 10,
+      "total": 90,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "퇴직급여계산법",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "선거인명부양식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "일일일보",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "4대보험계산엑셀",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "일용직4대보험계산",
+      "pc": 70,
+      "mobile": 20,
+      "total": 90,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "손익계산",
+      "pc": 100,
+      "mobile": 100,
+      "total": 200,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "인사명령서",
+      "pc": 110,
+      "mobile": 30,
+      "total": 140,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "연차발생기준",
+      "pc": 9120,
+      "mobile": 20300,
+      "total": 29420,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "임팩트플로우",
+      "pc": 60,
+      "mobile": 30,
+      "total": 90,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "엠오피스",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "연차사용계산기",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "연차수당계산하기",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "연차자동계산기",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "연월차",
+      "pc": 100,
+      "mobile": 200,
+      "total": 300,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "소정근로시간계산기",
+      "pc": 70,
+      "mobile": 20,
+      "total": 90,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "MOFFICE",
+      "pc": 30,
+      "mobile": 20,
+      "total": 50,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "연차갯수계산기",
+      "pc": 170,
+      "mobile": 100,
+      "total": 270,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "알바근태",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "회계연도연차계산",
+      "pc": 50,
+      "mobile": 30,
+      "total": 80,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "뉴플로이알밤",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "알밤앱",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "비례연차계산",
+      "pc": 60,
+      "mobile": 10,
+      "total": 70,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "연차계산기엑셀",
+      "pc": 130,
+      "mobile": 10,
+      "total": 140,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "회계기준연차계산기",
+      "pc": 40,
+      "mobile": 0,
+      "total": 40,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "회계년도기준연차계산기",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "회계연도기준연차계산",
+      "pc": 60,
+      "mobile": 10,
+      "total": 70,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "회계연도기준연차계산기",
+      "pc": 40,
+      "mobile": 10,
+      "total": 50,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "회계일기준연차계산기",
+      "pc": 40,
+      "mobile": 10,
+      "total": 50,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "휴가일수계산기",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "회계년도연차계산기",
+      "pc": 60,
+      "mobile": 20,
+      "total": 80,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "아마노주차차단기",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "LGU+결제",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "지석만노무사",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "강노무사",
+      "pc": 20,
+      "mobile": 260,
+      "total": 280,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "노노갈등",
+      "pc": 70,
+      "mobile": 90,
+      "total": 160,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "노동법전문변호사",
+      "pc": 40,
+      "mobile": 40,
+      "total": 80,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "시간외수당계산",
+      "pc": 150,
+      "mobile": 50,
+      "total": 200,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "양정은변호사",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "중앙인재개발원",
+      "pc": 250,
+      "mobile": 60,
+      "total": 310,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "임금계산",
+      "pc": 210,
+      "mobile": 160,
+      "total": 370,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "모두컴바인",
+      "pc": 70,
+      "mobile": 150,
+      "total": 220,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "조직관리",
+      "pc": 70,
+      "mobile": 80,
+      "total": 150,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "노동상담",
+      "pc": 60,
+      "mobile": 120,
+      "total": 180,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "주휴수당노무사",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "성남노동청",
+      "pc": 90,
+      "mobile": 290,
+      "total": 380,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "실업급여무료상담",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "산업안전보건교육기관",
+      "pc": 40,
+      "mobile": 60,
+      "total": 100,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "연가일수계산",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "휴가일수계산",
+      "pc": 40,
+      "mobile": 20,
+      "total": 60,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "연월차계산기",
+      "pc": 80,
+      "mobile": 50,
+      "total": 130,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "입사일기준연차계산기",
+      "pc": 40,
+      "mobile": 0,
+      "total": 40,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "퇴사시연차계산기",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "퇴직시연차계산기",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "퇴직연차계산기",
+      "pc": 50,
+      "mobile": 30,
+      "total": 80,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "DC퇴직금계산기",
+      "pc": 30,
+      "mobile": 10,
+      "total": 40,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "DC형퇴직연금계산",
+      "pc": 120,
+      "mobile": 20,
+      "total": 140,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "HACCP교육기관",
+      "pc": 40,
+      "mobile": 10,
+      "total": 50,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "간담회양식",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "감가상각계산",
+      "pc": 110,
+      "mobile": 60,
+      "total": 170,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "감가상각계산기",
+      "pc": 70,
+      "mobile": 40,
+      "total": 110,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "과업이행요청서",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "급여인상계산기",
+      "pc": 30,
+      "mobile": 40,
+      "total": 70,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "기성계양식",
+      "pc": 50,
+      "mobile": 0,
+      "total": 50,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "년차계산",
+      "pc": 50,
+      "mobile": 50,
+      "total": 100,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "농협업무방법서",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "대한노인회정관",
+      "pc": 190,
+      "mobile": 170,
+      "total": 360,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "대한노인회회칙",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "미수수익계산",
+      "pc": 40,
+      "mobile": 0,
+      "total": 40,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "부가율계산",
+      "pc": 40,
+      "mobile": 0,
+      "total": 40,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "서명지양식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "순수익계산",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "예치금이자계산기",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "우편번호양식",
+      "pc": 40,
+      "mobile": 10,
+      "total": 50,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "인바디양식",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "임대료계산",
+      "pc": 120,
+      "mobile": 180,
+      "total": 300,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "차량등록증양식",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "채권계산기",
+      "pc": 160,
+      "mobile": 140,
+      "total": 300,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "채무이자계산",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "청구인낙서",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "토론회좌장",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "퇴사연차계산",
+      "pc": 30,
+      "mobile": 40,
+      "total": 70,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "표준원가계산",
+      "pc": 130,
+      "mobile": 140,
+      "total": 270,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "회계연차계산기",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "송과장",
+      "pc": 10,
+      "mobile": 70,
+      "total": 80,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "일용직세금계산",
+      "pc": 110,
+      "mobile": 70,
+      "total": 180,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "일용직국민연금계산",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "4대보험급여계산",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "연장근무수당계산기",
+      "pc": 40,
+      "mobile": 40,
+      "total": 80,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "원천징수계산",
+      "pc": 190,
+      "mobile": 140,
+      "total": 330,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "모두벤처스",
+      "pc": 110,
+      "mobile": 130,
+      "total": 240,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "원천세계산",
+      "pc": 240,
+      "mobile": 70,
+      "total": 310,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "4대보험계산방법",
+      "pc": 60,
+      "mobile": 60,
+      "total": 120,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "개인사업자종합소득세계산기",
+      "pc": 70,
+      "mobile": 100,
+      "total": 170,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "건설일보",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "경비급여계산",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "계약직급여계산",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "공동연차",
+      "pc": 90,
+      "mobile": 90,
+      "total": 180,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "공수계산",
+      "pc": 90,
+      "mobile": 210,
+      "total": 300,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "교대근무급여계산기",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "근로소득계산기",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "근로소득세자동계산",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "근속일수계산",
+      "pc": 80,
+      "mobile": 20,
+      "total": 100,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "급여계산하기",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "급여계산하는법",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "급여공제계산",
+      "pc": 100,
+      "mobile": 70,
+      "total": 170,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "급여날짜계산",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "급여산정",
+      "pc": 40,
+      "mobile": 50,
+      "total": 90,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "급여세액",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "급여역산",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "급여인상률",
+      "pc": 130,
+      "mobile": 240,
+      "total": 370,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "급여인상률계산",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "급여일계산",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "남은연차계산",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "소득금액계산",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "손익률",
+      "pc": 90,
+      "mobile": 50,
+      "total": 140,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "아르바이트시급계산",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "알바시급계산",
+      "pc": 40,
+      "mobile": 90,
+      "total": 130,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "월급계산기엑셀",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "월급계산방법",
+      "pc": 30,
+      "mobile": 90,
+      "total": 120,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "월급여계산",
+      "pc": 100,
+      "mobile": 40,
+      "total": 140,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "월급일급계산",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "월급정산",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "일급계산",
+      "pc": 190,
+      "mobile": 160,
+      "total": 350,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "일용직건강보험계산",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "일일급여계산",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "잔여연차계산",
+      "pc": 60,
+      "mobile": 50,
+      "total": 110,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "주5일근무급여",
+      "pc": 0,
+      "mobile": 50,
+      "total": 50,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "중도입사자연차계산",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "초과근무계산",
+      "pc": 30,
+      "mobile": 20,
+      "total": 50,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "초과근무수당계산",
+      "pc": 160,
+      "mobile": 70,
+      "total": 230,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "퇴사자연차계산",
+      "pc": 50,
+      "mobile": 10,
+      "total": 60,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "파트타임급여계산",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "휴일근로수당계산",
+      "pc": 100,
+      "mobile": 30,
+      "total": 130,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "초과수당계산",
+      "pc": 30,
+      "mobile": 30,
+      "total": 60,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "변경계약서",
+      "pc": 90,
+      "mobile": 20,
+      "total": 110,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 40
+    },
+    {
+      "keyword": "사직서",
+      "pc": 8360,
+      "mobile": 6250,
+      "total": 14610,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 38
+    },
+    {
+      "keyword": "ERP",
+      "pc": 14400,
+      "mobile": 13100,
+      "total": 27500,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 38
+    },
+    {
+      "keyword": "소상공인확인서",
+      "pc": 19000,
+      "mobile": 7260,
+      "total": 26260,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 37
+    },
+    {
+      "keyword": "재직증명서",
+      "pc": 15300,
+      "mobile": 10400,
+      "total": 25700,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 36
+    },
+    {
+      "keyword": "줌다운로드",
+      "pc": 11300,
+      "mobile": 1330,
+      "total": 12630,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 35
+    },
+    {
+      "keyword": "재택",
+      "pc": 4240,
+      "mobile": 7910,
+      "total": 12150,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 35
+    },
+    {
+      "keyword": "해촉증명서",
+      "pc": 4920,
+      "mobile": 7090,
+      "total": 12010,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 34
+    },
+    {
+      "keyword": "법인세율",
+      "pc": 15800,
+      "mobile": 8600,
+      "total": 24400,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 34
+    },
+    {
+      "keyword": "부업",
+      "pc": 6110,
+      "mobile": 17600,
+      "total": 23710,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 33
+    },
+    {
+      "keyword": "위임장양식",
+      "pc": 14100,
+      "mobile": 9170,
+      "total": 23270,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 33
+    },
+    {
+      "keyword": "근로소득원천징수",
+      "pc": 4660,
+      "mobile": 6070,
+      "total": 10730,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 33
+    },
+    {
+      "keyword": "임대차계약서",
+      "pc": 11300,
+      "mobile": 11000,
+      "total": 22300,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 32
+    },
+    {
+      "keyword": "연차수당계산기",
+      "pc": 11300,
+      "mobile": 11400,
+      "total": 22700,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 32
+    },
+    {
+      "keyword": "인수인계",
+      "pc": 3810,
+      "mobile": 6200,
+      "total": 10010,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 32
+    },
+    {
+      "keyword": "산업안전보건교육",
+      "pc": 15300,
+      "mobile": 6970,
+      "total": 22270,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 32
+    },
+    {
+      "keyword": "근로계약서",
+      "pc": 9280,
+      "mobile": 12700,
+      "total": 21980,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 31
+    },
+    {
+      "keyword": "사대보험계산기",
+      "pc": 8230,
+      "mobile": 13700,
+      "total": 21930,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 31
+    },
+    {
+      "keyword": "소득세계산기",
+      "pc": 14700,
+      "mobile": 6670,
+      "total": 21370,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 31
+    },
+    {
+      "keyword": "지문인식도어락",
+      "pc": 1900,
+      "mobile": 7470,
+      "total": 9370,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 31
+    },
+    {
+      "keyword": "배우자출산휴가",
+      "pc": 9760,
+      "mobile": 11800,
+      "total": 21560,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 31
+    },
+    {
+      "keyword": "알바비계산기",
+      "pc": 1160,
+      "mobile": 7900,
+      "total": 9060,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 31
+    },
+    {
+      "keyword": "면직",
+      "pc": 2280,
+      "mobile": 5650,
+      "total": 7930,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 30
+    },
+    {
+      "keyword": "사직서작성방법",
+      "pc": 1460,
+      "mobile": 5680,
+      "total": 7140,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 29
+    },
+    {
+      "keyword": "야간수당",
+      "pc": 1350,
+      "mobile": 6100,
+      "total": 7450,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 29
+    },
+    {
+      "keyword": "채용신체검사서",
+      "pc": 2010,
+      "mobile": 5820,
+      "total": 7830,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 29
+    },
+    {
+      "keyword": "5인미만사업장",
+      "pc": 1480,
+      "mobile": 5730,
+      "total": 7210,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 29
+    },
+    {
+      "keyword": "스톡옵션",
+      "pc": 2200,
+      "mobile": 5130,
+      "total": 7330,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 29
+    },
+    {
+      "keyword": "원천징수영수증발급방법",
+      "pc": 4220,
+      "mobile": 3030,
+      "total": 7250,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 29
+    },
+    {
+      "keyword": "퇴직연금수령방법",
+      "pc": 3890,
+      "mobile": 15600,
+      "total": 19490,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 28
+    },
+    {
+      "keyword": "퇴직금세금계산기",
+      "pc": 2110,
+      "mobile": 4920,
+      "total": 7030,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 28
+    },
+    {
+      "keyword": "고용노동부퇴직금계산기",
+      "pc": 4100,
+      "mobile": 2270,
+      "total": 6370,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 28
+    },
+    {
+      "keyword": "재직증명서양식",
+      "pc": 12700,
+      "mobile": 5550,
+      "total": 18250,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 27
+    },
+    {
+      "keyword": "소득세계산법",
+      "pc": 7300,
+      "mobile": 11200,
+      "total": 18500,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 27
+    },
+    {
+      "keyword": "퇴직증명서",
+      "pc": 3150,
+      "mobile": 2360,
+      "total": 5510,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 27
+    },
+    {
+      "keyword": "연차",
+      "pc": 5900,
+      "mobile": 12500,
+      "total": 18400,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 27
+    },
+    {
+      "keyword": "근로계약서양식",
+      "pc": 9400,
+      "mobile": 8150,
+      "total": 17550,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 26
+    },
+    {
+      "keyword": "월급계산",
+      "pc": 1960,
+      "mobile": 3420,
+      "total": 5380,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 26
+    },
+    {
+      "keyword": "급여실수령액계산기",
+      "pc": 1430,
+      "mobile": 3490,
+      "total": 4920,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 26
+    },
+    {
+      "keyword": "아이알리미",
+      "pc": 1590,
+      "mobile": 3660,
+      "total": 5250,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 26
+    },
+    {
+      "keyword": "파업",
+      "pc": 1020,
+      "mobile": 3570,
+      "total": 4590,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 26
+    },
+    {
+      "keyword": "일할계산",
+      "pc": 2330,
+      "mobile": 2330,
+      "total": 4660,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 26
+    },
+    {
+      "keyword": "자영업자고용보험",
+      "pc": 1710,
+      "mobile": 2790,
+      "total": 4500,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 25
+    },
+    {
+      "keyword": "권고사직",
+      "pc": 4770,
+      "mobile": 11500,
+      "total": 16270,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 25
+    },
+    {
+      "keyword": "시말서양식",
+      "pc": 2900,
+      "mobile": 1230,
+      "total": 4130,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 25
+    },
+    {
+      "keyword": "업무분장",
+      "pc": 2340,
+      "mobile": 1850,
+      "total": 4190,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 25
+    },
+    {
+      "keyword": "강등",
+      "pc": 870,
+      "mobile": 3440,
+      "total": 4310,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 25
+    },
+    {
+      "keyword": "퇴직금중간정산",
+      "pc": 4030,
+      "mobile": 12800,
+      "total": 16830,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 25
+    },
+    {
+      "keyword": "경고",
+      "pc": 1460,
+      "mobile": 2840,
+      "total": 4300,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 25
+    },
+    {
+      "keyword": "부가세신고기간",
+      "pc": 4780,
+      "mobile": 12200,
+      "total": 16980,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 25
+    },
+    {
+      "keyword": "엑셀PDF변환",
+      "pc": 3350,
+      "mobile": 1100,
+      "total": 4450,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 25
+    },
+    {
+      "keyword": "직장내괴롭힘",
+      "pc": 4440,
+      "mobile": 11400,
+      "total": 15840,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 24
+    },
+    {
+      "keyword": "알바퇴직금",
+      "pc": 440,
+      "mobile": 2770,
+      "total": 3210,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 24
+    },
+    {
+      "keyword": "차용증",
+      "pc": 6820,
+      "mobile": 9420,
+      "total": 16240,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 24
+    },
+    {
+      "keyword": "위임장",
+      "pc": 11000,
+      "mobile": 5170,
+      "total": 16170,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 24
+    },
+    {
+      "keyword": "진료확인서",
+      "pc": 2190,
+      "mobile": 14000,
+      "total": 16190,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 24
+    },
+    {
+      "keyword": "알바급여계산기",
+      "pc": 640,
+      "mobile": 2560,
+      "total": 3200,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 24
+    },
+    {
+      "keyword": "사대보험징수포털",
+      "pc": 3640,
+      "mobile": 80,
+      "total": 3720,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 24
+    },
+    {
+      "keyword": "지문도어락",
+      "pc": 810,
+      "mobile": 2830,
+      "total": 3640,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 24
+    },
+    {
+      "keyword": "주52시간초과",
+      "pc": 860,
+      "mobile": 2130,
+      "total": 2990,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 24
+    },
+    {
+      "keyword": "고용보험실업급여조건",
+      "pc": 510,
+      "mobile": 2510,
+      "total": 3020,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 24
+    },
+    {
+      "keyword": "장애연금",
+      "pc": 770,
+      "mobile": 2150,
+      "total": 2920,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 24
+    },
+    {
+      "keyword": "견적서양식",
+      "pc": 11400,
+      "mobile": 4500,
+      "total": 15900,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 24
+    },
+    {
+      "keyword": "통상임금",
+      "pc": 7220,
+      "mobile": 7720,
+      "total": 14940,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 23
+    },
+    {
+      "keyword": "무상임대차계약서양식",
+      "pc": 1770,
+      "mobile": 680,
+      "total": 2450,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 23
+    },
+    {
+      "keyword": "장기근속수당",
+      "pc": 680,
+      "mobile": 2190,
+      "total": 2870,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 23
+    },
+    {
+      "keyword": "세이브텍스",
+      "pc": 600,
+      "mobile": 2290,
+      "total": 2890,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 23
+    },
+    {
+      "keyword": "주주명부양식",
+      "pc": 1830,
+      "mobile": 320,
+      "total": 2150,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 23
+    },
+    {
+      "keyword": "퇴직증명서발급",
+      "pc": 680,
+      "mobile": 1420,
+      "total": 2100,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 23
+    },
+    {
+      "keyword": "출퇴근",
+      "pc": 900,
+      "mobile": 1370,
+      "total": 2270,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 23
+    },
+    {
+      "keyword": "개인사업자실업급여",
+      "pc": 400,
+      "mobile": 1820,
+      "total": 2220,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 23
+    },
+    {
+      "keyword": "확정일자받는법",
+      "pc": 3980,
+      "mobile": 11100,
+      "total": 15080,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 23
+    },
+    {
+      "keyword": "인사쟁이",
+      "pc": 1610,
+      "mobile": 490,
+      "total": 2100,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 23
+    },
+    {
+      "keyword": "경영체등록확인서",
+      "pc": 1370,
+      "mobile": 1250,
+      "total": 2620,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 23
+    },
+    {
+      "keyword": "일용근로내역서",
+      "pc": 800,
+      "mobile": 1370,
+      "total": 2170,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 23
+    },
+    {
+      "keyword": "간이지급명세서",
+      "pc": 1800,
+      "mobile": 910,
+      "total": 2710,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 23
+    },
+    {
+      "keyword": "단시간근로자",
+      "pc": 970,
+      "mobile": 340,
+      "total": 1310,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 22
+    },
+    {
+      "keyword": "재직증명서발급방법",
+      "pc": 660,
+      "mobile": 690,
+      "total": 1350,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 22
+    },
+    {
+      "keyword": "전대차계약서양식",
+      "pc": 1060,
+      "mobile": 480,
+      "total": 1540,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 22
+    },
+    {
+      "keyword": "재직증명서양식다운로드",
+      "pc": 1050,
+      "mobile": 410,
+      "total": 1460,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 22
+    },
+    {
+      "keyword": "개인정보동의서양식",
+      "pc": 1100,
+      "mobile": 620,
+      "total": 1720,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 22
+    },
+    {
+      "keyword": "개인사업자고용보험",
+      "pc": 350,
+      "mobile": 1270,
+      "total": 1620,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 22
+    },
+    {
+      "keyword": "1년미만연차",
+      "pc": 640,
+      "mobile": 830,
+      "total": 1470,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 22
+    },
+    {
+      "keyword": "스케쥴러",
+      "pc": 610,
+      "mobile": 820,
+      "total": 1430,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 22
+    },
+    {
+      "keyword": "아마노정기권",
+      "pc": 630,
+      "mobile": 1360,
+      "total": 1990,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 22
+    },
+    {
+      "keyword": "알바실업급여조건",
+      "pc": 170,
+      "mobile": 1380,
+      "total": 1550,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 22
+    },
+    {
+      "keyword": "대전근로복지공단",
+      "pc": 360,
+      "mobile": 1260,
+      "total": 1620,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 22
+    },
+    {
+      "keyword": "근로자의날수당",
+      "pc": 630,
+      "mobile": 690,
+      "total": 1320,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 22
+    },
+    {
+      "keyword": "법정이자계산기",
+      "pc": 600,
+      "mobile": 750,
+      "total": 1350,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 22
+    },
+    {
+      "keyword": "폼텍라벨지양식",
+      "pc": 1310,
+      "mobile": 160,
+      "total": 1470,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 22
+    },
+    {
+      "keyword": "자동차감가상각비",
+      "pc": 320,
+      "mobile": 970,
+      "total": 1290,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 22
+    },
+    {
+      "keyword": "월세세액공제",
+      "pc": 2970,
+      "mobile": 11000,
+      "total": 13970,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 22
+    },
+    {
+      "keyword": "급여명세서",
+      "pc": 6070,
+      "mobile": 6980,
+      "total": 13050,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "확약서양식",
+      "pc": 560,
+      "mobile": 210,
+      "total": 770,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "단기계약직",
+      "pc": 290,
+      "mobile": 660,
+      "total": 950,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "월급제주휴수당",
+      "pc": 140,
+      "mobile": 310,
+      "total": 450,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "임금피크제란",
+      "pc": 180,
+      "mobile": 370,
+      "total": 550,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "주차수당",
+      "pc": 330,
+      "mobile": 560,
+      "total": 890,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "일정공유어플",
+      "pc": 220,
+      "mobile": 690,
+      "total": 910,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "공문서양식",
+      "pc": 830,
+      "mobile": 220,
+      "total": 1050,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "약관법",
+      "pc": 310,
+      "mobile": 110,
+      "total": 420,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "퇴직금정산내역서",
+      "pc": 290,
+      "mobile": 420,
+      "total": 710,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "직급체계",
+      "pc": 200,
+      "mobile": 240,
+      "total": 440,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "퇴직급여충당금",
+      "pc": 810,
+      "mobile": 320,
+      "total": 1130,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "작업일보양식",
+      "pc": 400,
+      "mobile": 130,
+      "total": 530,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "배상명령신청서양식",
+      "pc": 440,
+      "mobile": 230,
+      "total": 670,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "근태관리기",
+      "pc": 310,
+      "mobile": 180,
+      "total": 490,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "지문인식기",
+      "pc": 510,
+      "mobile": 310,
+      "total": 820,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "출퇴근지문인식기",
+      "pc": 380,
+      "mobile": 280,
+      "total": 660,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "출입통제시스템",
+      "pc": 510,
+      "mobile": 410,
+      "total": 920,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "출입통제",
+      "pc": 310,
+      "mobile": 190,
+      "total": 500,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "지문인식",
+      "pc": 170,
+      "mobile": 450,
+      "total": 620,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "U+웍스",
+      "pc": 490,
+      "mobile": 90,
+      "total": 580,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "AMANO",
+      "pc": 150,
+      "mobile": 440,
+      "total": 590,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "카드체크기",
+      "pc": 160,
+      "mobile": 560,
+      "total": 720,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "IMAP",
+      "pc": 250,
+      "mobile": 350,
+      "total": 600,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "카드보관함",
+      "pc": 320,
+      "mobile": 560,
+      "total": 880,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "아마노코리아(주)",
+      "pc": 500,
+      "mobile": 370,
+      "total": 870,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "자동문도어락",
+      "pc": 150,
+      "mobile": 380,
+      "total": 530,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "업무노트",
+      "pc": 160,
+      "mobile": 260,
+      "total": 420,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "인사위원회",
+      "pc": 340,
+      "mobile": 410,
+      "total": 750,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "고용노동부퇴직금신고",
+      "pc": 230,
+      "mobile": 810,
+      "total": 1040,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "이직확인서처리여부조회",
+      "pc": 270,
+      "mobile": 320,
+      "total": 590,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "직접노무비",
+      "pc": 300,
+      "mobile": 140,
+      "total": 440,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "고용노동부실업급여신청",
+      "pc": 190,
+      "mobile": 300,
+      "total": 490,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "청주노무사",
+      "pc": 190,
+      "mobile": 240,
+      "total": 430,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "공무원수당규정",
+      "pc": 460,
+      "mobile": 120,
+      "total": 580,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "국민연금계산법",
+      "pc": 190,
+      "mobile": 420,
+      "total": 610,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "농협은행퇴직연금",
+      "pc": 430,
+      "mobile": 200,
+      "total": 630,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "연차신청서양식",
+      "pc": 380,
+      "mobile": 60,
+      "total": 440,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "직불금신청서류",
+      "pc": 120,
+      "mobile": 320,
+      "total": 440,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "부동산전세계약서양식",
+      "pc": 740,
+      "mobile": 430,
+      "total": 1170,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "아파트전세계약서양식",
+      "pc": 420,
+      "mobile": 160,
+      "total": 580,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "공사수주",
+      "pc": 180,
+      "mobile": 270,
+      "total": 450,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "입금표",
+      "pc": 400,
+      "mobile": 150,
+      "total": 550,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "회계장부",
+      "pc": 370,
+      "mobile": 500,
+      "total": 870,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 21
+    },
+    {
+      "keyword": "사업주4대보험",
+      "pc": 40,
+      "mobile": 100,
+      "total": 140,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "주15시간알바",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "선원근로계약서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "인천서구노무사",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "영종도노무사",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "검단노무사",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "청라노무사",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "전자계약서사이트",
+      "pc": 30,
+      "mobile": 10,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "출퇴근무료어플",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "플렉스급여",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "식대통상임금",
+      "pc": 160,
+      "mobile": 70,
+      "total": 230,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "월차수당지급기준",
+      "pc": 30,
+      "mobile": 20,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "일시불개인연금",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "일용직연장수당",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "임금체불확인서양식",
+      "pc": 100,
+      "mobile": 30,
+      "total": 130,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "자격수당",
+      "pc": 100,
+      "mobile": 120,
+      "total": 220,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "출납수당",
+      "pc": 30,
+      "mobile": 30,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "상속등기세율",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "필리핀창업",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연가일수",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "계약서법적효력",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "디지털날인",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "외주계약서",
+      "pc": 50,
+      "mobile": 30,
+      "total": 80,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "카톡계약서",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "표준용역계약서",
+      "pc": 180,
+      "mobile": 20,
+      "total": 200,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "표준용역계약서양식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "용역계약서양식",
+      "pc": 330,
+      "mobile": 80,
+      "total": 410,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "환불대행업체",
+      "pc": 10,
+      "mobile": 80,
+      "total": 90,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "협약서양식",
+      "pc": 180,
+      "mobile": 40,
+      "total": 220,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "PM계약서",
+      "pc": 30,
+      "mobile": 20,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "급여명세서무료양식",
+      "pc": 50,
+      "mobile": 140,
+      "total": 190,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "총회위임장양식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "에버페이롤",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "나주노무사",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "개인별급여대장",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "전자위임장",
+      "pc": 50,
+      "mobile": 50,
+      "total": 100,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "물품공급계약서양식",
+      "pc": 260,
+      "mobile": 30,
+      "total": 290,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "급여프로그램추천",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "온라인폼",
+      "pc": 30,
+      "mobile": 10,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "무료양식",
+      "pc": 80,
+      "mobile": 20,
+      "total": 100,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "5인이상근로계약서",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "급여계산엑셀파일",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "고용노동부급여명세서",
+      "pc": 220,
+      "mobile": 70,
+      "total": 290,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "카톡급여명세서",
+      "pc": 0,
+      "mobile": 160,
+      "total": 160,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "급여명세서앱",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "월급명세서어플",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "업무현황표",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "진술서샘플",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "진술서양식다운",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "순천노무사",
+      "pc": 40,
+      "mobile": 120,
+      "total": 160,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "급상여대장",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "급여사이트",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "급여조회사이트",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "EFORM",
+      "pc": 60,
+      "mobile": 20,
+      "total": 80,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "담보계약",
+      "pc": 30,
+      "mobile": 140,
+      "total": 170,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "원천징수",
+      "pc": 5150,
+      "mobile": 7210,
+      "total": 12360,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "광주광역시노무사",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "인천산재",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "급여명세서카톡발송",
+      "pc": 20,
+      "mobile": 120,
+      "total": 140,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "인수합병계약서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "계약해지서",
+      "pc": 30,
+      "mobile": 20,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "주차계약서",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "주차장계약서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "급여명세서문자발송",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "퇴직금중간정산신청서",
+      "pc": 330,
+      "mobile": 50,
+      "total": 380,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "AI경리",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "이지경리",
+      "pc": 90,
+      "mobile": 30,
+      "total": 120,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "예상퇴직금확인서양식",
+      "pc": 130,
+      "mobile": 50,
+      "total": 180,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "퇴직금내역서",
+      "pc": 80,
+      "mobile": 120,
+      "total": 200,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "퇴직금정산양식",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "퇴직금중간정산확인서",
+      "pc": 50,
+      "mobile": 10,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "퇴직금지급확인서",
+      "pc": 180,
+      "mobile": 80,
+      "total": 260,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "퇴직금지급확인서양식",
+      "pc": 50,
+      "mobile": 10,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "퇴직금지급명세서양식",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "투표용지서식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "퇴직금지급양식",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "퇴직금명세서양식",
+      "pc": 60,
+      "mobile": 10,
+      "total": 70,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "퇴직금양식",
+      "pc": 80,
+      "mobile": 30,
+      "total": 110,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "가족수당미지급확인서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "갑종근로소득세율",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "급여명세서양식무료",
+      "pc": 60,
+      "mobile": 10,
+      "total": 70,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "급여수당종류",
+      "pc": 30,
+      "mobile": 10,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "급여인상제안서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "급여확인서",
+      "pc": 110,
+      "mobile": 110,
+      "total": 220,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "단식부기",
+      "pc": 120,
+      "mobile": 110,
+      "total": 230,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "비급여동의서",
+      "pc": 180,
+      "mobile": 80,
+      "total": 260,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "수당종류",
+      "pc": 70,
+      "mobile": 70,
+      "total": 140,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "일용직노무비지급명세서",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "임금근로자",
+      "pc": 70,
+      "mobile": 130,
+      "total": 200,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "평균임금산정내역서",
+      "pc": 50,
+      "mobile": 10,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "퇴직금예상확인서",
+      "pc": 40,
+      "mobile": 10,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "퇴직금서식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "경유서",
+      "pc": 40,
+      "mobile": 110,
+      "total": 150,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "매수의향서양식",
+      "pc": 40,
+      "mobile": 0,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "상업송장",
+      "pc": 190,
+      "mobile": 180,
+      "total": 370,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "손익분석",
+      "pc": 40,
+      "mobile": 10,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "입점의향서",
+      "pc": 40,
+      "mobile": 10,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "중기작업일보",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "회의양식",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "비품관리표",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "급여자동계산기",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "상품권양식",
+      "pc": 70,
+      "mobile": 10,
+      "total": 80,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "건설기계정기검사신청서",
+      "pc": 60,
+      "mobile": 0,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "고용보험실업인정신청서",
+      "pc": 30,
+      "mobile": 20,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "농업경영체등록신청서",
+      "pc": 210,
+      "mobile": 120,
+      "total": 330,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "임원취임승인신청서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "정보공개요청서양식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "보관증",
+      "pc": 80,
+      "mobile": 60,
+      "total": 140,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "준공서류양식",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "농지취득자격증명신청서",
+      "pc": 210,
+      "mobile": 50,
+      "total": 260,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "선금지급조건",
+      "pc": 90,
+      "mobile": 10,
+      "total": 100,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연봉협상서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "자재검수부",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "지급조서양식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "안전교육양식",
+      "pc": 60,
+      "mobile": 0,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "업무협조전양식",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "변론기일지정신청서",
+      "pc": 40,
+      "mobile": 20,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "주식명의개서신청서",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "수령증양식",
+      "pc": 90,
+      "mobile": 20,
+      "total": 110,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "에버타임",
+      "pc": 120,
+      "mobile": 50,
+      "total": 170,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "지문인식출퇴근",
+      "pc": 30,
+      "mobile": 10,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "캡스지문인식기",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "출근체크기",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "개인사업자실업급여신청",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "엘지그룹웨어",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "자영업자실업급여신청",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "유플러스웍스",
+      "pc": 300,
+      "mobile": 60,
+      "total": 360,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "LG그룹웨어",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "근무어플",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "입출입관리",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "회사출퇴근기록",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "알바출퇴근기록",
+      "pc": 20,
+      "mobile": 60,
+      "total": 80,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "출근표",
+      "pc": 70,
+      "mobile": 50,
+      "total": 120,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "직영운영",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "아이브웍스",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "티트리근태",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "알밤근태",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "급여어플",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "스케줄공유앱",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "출입기록",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "근무시간체크",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "알밤출퇴근",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "PCOFF프로그램",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연월차관리",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "키즈노트전자출결",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "KT그룹웨어",
+      "pc": 60,
+      "mobile": 20,
+      "total": 80,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "PCONOFF",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "알밤근태관리",
+      "pc": 40,
+      "mobile": 20,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "플렉스인사",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "보스웨어",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "회계일기준연차",
+      "pc": 50,
+      "mobile": 20,
+      "total": 70,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "근무시간표",
+      "pc": 100,
+      "mobile": 70,
+      "total": 170,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "교대근무표",
+      "pc": 50,
+      "mobile": 30,
+      "total": 80,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "슈프리마지문인식기",
+      "pc": 30,
+      "mobile": 20,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "아마노주차관리",
+      "pc": 30,
+      "mobile": 40,
+      "total": 70,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "아마노차단기",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "LGCMS",
+      "pc": 20,
+      "mobile": 60,
+      "total": 80,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "더존비즈박스",
+      "pc": 80,
+      "mobile": 20,
+      "total": 100,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "이카운트그룹웨어",
+      "pc": 70,
+      "mobile": 10,
+      "total": 80,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "업무용어플",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "해고절차",
+      "pc": 80,
+      "mobile": 150,
+      "total": 230,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "여성노무사",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "직장내괴롭힘전문변호사",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "마곡노무법인",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "송파노무법인",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "영등포노무법인",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "강종현노무사",
+      "pc": 20,
+      "mobile": 60,
+      "total": 80,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "노동법퇴사",
+      "pc": 0,
+      "mobile": 30,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "내일노무법인",
+      "pc": 120,
+      "mobile": 30,
+      "total": 150,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "용산노무사",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "단체교섭교육",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "노무법인서경",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "노동법원",
+      "pc": 50,
+      "mobile": 60,
+      "total": 110,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "노무사자문계약",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "노무119",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "일자리안정자금환수",
+      "pc": 30,
+      "mobile": 20,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "주거침입절도",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "대전노동위원회",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "마을노무사",
+      "pc": 50,
+      "mobile": 90,
+      "total": 140,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "일본변호사",
+      "pc": 30,
+      "mobile": 100,
+      "total": 130,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "필리핀법인설립",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "전속계약해지",
+      "pc": 30,
+      "mobile": 50,
+      "total": 80,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "노무법인하임",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "일터혁신",
+      "pc": 190,
+      "mobile": 30,
+      "total": 220,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "미금역노무사",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "아산노무사",
+      "pc": 20,
+      "mobile": 80,
+      "total": 100,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "사대보험",
+      "pc": 6710,
+      "mobile": 6140,
+      "total": 12850,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "감사해임",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "법인감사주소변경",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "청소용역계약서",
+      "pc": 80,
+      "mobile": 20,
+      "total": 100,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "역삼노무사",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "스토킹사례",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "일산노무법인",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "국선노무사",
+      "pc": 160,
+      "mobile": 250,
+      "total": 410,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "속초노무사",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "학원노무사",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "법률지식",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "퇴직금민사소송비용",
+      "pc": 0,
+      "mobile": 40,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "노무비지급명세서",
+      "pc": 100,
+      "mobile": 10,
+      "total": 110,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "미용실노무사",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "일용노무비지급명세서양식",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "공인노무사무료상담",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "대구노무사무료상담",
+      "pc": 20,
+      "mobile": 80,
+      "total": 100,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "대전노무사무료상담",
+      "pc": 10,
+      "mobile": 100,
+      "total": 110,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "노사협의회설치",
+      "pc": 40,
+      "mobile": 0,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "베트남변호사",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "노무법인호평",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "산재연금인상",
+      "pc": 0,
+      "mobile": 50,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "2024년법정의무교육",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "청주노무법인",
+      "pc": 40,
+      "mobile": 60,
+      "total": 100,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "개인정보종합포털",
+      "pc": 280,
+      "mobile": 50,
+      "total": 330,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "구월동노무사",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "서초근로복지공단",
+      "pc": 30,
+      "mobile": 30,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "성폭력고충상담원교육",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "김천노무사",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "실업급여부정수급노무사",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "실업급여부정수급벌금",
+      "pc": 70,
+      "mobile": 250,
+      "total": 320,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "실업급여부정수급상담",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "근속수당통상임금",
+      "pc": 40,
+      "mobile": 20,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "기준임금",
+      "pc": 50,
+      "mobile": 20,
+      "total": 70,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "서초노무법인",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "긴급복지지원교육",
+      "pc": 100,
+      "mobile": 30,
+      "total": 130,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연차계산엑셀",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연차관리엑셀양식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연차확인서",
+      "pc": 60,
+      "mobile": 20,
+      "total": 80,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연차사용계획서양식",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연차사용확인서양식",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연차관리대장무료",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연차계획서",
+      "pc": 200,
+      "mobile": 80,
+      "total": 280,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연차휴가사용계획서",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연차수당지급확인서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연차관리대장엑셀무료",
+      "pc": 80,
+      "mobile": 0,
+      "total": 80,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "엑셀연차계산",
+      "pc": 40,
+      "mobile": 0,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연차포기각서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "BOM양식",
+      "pc": 60,
+      "mobile": 0,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "LH시방서",
+      "pc": 340,
+      "mobile": 40,
+      "total": 380,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "개인정보내부관리계획",
+      "pc": 140,
+      "mobile": 20,
+      "total": 160,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "개인정보보호계획",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "건강검진순서",
+      "pc": 20,
+      "mobile": 180,
+      "total": 200,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "건설산업기본법",
+      "pc": 11600,
+      "mobile": 1030,
+      "total": 12630,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "검사검수요청서",
+      "pc": 80,
+      "mobile": 10,
+      "total": 90,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "결산체크리스트",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "결제계좌통보서",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "결혼공문",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "경로당프로그램",
+      "pc": 40,
+      "mobile": 50,
+      "total": 90,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "계량프로그램",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "고정지출양식",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "고정지출표",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "공원조성계획",
+      "pc": 80,
+      "mobile": 10,
+      "total": 90,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "공익활동보고서",
+      "pc": 60,
+      "mobile": 0,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "관음예문",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "관인규정",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "교대근무근무표",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "교회회계프로그램",
+      "pc": 40,
+      "mobile": 30,
+      "total": 70,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "국토교통부표준시방서",
+      "pc": 230,
+      "mobile": 10,
+      "total": 240,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "국토부표준시방서",
+      "pc": 120,
+      "mobile": 10,
+      "total": 130,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "권고사직공문",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "권리금영수증양식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "권리포기증서",
+      "pc": 30,
+      "mobile": 140,
+      "total": 170,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "낙찰포기각서",
+      "pc": 60,
+      "mobile": 0,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "노동위원회답변서양식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "농협상속위임장",
+      "pc": 50,
+      "mobile": 20,
+      "total": 70,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "두피관리차트",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "레시피노트양식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "레시피서식",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "마취기록지양식",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "모시는글양식",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "목걸이명찰양식",
+      "pc": 60,
+      "mobile": 10,
+      "total": 70,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "무료메뉴판양식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "무료이름표",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "미용동의서",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "미용실동의서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "배당가능이익계산",
+      "pc": 80,
+      "mobile": 0,
+      "total": 80,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "법인정관변경서류",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "법인카드분실사유서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "별첨양식",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "본인서명확인서양식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "부동산계약관리",
+      "pc": 40,
+      "mobile": 10,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "부양기피사유서",
+      "pc": 80,
+      "mobile": 220,
+      "total": 300,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "분실물안내문",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "사출조건표",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "수입원지출원",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "수출기업확인서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "수출인보이스양식",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "순서지",
+      "pc": 70,
+      "mobile": 50,
+      "total": 120,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "순서지양식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "승진평가",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "식당손익계산",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "식품영업자지위승계신고서",
+      "pc": 50,
+      "mobile": 10,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "식품의종류",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "신차검수체크리스트",
+      "pc": 70,
+      "mobile": 120,
+      "total": 190,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "알바근무확인서",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "알바급여엑셀",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "알바부모동의서양식",
+      "pc": 30,
+      "mobile": 30,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "알바스케줄표",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "알바재직증명서양식",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "엄중처벌탄원서",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "업무메일양식",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "업무연속성계획",
+      "pc": 40,
+      "mobile": 10,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "에너지절감계획서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "완료계양식",
+      "pc": 60,
+      "mobile": 10,
+      "total": 70,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "요양보호사사직서",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "요양원사례관리",
+      "pc": 40,
+      "mobile": 20,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "우편주소양식",
+      "pc": 290,
+      "mobile": 40,
+      "total": 330,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "워드보고서양식",
+      "pc": 80,
+      "mobile": 10,
+      "total": 90,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "월세납입확인서",
+      "pc": 40,
+      "mobile": 60,
+      "total": 100,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "유연근무제규정",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "유연근무제신청서",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "이사회명부",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "이직동의서양식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "인사공고",
+      "pc": 30,
+      "mobile": 10,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "인사기획",
+      "pc": 40,
+      "mobile": 20,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "자재대금직불동의서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "작업체크리스트",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "장돌뱅이프로그램",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "장례식장기도문",
+      "pc": 0,
+      "mobile": 20,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "재난대응매뉴얼",
+      "pc": 60,
+      "mobile": 10,
+      "total": 70,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "재산목록보고서",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "전화번호부양식",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "정정사유서양식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "조세포탈서약서",
+      "pc": 160,
+      "mobile": 0,
+      "total": 160,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "종업원명부",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "주유소관리",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "준비물체크리스트",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "지정기탁서양식",
+      "pc": 30,
+      "mobile": 30,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "직불금신청서",
+      "pc": 80,
+      "mobile": 50,
+      "total": 130,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "직영차량확인서",
+      "pc": 30,
+      "mobile": 0,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "진술대리위임장",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "질병퇴사확인서양식",
+      "pc": 60,
+      "mobile": 30,
+      "total": 90,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "채권연령표",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "취업보증서",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "취업예정서",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "칠순기도문",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "카페체크리스트",
+      "pc": 10,
+      "mobile": 20,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "탁구동호회회칙",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "택배양식",
+      "pc": 120,
+      "mobile": 60,
+      "total": 180,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "평가회의",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "폐기물관리계획서",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "폐기물인수증",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "폐업예정확인서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "폐업취소사유서",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "필기노트양식",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "할부이자계산",
+      "pc": 70,
+      "mobile": 100,
+      "total": 170,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "할아버지제사축문",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "현재가치표",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "혈당기록지양식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "혈압체크리스트",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "화기작업계획서",
+      "pc": 100,
+      "mobile": 10,
+      "total": 110,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "화장실안내문양식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "회계감사의견",
+      "pc": 90,
+      "mobile": 50,
+      "total": 140,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "HR사이트",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "일용직노무비명세서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "일용직급여엑셀",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "울산회계사무소",
+      "pc": 10,
+      "mobile": 30,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "의료비영수증",
+      "pc": 70,
+      "mobile": 140,
+      "total": 210,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "일반관리비항목",
+      "pc": 40,
+      "mobile": 20,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "일용직세금신고",
+      "pc": 100,
+      "mobile": 160,
+      "total": 260,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "자녀기본공제나이",
+      "pc": 20,
+      "mobile": 20,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "자녀인적공제나이",
+      "pc": 10,
+      "mobile": 40,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "자산총액",
+      "pc": 200,
+      "mobile": 80,
+      "total": 280,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "종교단체기부금공제",
+      "pc": 20,
+      "mobile": 40,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "샐러리데이",
+      "pc": 0,
+      "mobile": 10,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "재무상태표양식",
+      "pc": 80,
+      "mobile": 20,
+      "total": 100,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "20244대보험요율",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "2024년고용보험요율",
+      "pc": 60,
+      "mobile": 10,
+      "total": 70,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "2024년소득세율",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "3교대급여",
+      "pc": 0,
+      "mobile": 60,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "WBS양식",
+      "pc": 70,
+      "mobile": 20,
+      "total": 90,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "근로일지",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "급여명세서항목",
+      "pc": 50,
+      "mobile": 30,
+      "total": 80,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "급여인상율",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "급여일변경",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "법인계정별원장",
+      "pc": 50,
+      "mobile": 10,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "보조부원장",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "소득세주민세",
+      "pc": 250,
+      "mobile": 150,
+      "total": 400,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "손익분기점엑셀",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연월차휴가",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연장근로시간",
+      "pc": 180,
+      "mobile": 150,
+      "total": 330,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연차이월",
+      "pc": 170,
+      "mobile": 220,
+      "total": 390,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연차일수산정",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연차지급시기",
+      "pc": 20,
+      "mobile": 10,
+      "total": 30,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연차휴가양식",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "월근무표",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "일용노무자건강보험",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "일용직임금대장",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "일용직지급명세서양식",
+      "pc": 60,
+      "mobile": 0,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "프로젝트타임라인",
+      "pc": 30,
+      "mobile": 10,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "회사가계부엑셀",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "회사연차",
+      "pc": 60,
+      "mobile": 250,
+      "total": 310,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "세금계산서양식다운",
+      "pc": 50,
+      "mobile": 10,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "매입매출양식",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "수의계약서",
+      "pc": 150,
+      "mobile": 30,
+      "total": 180,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "밭임대계약서",
+      "pc": 10,
+      "mobile": 50,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "법인양도양수계약서양식",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "변경계약서양식",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "보안계약서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "부동산계약서양식다운",
+      "pc": 260,
+      "mobile": 100,
+      "total": 360,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "부동산공장월세계약서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "부동산연세계약서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "부동산임대차연장계약서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "부동산전대차계약서양식",
+      "pc": 200,
+      "mobile": 20,
+      "total": 220,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "부동산표준매매계약서",
+      "pc": 80,
+      "mobile": 40,
+      "total": 120,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "분양권매매계약서양식",
+      "pc": 120,
+      "mobile": 50,
+      "total": 170,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "사건위임계약서",
+      "pc": 30,
+      "mobile": 40,
+      "total": 70,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "설계용역표준계약서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "수의계약서양식",
+      "pc": 40,
+      "mobile": 10,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "아파트지분매매계약서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "양도계약서양식",
+      "pc": 30,
+      "mobile": 10,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "오피스텔매매계약서",
+      "pc": 40,
+      "mobile": 20,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "오피스텔전세계약서양식",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "부동산임대차표준계약서",
+      "pc": 40,
+      "mobile": 10,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "물품대금계약서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "성과급계약서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "위탁생산계약서",
+      "pc": 50,
+      "mobile": 0,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "수습계약서",
+      "pc": 50,
+      "mobile": 70,
+      "total": 120,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "사업포괄양수도계약서",
+      "pc": 30,
+      "mobile": 10,
+      "total": 40,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "물품구매표준계약서",
+      "pc": 190,
+      "mobile": 10,
+      "total": 200,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "부동산컨설팅계약서양식",
+      "pc": 20,
+      "mobile": 0,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "사용대차계약서양식",
+      "pc": 50,
+      "mobile": 10,
+      "total": 60,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "아파트전세연장계약서",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "업무제휴계약서",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "아파트전월세계약서양식",
+      "pc": 10,
+      "mobile": 0,
+      "total": 10,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "연예인표준계약서",
+      "pc": 10,
+      "mobile": 10,
+      "total": 20,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "사업소득계약서",
+      "pc": 120,
+      "mobile": 20,
+      "total": 140,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "용돈계약서",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "촉탁계약서",
+      "pc": 70,
+      "mobile": 30,
+      "total": 100,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "쉐어하우스계약서",
+      "pc": 20,
+      "mobile": 30,
+      "total": 50,
+      "comp": "medium",
+      "avgDepth": 0,
+      "score": 20
+    },
+    {
+      "keyword": "탄원서",
+      "pc": 3520,
+      "mobile": 7990,
+      "total": 11510,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 19
+    },
+    {
+      "keyword": "산재처리방법",
+      "pc": 2270,
+      "mobile": 9770,
+      "total": 12040,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 19
+    },
+    {
+      "keyword": "4대보험요율",
+      "pc": 10100,
+      "mobile": 1160,
+      "total": 11260,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 19
+    },
+    {
+      "keyword": "근로소득세",
+      "pc": 4140,
+      "mobile": 6920,
+      "total": 11060,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 18
+    },
+    {
+      "keyword": "연차수당",
+      "pc": 4020,
+      "mobile": 7030,
+      "total": 11050,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 18
+    },
+    {
+      "keyword": "기소유예",
+      "pc": 2900,
+      "mobile": 8070,
+      "total": 10970,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 18
+    },
+    {
+      "keyword": "차용증쓰는법",
+      "pc": 1550,
+      "mobile": 8380,
+      "total": 9930,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 17
+    },
+    {
+      "keyword": "퇴직소득세계산기",
+      "pc": 4960,
+      "mobile": 4890,
+      "total": 9850,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 17
+    },
+    {
+      "keyword": "임금체불신고",
+      "pc": 2490,
+      "mobile": 7150,
+      "total": 9640,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 17
+    },
+    {
+      "keyword": "견적서",
+      "pc": 6730,
+      "mobile": 3580,
+      "total": 10310,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 17
+    },
+    {
+      "keyword": "근로계약서미작성",
+      "pc": 1220,
+      "mobile": 8100,
+      "total": 9320,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 16
+    },
+    {
+      "keyword": "재택알바",
+      "pc": 2620,
+      "mobile": 6660,
+      "total": 9280,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 16
+    },
+    {
+      "keyword": "집에서하는부업",
+      "pc": 1370,
+      "mobile": 7550,
+      "total": 8920,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 16
+    },
+    {
+      "keyword": "보수총액신고",
+      "pc": 6680,
+      "mobile": 2240,
+      "total": 8920,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 16
+    },
+    {
+      "keyword": "스토킹처벌법",
+      "pc": 2450,
+      "mobile": 7130,
+      "total": 9580,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 16
+    },
+    {
+      "keyword": "인사",
+      "pc": 2750,
+      "mobile": 6080,
+      "total": 8830,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 16
+    },
+    {
+      "keyword": "거래명세서양식",
+      "pc": 6850,
+      "mobile": 2410,
+      "total": 9260,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 16
+    },
+    {
+      "keyword": "연말정산환급",
+      "pc": 2480,
+      "mobile": 6520,
+      "total": 9000,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 16
+    },
+    {
+      "keyword": "부동산임대차계약서",
+      "pc": 5350,
+      "mobile": 2920,
+      "total": 8270,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 15
+    },
+    {
+      "keyword": "공인노무사",
+      "pc": 3220,
+      "mobile": 4980,
+      "total": 8200,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 15
+    },
+    {
+      "keyword": "탄원서양식",
+      "pc": 3530,
+      "mobile": 5120,
+      "total": 8650,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 15
+    },
+    {
+      "keyword": "법인세법",
+      "pc": 7730,
+      "mobile": 670,
+      "total": 8400,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 15
+    },
+    {
+      "keyword": "양도소득세율",
+      "pc": 2560,
+      "mobile": 5640,
+      "total": 8200,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 15
+    },
+    {
+      "keyword": "근무일수계산기",
+      "pc": 5030,
+      "mobile": 3300,
+      "total": 8330,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 15
+    },
+    {
+      "keyword": "법정의무교육",
+      "pc": 6330,
+      "mobile": 2350,
+      "total": 8680,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 15
+    },
+    {
+      "keyword": "전자서명만들기",
+      "pc": 5540,
+      "mobile": 2630,
+      "total": 8170,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 15
+    },
+    {
+      "keyword": "주휴수당계산",
+      "pc": 1970,
+      "mobile": 3570,
+      "total": 5540,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 12
+    },
+    {
+      "keyword": "연차계산",
+      "pc": 2720,
+      "mobile": 1830,
+      "total": 4550,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 10
+    },
+    {
+      "keyword": "부당해고",
+      "pc": 1060,
+      "mobile": 2530,
+      "total": 3590,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 9
+    },
+    {
+      "keyword": "알바근로계약서",
+      "pc": 540,
+      "mobile": 2360,
+      "total": 2900,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 8
+    },
+    {
+      "keyword": "알바4대보험",
+      "pc": 420,
+      "mobile": 2230,
+      "total": 2650,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 8
+    },
+    {
+      "keyword": "알바주휴수당",
+      "pc": 250,
+      "mobile": 1350,
+      "total": 1600,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 7
+    },
+    {
+      "keyword": "퇴직금계산법",
+      "pc": 490,
+      "mobile": 1440,
+      "total": 1930,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 7
+    },
+    {
+      "keyword": "자영업자실업급여",
+      "pc": 350,
+      "mobile": 1490,
+      "total": 1840,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 7
+    },
+    {
+      "keyword": "근로기준법휴게시간",
+      "pc": 680,
+      "mobile": 1230,
+      "total": 1910,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 7
+    },
+    {
+      "keyword": "알바연차",
+      "pc": 130,
+      "mobile": 570,
+      "total": 700,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 6
+    },
+    {
+      "keyword": "출퇴근관리",
+      "pc": 60,
+      "mobile": 40,
+      "total": 100,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 5
+    },
+    {
+      "keyword": "근태관리앱",
+      "pc": 50,
+      "mobile": 30,
+      "total": 80,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 5
+    },
+    {
+      "keyword": "직원근태관리",
+      "pc": 30,
+      "mobile": 30,
+      "total": 60,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 5
+    },
+    {
+      "keyword": "해고예고",
+      "pc": 210,
+      "mobile": 180,
+      "total": 390,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 5
+    },
+    {
+      "keyword": "알바해고",
+      "pc": 60,
+      "mobile": 340,
+      "total": 400,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 5
+    },
+    {
+      "keyword": "직원CCTV감시",
+      "pc": 0,
+      "mobile": 40,
+      "total": 40,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 5
+    },
+    {
+      "keyword": "아르바이트계약서",
+      "pc": 220,
+      "mobile": 100,
+      "total": 320,
+      "comp": "high",
+      "avgDepth": 0,
+      "score": 5
+    },
+    {
+      "keyword": "최저임금2026",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 0
+    },
+    {
+      "keyword": "소상공인노무",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 0
+    },
+    {
+      "keyword": "사업주급여",
+      "pc": 0,
+      "mobile": 0,
+      "total": 0,
+      "comp": "low",
+      "avgDepth": 0,
+      "score": 0
+    }
+  ]
+}

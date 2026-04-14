@@ -97,7 +97,7 @@ function scanLocalMarkdown(affiliate) {
 
 // ─── 큐 상태 분석 ────────────────────────────────────────────────────────
 
-async function analyzeQueue(affiliates, queue, publishedSlugs) {
+async function analyzeQueue(affiliates, queue, publishedSlugs, { minScore, forceUnscored }) {
   const report = [];
 
   for (const aff of affiliates) {
@@ -107,13 +107,32 @@ async function analyzeQueue(affiliates, queue, publishedSlugs) {
     const pendingTopics = topics.filter((t) => t.status === "pending");
     const generatedTopics = topics.filter((t) => t.status === "generated");
 
+    // 키워드 검증 gate: score 미달 주제 분리
+    const validated = [];
+    const skipped = [];
+    for (const t of pendingTopics) {
+      const score = Number(t.opportunityScore) || 0;
+      if (forceUnscored) {
+        validated.push(t);
+        continue;
+      }
+      if (score < minScore) {
+        skipped.push({ ...t, reason: score === 0 ? "score 없음" : `score ${score} < ${minScore}` });
+        continue;
+      }
+      validated.push(t);
+    }
+
     report.push({
       name: aff.name,
       totalLocal: localFiles.length,
       unpublishedLocal: unpublishedLocal.length,
       pendingTopics: pendingTopics.length,
       generatedTopics: generatedTopics.length,
-      pending: pendingTopics,
+      validatedCount: validated.length,
+      skippedCount: skipped.length,
+      pending: validated,
+      skipped,
     });
   }
 
@@ -143,8 +162,10 @@ function parseArgs() {
     force: args.includes("--force"),
     dry: args.includes("--dry"),
     autoRelease: args.includes("--auto-release"),
+    forceUnscored: args.includes("--force-unscored"),
     target: parseInt(get("--target") || String(DEFAULT_TARGET_UNPUBLISHED), 10),
     count: parseInt(get("--count") || "1", 10),
+    minScore: parseInt(get("--min-score") || "20", 10),
   };
 }
 
@@ -168,13 +189,24 @@ async function main() {
   const queue = loadQueue();
   const publishedSlugs = await fetchPublishedSlugs();
 
-  const report = await analyzeQueue(affiliates, queue, publishedSlugs);
+  const report = await analyzeQueue(affiliates, queue, publishedSlugs, {
+    minScore: opts.minScore,
+    forceUnscored: opts.forceUnscored,
+  });
 
-  console.log(`\n현재 상태:`);
+  console.log(`\n현재 상태 (min-score=${opts.minScore}${opts.forceUnscored ? " [force-unscored]" : ""}):`);
   for (const row of report) {
     console.log(
-      `  [${row.name}] 로컬 ${row.totalLocal}편 / 미발행 ${row.unpublishedLocal}편 / 큐 pending ${row.pendingTopics}개 / generated ${row.generatedTopics}개`
+      `  [${row.name}] 로컬 ${row.totalLocal}편 / 미발행 ${row.unpublishedLocal}편 / ` +
+        `pending ${row.pendingTopics}(검증통과 ${row.validatedCount}, 스킵 ${row.skippedCount}) / generated ${row.generatedTopics}`
     );
+    if (row.skipped.length > 0 && !opts.forceUnscored) {
+      console.log(`    스킵된 주제 (--force-unscored로 우회 가능):`);
+      for (const t of row.skipped.slice(0, 5)) {
+        console.log(`      · ${t.topic} [${t.reason}]`);
+      }
+      if (row.skipped.length > 5) console.log(`      · ...외 ${row.skipped.length - 5}개`);
+    }
   }
 
   if (opts.dry) {
@@ -189,18 +221,24 @@ async function main() {
     if (opts.force) {
       needed = opts.count;
     } else if (row.unpublishedLocal < opts.target) {
-      needed = Math.min(opts.target - row.unpublishedLocal, row.pendingTopics);
+      needed = Math.min(opts.target - row.unpublishedLocal, row.validatedCount);
     }
 
     if (needed === 0) {
-      console.log(`  [${row.name}] 충분함 (미발행 ${row.unpublishedLocal} ≥ 목표 ${opts.target})`);
+      if (row.validatedCount === 0 && row.skippedCount > 0) {
+        console.log(
+          `  [${row.name}] 검증 통과 주제 0개 (스킵 ${row.skippedCount}개). discover-topics 재실행 또는 --force-unscored 필요`
+        );
+      } else {
+        console.log(`  [${row.name}] 충분함 (미발행 ${row.unpublishedLocal} ≥ 목표 ${opts.target})`);
+      }
       continue;
     }
 
-    const available = Math.min(needed, row.pendingTopics);
+    const available = Math.min(needed, row.validatedCount);
     if (available < needed) {
       console.log(
-        `  [${row.name}] 큐 부족: 필요 ${needed}편 / pending ${row.pendingTopics}편 — pending ${available}편만 생성`
+        `  [${row.name}] 검증 큐 부족: 필요 ${needed}편 / 검증통과 ${row.validatedCount}편 — ${available}편만 생성`
       );
     }
 
