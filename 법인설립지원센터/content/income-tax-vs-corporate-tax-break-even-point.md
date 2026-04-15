@@ -17,7 +17,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "법인설립지원센터"
-  url: "https://corp.apply.kr"
+  url: "https://k-startbiz.org/?ref=STARTBIZ_CYM"
 disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다."
 ---
 
@@ -148,16 +148,16 @@ disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로
 
 법인 설립은 단순히 서류를 제출하는 과정이 아니라, 향후 수년간의 세무 구조를 설계하는 작업이다. 업종별 특화된 정관 작성부터 유리한 자본금 설정까지 전문가의 가이드가 필요하다면 아래 링크를 통해 상담을 시작할 수 있다.
 
-[법인설립지원센터 무료 상담 신청하기 →](https://corp.apply.kr)
+[법인설립지원센터 무료 상담 신청하기 →](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다.
 
 ---
 
 ## 관련 글
-- [2026년 법인 설립 절차 및 필요 서류 7가지](https://corp.apply.kr/blog/incorporation-process-2026)
-- [개인사업자 법인 전환 시 영업권 평가로 절세하는 법](https://corp.apply.kr/blog/goodwill-valuation-tax-saving)
-- [법인 대표이사 급여와 배당, 어떤 조합이 가장 유리할까?](https://corp.apply.kr/blog/salary-vs-dividend-strategy)
+- [2026년 법인 설립 절차 및 필요 서류 7가지](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [개인사업자 법인 전환 시 영업권 평가로 절세하는 법](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [법인 대표이사 급여와 배당, 어떤 조합이 가장 유리할까?](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 ---
 

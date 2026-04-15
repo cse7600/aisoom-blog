@@ -12,7 +12,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "키퍼메이트"
-  url: "https://keeper.ceo/"
+  url: "https://keeper.ceo/security?ref=89S42E"
 ---
 
 > 이 활동은 키퍼 메이트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
@@ -97,7 +97,7 @@ affiliate:
 
 ---
 
-[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/)
+[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/security?ref=89S42E)
 
 ## 자주 묻는 질문 (Q&A)
 
@@ -137,7 +137,7 @@ affiliate:
 
 더 자세한 견적과 상품 구성이 궁금하다면 아래 공식 채널을 통해 무료 상담을 받아보길 권한다.
 
-[한화비전 키퍼 메이트 무료 상담 / 공식 채널 바로가기](https://keeper.ceo/)
+[한화비전 키퍼 메이트 무료 상담 / 공식 채널 바로가기](https://keeper.ceo/security?ref=89S42E)
 
 ---
 

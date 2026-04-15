@@ -17,7 +17,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "법인설립지원센터"
-  url: "https://corp.apply.kr"
+  url: "https://k-startbiz.org/?ref=STARTBIZ_CYM"
 disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다."
 ---
 
@@ -156,16 +156,16 @@ disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로
 
 세무조사는 발생 후 대응보다 발생 전 관리가 90% 이상의 비중을 차지한다. 특히 법인 설립 초기부터 투명한 회계 시스템을 구축하지 않으면, 사업이 성장했을 때 과거의 실수가 거대한 세금 폭탄으로 돌아올 수 있다. 업종별 특성에 맞는 세무 가이드라인을 준수하는 것이 지속 가능한 경영의 핵심이다.
 
-[법인설립지원센터 무료 상담 신청하기 (법인 설립부터 세무 리스크 진단까지) →](https://corp.apply.kr)
+[법인설립지원센터 무료 상담 신청하기 (법인 설립부터 세무 리스크 진단까지) →](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다.
 
 ---
 
 ## 관련 글
-- [2026년 법인세법 개정안 주요 내용과 대응 전략](https://corp.apply.kr/blog/corporate-tax-law-2026-updates)
-- [법인 가지급금 해결하는 3가지 합법적 방법](https://corp.apply.kr/blog/how-to-solve-temporary-payments)
-- [대표이사 업무무관 경비 판례와 세무 처리 주의사항](https://corp.apply.kr/blog/business-unrelated-expenses-guide)
+- [2026년 법인세법 개정안 주요 내용과 대응 전략](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [법인 가지급금 해결하는 3가지 합법적 방법](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [대표이사 업무무관 경비 판례와 세무 처리 주의사항](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 ---
 

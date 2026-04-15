@@ -16,7 +16,7 @@ date: "2026-04-14"
 author: "꿀정보 에디터"
 affiliate:
   name: "법인설립지원센터"
-  url: "https://corp.apply.kr"
+  url: "https://k-startbiz.org/?ref=STARTBIZ_CYM"
 disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다."
 ---
 
@@ -147,16 +147,16 @@ disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로
 
 법인 정관 변경은 단순한 행정 절차를 넘어 회사의 법적 안전망을 구축하는 과정이다. 절차의 복잡함이나 과태료 리스크가 걱정된다면, 설립부터 변경 등기까지 원스톱으로 지원하는 서비스를 활용하는 것이 효율적이다. 특히 사업 초기라면 전문가의 가이드를 통해 불필요한 세금 중과를 피하는 전략을 세워야 한다.
 
-[법인설립지원센터 무료 상담 신청하기 (정관 변경 및 등기 리스크 점검) →](https://corp.apply.kr)
+[법인설립지원센터 무료 상담 신청하기 (정관 변경 및 등기 리스크 점검) →](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다.
 
 ---
 
 ## 관련 글
-- [법인 임원 변경 등기 안 하면 과태료 얼마? 기간 및 절차 정리](https://corp.apply.kr/blog/executive-change-registration)
-- [과밀억제권역 법인 설립 및 이전 시 취득세 3배 중과 피하는 법](https://corp.apply.kr/blog/overcrowded-area-tax-heavy)
-- [1인 법인 주주총회 의사록 공증 생략 조건 및 서류 가이드](https://corp.apply.kr/blog/notary-exemption-guide)
+- [법인 임원 변경 등기 안 하면 과태료 얼마? 기간 및 절차 정리](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [과밀억제권역 법인 설립 및 이전 시 취득세 3배 중과 피하는 법](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [1인 법인 주주총회 의사록 공증 생략 조건 및 서류 가이드](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 ---
 

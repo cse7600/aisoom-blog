@@ -12,7 +12,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "키퍼메이트"
-  url: "https://keeper.ceo/"
+  url: "https://keeper.ceo/security?ref=89S42E"
 ---
 
 > 이 활동은 키퍼 메이트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
@@ -235,7 +235,7 @@ CCTV 영상을 무한정 보관하는 것도 문제다. 보관 기간이 지난 
 
 ---
 
-[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/)
+[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/security?ref=89S42E)
 
 ## Q&A: 자주 묻는 질문
 
@@ -279,7 +279,7 @@ CCTV 영상을 무한정 보관하는 것도 문제다. 보관 기간이 지난 
 
 CCTV 설치 시 법적 기준을 처음부터 충족하는 제품을 선택하면 이후 관리가 쉬워진다. 한화비전 키퍼는 음성 녹음 비활성화, 타임스탬프 자동 삽입, 국내 서버 클라우드 옵션 등 법적 요건을 고려한 설계로 만들어졌다. 설치 전 법적 구성 상담도 함께 제공한다.
 
-[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/)
+[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/security?ref=89S42E)
 
 ---
 

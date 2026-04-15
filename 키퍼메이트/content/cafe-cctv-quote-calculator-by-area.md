@@ -12,7 +12,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "키퍼메이트"
-  url: "https://keeper.ceo/"
+  url: "https://keeper.ceo/security?ref=89S42E"
 disclosure: "이 활동은 키퍼 메이트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
 ---
 
@@ -137,13 +137,13 @@ CCTV는 한 번 설치하면 최소 3~5년을 사용하는 장비다. 눈앞의 
 
 불필요한 월 고정비를 줄이고 매장의 보안을 완벽하게 구축하고 싶다면, 지금 바로 키퍼메이트 전문가와 상의하여 우리 카페에 딱 맞는 최적의 견적을 받아보길 바란다.
 
-[한화비전 키퍼 카페 CCTV 무료 견적 상담하기 →](https://keeper.ceo/)
+[한화비전 키퍼 카페 CCTV 무료 견적 상담하기 →](https://keeper.ceo/security?ref=89S42E)
 
 ---
 
 ## 관련 글
-- [CCTV 구매형 vs 렌탈형 — 3년 운영 시 실제 비용 차이 분석](https://keeper.ceo/blog/cctv-buy-vs-rental-cost)
-- [소상공인 스마트상점 지원금으로 CCTV 설치하는 방법](https://keeper.ceo/blog/smart-shop-cctv-support)
+- [CCTV 구매형 vs 렌탈형 — 3년 운영 시 실제 비용 차이 분석](https://keeper.ceo/security?ref=89S42E)
+- [소상공인 스마트상점 지원금으로 CCTV 설치하는 방법](https://keeper.ceo/security?ref=89S42E)
 
 ---
 

@@ -17,7 +17,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "법인설립지원센터"
-  url: "https://corp.apply.kr"
+  url: "https://k-startbiz.org/?ref=STARTBIZ_CYM"
 disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다."
 ---
 
@@ -155,16 +155,16 @@ disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로
 
 가지급금은 발생시키지 않는 것이 최선이지만, 이미 발생했다면 시간이 지날수록 세금 부담이 기하급수적으로 늘어난다. 2026년 세법 개정안의 흐름을 반영하여 전문가와 함께 정관을 정비하고 합법적인 자금 회수 경로를 설계해야 한다.
 
-[법인설립지원센터 무료 상담 신청하기 (가지급금 없는 깨끗한 법인 설립 가이드) →](https://corp.apply.kr)
+[법인설립지원센터 무료 상담 신청하기 (가지급금 없는 깨끗한 법인 설립 가이드) →](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다.
 
 ---
 
 ## 관련 글
-- [2026년 법인세율 및 구간별 절세 전략 가이드](https://corp.apply.kr/blog/corporate-tax-guide-2026)
-- [법인 대표이사 급여와 배당, 어떤 조합이 가장 유리할까?](https://corp.apply.kr/blog/salary-vs-dividend-strategy)
-- [자본금 100만 원 법인 설립, 나중에 증자할 때 주의점](https://corp.apply.kr/blog/capital-increase-caution)
+- [2026년 법인세율 및 구간별 절세 전략 가이드](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [법인 대표이사 급여와 배당, 어떤 조합이 가장 유리할까?](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [자본금 100만 원 법인 설립, 나중에 증자할 때 주의점](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 ---
 

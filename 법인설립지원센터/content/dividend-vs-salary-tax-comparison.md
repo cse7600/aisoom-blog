@@ -17,7 +17,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "법인설립지원센터"
-  url: "https://corp.apply.kr"
+  url: "https://k-startbiz.org/?ref=STARTBIZ_CYM"
 disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다."
 ---
 
@@ -145,16 +145,16 @@ disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로
 
 최적의 비율은 매년 법인의 실적과 대표이사의 개인 상황에 따라 달라진다. 일반적으로는 법인세 비용 처리가 가능한 적정 수준의 급여를 먼저 설정하고, 남는 이익 중 2,000만 원까지를 배당으로 인출하는 것이 가장 기초적인 절세 공식이다. 하지만 2026년 세법 개정안이 국회 통과 여부에 따라 변동 가능하므로, 최종 결정 전에는 반드시 세무 전문가와 상담해야 한다.
 
-[법인설립지원센터 무료 상담 신청하기 (최적의 급여·배당 구조 설계 가이드) →](https://corp.apply.kr)
+[법인설립지원센터 무료 상담 신청하기 (최적의 급여·배당 구조 설계 가이드) →](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다.
 
 ---
 
 ## 관련 글
-- [법인 대표이사 급여 책정 시 주의해야 할 세무 리스크 3가지](https://corp.apply.kr/blog/executive-salary-tax-risks)
-- [중간배당 절차와 정관 변경 방법 가이드](https://corp.apply.kr/blog/interim-dividend-procedure)
-- [2026년 건강보험료 개편안이 법인 대표에게 미치는 영향](https://corp.apply.kr/blog/health-insurance-2026-updates)
+- [법인 대표이사 급여 책정 시 주의해야 할 세무 리스크 3가지](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [중간배당 절차와 정관 변경 방법 가이드](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [2026년 건강보험료 개편안이 법인 대표에게 미치는 영향](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 ---
 

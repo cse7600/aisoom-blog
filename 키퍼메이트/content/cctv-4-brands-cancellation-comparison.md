@@ -12,7 +12,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "키퍼메이트"
-  url: "https://keeper.ceo/"
+  url: "https://keeper.ceo/security?ref=89S42E"
 disclosure: "이 활동은 키퍼 메이트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
 ---
 
@@ -142,13 +142,13 @@ CCTV 해지 및 교체 체크리스트:
 
 더 이상 렌탈사의 복잡한 위약금 구조에 스트레스받고 싶지 않다면, 대한민국 1위 한화비전 장비를 소유하고 월 비용 없이 운영하는 키퍼메이트의 솔루션을 만나보길 바란다.
 
-[한화비전 키퍼 위약금 없는 CCTV 상담하기 →](https://keeper.ceo/)
+[한화비전 키퍼 위약금 없는 CCTV 상담하기 →](https://keeper.ceo/security?ref=89S42E)
 
 ---
 
 ## 관련 글
-- [CCTV 렌탈 vs 구매 — 소상공인에게 유리한 선택은?](https://keeper.ceo/blog/cctv-rental-vs-purchase)
-- [CCTV 설치 전 확인해야 할 개인정보보호법 가이드(2026)](https://keeper.ceo/blog/cctv-privacy-law-2026)
+- [CCTV 렌탈 vs 구매 — 소상공인에게 유리한 선택은?](https://keeper.ceo/security?ref=89S42E)
+- [CCTV 설치 전 확인해야 할 개인정보보호법 가이드(2026)](https://keeper.ceo/security?ref=89S42E)
 
 ---
 

@@ -17,7 +17,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "키퍼메이트"
-  url: "https://keeper.ceo/"
+  url: "https://keeper.ceo/security?ref=89S42E"
 disclosure: "이 활동은 키퍼 메이트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
 ---
 
@@ -156,14 +156,14 @@ CCTV 제조사인 한화비전이 만든 '키퍼' 솔루션은 단순한 영상 
 
 2026년의 스마트한 매장 관리는 '통합'에 있다. 보안 따로, 근태 따로, 노무 따로 관리하면 사장님의 몸만 고되다. 한화비전 키퍼메이트는 월 고정비 없는 경제적인 CCTV 솔루션에 강력한 직원관리 기능을 더해 사장님의 완전한 퇴근을 돕는다. 지금 전문가와 상담하여 매장의 고정비를 줄이고 관리 효율을 극대화하길 바란다.
 
-[한화비전 키퍼 직원관리 무료 상담하기 →](https://keeper.ceo/)
+[한화비전 키퍼 직원관리 무료 상담하기 →](https://keeper.ceo/security?ref=89S42E)
 
 ---
 
 ## 관련 글
-- [CCTV로 알바생 근태 확인, 어디까지 합법일까? 법적 가이드라인](https://keeper.ceo/blog/cctv-employee-monitoring-legal)
-- [2026년 최저임금 인상에 따른 소상공인 인건비 절감 전략 5가지](https://keeper.ceo/blog/minimum-wage-2026-strategy)
-- [렌탈 CCTV vs 구매형 키퍼, 3년 실지출 비용 상세 비교](https://keeper.ceo/blog/rental-vs-purchase-cctv-cost)
+- [CCTV로 알바생 근태 확인, 어디까지 합법일까? 법적 가이드라인](https://keeper.ceo/security?ref=89S42E)
+- [2026년 최저임금 인상에 따른 소상공인 인건비 절감 전략 5가지](https://keeper.ceo/security?ref=89S42E)
+- [렌탈 CCTV vs 구매형 키퍼, 3년 실지출 비용 상세 비교](https://keeper.ceo/security?ref=89S42E)
 
 ---
 

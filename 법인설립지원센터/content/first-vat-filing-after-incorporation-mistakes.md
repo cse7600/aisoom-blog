@@ -16,7 +16,7 @@ date: "2026-04-14"
 author: "꿀정보 에디터"
 affiliate:
   name: "법인설립지원센터"
-  url: "https://corp.apply.kr"
+  url: "https://k-startbiz.org/?ref=STARTBIZ_CYM"
 disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다."
 ---
 
@@ -160,16 +160,16 @@ disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로
 
 복잡한 법인 설립 절차부터 첫 세무 신고까지 실무 전문가의 도움을 받고 싶다면, 아래 링크를 통해 무료 상담을 시작할 수 있다.
 
-[법인설립지원센터 무료 상담 신청하기 (설립 비용 및 첫 세무 진단) →](https://corp.apply.kr)
+[법인설립지원센터 무료 상담 신청하기 (설립 비용 및 첫 세무 진단) →](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다.
 
 ---
 
 ## 관련 글
-- [2026년 법인세율 및 중소기업 특별세액감면 가이드](https://corp.apply.kr/blog/corporate-tax-guide-2026)
-- [법인 카드 사용 시 주의할 점: 사적 사용과 가지급금 방지법](https://corp.apply.kr/blog/corporate-card-usage-tips)
-- [개인사업자 법인전환 시 부가가치세 폐업 신고 및 포괄양수도 주의사항](https://corp.apply.kr/blog/business-transfer-vat)
+- [2026년 법인세율 및 중소기업 특별세액감면 가이드](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [법인 카드 사용 시 주의할 점: 사적 사용과 가지급금 방지법](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [개인사업자 법인전환 시 부가가치세 폐업 신고 및 포괄양수도 주의사항](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 ---
 

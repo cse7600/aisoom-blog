@@ -17,7 +17,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "키퍼메이트"
-  url: "https://keeper.ceo/"
+  url: "https://keeper.ceo/security?ref=89S42E"
 disclosure: "이 활동은 키퍼 메이트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
 ---
 
@@ -148,14 +148,14 @@ CCTV와 근로계약서가 무슨 상관이냐고 묻는 사장님들이 많다.
 
 노무 관리의 시작은 정확한 기록이다. 한화비전 키퍼메이트는 사장님이 매장 보안에만 집중할 수 있도록, 월 고정비 없는 경제적인 CCTV 솔루션과 함께 효율적인 매장 관리 가이드를 제공한다. 과태료 500만 원의 위험에서 벗어나 안전하고 수익성 높은 매장을 운영하길 바란다.
 
-[한화비전 키퍼 노무 관리 연동 상담하기 →](https://keeper.ceo/)
+[한화비전 키퍼 노무 관리 연동 상담하기 →](https://keeper.ceo/security?ref=89S42E)
 
 ---
 
 ## 관련 글
-- [2026년 최저임금 인상안과 소상공인 대응 전략](https://keeper.ceo/blog/minimum-wage-2026)
-- [알바생 주휴수당 계산기 및 계약서 기재 요령](https://keeper.ceo/blog/weekly-holiday-allowance-guide)
-- [CCTV로 알바생 근태 확인, 어디까지 합법일까?](https://keeper.ceo/blog/cctv-employee-monitoring-legal)
+- [2026년 최저임금 인상안과 소상공인 대응 전략](https://keeper.ceo/security?ref=89S42E)
+- [알바생 주휴수당 계산기 및 계약서 기재 요령](https://keeper.ceo/security?ref=89S42E)
+- [CCTV로 알바생 근태 확인, 어디까지 합법일까?](https://keeper.ceo/security?ref=89S42E)
 
 ---
 

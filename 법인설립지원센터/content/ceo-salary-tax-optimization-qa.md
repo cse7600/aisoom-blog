@@ -17,7 +17,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "법인설립지원센터"
-  url: "https://corp.apply.kr"
+  url: "https://k-startbiz.org/?ref=STARTBIZ_CYM"
 disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다."
 ---
 
@@ -159,16 +159,16 @@ disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로
 
 대표이사 급여는 한 번 정하면 변경하기 까다롭고, 세무 리스크와 직결된다. 2026년 개정 세법에 맞춰 우리 회사만의 최적 시뮬레이션이 필요하다면 전문가의 도움을 받는 것이 시행착오를 줄이는 지름길이다.
 
-[법인설립지원센터 무료 상담 신청하기 (절세 시뮬레이션 및 정관 정비 가이드) →](https://corp.apply.kr)
+[법인설립지원센터 무료 상담 신청하기 (절세 시뮬레이션 및 정관 정비 가이드) →](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다.
 
 ---
 
 ## 관련 글
-- [2026년 법인세율 및 구간별 절세 전략 가이드](https://corp.apply.kr/blog/corporate-tax-guide-2026)
-- [법인 정관 작성 시 놓치면 평생 후회하는 독소 조항 5가지](https://corp.apply.kr/blog/articles-of-incorporation-caution)
-- [가족 법인 설립을 통한 소득 분산과 증여세 절감법](https://corp.apply.kr/blog/family-corporation-tax-benefit)
+- [2026년 법인세율 및 구간별 절세 전략 가이드](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [법인 정관 작성 시 놓치면 평생 후회하는 독소 조항 5가지](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [가족 법인 설립을 통한 소득 분산과 증여세 절감법](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 ---
 

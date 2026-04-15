@@ -12,7 +12,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "키퍼메이트"
-  url: "https://keeper.ceo/"
+  url: "https://keeper.ceo/security?ref=89S42E"
 ---
 
 > 이 활동은 키퍼 메이트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
@@ -192,7 +192,7 @@ affiliate:
 
 ---
 
-[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/)
+[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/security?ref=89S42E)
 
 ## Q&A: 자주 묻는 질문
 
@@ -229,7 +229,7 @@ affiliate:
 
 지원금을 받고 남은 자부담을 24개월 할부로 나누면, 월 4만원 이하로 고화질 CCTV 시스템을 운용할 수 있다. 렌탈 계약처럼 약정에 묶이지 않고 장비를 직접 소유하는 구조다.
 
-[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/)
+[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/security?ref=89S42E)
 
 ---
 

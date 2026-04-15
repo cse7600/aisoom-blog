@@ -17,7 +17,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "법인설립지원센터"
-  url: "https://corp.apply.kr"
+  url: "https://k-startbiz.org/?ref=STARTBIZ_CYM"
 disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다. "
 ---
 
@@ -151,16 +151,16 @@ disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로
 
 법인 설립은 단순히 사업자 등록증의 명의를 바꾸는 것이 아니라, 세무 구조 자체를 재설계하는 과정이다. 2026년 세법에 최적화된 정관 작성부터 복잡한 등기 절차까지 전문가의 도움을 받는다면 시행착오를 줄일 수 있다.
 
-[법인설립지원센터 무료 상담 신청하기 (등기부터 세무까지 원스톱) →](https://corp.apply.kr)
+[법인설립지원센터 무료 상담 신청하기 (등기부터 세무까지 원스톱) →](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다.
 
 ---
 
 ## 관련 글
-- [2026년 법인세율 및 구간별 절세 전략 가이드](https://corp.apply.kr/blog/corporate-tax-guide-2026)
-- [1인 법인 설립 비용, 자본금 100만 원이면 충분할까?](https://corp.apply.kr/blog/one-person-corporation-cost)
-- [성실신고확인 대상자라면 꼭 알아야 할 법인 전환 타이밍](https://corp.apply.kr/blog/special-tax-verification-timing)
+- [2026년 법인세율 및 구간별 절세 전략 가이드](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [1인 법인 설립 비용, 자본금 100만 원이면 충분할까?](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [성실신고확인 대상자라면 꼭 알아야 할 법인 전환 타이밍](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 ---
 

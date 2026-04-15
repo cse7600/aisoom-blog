@@ -17,7 +17,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "법인설립지원센터"
-  url: "https://corp.apply.kr"
+  url: "https://k-startbiz.org/?ref=STARTBIZ_CYM"
 ---
 
 > 이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다.
@@ -153,15 +153,15 @@ affiliate:
 
 법인 설립부터 등기, 정관 작성, 그리고 향후 세무 관리까지 원스톱으로 도움을 받고 싶다면 아래 링크를 통해 전문가의 상담을 받아볼 수 있다.
 
-[법인설립지원센터 무료 상담 신청하기 →](https://corp.apply.kr)
+[법인설립지원센터 무료 상담 신청하기 →](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다.
 
 ---
 
 ## 관련 글
-- [개인사업자 법인전환 시점과 장단점 총정리](https://corp.apply.kr/blog/individual-to-corporate)
-- [2026년 중소기업 세액공제 가이드: 고용·투자·R&D](https://corp.apply.kr/blog/tax-credit-guide)
+- [개인사업자 법인전환 시점과 장단점 총정리](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [2026년 중소기업 세액공제 가이드: 고용·투자·R&D](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 ---
 

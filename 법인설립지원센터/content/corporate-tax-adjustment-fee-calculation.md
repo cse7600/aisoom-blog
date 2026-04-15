@@ -16,7 +16,7 @@ date: "2026-04-14"
 author: "꿀정보 에디터"
 affiliate:
   name: "법인설립지원센터"
-  url: "https://corp.apply.kr"
+  url: "https://k-startbiz.org/?ref=STARTBIZ_CYM"
 disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다."
 ---
 
@@ -158,16 +158,16 @@ disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로
 
 복잡한 법인 설립 절차부터 합리적인 세무 관리까지 한 번에 해결하고 싶다면, 전문가의 도움을 받는 것이 가장 빠르고 안전한 길이다.
 
-[법인설립지원센터 무료 상담 신청하기 (설립 비용 및 세무 견적 확인) →](https://corp.apply.kr)
+[법인설립지원센터 무료 상담 신청하기 (설립 비용 및 세무 견적 확인) →](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다.
 
 ---
 
 ## 관련 글
-- [2026년 법인세율 및 중소기업 세액감면 혜택 총정리](https://corp.apply.kr/blog/corporate-tax-rate-2026)
-- [세무기장료 아끼는 법: 셀프 기장 vs 세무 대리 비교](https://corp.apply.kr/blog/tax-bookkeeping-cost-saving)
-- [법인 전환 시 반드시 체크해야 할 영업권 평가와 절세 효과](https://corp.apply.kr/blog/goodwill-valuation-tax)
+- [2026년 법인세율 및 중소기업 세액감면 혜택 총정리](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [세무기장료 아끼는 법: 셀프 기장 vs 세무 대리 비교](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [법인 전환 시 반드시 체크해야 할 영업권 평가와 절세 효과](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 ---
 

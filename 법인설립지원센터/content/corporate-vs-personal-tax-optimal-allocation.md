@@ -16,7 +16,7 @@ date: "2026-04-14"
 author: "꿀정보 에디터"
 affiliate:
   name: "법인설립지원센터"
-  url: "https://corp.apply.kr"
+  url: "https://k-startbiz.org/?ref=STARTBIZ_CYM"
 disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었며, 소정의 수수료를 받을 수 있습니다."
 ---
 
@@ -161,16 +161,16 @@ disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로
 
 복잡한 법인 설립 절차부터 대표자 맞춤형 보수 설계까지, 실무 전문가의 도움을 받고 싶다면 아래 링크를 통해 무료 상담을 신청할 수 있다.
 
-[법인설립지원센터 무료 상담 신청하기 (보수 설계 및 절세 진단) →](https://corp.apply.kr)
+[법인설립지원센터 무료 상담 신청하기 (보수 설계 및 절세 진단) →](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다.
 
 ---
 
 ## 관련 글
-- [2026년 법인세율 개정안과 중소기업 혜택 총정리](https://corp.apply.kr/blog/corporate-tax-2026)
-- [가지급금 해결 방법 5가지: 대표이사 소득세 폭탄 피하기](https://corp.apply.kr/blog/how-to-solve-temporary-payments)
-- [1인 법인 설립 시 정관 작성 주의사항: 임원 보수 규정의 중요성](https://corp.apply.kr/blog/articles-of-incorporation-tips)
+- [2026년 법인세율 개정안과 중소기업 혜택 총정리](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [가지급금 해결 방법 5가지: 대표이사 소득세 폭탄 피하기](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [1인 법인 설립 시 정관 작성 주의사항: 임원 보수 규정의 중요성](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 ---
 

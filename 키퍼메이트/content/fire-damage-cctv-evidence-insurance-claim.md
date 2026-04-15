@@ -12,7 +12,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "키퍼메이트"
-  url: "https://keeper.ceo/"
+  url: "https://keeper.ceo/security?ref=89S42E"
 disclosure: "이 활동은 키퍼 메이트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
 ---
 
@@ -135,13 +135,13 @@ CCTV 영상을 제출할 때는 보험사 보상팀이나 소방서에서 즉시
 
 불의의 사고로부터 소중한 매장과 자산을 지키고 싶다면, 지금 바로 키퍼메이트 전문가와 상의하여 최적의 화재 감시 및 증거 보존 시스템을 구축하길 바란다.
 
-[한화비전 키퍼 매장 화재 예방 및 보안 상담하기 →](https://keeper.ceo/)
+[한화비전 키퍼 매장 화재 예방 및 보안 상담하기 →](https://keeper.ceo/security?ref=89S42E)
 
 ---
 
 ## 관련 글
-- [CCTV 영상 보안 및 해킹 방지 — 국산 칩셋이 중요한 이유](https://keeper.ceo/blog/cctv-security-korean-chipset)
-- [소상공인 보험 청구 시 필수 서류와 CCTV 활용법](https://keeper.ceo/blog/insurance-claim-cctv-guide)
+- [CCTV 영상 보안 및 해킹 방지 — 국산 칩셋이 중요한 이유](https://keeper.ceo/security?ref=89S42E)
+- [소상공인 보험 청구 시 필수 서류와 CCTV 활용법](https://keeper.ceo/security?ref=89S42E)
 
 ---
 

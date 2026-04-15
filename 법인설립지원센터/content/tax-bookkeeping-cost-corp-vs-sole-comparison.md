@@ -17,7 +17,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "법인설립지원센터"
-  url: "https://corp.apply.kr"
+  url: "https://k-startbiz.org/?ref=STARTBIZ_CYM"
 disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다."
 ---
 
@@ -136,16 +136,16 @@ disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로
 
 세무기장은 단순한 지출이 아니라 국가에 내는 세금을 최적화하고 법적 리스크를 관리하는 '보험'과 같다. 특히 법인 설립을 준비 중이라면 초기 세무 세팅이 향후 5년의 세금을 결정할 수 있다. 전문가와의 상담을 통해 우리 회사에 딱 맞는 세무 파트너를 찾는 것이 중요하다.
 
-[법인설립지원센터 무료 상담 신청하기 (법인설립부터 세무기장 매칭까지 원스톱 가이드) →](https://corp.apply.kr)
+[법인설립지원센터 무료 상담 신청하기 (법인설립부터 세무기장 매칭까지 원스톱 가이드) →](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다.
 
 ---
 
 ## 관련 글
-- [2026년 개인사업자 법인전환 유리한 매출 시점 분석](https://corp.apply.kr/blog/sole-proprietorship-to-corporate-timing)
-- [법인세 신고 시 주의해야 할 주요 가산세 항목 5가지](https://corp.apply.kr/blog/corporate-tax-penalty-caution)
-- [복식부기 의무자 기준과 장부 미작성 시 불이익 총정리](https://corp.apply.kr/blog/double-entry-bookkeeping-guide)
+- [2026년 개인사업자 법인전환 유리한 매출 시점 분석](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [법인세 신고 시 주의해야 할 주요 가산세 항목 5가지](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [복식부기 의무자 기준과 장부 미작성 시 불이익 총정리](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 ---
 

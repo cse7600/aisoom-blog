@@ -17,7 +17,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "법인설립지원센터"
-  url: "https://corp.apply.kr"
+  url: "https://k-startbiz.org/?ref=STARTBIZ_CYM"
 disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다."
 ---
 
@@ -177,16 +177,16 @@ disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로
 
 법인세 중간예납은 단순한 세금 납부를 넘어 상반기 경영 실적을 중간 점검하는 지표가 된다. 특히 자금 여력이 부족한 성장기 법인이라면 8월의 세금 지출이 하반기 운영 자금에 미칠 영향을 미리 계산해야 한다. 법인 설립 초기부터 투명한 기장 시스템을 갖추었다면 가결산 방식을 통해 합리적인 절세가 가능하다.
 
-[법인설립지원센터 무료 상담 신청하기 (법인 설립부터 중간예납 세무 가이드까지) →](https://corp.apply.kr)
+[법인설립지원센터 무료 상담 신청하기 (법인 설립부터 중간예납 세무 가이드까지) →](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다.
 
 ---
 
 ## 관련 글
-- [법인세율 2026년 가이드 — 과세표준별 절세 전략](https://corp.apply.kr/blog/corporate-tax-rates-2026)
-- [중소기업 세액공제 혜택 TOP 5 총정리](https://corp.apply.kr/blog/small-business-tax-credits)
-- [법인 결산 시 주의해야 할 가공경비와 증빙 관리법](https://corp.apply.kr/blog/corporate-accounting-caution)
+- [법인세율 2026년 가이드 — 과세표준별 절세 전략](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [중소기업 세액공제 혜택 TOP 5 총정리](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [법인 결산 시 주의해야 할 가공경비와 증빙 관리법](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 ---
 

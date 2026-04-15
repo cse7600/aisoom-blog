@@ -12,7 +12,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "키퍼메이트"
-  url: "https://keeper.ceo/"
+  url: "https://keeper.ceo/security?ref=89S42E"
 ---
 
 > 이 활동은 키퍼 메이트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
@@ -138,7 +138,7 @@ affiliate:
 
 ---
 
-[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/)
+[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/security?ref=89S42E)
 
 ## Q&A: 자주 묻는 질문
 
@@ -173,7 +173,7 @@ affiliate:
 
 학원 규모와 운영 방식에 맞는 카메라 구성이 필요하다면, 현장 방문 상담을 통해 사각지대 없는 배치를 먼저 확인하는 것이 좋다.
 
-[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/)
+[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/security?ref=89S42E)
 
 ---
 

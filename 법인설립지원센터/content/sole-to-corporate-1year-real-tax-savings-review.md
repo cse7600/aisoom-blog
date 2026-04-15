@@ -17,7 +17,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "법인설립지원센터"
-  url: "https://corp.apply.kr"
+  url: "https://k-startbiz.org/?ref=STARTBIZ_CYM"
 disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다."
 ---
 
@@ -144,16 +144,16 @@ disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로
 
 법인 전환은 단순히 세금을 줄이는 기술이 아니라 사업의 체질을 바꾸는 과정이다. 2026년 세법 개정안에 따라 고용 지원 세액공제나 중소기업 특별세액감면 요건이 변동될 수 있으므로, 최종 실행 전에는 반드시 실제 시뮬레이션을 거쳐야 한다. 법인 설립부터 등기, 정관 작성까지 원스톱으로 지원받는 것이 시행착오를 줄이는 방법이다.
 
-[법인설립지원센터 무료 상담 신청하기 (무료 등기 및 세무 구조 설계) →](https://corp.apply.kr)
+[법인설립지원센터 무료 상담 신청하기 (무료 등기 및 세무 구조 설계) →](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다.
 
 ---
 
 ## 관련 글
-- [2026년 법인세율 완벽 가이드: 과표구간별 절세 전략](https://corp.apply.kr/blog/corporate-tax-rates-2026)
-- [개인사업자 포괄양수도 법인전환 시 주의사항 5가지](https://corp.apply.kr/blog/business-transfer-caution)
-- [법인 대표이사 가지급금 해결하는 3가지 합법적 방법](https://corp.apply.kr/blog/temporary-payment-solutions)
+- [2026년 법인세율 완벽 가이드: 과표구간별 절세 전략](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [개인사업자 포괄양수도 법인전환 시 주의사항 5가지](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [법인 대표이사 가지급금 해결하는 3가지 합법적 방법](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 ---
 

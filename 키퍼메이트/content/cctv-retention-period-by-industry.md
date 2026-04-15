@@ -12,7 +12,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "키퍼메이트"
-  url: "https://keeper.ceo/"
+  url: "https://keeper.ceo/security?ref=89S42E"
 disclosure: "이 활동은 키퍼 메이트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
 ---
 
@@ -147,13 +147,13 @@ CCTV보관기간 관리는 단순한 기술 세팅을 넘어 사장님의 사업
 
 불필요한 과태료 리스크를 줄이고 월 고정비까지 아끼고 싶다면, 지금 바로 키퍼메이트 상담을 통해 우리 매장에 최적화된 저장 용량과 보안 설계를 확인하길 바란다.
 
-[한화비전 키퍼 업종별 맞춤 견적 및 법적 가이드 문의하기 →](https://keeper.ceo/)
+[한화비전 키퍼 업종별 맞춤 견적 및 법적 가이드 문의하기 →](https://keeper.ceo/security?ref=89S42E)
 
 ---
 
 ## 관련 글
-- [매장 CCTV 안내판 문구와 설치 위치 — 과태료 1,000만 원 피하는 법](https://keeper.ceo/blog/cctv-signage-guide)
-- [CCTV 200만 화소 vs 400만 화소 — 얼굴 식별 가능한 적정 스펙은?](https://keeper.ceo/blog/cctv-resolution-comparison)
+- [매장 CCTV 안내판 문구와 설치 위치 — 과태료 1,000만 원 피하는 법](https://keeper.ceo/security?ref=89S42E)
+- [CCTV 200만 화소 vs 400만 화소 — 얼굴 식별 가능한 적정 스펙은?](https://keeper.ceo/security?ref=89S42E)
 
 ---
 

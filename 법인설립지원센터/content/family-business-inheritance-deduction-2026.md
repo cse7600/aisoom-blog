@@ -16,7 +16,7 @@ date: "2026-04-14"
 author: "꿀정보 에디터"
 affiliate:
   name: "법인설립지원센터"
-  url: "https://corp.apply.kr"
+  url: "https://k-startbiz.org/?ref=STARTBIZ_CYM"
 disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다."
 ---
 
@@ -161,16 +161,16 @@ disclosure: "이 포스팅은 법인설립지원센터의 파트너 활동으로
 
 가업상속공제는 요건이 까다롭고 사후관리 리스크가 크지만, 제대로 활용하면 수백억 원의 세금을 절감하며 기업의 맥을 이을 수 있는 제도다. 특히 개인사업자에서 법인으로의 전환은 이 모든 승계 전략의 출발점이다. 복잡한 세법 해석과 등기 절차에서 실수를 줄이려면 전문가의 통합 가이드를 받는 것이 권장된다.
 
-[법인설립지원센터 무료 상담 신청하기 (가업 승계 구조 및 법인 전환 진단) →](https://corp.apply.kr)
+[법인설립지원센터 무료 상담 신청하기 (가업 승계 구조 및 법인 전환 진단) →](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다.
 
 ---
 
 ## 관련 글
-- [2026년 비상장주식 가치 평가 방법 및 절세 전략](https://corp.apply.kr/blog/unlisted-stock-valuation)
-- [중소기업 가업승계 주식 증여세 과세특례 완벽 정리](https://corp.apply.kr/blog/family-business-gift-tax)
-- [개인사업자 법인 전환 시 사업용 자산 판정 주의사항](https://corp.apply.kr/blog/business-asset-judgment)
+- [2026년 비상장주식 가치 평가 방법 및 절세 전략](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [중소기업 가업승계 주식 증여세 과세특례 완벽 정리](https://k-startbiz.org/?ref=STARTBIZ_CYM)
+- [개인사업자 법인 전환 시 사업용 자산 판정 주의사항](https://k-startbiz.org/?ref=STARTBIZ_CYM)
 
 ---
 

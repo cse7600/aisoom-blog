@@ -12,7 +12,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "키퍼메이트"
-  url: "https://keeper.ceo/"
+  url: "https://keeper.ceo/security?ref=89S42E"
 ---
 
 > 이 활동은 키퍼 메이트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
@@ -128,7 +128,7 @@ KC 인증은 전기 안전 중심이라 사이버 보안을 직접 검증하지 
 
 ---
 
-[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/)
+[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/security?ref=89S42E)
 
 ## Q&A: 자주 묻는 질문
 
@@ -163,7 +163,7 @@ KC 인증은 전기 안전 중심이라 사이버 보안을 직접 검증하지 
 
 CCTV 장비 선택 단계에서 보안 스펙을 따지는 것이 사후 대응보다 훨씬 비용이 적게 든다.
 
-[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/)
+[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/security?ref=89S42E)
 
 ---
 

@@ -12,7 +12,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "키퍼메이트"
-  url: "https://keeper.ceo/"
+  url: "https://keeper.ceo/security?ref=89S42E"
 disclosure: "이 활동은 키퍼 메이트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다."
 ---
 
@@ -130,13 +130,13 @@ S1보안과 같은 대기업 렌탈 서비스는 편리하지만, 그 대가로 
 
 지금 바로 키퍼메이트 무료 상담을 통해 우리 매장에 맞는 최적의 견적을 확인하고, 불필요한 렌탈료 지출을 멈추길 바란다.
 
-[한화비전 키퍼 3년 비용 상세 견적 문의하기 →](https://keeper.ceo/)
+[한화비전 키퍼 3년 비용 상세 견적 문의하기 →](https://keeper.ceo/security?ref=89S42E)
 
 ---
 
 ## 관련 글
-- [매장 CCTV 구매 vs 렌탈 3년 비용 시뮬레이션 — 150만 원 차이의 진실](https://keeper.ceo/blog/cctv-purchase-vs-rental-cost)
-- [CCTV 위약금 없이 해지하는 법 — 렌탈 계약서 독소조항 확인법](https://keeper.ceo/blog/cctv-contract-termination-guide)
+- [매장 CCTV 구매 vs 렌탈 3년 비용 시뮬레이션 — 150만 원 차이의 진실](https://keeper.ceo/security?ref=89S42E)
+- [CCTV 위약금 없이 해지하는 법 — 렌탈 계약서 독소조항 확인법](https://keeper.ceo/security?ref=89S42E)
 
 ---
 

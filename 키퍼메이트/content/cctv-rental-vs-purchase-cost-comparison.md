@@ -12,7 +12,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "키퍼메이트"
-  url: "https://keeper.ceo/"
+  url: "https://keeper.ceo/security?ref=89S42E"
 ---
 
 > 이 활동은 키퍼 메이트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
@@ -164,7 +164,7 @@ affiliate:
 
 무료 상담이니까 견적만 받아봐도 비교가 된다.
 
-[한화비전 키퍼 무료 상담받기](https://keeper.ceo/)
+[한화비전 키퍼 무료 상담받기](https://keeper.ceo/security?ref=89S42E)
 
 ---
 
@@ -176,7 +176,7 @@ affiliate:
 
 출처
 - 무인점포 절도 통계: [경찰청 범죄통계](https://www.police.go.kr/www/open/publice/publice0204.jsp)
-- 한화비전 키퍼 상품 정보: [키퍼 공식 사이트](https://keeper.ceo/)
+- 한화비전 키퍼 상품 정보: [키퍼 공식 사이트](https://keeper.ceo/security?ref=89S42E)
 
 ---
 

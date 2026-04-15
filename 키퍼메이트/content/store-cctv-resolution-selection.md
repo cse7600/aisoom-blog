@@ -12,7 +12,7 @@ author: "꿀정보 에디터"
 featured: false
 affiliate:
   name: "키퍼메이트"
-  url: "https://keeper.ceo/"
+  url: "https://keeper.ceo/security?ref=89S42E"
 ---
 
 > 이 활동은 키퍼 메이트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.
@@ -176,7 +176,7 @@ IP 카메라 내장 IR LED의 사거리가 20m인지 40m인지에 따라 야간 
 
 ---
 
-[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/)
+[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/security?ref=89S42E)
 
 ## Q&A: 자주 묻는 질문
 
@@ -212,7 +212,7 @@ IP 카메라 내장 IR LED의 사거리가 20m인지 40m인지에 따라 야간 
 
 한화비전 키퍼메이트는 400만화소 구성을 기본으로 하며, 매장 규모와 용도에 맞게 카메라 대수와 화소를 조합해 견적을 제안한다. 무료 상담을 통해 우리 매장에 맞는 구성을 확인할 수 있다.
 
-[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/)
+[한화비전 키퍼 무료 상담 받기 →](https://keeper.ceo/security?ref=89S42E)
 
 ---
 
