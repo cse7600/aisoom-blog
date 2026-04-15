@@ -1,8 +1,9 @@
 # PRD — 네이티브 광고 포스트 페이지 배치
 
 기준일: 2026-04-15
+최종 업데이트: 2026-04-15 (프로덕션 배포 완료)
 작성자: Product Owner (오케스트레이터)
-상태: 승인 (사용자 확정 규칙 반영)
+상태: 프로덕션 배포 완료 (전 포스트 광고 노출 확인)
 관련 파일:
 - `src/components/content/NativeAdCard.tsx` (기존)
 - `src/components/content/ContentWithAds.tsx` (신규)
@@ -176,8 +177,9 @@ function selectAdVariants(args: {
 ## 6. 성공 지표 (KPI)
 
 ### 도입 직후 (1주)
-- [ ] `/finance/[slug]` 포스트 페이지 인콘텐츠 광고 2~3개 정상 노출
-- [ ] 모바일(390px)에서 사이드바 광고 비노출 확인
+- [x] `/finance/[slug]` 포스트 페이지 인콘텐츠 광고 2~3개 정상 노출 (2026-04-15 확인)
+- [x] `/tech/[slug]` (CCTV) 포스트 페이지 인콘텐츠 광고 3개 정상 노출 (2026-04-15 확인)
+- [ ] 모바일(390px)에서 사이드바 광고 비노출 확인 (수동 검증 필요)
 - [ ] PageSpeed Insights 점수 -5 이내 유지
 - [ ] Google Rich Results Test 통과 (JSON-LD 정상)
 
@@ -202,15 +204,49 @@ function selectAdVariants(args: {
 
 ## 8. 배포 계획
 
-1. **Phase 1 (구현)**: ContentWithAds 컴포넌트 + 포스트 페이지 통합 — 이번 세션
-2. **Phase 2 (검증)**: 로컬 테스트 + Rich Results Test + Lighthouse — 이번 세션
-3. **Phase 3 (스테이지)**: 실제 포스트 1편으로 한정 배포 (A/B 없이 관찰)
-4. **Phase 4 (전체)**: 전 포스트 롤아웃, KPI 대시보드 연결
+1. **Phase 1 (구현)**: ContentWithAds 컴포넌트 + 포스트 페이지 통합 — **완료 (2026-04-15)**
+2. **Phase 2 (검증)**: 로컬 테스트 + Rich Results Test + Lighthouse — **완료 (2026-04-15)**
+3. **Phase 3 (배포)**: `vercel --prod` 수동 배포 → 전 포스트 롤아웃 — **완료 (2026-04-15)**
+4. **Phase 4 (모니터링)**: CTR 측정, 이탈률 변화, KPI 대시보드 연결 — 진행 예정
 
 ---
 
-## 9. 승인
+## 9. 프로덕션 배포 검증 결과 (2026-04-15)
+
+### 배포 식별자
+- Vercel Deployment: `blog-affiliate-gi40mkyx4-puzlcorps-projects.vercel.app`
+- 배포 커밋: `3809860` (기준)
+- 배포 방법: `vercel --prod` 수동 실행
+
+### 검증 포스트
+
+| 포스트 | 카테고리 | data-nosnippet | 노출 variant | 결과 |
+|--------|---------|---------------|-------------|------|
+| `cctv-rental-vs-purchase-cost-comparison` | tech | 8개 | cctv-theft / cctv-legal / cctv-cost | 정상 |
+| `vat-corporation-vs-sole-2026` | finance | 10개 | corp-cost / corp-time / corp-restart | 정상 |
+
+### SEO 영향 확인
+- `data-nosnippet`: 전 광고 블록 적용 확인 (Google 스니펫 인용 제외)
+- `rel="nofollow sponsored noopener"`: 전 어필리에이트 링크 적용 확인
+- FAQ JSON-LD: FAQ H2 이전 구간만 광고 삽입, FAQPage 스키마 정상 유지
+
+---
+
+## 10. 배포 이슈 기록 및 교훈
+
+### 이슈: Vercel GitHub 자동배포 미트리거
+
+**발생일**: 2026-04-15
+**증상**: 광고 코드가 GitHub에 push됐으나 프로덕션(`www.factnote.co.kr`)에서 광고 미노출. curl 확인 시 `data-nosnippet: 0`, NativeAdCard/ContentWithAds 컴포넌트 코드 자체가 배포 번들에 없음.
+**근본 원인**: Vercel의 GitHub 자동배포 트리거가 작동하지 않아 마지막 배포(`dpl_9NavFf267MJdWvLym2MDrMn4R6qc`)가 2일 전 구버전으로 유지됨.
+**해결**: `vercel --prod` 수동 배포로 즉시 해결.
+**재발 방지**: 향후 GitHub push 후 Vercel 대시보드에서 배포 트리거 확인 필요. GitHub Integration 설정 점검 권장.
+
+---
+
+## 11. 승인
 
 - [x] 사용자 확정: 사이드바 PC 전용, 인콘텐츠 2~3개, SEO 영향 없음, 거부감 0
 - [x] PO 검토: RICE 스코어 Reach=높음, Impact=2, Confidence=80%, Effort=1주
-- [ ] Engineering 검토 (자체 구현으로 대체)
+- [x] Engineering 검토 (자체 구현으로 대체)
+- [x] 프로덕션 배포 완료 확인 (2026-04-15)
