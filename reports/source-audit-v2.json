@@ -1,0 +1,54 @@
+{
+  "summary": {
+    "generatedAt": "2026-04-15T05:08:56.964Z",
+    "affiliates": [
+      "키퍼메이트",
+      "법인설립지원센터",
+      "밀리의서재",
+      "차별화상회"
+    ],
+    "uniqueUrls": 56,
+    "totalOccurrences": 214,
+    "failed": 3,
+    "tierDistribution": {
+      "tier1": 143,
+      "tier2": 34,
+      "tier3": 31,
+      "tier4": 0,
+      "blacklist": 1,
+      "unknown": 5
+    }
+  },
+  "failures": [
+    {
+      "affiliate": "키퍼메이트",
+      "file": "키퍼메이트/content/cctv-hacking-chinese-vs-korean.md",
+      "anchor": "미국 NDAA 섹션 889 — 통신장비 조달 금지 규정",
+      "url": "https://www.congress.gov",
+      "status": 403,
+      "reason": "http_error",
+      "error": "HTTP 403",
+      "tier": "unknown"
+    },
+    {
+      "affiliate": "키퍼메이트",
+      "file": "키퍼메이트/content/small-business-cctv-subsidy-2026-2026-04-11T17-31.md",
+      "anchor": "서울시 소상공인 종합지원포털 — 경영환경개선사업 안내(2026)",
+      "url": "https://www.seoulallnet.or.kr",
+      "status": null,
+      "reason": "dns",
+      "error": "fetch failed",
+      "tier": "tier2"
+    },
+    {
+      "affiliate": "키퍼메이트",
+      "file": "키퍼메이트/content/small-business-cctv-subsidy-2026.md",
+      "anchor": "경기도 소상공인 지원센터",
+      "url": "https://www.gbsc.or.kr",
+      "status": null,
+      "reason": "blacklist",
+      "error": "fetch failed",
+      "tier": "blacklist"
+    }
+  ]
+}

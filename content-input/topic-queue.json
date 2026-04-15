@@ -1,6 +1,6 @@
 {
   "_comment": "블로그 콘텐츠 주제 큐 — research-and-queue.mjs가 이 파일에서 주제를 꺼내어 generate-content.mjs로 전달함. 발행 완료 시 status를 'used'로 바꾸거나 삭제 | 2026-04-12: keeper.ceo/blog 경쟁사 분석 기반 블루오션 주제 10개 추가 (hit-scout)",
-  "updatedAt": "2026-04-14",
+  "updatedAt": "2026-04-15",
   "queue": {
     "키퍼메이트": [
       {
@@ -313,6 +313,415 @@
         "generatedAt": "2026-04-11T18:05:11.227Z",
         "draftPath": "키퍼메이트/content/cctv-privacy-law-2026-update-checklist.md",
         "publishedAt": "2026-05-08T03:10:25+00:00"
+      },
+      {
+        "topic": "세콤 월 비용은 실제 얼마인가 — 10평·20평·40평 매장별 2026년 견적 공개",
+        "angle": "세콤 공식 홈페이지 공개 정보 기준 평형별 월 비용, 약정 기간 3년·5년 차이, 초기 설치비와 해지 위약금 구조. 구매형 CCTV와 3년 총비용 비교.",
+        "keywords": [
+          "세콤",
+          "세콤비용",
+          "세콤가격",
+          "세콤CCTV"
+        ],
+        "slugHint": "secom-monthly-cost-real-estimate-2026",
+        "status": "generated",
+        "discoveredAt": "2026-04-15T05:43:45.487Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 34,
+        "bestMatch": {
+          "keyword": "세콤",
+          "total": 11280,
+          "comp": "medium",
+          "score": 34,
+          "sourceFile": "2026-04-10-키퍼메이트-v2.json",
+          "matchType": "exact",
+          "searchedBy": "세콤"
+        },
+        "generatedAt": "2026-04-15T05:55:20.569Z",
+        "draftPath": "키퍼메이트/content/secom-monthly-cost-real-estimate-2026.md"
+      },
+      {
+        "topic": "에스원 CCTV 견적 표준과 실제 계약서 확인 포인트 — 2026년",
+        "angle": "에스원 공식 공개 가격과 실제 계약 시 차이나는 항목(관제 옵션·카메라 등급·녹화기 용량). 3년/5년 약정 월 비용 차이, 해지 시 위약금 산정식.",
+        "keywords": [
+          "에스원CCTV",
+          "에스원CCTV가격",
+          "에스원가격",
+          "에스원비용",
+          "삼성에스원"
+        ],
+        "slugHint": "s-one-cctv-quote-standard-2026",
+        "status": "generated",
+        "discoveredAt": "2026-04-15T05:43:45.487Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 24,
+        "bestMatch": {
+          "keyword": "삼성에스원",
+          "total": 3490,
+          "comp": "medium",
+          "score": 24,
+          "sourceFile": "2026-04-10-키퍼메이트-v2.json",
+          "matchType": "exact",
+          "searchedBy": "삼성에스원"
+        },
+        "generatedAt": "2026-04-15T05:55:55.408Z",
+        "draftPath": "키퍼메이트/content/s-one-cctv-quote-standard-2026.md"
+      },
+      {
+        "topic": "ADT캡스 뷰가드 해지 위약금 계산법 — 3년 약정 1년 차 해지 시 실제 금액",
+        "angle": "ADT캡스 뷰가드 표준 약관 기준 위약금 산정 공식(잔여 약정 월수 × 월 요금 × 할인율 반영). 1년·2년·2년 반 시점별 실제 계산 시뮬레이션.",
+        "keywords": [
+          "ADT캡스뷰가드",
+          "ADT뷰가드",
+          "ADT캡스가격",
+          "ADTCAPS"
+        ],
+        "slugHint": "adt-caps-viewguard-cancellation-fee",
+        "status": "generated",
+        "discoveredAt": "2026-04-15T05:43:45.487Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 27,
+        "bestMatch": {
+          "keyword": "ADT캡스뷰가드",
+          "total": 5680,
+          "comp": "medium",
+          "score": 27,
+          "sourceFile": "2026-04-10-키퍼메이트-discover.json",
+          "matchType": "exact",
+          "searchedBy": "ADT캡스뷰가드"
+        },
+        "generatedAt": "2026-04-15T05:56:32.471Z",
+        "draftPath": "키퍼메이트/content/adt-caps-viewguard-cancellation-fee.md"
+      },
+      {
+        "topic": "캡스 고객센터 자주 묻는 질문 총정리 — 해지·이전·요금 문의 답변",
+        "angle": "캡스(ADT캡스) 고객센터에 가장 많이 들어오는 질문 20개를 공개 데이터 기반으로 정리. 해지 접수 방법, 매장 이전 시 계약 이관, 월 청구 이의 신청.",
+        "keywords": [
+          "캡스고객센터",
+          "ADT캡스고객센터전화번호",
+          "캡스비용",
+          "캡스CCTV"
+        ],
+        "slugHint": "caps-customer-center-faq-complete",
+        "status": "generated",
+        "discoveredAt": "2026-04-15T05:43:45.487Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 64,
+        "bestMatch": {
+          "keyword": "캡스고객센터",
+          "total": 19660,
+          "comp": "low",
+          "score": 64,
+          "sourceFile": "2026-04-10-키퍼메이트-v2.json",
+          "matchType": "exact",
+          "searchedBy": "캡스고객센터"
+        },
+        "generatedAt": "2026-04-15T05:57:06.526Z",
+        "draftPath": "키퍼메이트/content/caps-customer-center-faq-complete.md"
+      },
+      {
+        "topic": "매장 CCTV 구매 vs 렌탈 3년 총비용 비교표 — 평형별 실제 수치",
+        "angle": "10평·20평·40평·80평 각각 카메라 수량 설정 후 구매형(한화비전 키퍼) vs 렌탈형(캡스/세콤/에스원) 3년 총 지출 비교. 관리·유지보수 비용까지 포함.",
+        "keywords": [
+          "CCTV설치비용",
+          "CCTV비용",
+          "CCTV렌탈비용",
+          "CCTV가격비교",
+          "매장CCTV설치비용"
+        ],
+        "slugHint": "cctv-purchase-vs-rental-3year-tco",
+        "status": "generated",
+        "discoveredAt": "2026-04-15T05:43:45.487Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 7,
+        "bestMatch": {
+          "keyword": "CCTV설치비용",
+          "total": 1510,
+          "comp": "high",
+          "score": 7,
+          "sourceFile": "2026-04-10-키퍼메이트-discover.json",
+          "matchType": "exact",
+          "searchedBy": "CCTV설치비용"
+        },
+        "generatedAt": "2026-04-15T05:57:42.993Z",
+        "draftPath": "키퍼메이트/content/cctv-purchase-vs-rental-3year-tco.md"
+      },
+      {
+        "topic": "카페 CCTV 몇 대가 적정한가 — 10~40평 매장별 배치도 가이드",
+        "angle": "계산대·출입구·주방·외부 4존 기본 원칙과 평형별 카메라 추가 규칙. 소상공인시장진흥공단 지원금과 함께 계산한 실제 부담금.",
+        "keywords": [
+          "카페CCTV",
+          "매장CCTV",
+          "매장CCTV추천",
+          "매장CCTV설치비용"
+        ],
+        "slugHint": "cafe-cctv-optimal-placement-guide",
+        "status": "generated",
+        "discoveredAt": "2026-04-15T05:43:45.487Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 6,
+        "bestMatch": {
+          "keyword": "매장CCTV",
+          "total": 1030,
+          "comp": "high",
+          "score": 6,
+          "sourceFile": "2026-04-10-키퍼메이트-discover.json",
+          "matchType": "exact",
+          "searchedBy": "매장CCTV"
+        },
+        "generatedAt": "2026-04-15T05:58:27.372Z",
+        "draftPath": "키퍼메이트/content/cafe-cctv-optimal-placement-guide.md"
+      },
+      {
+        "topic": "무인매장 CCTV 완벽 구성 — 출입 인증기·도난 방지·원격 관제 3중 구조",
+        "angle": "무인 스터디카페·무인 밀키트·무인 세탁소 케이스별 필수 장비 목록. 평균 도난 1건당 손실액 8~15만원 기준 월 렌탈료 손익분기 계산.",
+        "keywords": [
+          "무인매장CCTV",
+          "매장CCTV",
+          "매장CCTV추천"
+        ],
+        "slugHint": "unmanned-store-cctv-3layer-setup",
+        "status": "generated",
+        "discoveredAt": "2026-04-15T05:43:45.487Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 8,
+        "bestMatch": {
+          "keyword": "관제",
+          "total": 2900,
+          "comp": "high",
+          "score": 8,
+          "sourceFile": "2026-04-10-키퍼메이트-v2.json",
+          "matchType": "exact",
+          "searchedBy": "관제"
+        },
+        "generatedAt": "2026-04-15T05:58:56.465Z",
+        "draftPath": "키퍼메이트/content/unmanned-store-cctv-3layer-setup.md"
+      },
+      {
+        "topic": "학원 CCTV 설치 시 학부모 동의가 필요한가 — 개인정보보호법 완벽 정리",
+        "angle": "14세 미만 미성년자 영상 촬영 시 법정대리인 동의 요건, 안내판 필수 기재 7항목, 화장실·탈의실 촬영 절대 금지 구역. 실제 과태료 부과 사례.",
+        "keywords": [
+          "학원CCTV",
+          "학원CCTV설치",
+          "CCTV설치"
+        ],
+        "slugHint": "academy-cctv-parental-consent-privacy-law",
+        "status": "generated",
+        "discoveredAt": "2026-04-15T05:43:45.487Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 5,
+        "bestMatch": {
+          "keyword": "학원CCTV",
+          "total": 250,
+          "comp": "high",
+          "score": 5,
+          "sourceFile": "2026-04-10-키퍼메이트-discover.json",
+          "matchType": "exact",
+          "searchedBy": "학원CCTV"
+        },
+        "generatedAt": "2026-04-15T05:59:17.897Z",
+        "draftPath": "키퍼메이트/content/academy-cctv-parental-consent-privacy-law.md"
+      },
+      {
+        "topic": "식당 CCTV 주방 설치 합법인가 — 위생·산업안전·개인정보 3각 검토",
+        "angle": "식품위생법·산업안전보건법·개인정보보호법 세 법률이 교차하는 주방 CCTV 이슈. 조리사 동의 요건과 위생 관리 목적 범위.",
+        "keywords": [
+          "식당CCTV",
+          "음식점CCTV",
+          "매장CCTV"
+        ],
+        "slugHint": "restaurant-kitchen-cctv-legality",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:45.487Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 6,
+        "bestMatch": {
+          "keyword": "매장CCTV",
+          "total": 1030,
+          "comp": "high",
+          "score": 6,
+          "sourceFile": "2026-04-10-키퍼메이트-discover.json",
+          "matchType": "exact",
+          "searchedBy": "매장CCTV"
+        }
+      },
+      {
+        "topic": "직원 감시 목적 CCTV가 왜 5,000만원 과태료 대상인가 — 합법 범위 체크리스트",
+        "angle": "개인정보보호법 제25조 영상정보처리기기 설치·운영 제한, 직원 감시 적용 사례. '범죄예방·시설안전·화재예방' 합법 목적 3개 한정. 안내판 필수 기재 항목.",
+        "keywords": [
+          "CCTV음성녹음",
+          "직원근태관리",
+          "근태관리기"
+        ],
+        "slugHint": "employee-surveillance-cctv-legal-limits",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:45.487Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 21,
+        "bestMatch": {
+          "keyword": "근태관리기",
+          "total": 490,
+          "comp": "medium",
+          "score": 21,
+          "sourceFile": "2026-04-14-노무.json",
+          "matchType": "exact",
+          "searchedBy": "근태관리기"
+        }
+      },
+      {
+        "topic": "CCTV 안내판 문구 작성법 — 개인정보보호위원회 표준 양식 그대로",
+        "angle": "개인정보보호위원회 고시 표준안 기준 설치목적·촬영범위·촬영시간·관리책임자·연락처 5항목 필수. 실제 배포용 HWP/PDF 양식 안내.",
+        "keywords": [
+          "CCTV음성녹음",
+          "매장CCTV설치",
+          "도난방지시스템"
+        ],
+        "slugHint": "cctv-notice-board-standard-template",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:45.487Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 44,
+        "bestMatch": {
+          "keyword": "양식",
+          "total": 19860,
+          "comp": "medium",
+          "score": 44,
+          "sourceFile": "2026-04-14-노무.json",
+          "matchType": "exact",
+          "searchedBy": "양식"
+        }
+      },
+      {
+        "topic": "외부 CCTV 설치 시 야외 내구성 기준 — IP등급·온도 규격 실전 선택",
+        "angle": "IP66·IP67 방수방진 등급 차이, -30도~50도 동작 온도, 농막·주차장·야외 창고용 카메라 선택 기준. 실제 실패 사례와 대응.",
+        "keywords": [
+          "외부CCTV추천",
+          "매장CCTV설치",
+          "CCTV설치"
+        ],
+        "slugHint": "outdoor-cctv-ip-rating-guide",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:45.487Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 20,
+        "bestMatch": {
+          "keyword": "외부CCTV추천",
+          "total": 220,
+          "comp": "medium",
+          "score": 20,
+          "sourceFile": "2026-04-10-키퍼메이트-discover.json",
+          "matchType": "exact",
+          "searchedBy": "외부CCTV추천"
+        }
+      },
+      {
+        "topic": "농막 CCTV 설치 가이드 — 전원·통신·방수 3대 숙제 해결법",
+        "angle": "태양광+배터리 구성, LTE 라우터 vs Wi-Fi 메시, IP67 카메라 선택. 농막 절도 방지와 원격 모니터링 실제 구성 비용.",
+        "keywords": [
+          "외부CCTV추천",
+          "CCTV설치"
+        ],
+        "slugHint": "farm-hut-cctv-setup-guide",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:45.487Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 20,
+        "bestMatch": {
+          "keyword": "외부CCTV추천",
+          "total": 220,
+          "comp": "medium",
+          "score": 20,
+          "sourceFile": "2026-04-10-키퍼메이트-discover.json",
+          "matchType": "exact",
+          "searchedBy": "외부CCTV추천"
+        }
+      },
+      {
+        "topic": "CCTV 렌탈 계약서 반드시 확인할 5가지 — 해지 위약금·장비 소유권·자동연장",
+        "angle": "렌탈 3사 표준 약관 기준 위약금 공식, 약정 만료 후 자동연장 조항, 장비 반납 의무, 유지보수 범위, 월 요금 인상 조항. 실제 분쟁 사례.",
+        "keywords": [
+          "CCTV렌탈비용",
+          "CCTV비용",
+          "CCTV설치"
+        ],
+        "slugHint": "cctv-rental-contract-checklist-5",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:45.487Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 5,
+        "bestMatch": {
+          "keyword": "CCTV렌탈비용",
+          "total": 140,
+          "comp": "high",
+          "score": 5,
+          "sourceFile": "2026-04-10-키퍼메이트-discover.json",
+          "matchType": "exact",
+          "searchedBy": "CCTV렌탈비용"
+        }
+      },
+      {
+        "topic": "지문인식 도어락과 CCTV 2중 구성 — 매장 보안 풀 스택 견적",
+        "angle": "출입 인증(지문·카드·비밀번호) + CCTV + 도난경보 + 관제센터 연동 총 구성. 10평·30평 매장 기준 초기 투자비 vs 월 운용비.",
+        "keywords": [
+          "지문인식도어락",
+          "지문도어락",
+          "매장CCTV",
+          "출퇴근지문인식기"
+        ],
+        "slugHint": "fingerprint-door-cctv-dual-security",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:45.487Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 31,
+        "bestMatch": {
+          "keyword": "지문인식도어락",
+          "total": 9370,
+          "comp": "medium",
+          "score": 31,
+          "sourceFile": "2026-04-14-노무.json",
+          "matchType": "exact",
+          "searchedBy": "지문인식도어락"
+        }
+      },
+      {
+        "topic": "CCTV 채널 수 선택 가이드 — 4채널·8채널·16채널 실제 견적 차이",
+        "angle": "녹화기(NVR) 채널별 가격 차이, 카메라 수량 확장성, 하드디스크 용량 계산. 10평 매장은 4채널이면 충분한가?",
+        "keywords": [
+          "NVR",
+          "CCTVNVR",
+          "DVR",
+          "매장CCTV"
+        ],
+        "slugHint": "cctv-channel-selection-4-8-16",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:45.487Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 8,
+        "bestMatch": {
+          "keyword": "NVR",
+          "total": 2310,
+          "comp": "high",
+          "score": 8,
+          "sourceFile": "2026-04-10-키퍼메이트-discover.json",
+          "matchType": "exact",
+          "searchedBy": "NVR"
+        }
       }
     ],
     "법인설립지원센터": [
@@ -881,6 +1290,306 @@
         "draftPath": "법인설립지원센터/content/corporate-vs-personal-tax-optimal-allocation.md",
         "scheduledAt": "2026-06-09",
         "publishedAt": "2026-04-14T10:01:20.966Z"
+      },
+      {
+        "topic": "매출 얼마부터 법인 전환이 유리할까 — 매출 구간별 손익 시뮬레이션",
+        "angle": "종합소득세 최고세율 구간과 법인세율 9% 구간을 실제 매출 2억·3억·5억·10억 케이스로 시뮬레이션. 대표이사 급여·4대보험까지 반영한 유효세율 비교표 제시.",
+        "keywords": [
+          "법인전환",
+          "개인사업자법인전환",
+          "법인전환세금",
+          "법인전환비용",
+          "매출법인전환"
+        ],
+        "slugHint": "personal-to-corp-break-even-simulation-2026",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:41.856Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 12,
+        "bestMatch": {
+          "keyword": "법인",
+          "total": 5670,
+          "comp": "high",
+          "score": 12,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법인"
+        }
+      },
+      {
+        "topic": "1인 법인 설립 비용 완전 분해 — 자본금 300만원부터 실제 견적은?",
+        "angle": "등록면허세·지방교육세·공과금·법무사 수수료·정관 공증료를 자본금 300만·1,000만·5,000만·1억 구간별로 정확히 분해. 혼자 했을 때 vs 대행 맡겼을 때 소요 시간 비교.",
+        "keywords": [
+          "1인법인설립",
+          "1인법인설립비용",
+          "1인법인설립절차",
+          "법인설립비용"
+        ],
+        "slugHint": "one-person-corp-setup-cost-breakdown",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:41.856Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 12,
+        "bestMatch": {
+          "keyword": "법인",
+          "total": 5670,
+          "comp": "high",
+          "score": 12,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법인"
+        }
+      },
+      {
+        "topic": "온라인 법인설립 시스템 실전 가이드 — 화면별 입력값과 함정 7가지",
+        "angle": "중기부 온라인 법인설립시스템(startbiz.go.kr) 실제 화면 캡처 기반 단계별 입력 가이드. 대표이사 주소 실수·인감증명 업로드 실수 등 반려 사유 TOP 7.",
+        "keywords": [
+          "온라인법인설립",
+          "온라인법인설립시스템",
+          "온라인등기",
+          "법인설립절차"
+        ],
+        "slugHint": "online-corp-setup-system-walkthrough",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:41.856Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 40,
+        "bestMatch": {
+          "keyword": "온라인등기",
+          "total": 250,
+          "comp": "low",
+          "score": 40,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "온라인등기"
+        }
+      },
+      {
+        "topic": "개인사업자에서 법인 전환할 때 영업 공백 없이 처리하는 법 — 포괄양수도 실무",
+        "angle": "세무서 폐업 신고 → 법인 설립 → 신규 사업자등록 순서에서 생기는 10일 이상 공백 해결법. 포괄양수도 계약서 핵심 조항 5개와 세무 처리.",
+        "keywords": [
+          "법인전환절차",
+          "포괄양수도",
+          "개인에서법인전환",
+          "법인전환비용"
+        ],
+        "slugHint": "corp-transition-without-gap-poohap",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:41.856Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 12,
+        "bestMatch": {
+          "keyword": "법인",
+          "total": 5670,
+          "comp": "high",
+          "score": 12,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법인"
+        }
+      },
+      {
+        "topic": "법인 대표이사 중임등기 안 하면 과태료 얼마? — 3년 임기 놓쳤을 때 실제 시나리오",
+        "angle": "상법 제383조 임기 3년 규정과 중임등기 기한. 지연 시 과태료 산정 기준(회사법 제635조). 실제 100만원~500만원대 과태료 부과 케이스.",
+        "keywords": [
+          "중임등기",
+          "대표이사중임등기",
+          "법인대표이사변경",
+          "대표이사변경등기"
+        ],
+        "slugHint": "ceo-reappointment-registration-penalty",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:41.856Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 21,
+        "bestMatch": {
+          "keyword": "중임등기",
+          "total": 540,
+          "comp": "medium",
+          "score": 21,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "중임등기"
+        }
+      },
+      {
+        "topic": "법인 임원 변경 등기 수수료와 서류 — 직접 신청 vs 법무사 대행 비용 비교",
+        "angle": "등록면허세·지방교육세·증지세 기본 공과금, 법무사 위임 시 평균 20만~35만원 수수료. 이사·감사·대표이사별 필요 서류 체크리스트.",
+        "keywords": [
+          "임원변경등기",
+          "임원변경등기수수료",
+          "법인임원변경",
+          "임원변경등기신청서"
+        ],
+        "slugHint": "corp-officer-change-registration-cost",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:41.856Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 52,
+        "bestMatch": {
+          "keyword": "법무사",
+          "total": 38840,
+          "comp": "high",
+          "score": 52,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법무사"
+        }
+      },
+      {
+        "topic": "법인 폐업 절차 완전 가이드 — 세무 정리 순서와 청산까지 6단계",
+        "angle": "주주총회 해산 결의 → 청산인 선임 → 채권자 공고 → 잔여재산 분배 → 청산종결 등기 → 세무 정리. 각 단계 소요 기간과 비용.",
+        "keywords": [
+          "법인폐업절차",
+          "법인폐업",
+          "법인회사폐업"
+        ],
+        "slugHint": "corp-liquidation-complete-guide",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:41.856Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 20,
+        "bestMatch": {
+          "keyword": "법인회사폐업",
+          "total": 260,
+          "comp": "medium",
+          "score": 20,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법인회사폐업"
+        }
+      },
+      {
+        "topic": "법인 본점 이전 등기 비용과 기간 — 같은 시·군·구 vs 다른 관할 차이",
+        "angle": "동일 관할 내 이전(등록면허세 7만 2,000원) vs 관할 외 이전(114만원 지역별 차등)의 극명한 비용 차이. 정관 변경 필요 여부와 주주총회 의결 요건.",
+        "keywords": [
+          "본점이전등기",
+          "법인본점이전",
+          "본점이전결정서",
+          "법인본점이전비용"
+        ],
+        "slugHint": "corp-headquarters-transfer-registration",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:41.856Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 20,
+        "bestMatch": {
+          "keyword": "등기",
+          "total": 12470,
+          "comp": "high",
+          "score": 20,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "등기"
+        }
+      },
+      {
+        "topic": "법인 설립 후 첫 세무 일정 캘린더 — 2026년 기준 월별 체크리스트",
+        "angle": "사업자등록 → 법인세 중간예납(8월) → 부가세 예정신고(4·10월) → 원천세 매월 → 법인세 연말정산(3월 말). 신고 누락 시 가산세율.",
+        "keywords": [
+          "법인세신고",
+          "법인세",
+          "법인설립"
+        ],
+        "slugHint": "corp-first-year-tax-calendar-2026",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:41.856Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 21,
+        "bestMatch": {
+          "keyword": "법인세",
+          "total": 13120,
+          "comp": "high",
+          "score": 21,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "법인세"
+        }
+      },
+      {
+        "topic": "가수금·가지급금이 법인에 왜 위험한가 — 대표이사 인정이자와 세무조사 트리거",
+        "angle": "가수금 출자전환 실무, 가지급금 인정이자율(2026년 기준 4.6%), 인정상여 처분 시 대표이사 소득세 추가 부담.",
+        "keywords": [
+          "가수금",
+          "가지급금인정이자",
+          "가수금출자전환",
+          "대표이사가수금"
+        ],
+        "slugHint": "corp-loan-receivable-payable-risk",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:41.856Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 20,
+        "bestMatch": {
+          "keyword": "가수금",
+          "total": 12290,
+          "comp": "high",
+          "score": 20,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "가수금"
+        }
+      },
+      {
+        "topic": "농업법인 설립 요건과 지원사업 연계 — 농업회사법인 vs 영농조합법인 비교",
+        "angle": "농업경영체 등록, 농지 소유 요건, 자본금 1억원 이상 기준. 청년창업농 지원과 농업법인 설립을 함께 활용하는 전략.",
+        "keywords": [
+          "농업법인",
+          "농업법인설립",
+          "농업법인설립요건",
+          "농업회사법인",
+          "농업법인설립절차"
+        ],
+        "slugHint": "agricultural-corp-setup-requirements",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:41.856Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 20,
+        "bestMatch": {
+          "keyword": "농업법인설립요건",
+          "total": 90,
+          "comp": "medium",
+          "score": 20,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "농업법인설립요건"
+        }
+      },
+      {
+        "topic": "비영리법인은 언제 적합한가 — 사단법인·재단법인·비영리 스타트업 실전 비교",
+        "angle": "목적사업과 수익사업 분리, 기부금 단체 지정 요건, 공익법인회계기준 적용. 영리 전환 불가 리스크와 해산 시 잔여재산 귀속.",
+        "keywords": [
+          "비영리법인",
+          "비영리법인설립",
+          "사단법인설립",
+          "사단법인설립절차"
+        ],
+        "slugHint": "non-profit-corp-selection-guide",
+        "status": "pending",
+        "discoveredAt": "2026-04-15T05:43:41.856Z",
+        "source": "manual-enqueue",
+        "rationale": "",
+        "opportunityScore": 8,
+        "bestMatch": {
+          "keyword": "비영리법인",
+          "total": 2740,
+          "comp": "high",
+          "score": 8,
+          "sourceFile": "2026-04-10-법인설립-v2.json",
+          "matchType": "exact",
+          "searchedBy": "비영리법인"
+        }
       }
     ]
   }

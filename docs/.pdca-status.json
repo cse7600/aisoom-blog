@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-04-15T02:01:48.095Z",
+  "lastUpdated": "2026-04-15T05:53:22.194Z",
   "activeFeatures": [
     "blog-affiliate",
     "layout",
@@ -39,7 +39,8 @@
     "like",
     "bookmark",
     "[tag]",
-    "revalidate"
+    "revalidate",
+    "native-ads"
   ],
   "primaryFeature": "blog-affiliate",
   "features": {
@@ -91,9 +92,9 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T02:46:44.395Z",
-        "lastUpdated": "2026-04-13T01:02:35.047Z"
+        "lastUpdated": "2026-04-15T05:53:22.194Z"
       },
-      "lastFile": "/Users/hokang2father/blog-affiliate/src/components/content/ShareButtons.tsx"
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/components/content/NativeAdCard.tsx"
     },
     "seo": {
       "phase": "do",
@@ -156,7 +157,7 @@
       "documents": {},
       "timestamps": {
         "started": "2026-04-10T02:48:05.857Z",
-        "lastUpdated": "2026-04-13T14:22:46.597Z"
+        "lastUpdated": "2026-04-15T05:41:45.826Z"
       },
       "lastFile": "/Users/hokang2father/blog-affiliate/src/app/(main)/[category]/[slug]/page.tsx"
     },
@@ -536,6 +537,19 @@
         "lastUpdated": "2026-04-15T02:01:48.095Z"
       },
       "lastFile": "/Users/hokang2father/blog-affiliate/src/app/api/revalidate/route.ts"
+    },
+    "native-ads": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-15T05:12:19.466Z",
+        "lastUpdated": "2026-04-15T05:24:59.441Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/(main)/preview/native-ads/page.tsx"
     }
   },
   "pipeline": {
@@ -546,7 +560,7 @@
   "session": {
     "startedAt": "2026-04-10T02:43:31.949Z",
     "onboardingCompleted": false,
-    "lastActivity": "2026-04-15T02:01:48.095Z"
+    "lastActivity": "2026-04-15T05:53:22.194Z"
   },
   "history": [
     {
@@ -2622,6 +2636,180 @@
     {
       "timestamp": "2026-04-15T02:01:48.095Z",
       "feature": "revalidate",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:11:26.106Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:12:19.466Z",
+      "feature": "native-ads",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:16:20.698Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:16:27.390Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:23:20.479Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:23:31.373Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:23:37.618Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:24:59.441Z",
+      "feature": "native-ads",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:25:28.342Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:33:53.203Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:39:48.501Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:39:54.033Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:40:36.656Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:40:43.392Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:40:50.320Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:40:56.502Z",
+      "feature": "[slug]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:41:02.120Z",
+      "feature": "[slug]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:41:10.073Z",
+      "feature": "[slug]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:41:29.194Z",
+      "feature": "[slug]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:41:45.826Z",
+      "feature": "[slug]",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:42:13.526Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:42:32.286Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:42:36.446Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:53:06.248Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:53:09.428Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:53:12.756Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:53:16.378Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:53:19.316Z",
+      "feature": "content",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T05:53:22.194Z",
+      "feature": "content",
       "phase": "do",
       "action": "updated"
     }

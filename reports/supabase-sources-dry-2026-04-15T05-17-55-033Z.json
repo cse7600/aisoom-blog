@@ -1,0 +1,444 @@
+{
+  "summary": {
+    "total": 60,
+    "ok": 49,
+    "wouldFix": 2,
+    "noSources": 9,
+    "error": 0
+  },
+  "details": [
+    {
+      "postId": "87c8f1c3-1977-47ca-8519-ca657136cb98",
+      "slug": "corporate-vs-personal-tax-optimal-allocation",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "570d06d9-1017-4f39-b88e-4bf0578e0dc5",
+      "slug": "first-vat-filing-after-incorporation-mistakes",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "11f55b0d-33a7-463e-94ea-481e3dfc947d",
+      "slug": "corporate-tax-adjustment-fee-calculation",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "7f2d5171-7a89-4efc-96c6-2715dfe7d4a0",
+      "slug": "break-time-labor-law-4-8-hours",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "e5822d4f-339c-4ad7-bbee-b8c16a8afb2b",
+      "slug": "family-business-inheritance-deduction-2026",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "80291f2a-a132-4ed7-ab73-274f29dfc119",
+      "slug": "beauty-salon-nail-cctv-privacy-zone",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "7866857c-2011-4ec5-97ec-3805f26b44bf",
+      "slug": "corporate-articles-amendment-procedure-2026",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "000062d5-7d7b-4e3c-90ee-9f324d22be80",
+      "slug": "part-time-severance-pay-calculator",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "b156cf79-a241-4f33-a9fb-9a08e986648a",
+      "slug": "sole-to-corporate-1year-real-tax-savings-review",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "2b6a41de-9493-4810-9cee-1d5b4ca2c178",
+      "slug": "franchise-multi-store-cctv-integration",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "b488aa1b-a153-4746-b982-1b54c5036516",
+      "slug": "dividend-vs-salary-tax-comparison",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "a207348a-0776-4b7a-8de1-6107ec8c426c",
+      "slug": "self-employed-employment-insurance-2026",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "f9186ad4-82ee-4f81-ab1a-662d75d2f214",
+      "slug": "corporate-tax-interim-prepayment-2026",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "89149afe-3dc0-4a33-93f4-819d5c1a0946",
+      "slug": "minimum-wage-2026-payroll-calculation",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "e2c3d23a-cf49-4d43-848b-49e368eecc63",
+      "slug": "corporate-tax-audit-risk-prevention-5",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "dc73f56c-1592-4cdc-8488-fe3c5302a36c",
+      "slug": "attendance-app-comparison-2026",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "e253dd7d-11e9-47c7-b14d-f54f70160737",
+      "slug": "tax-bookkeeping-cost-corp-vs-sole-comparison",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "3f645b3f-cf4d-4d85-995d-36f499b96238",
+      "slug": "employee-theft-cctv-evidence-legal-procedure",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "b42aaa76-48bb-48e9-884a-9e002c9512be",
+      "slug": "ceo-salary-tax-optimization-qa",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "6ec7db73-029c-4a15-ba11-d93e17a83d06",
+      "slug": "part-time-labor-contract-fine-checklist",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "929a670a-c449-4c92-9b83-15cea81ea345",
+      "slug": "corporate-provisional-payment-deemed-interest",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "dc083465-0cb2-41af-a40a-827688bcdc17",
+      "slug": "employee-cctv-monitoring-legal-guide",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "0a65a57e-cd12-4661-bce2-7a0a0e772fac",
+      "slug": "comprehensive-income-tax-2026-corporation-timing",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "75651761-a967-46f2-91bb-46b64bcbed49",
+      "slug": "cctv-privacy-law-2026-update-checklist",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "cbe7ed15-9fff-4243-85c1-ee437245e203",
+      "slug": "income-tax-vs-corporate-tax-break-even-point",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "0249a3a5-5a93-4653-8323-61e98420219c",
+      "slug": "cctv-4-brands-cancellation-comparison",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "389ff002-7dd6-4804-a1b0-fe6b2df95d21",
+      "slug": "cafe-cctv-quote-calculator-by-area",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "e6efdece-8530-42f3-bad9-9c9e9a9c8bb0",
+      "slug": "corporate-tax-calculator-revenue-1to5-billion",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "0ccda762-4894-4346-aafb-1a1445c2cec1",
+      "slug": "fire-damage-cctv-evidence-insurance-claim",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "3ac21fb5-56e6-479f-bcee-2a7b4989d32c",
+      "slug": "hanwha-ai-face-recognition-cctv-retail",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "95a41c16-b0a8-43ec-a9cb-73d7b05fc269",
+      "slug": "corporate-tax-rate-2026-bracket-guide",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "bb3c0df6-674f-4681-9883-4437630e5e14",
+      "slug": "gas-station-cctv-explosion-proof-spec",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "40d0b893-883c-49d1-8d6b-6c91a8e90097",
+      "slug": "pc-bang-study-cafe-cctv-spec-24h",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "c76504c0-ceff-46d0-8f1b-8787f6aea58b",
+      "slug": "hospital-pharmacy-cctv-medical-law-guide",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "502eebef-fa78-4887-9b6a-dd032ddcb3a0",
+      "slug": "small-business-cctv-subsidy-2026",
+      "status": "would_fix",
+      "format": "html",
+      "totalLinks": 5,
+      "brokenCount": 1,
+      "removed": 0,
+      "replacements": [
+        {
+          "fromUrl": "https://www.gbsc.or.kr",
+          "toUrl": "https://www.pipc.go.kr",
+          "toName": "개인정보보호위원회"
+        }
+      ],
+      "removedDetails": [],
+      "contentLength": 7791
+    },
+    {
+      "postId": "39a698d4-3db9-42cd-ba53-e362f0679d43",
+      "slug": "cafe-cctv-installation-cost-under-10000",
+      "status": "ok",
+      "totalLinks": 5,
+      "format": "html"
+    },
+    {
+      "postId": "9a057e76-ed7c-42fc-9082-f747fbced7d2",
+      "slug": "hanwha-keeper-vs-secom-cctv",
+      "status": "no_sources",
+      "format": "html"
+    },
+    {
+      "postId": "ef4dcb5f-07b7-4b36-8a52-be0dd82a4d55",
+      "slug": "cctv-retention-period-by-industry",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "cff268fa-1a20-48ca-86dd-1ec3522ac197",
+      "slug": "keeper-vs-s1-cctv-3year-tco",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "a3b4ca6c-c050-46fa-bba3-c542f8dcb290",
+      "slug": "vat-corporation-vs-sole-2026",
+      "status": "ok",
+      "totalLinks": 2,
+      "format": "html"
+    },
+    {
+      "postId": "fa9be22b-d265-4ed8-be52-ced6a338bc08",
+      "slug": "online-shop-corporation-setup-timing",
+      "status": "no_sources",
+      "format": "html"
+    },
+    {
+      "postId": "af6e747d-63b9-41f9-b709-6b2c7dfd313f",
+      "slug": "caps-vs-keeper-contract-comparison",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "aefd7b3e-8aba-4ac8-9a59-f91ac7000e9a",
+      "slug": "freelancer-one-person-corporation-tax",
+      "status": "ok",
+      "totalLinks": 5,
+      "format": "html"
+    },
+    {
+      "postId": "25c58212-57c4-4812-ac3e-5a1e8f4a0f3c",
+      "slug": "cctv-hacking-chinese-vs-korean",
+      "status": "would_fix",
+      "format": "html",
+      "totalLinks": 5,
+      "brokenCount": 1,
+      "removed": 0,
+      "replacements": [
+        {
+          "fromUrl": "https://www.congress.gov",
+          "toUrl": "https://www.police.go.kr",
+          "toName": "경찰청"
+        }
+      ],
+      "removedDetails": [],
+      "contentLength": 7376
+    },
+    {
+      "postId": "6292d078-7efb-4681-8a0d-3222267f60e9",
+      "slug": "first-month-after-corporation-setup",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "412425e7-16a3-4614-bb3e-841102200cb8",
+      "slug": "store-cctv-resolution-selection",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "43607b49-91f9-4af5-a0eb-cf8b8470735c",
+      "slug": "corporation-ceo-salary-optimization",
+      "status": "ok",
+      "totalLinks": 2,
+      "format": "html"
+    },
+    {
+      "postId": "718c85aa-8de9-4ff0-a7ca-88940f5a5709",
+      "slug": "cctv-legal-standards-2026",
+      "status": "ok",
+      "totalLinks": 5,
+      "format": "html"
+    },
+    {
+      "postId": "e4c03f74-3a4e-4263-9581-af2bc83c4130",
+      "slug": "corporation-vehicle-tax-benefits",
+      "status": "no_sources",
+      "format": "html"
+    },
+    {
+      "postId": "41a3fc74-492a-4f41-8beb-aceb7c8b8c43",
+      "slug": "stock-vs-limited-company-comparison",
+      "status": "no_sources",
+      "format": "html"
+    },
+    {
+      "postId": "195e0a4d-f4b9-46d5-92cf-256b14fd97ce",
+      "slug": "convenience-store-cctv-essential-spec",
+      "status": "ok",
+      "totalLinks": 5,
+      "format": "html"
+    },
+    {
+      "postId": "eb98a59b-7b6e-4e7d-9246-62c9fe227273",
+      "slug": "corporation-setup-document-checklist",
+      "status": "ok",
+      "totalLinks": 6,
+      "format": "html"
+    },
+    {
+      "postId": "13d1d137-ccff-4a95-8692-6491b2c6a79b",
+      "slug": "unmanned-store-cctv-evidence-standard",
+      "status": "ok",
+      "totalLinks": 5,
+      "format": "html"
+    },
+    {
+      "postId": "ee94733c-6f82-462c-b9dc-67173a4a0018",
+      "slug": "one-person-corporation-4days-guide",
+      "status": "ok",
+      "totalLinks": 5,
+      "format": "html"
+    },
+    {
+      "postId": "0d61bfff-46c1-4404-b6c4-1eba1e45cf7b",
+      "slug": "academy-cctv-installation-guide",
+      "status": "ok",
+      "totalLinks": 4,
+      "format": "html"
+    },
+    {
+      "postId": "352cf010-3877-453c-9e4d-0121af52aab2",
+      "slug": "sole-to-corp-conversion-simulation",
+      "status": "no_sources",
+      "format": "html"
+    },
+    {
+      "postId": "dd52de14-7d02-4184-a5c6-82115033a03f",
+      "slug": "corporation-setup-cost-self-vs-agent-comparison",
+      "status": "no_sources",
+      "format": "html"
+    },
+    {
+      "postId": "1db0da97-744b-4e4f-8f5e-a9edc0ab04f1",
+      "slug": "cctv-rental-vs-purchase-cost-comparison",
+      "status": "no_sources",
+      "format": "html"
+    },
+    {
+      "postId": "6e62a5a8-3076-41fc-a7d6-fc732d6040a6",
+      "slug": "2026-corporate-tax-rate-vs-income-tax-should-i-establish-corporation",
+      "status": "no_sources",
+      "format": "html"
+    },
+    {
+      "postId": "7b19a776-7ea0-41b6-865f-bf5b6a83d4f0",
+      "slug": "secom-caps-hanwha-keeper-cctv-cost-comparison",
+      "status": "no_sources",
+      "format": "html"
+    }
+  ]
+}

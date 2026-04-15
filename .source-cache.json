@@ -1,0 +1,622 @@
+{
+  "https://www.law.go.kr": {
+    "url": "https://www.law.go.kr",
+    "finalUrl": "https://www.law.go.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229957354
+  },
+  "https://www.kisa.or.kr": {
+    "url": "https://www.kisa.or.kr",
+    "finalUrl": "https://www.kisa.or.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229957806
+  },
+  "https://www.pipc.go.kr": {
+    "url": "https://www.pipc.go.kr",
+    "finalUrl": "https://www.pipc.go.kr/np/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229958211
+  },
+  "https://www.hanwhavision.com/ko/": {
+    "url": "https://www.hanwhavision.com/ko/",
+    "finalUrl": "https://www.hanwhavision.com/ko/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229958275
+  },
+  "https://www.kait.or.kr": {
+    "url": "https://www.kait.or.kr",
+    "finalUrl": "https://www.kait.or.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229958654
+  },
+  "https://www.mss.go.kr": {
+    "url": "https://www.mss.go.kr",
+    "finalUrl": "https://www.mss.go.kr/site/smba/main.do",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229959159
+  },
+  "https://www.moel.go.kr": {
+    "url": "https://www.moel.go.kr",
+    "finalUrl": "https://www.moel.go.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229959388
+  },
+  "https://www.mois.go.kr": {
+    "url": "https://www.mois.go.kr",
+    "finalUrl": "https://www.mois.go.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229959480
+  },
+  "http://www.ksecurity.or.kr": {
+    "url": "http://www.ksecurity.or.kr",
+    "finalUrl": "http://www.ksecurity.or.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229959686
+  },
+  "https://www.semas.or.kr": {
+    "url": "https://www.semas.or.kr",
+    "finalUrl": "https://www.semas.or.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229959725
+  },
+  "https://www.pipc.go.kr/np/default/page.do?mCode=C020020000": {
+    "url": "https://www.pipc.go.kr/np/default/page.do?mCode=C020020000",
+    "finalUrl": "https://www.pipc.go.kr/np/default/page.do?mCode=C020020000",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229959852
+  },
+  "https://www.kca.go.kr/home/main.do": {
+    "url": "https://www.kca.go.kr/home/main.do",
+    "finalUrl": "https://www.kca.go.kr/home/main.do",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229960260
+  },
+  "https://www.fss.or.kr/fss/main/main.do": {
+    "url": "https://www.fss.or.kr/fss/main/main.do",
+    "finalUrl": "https://www.fss.or.kr/fss/main/main.do",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229960267
+  },
+  "https://www.kca.go.kr": {
+    "url": "https://www.kca.go.kr",
+    "finalUrl": "https://www.kca.go.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229960324
+  },
+  "https://www.ftc.go.kr": {
+    "url": "https://www.ftc.go.kr",
+    "finalUrl": "https://www.ftc.go.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229960359
+  },
+  "https://www.hanwhavision.com": {
+    "url": "https://www.hanwhavision.com",
+    "finalUrl": "https://www.hanwhavision.com/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229961285
+  },
+  "https://www.fss.or.kr": {
+    "url": "https://www.fss.or.kr",
+    "finalUrl": "https://www.fss.or.kr/fss/main/main.do?menuNo=200000",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229961561
+  },
+  "https://www.shodan.io": {
+    "url": "https://www.shodan.io",
+    "finalUrl": "https://www.shodan.io/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229961770
+  },
+  "https://www.congress.gov": {
+    "url": "https://www.congress.gov",
+    "finalUrl": "https://www.congress.gov",
+    "status": 403,
+    "ok": false,
+    "reason": "http_error",
+    "error": "HTTP 403",
+    "checkedAt": 1776229961891
+  },
+  "https://www.hanwhavision.com/security": {
+    "url": "https://www.hanwhavision.com/security",
+    "finalUrl": "https://www.hanwhavision.com/ko/news-center/3237/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229963406
+  },
+  "https://www.law.go.kr/법령/개인정보보호법": {
+    "url": "https://www.law.go.kr/법령/개인정보보호법",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B2%95",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229963834
+  },
+  "https://www.mohw.go.kr": {
+    "url": "https://www.mohw.go.kr",
+    "finalUrl": "https://www.mohw.go.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229964177
+  },
+  "https://www.mfds.go.kr": {
+    "url": "https://www.mfds.go.kr",
+    "finalUrl": "https://www.mfds.go.kr/index.do",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229964469
+  },
+  "https://www.police.go.kr": {
+    "url": "https://www.police.go.kr",
+    "finalUrl": "https://www.police.go.kr",
+    "status": null,
+    "ok": true,
+    "reason": "bot_blocked",
+    "error": "fetch failed",
+    "dnsResolved": true,
+    "checkedAt": 1776229973272
+  },
+  "https://www.nfds.go.kr": {
+    "url": "https://www.nfds.go.kr",
+    "finalUrl": "https://www.nfds.go.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229975084
+  },
+  "https://www.nfa.go.kr": {
+    "url": "https://www.nfa.go.kr",
+    "finalUrl": "https://www.nfa.go.kr/nfa/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229978448
+  },
+  "https://www.kosha.or.kr": {
+    "url": "https://www.kosha.or.kr",
+    "finalUrl": "https://kosha.or.kr/landing",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229979265
+  },
+  "https://www.boannews.com": {
+    "url": "https://www.boannews.com",
+    "finalUrl": "https://www.boannews.com/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229979354
+  },
+  "https://www.4insure.or.kr": {
+    "url": "https://www.4insure.or.kr",
+    "finalUrl": "https://www.4insure.or.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229979667
+  },
+  "https://www.minimumwage.go.kr": {
+    "url": "https://www.minimumwage.go.kr",
+    "finalUrl": "https://www.minimumwage.go.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229979852
+  },
+  "https://www.comwel.or.kr": {
+    "url": "https://www.comwel.or.kr",
+    "finalUrl": "https://www.comwel.or.kr/comwel/index.jsp",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229979920
+  },
+  "https://www.seoulallnet.or.kr": {
+    "url": "https://www.seoulallnet.or.kr",
+    "finalUrl": "https://www.seoulallnet.or.kr",
+    "status": null,
+    "ok": false,
+    "reason": "dns",
+    "error": "fetch failed",
+    "dnsResolved": false,
+    "checkedAt": 1776229979936
+  },
+  "https://www.gbsc.or.kr": {
+    "url": "https://www.gbsc.or.kr",
+    "finalUrl": "https://www.gbsc.or.kr",
+    "status": null,
+    "ok": false,
+    "reason": "dns",
+    "error": "fetch failed",
+    "dnsResolved": false,
+    "checkedAt": 1776229979950
+  },
+  "https://www.bepa.kr": {
+    "url": "https://www.bepa.kr",
+    "finalUrl": "https://www.bepa.kr",
+    "status": null,
+    "ok": true,
+    "reason": "bot_blocked",
+    "error": "fetch failed",
+    "dnsResolved": true,
+    "checkedAt": 1776229980272
+  },
+  "https://golmok.seoul.go.kr": {
+    "url": "https://golmok.seoul.go.kr",
+    "finalUrl": "https://golmok.seoul.go.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229980613
+  },
+  "https://www.kats.go.kr": {
+    "url": "https://www.kats.go.kr",
+    "finalUrl": "https://www.kats.go.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229980687
+  },
+  "https://www.onvif.org": {
+    "url": "https://www.onvif.org",
+    "finalUrl": "https://www.onvif.org/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229981429
+  },
+  "https://www.nfs.go.kr": {
+    "url": "https://www.nfs.go.kr",
+    "finalUrl": "https://www.nfs.go.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229981793
+  },
+  "https://www.police.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1002": {
+    "url": "https://www.police.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1002",
+    "finalUrl": "https://www.police.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1002",
+    "status": null,
+    "ok": true,
+    "reason": "bot_blocked",
+    "error": "fetch failed",
+    "dnsResolved": true,
+    "checkedAt": 1776229990266
+  },
+  "https://www.nhis.or.kr": {
+    "url": "https://www.nhis.or.kr",
+    "finalUrl": "https://www.nhis.or.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229990322
+  },
+  "https://www.moef.go.kr": {
+    "url": "https://www.moef.go.kr",
+    "finalUrl": "https://mofe.go.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229990407
+  },
+  "https://www.nts.go.kr": {
+    "url": "https://www.nts.go.kr",
+    "finalUrl": "https://www.nts.go.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776229990768
+  },
+  "http://www.iros.go.kr": {
+    "url": "http://www.iros.go.kr",
+    "finalUrl": "http://www.iros.go.kr",
+    "status": null,
+    "ok": true,
+    "reason": "bot_blocked",
+    "error": "This operation was aborted",
+    "dnsResolved": true,
+    "checkedAt": 1776230030783
+  },
+  "https://www.kacpta.or.kr": {
+    "url": "https://www.kacpta.or.kr",
+    "finalUrl": "https://www.kacta.or.kr/new_new/kacpta22.asp",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230031068
+  },
+  "https://www.law.go.kr/법령/상법/제292조": {
+    "url": "https://www.law.go.kr/법령/상법/제292조",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C292%EC%A1%B0",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230031570
+  },
+  "https://www.law.go.kr/법령/상법/제289조": {
+    "url": "https://www.law.go.kr/법령/상법/제289조",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C289%EC%A1%B0",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230031605
+  },
+  "https://www.wetax.go.kr": {
+    "url": "https://www.wetax.go.kr",
+    "finalUrl": "https://www.wetax.go.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230031781
+  },
+  "https://www.law.go.kr/법령/상법/제352조": {
+    "url": "https://www.law.go.kr/법령/상법/제352조",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C352%EC%A1%B0",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230031992
+  },
+  "https://www.gov.kr": {
+    "url": "https://www.gov.kr",
+    "finalUrl": "https://www.gov.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230032001
+  },
+  "https://www.iros.go.kr": {
+    "url": "https://www.iros.go.kr",
+    "finalUrl": "https://www.iros.go.kr",
+    "status": null,
+    "ok": true,
+    "reason": "bot_blocked",
+    "error": "This operation was aborted",
+    "dnsResolved": true,
+    "checkedAt": 1776230071091
+  },
+  "https://www.law.go.kr/법령/상법/제409조": {
+    "url": "https://www.law.go.kr/법령/상법/제409조",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C409%EC%A1%B0",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230071841
+  },
+  "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2349&cntntsId=7738": {
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2349&cntntsId=7738",
+    "finalUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2349&cntntsId=7738",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230071860
+  },
+  "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2311&cntntsId=7726": {
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2311&cntntsId=7726",
+    "finalUrl": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2311&cntntsId=7726",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230071876
+  },
+  "https://www.kcomwel.or.kr": {
+    "url": "https://www.kcomwel.or.kr",
+    "finalUrl": "https://www.kcomwel.or.kr",
+    "status": null,
+    "ok": true,
+    "reason": "bot_blocked",
+    "error": "fetch failed",
+    "dnsResolved": true,
+    "checkedAt": 1776230071981
+  },
+  "https://www.law.go.kr/법령/상법/제383조": {
+    "url": "https://www.law.go.kr/법령/상법/제383조",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C383%EC%A1%B0",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230072400
+  },
+  "https://www.hometax.go.kr": {
+    "url": "https://www.hometax.go.kr",
+    "finalUrl": "https://www.hometax.go.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230073072
+  },
+  "http://www.nts.go.kr": {
+    "url": "http://www.nts.go.kr",
+    "finalUrl": "https://www.nts.go.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230271660
+  },
+  "http://www.hometax.go.kr": {
+    "url": "http://www.hometax.go.kr",
+    "finalUrl": "https://www.hometax.go.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230272411
+  },
+  "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C409%EC%A1%B0": {
+    "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C409%EC%A1%B0",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C409%EC%A1%B0",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230272908
+  },
+  "http://www.comwel.or.kr": {
+    "url": "http://www.comwel.or.kr",
+    "finalUrl": "http://www.comwel.or.kr/comwel/index.jsp",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230272941
+  },
+  "http://www.nhis.or.kr": {
+    "url": "http://www.nhis.or.kr",
+    "finalUrl": "https://www.nhis.or.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230272984
+  },
+  "http://www.4insure.or.kr": {
+    "url": "http://www.4insure.or.kr",
+    "finalUrl": "https://www.4insure.or.kr/",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230273149
+  },
+  "http://www.nps.or.kr": {
+    "url": "http://www.nps.or.kr",
+    "finalUrl": "https://www.nps.or.kr/gate.do",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230273434
+  },
+  "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B2%95": {
+    "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B2%95",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%EB%B3%B4%ED%98%B8%EB%B2%95",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230273655
+  },
+  "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C292%EC%A1%B0": {
+    "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C292%EC%A1%B0",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C292%EC%A1%B0",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230274087
+  },
+  "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C289%EC%A1%B0": {
+    "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C289%EC%A1%B0",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C289%EC%A1%B0",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230274110
+  },
+  "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C352%EC%A1%B0": {
+    "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C352%EC%A1%B0",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C352%EC%A1%B0",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230274598
+  },
+  "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C383%EC%A1%B0": {
+    "url": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C383%EC%A1%B0",
+    "finalUrl": "https://www.law.go.kr/%EB%B2%95%EB%A0%B9/%EC%83%81%EB%B2%95/%EC%A0%9C383%EC%A1%B0",
+    "status": 200,
+    "ok": true,
+    "reason": "ok",
+    "error": null,
+    "checkedAt": 1776230275030
+  }
+}

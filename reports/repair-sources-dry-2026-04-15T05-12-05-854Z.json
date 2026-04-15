@@ -1,0 +1,431 @@
+{
+  "summary": {
+    "total": 63,
+    "ok": 48,
+    "wouldFix": 3,
+    "fixed": 0,
+    "noSources": 12
+  },
+  "details": [
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/academy-cctv-installation-guide.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/attendance-app-comparison-2026.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/beauty-salon-nail-cctv-privacy-zone.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/break-time-labor-law-4-8-hours.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/cafe-cctv-installation-cost-under-10000-2026-04-11T17-30.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/cafe-cctv-installation-cost-under-10000.md",
+      "status": "ok",
+      "totalLinks": 5
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/cafe-cctv-quote-calculator-by-area.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/caps-vs-keeper-contract-comparison.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/cctv-4-brands-cancellation-comparison.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/cctv-hacking-chinese-vs-korean.md",
+      "status": "would_fix",
+      "totalLinks": 5,
+      "broken": 1,
+      "replacements": [
+        {
+          "broken": {
+            "raw": "- [미국 NDAA 섹션 889 — 통신장비 조달 금지 규정](https://www.congress.gov)",
+            "anchor": "미국 NDAA 섹션 889 — 통신장비 조달 금지 규정",
+            "url": "https://www.congress.gov",
+            "lineIndex": 173,
+            "check": {
+              "url": "https://www.congress.gov",
+              "finalUrl": "https://www.congress.gov",
+              "status": 403,
+              "ok": false,
+              "reason": "http_error",
+              "error": "HTTP 403",
+              "checkedAt": 1776229693592,
+              "cached": true
+            },
+            "tier": "unknown"
+          },
+          "replacement": {
+            "url": "https://www.police.go.kr",
+            "name": "경찰청",
+            "tier": 1,
+            "check": {
+              "url": "https://www.police.go.kr",
+              "finalUrl": "https://www.police.go.kr",
+              "status": null,
+              "ok": true,
+              "reason": "bot_blocked",
+              "error": "fetch failed",
+              "dnsResolved": true,
+              "checkedAt": 1776229703113,
+              "cached": true
+            }
+          }
+        }
+      ],
+      "removed": 0
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/cctv-legal-standards-2026.md",
+      "status": "ok",
+      "totalLinks": 5
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/cctv-privacy-law-2026-update-checklist.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/cctv-rental-vs-purchase-cost-comparison.md",
+      "status": "no_sources"
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/cctv-retention-period-by-industry.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/convenience-store-cctv-essential-spec.md",
+      "status": "ok",
+      "totalLinks": 5
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/employee-cctv-monitoring-legal-guide.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/employee-theft-cctv-evidence-legal-procedure.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/fire-damage-cctv-evidence-insurance-claim.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/franchise-multi-store-cctv-integration.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/gas-station-cctv-explosion-proof-spec.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/hanwha-ai-face-recognition-cctv-retail.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/hanwha-keeper-vs-secom-cctv-2026-04-11T17-28.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/hanwha-keeper-vs-secom-cctv.md",
+      "status": "no_sources"
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/hospital-pharmacy-cctv-medical-law-guide.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/keeper-vs-s1-cctv-3year-tco.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/minimum-wage-2026-payroll-calculation.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/part-time-labor-contract-fine-checklist.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/part-time-severance-pay-calculator.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/pc-bang-study-cafe-cctv-spec-24h.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/secom-caps-hanwha-keeper-cctv-cost-comparison.md",
+      "status": "no_sources"
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/self-employed-employment-insurance-2026.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/small-business-cctv-subsidy-2026-2026-04-11T17-31.md",
+      "status": "would_fix",
+      "totalLinks": 4,
+      "broken": 1,
+      "replacements": [
+        {
+          "broken": {
+            "raw": "- [서울시 소상공인 종합지원포털 — 경영환경개선사업 안내(2026)](https://www.seoulallnet.or.kr)",
+            "anchor": "서울시 소상공인 종합지원포털 — 경영환경개선사업 안내(2026)",
+            "url": "https://www.seoulallnet.or.kr",
+            "lineIndex": 166,
+            "check": {
+              "url": "https://www.seoulallnet.or.kr",
+              "finalUrl": "https://www.seoulallnet.or.kr",
+              "status": null,
+              "ok": false,
+              "reason": "dns",
+              "error": "fetch failed",
+              "dnsResolved": false,
+              "checkedAt": 1776229695029,
+              "cached": true
+            },
+            "tier": "tier2"
+          },
+          "replacement": {
+            "url": "https://www.pipc.go.kr",
+            "name": "개인정보보호위원회",
+            "tier": 1,
+            "check": {
+              "url": "https://www.pipc.go.kr",
+              "finalUrl": "https://www.pipc.go.kr/np/",
+              "status": 200,
+              "ok": true,
+              "reason": "ok",
+              "error": null,
+              "checkedAt": 1776229693279,
+              "cached": true
+            }
+          }
+        }
+      ],
+      "removed": 0
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/small-business-cctv-subsidy-2026.md",
+      "status": "would_fix",
+      "totalLinks": 5,
+      "broken": 1,
+      "replacements": [
+        {
+          "broken": {
+            "raw": "- [경기도 소상공인 지원센터](https://www.gbsc.or.kr)",
+            "anchor": "경기도 소상공인 지원센터",
+            "url": "https://www.gbsc.or.kr",
+            "lineIndex": 240,
+            "check": {
+              "url": "https://www.gbsc.or.kr",
+              "finalUrl": "https://www.gbsc.or.kr",
+              "status": null,
+              "ok": false,
+              "reason": "dns",
+              "error": "fetch failed",
+              "dnsResolved": false,
+              "checkedAt": 1776229695040,
+              "cached": true
+            },
+            "tier": "blacklist"
+          },
+          "replacement": {
+            "url": "https://www.pipc.go.kr",
+            "name": "개인정보보호위원회",
+            "tier": 1,
+            "check": {
+              "url": "https://www.pipc.go.kr",
+              "finalUrl": "https://www.pipc.go.kr/np/",
+              "status": 200,
+              "ok": true,
+              "reason": "ok",
+              "error": null,
+              "checkedAt": 1776229693279,
+              "cached": true
+            }
+          }
+        }
+      ],
+      "removed": 0
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/store-cctv-resolution-selection.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/키퍼메이트/content/unmanned-store-cctv-evidence-standard.md",
+      "status": "ok",
+      "totalLinks": 5
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/2026-corporate-tax-rate-vs-income-tax-should-i-establish-corporation.md",
+      "status": "no_sources"
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/ceo-salary-tax-optimization-qa.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/comprehensive-income-tax-2026-corporation-timing.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/corporate-articles-amendment-procedure-2026.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/corporate-provisional-payment-deemed-interest.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/corporate-tax-adjustment-fee-calculation.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/corporate-tax-audit-risk-prevention-5.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/corporate-tax-calculator-revenue-1to5-billion.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/corporate-tax-interim-prepayment-2026.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/corporate-tax-rate-2026-bracket-guide.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/corporate-vs-personal-tax-optimal-allocation.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/corporation-ceo-salary-optimization.md",
+      "status": "no_sources"
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/corporation-setup-cost-self-vs-agent-comparison.md",
+      "status": "no_sources"
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/corporation-setup-document-checklist.md",
+      "status": "ok",
+      "totalLinks": 6
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/corporation-vehicle-tax-benefits.md",
+      "status": "no_sources"
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/dividend-vs-salary-tax-comparison.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/family-business-inheritance-deduction-2026.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/first-month-after-corporation-setup.md",
+      "status": "no_sources"
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/first-vat-filing-after-incorporation-mistakes.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/freelancer-one-person-corporation-tax.md",
+      "status": "ok",
+      "totalLinks": 5
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/income-tax-vs-corporate-tax-break-even-point.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/one-person-corporation-4days-guide.md",
+      "status": "ok",
+      "totalLinks": 5
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/online-shop-corporation-setup-timing.md",
+      "status": "no_sources"
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/sole-to-corp-conversion-simulation.md",
+      "status": "no_sources"
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/sole-to-corporate-1year-real-tax-savings-review.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/stock-vs-limited-company-comparison.md",
+      "status": "no_sources"
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/tax-bookkeeping-cost-corp-vs-sole-comparison.md",
+      "status": "ok",
+      "totalLinks": 4
+    },
+    {
+      "file": "/Users/hokang2father/blog-affiliate/법인설립지원센터/content/vat-corporation-vs-sole-2026.md",
+      "status": "no_sources"
+    }
+  ]
+}
