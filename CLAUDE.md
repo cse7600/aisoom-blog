@@ -5,6 +5,36 @@
 
 ---
 
+## 콘텐츠 기획 최우선 원칙 (2026-04-15 Opus 검증 확정)
+
+**기준 문서**: `content-input/KEYWORD-STRATEGY-RULES.md`
+
+### 목표는 발행이 아니라 유입과 노출이다
+
+1. **모든 콘텐츠 의사결정 판단 기준**: "이 글이 검색 노출되고 유입을 만드는가?" — 편수·CTA·배분은 2차
+2. **comp=high 단독 키워드 주제는 허브 포지션 전용** — 실제 유입은 의문문 롱테일 H2에서
+3. **6개월 내 100 유입 기대 가능한가?** 필터 미통과 시 발행 금지
+4. **허브 1편 + 롱테일 3~5편 = 클러스터 단위로 기획** — 단건 발행 금지
+5. **의문문 H2 비율 40%+** — 각 프롬프트 파일의 "의문문 H2 쿼리 뱅크"에서 선택
+
+### 키퍼메이트 최우선 공략 (Opus 분석 결과)
+
+경쟁사 브랜드(캡스/세콤/ADT/에스원) **가격·비용·고객센터 키워드는 comp=medium/low** — 단독 CCTV 키워드보다 노출 가능성 훨씬 높음. 경쟁사 검색자를 우리 정보성 콘텐츠로 유입시키는 것이 최선 전략.
+
+비방 금지. 렌탈 vs 구매 "3년 TCO 객관 수치 비교"로 작성.
+
+### 주제 등록 프로세스 (변경 금지)
+
+```
+주제 발굴 → KEYWORD-STRATEGY-RULES.md 클러스터 맵 교차 확인
+→ 클러스터 미해당 시 등록 거부
+→ enqueue-topics.mjs 경유 (직접 INSERT 금지)
+→ opportunityScore < 20이어도 DB 실측 확인 후 --force-unscored 가능
+   (단, KEYWORD-STRATEGY-RULES.md 클러스터 내 주제에 한정)
+```
+
+---
+
 ## 썸네일 디자인 시스템 (변경 금지 규정)
 
 **기준 커밋**: `1d13937` (feat(ui): upgrade fallback thumbnail)
@@ -371,6 +401,65 @@ node scripts/publish-post.mjs --publish-date 2026-04-18 키퍼메이트/content/
 `scripts/update-category-descriptions.mjs`
 - `--dry` 옵션으로 미리보기
 - 카테고리 description 변경 시 이 스크립트 사용
+
+---
+
+## 출처 링크 품질 규정 (Phase 9.7.1)
+
+**기준일**: 2026-04-15
+**설계 문서**: `.planning/phase-9.7.1-sources/DESIGN.md`
+**상세 규정**: `content-input/SEO-AEO-GEO-RULES.md` 섹션 11
+
+### 핵심 원칙
+모든 콘텐츠의 `## 출처` 섹션은 **접속 가능한 공식 기관 링크**만 포함한다. 깨진 링크(DNS 오류, 4xx/5xx)는 Google Trust 신호 -2.1배, 답변엔진 citation 거부 사유.
+
+### 도메인 신뢰 Tier
+
+| Tier | 예시 | 용도 |
+|------|------|------|
+| 1. 정부 `.go.kr` | law.go.kr, nts.go.kr, pipc.go.kr, police.go.kr, moef.go.kr | 최상위 신뢰. 1순위 출처 |
+| 2. 공공기관 `.or.kr` (실존) | kisa.or.kr, semas.or.kr, nhis.or.kr, kosha.or.kr | 2순위 출처 |
+| 3. 공식 제조사·국제 표준 | hanwhavision.com, onvif.org | 제품·기술 인용용 |
+| 4. 파트너 블로그 | keeper.ceo/blog, corp.apply.kr/blog | 보조 출처 (공식기관 3개 충족 후에만 추가) |
+
+### 블랙리스트 (DNS/HTTP 검증 실패 확인)
+`scripts/lib/source-registry.mjs::DOMAIN_BLACKLIST` 참조. 발견 시 즉시 제거 또는 교체.
+- `gbsc.or.kr` (NXDOMAIN)
+- `seoulallnet.or.kr` (NXDOMAIN)
+- 국내 서비스로 대체 불가능한 해외 앵커 (congress.gov NDAA 등) → 제거
+
+### 최소 출처 수
+- 포스트당 공식 기관 출처 3개 이상 필수
+- 수리 과정에서 3개 미만으로 떨어지면 카테고리 fallback(`CATEGORY_FALLBACK`)에서 보충
+
+### 자사 블로그 링크 정책 (사용자 확정)
+- `keeper.ceo/blog/*`, `corp.apply.kr/blog/*` 등 접속 불가 시 → **정부·공공기관 공식 URL로 교체**
+- 접속 가능한 자사 블로그는 보조 출처로만 유지 (공식기관 3개 충족 후)
+
+### Supabase DB 수리 워크플로우 (사용자 확정)
+1. `node scripts/check-sources-supabase.mjs --dry` — diff 리포트만 생성
+2. `reports/supabase-sources-dry-*.json` 검토
+3. 사용자 승인 후 `node scripts/check-sources-supabase.mjs --apply`
+4. 실행 전 자동 백업: `backups/db-content-{timestamp}.json`
+
+### 재실행 가능한 검증
+| 명령 | 용도 |
+|------|------|
+| `node scripts/verify-sources.mjs` | 로컬 .md 파일 전체 스캔, exit 0/1 |
+| `node scripts/verify-sources.mjs --affiliate 키퍼메이트` | 특정 어필리에이트만 |
+| `node scripts/repair-sources.mjs` | 로컬 파일 수리 dry-run |
+| `node scripts/repair-sources.mjs --apply` | 로컬 파일 실제 수정 |
+| `node scripts/check-sources-supabase.mjs --dry` | DB dry-run 리포트 |
+| `node scripts/check-sources-supabase.mjs --apply` | DB UPDATE 실행 |
+
+### 변경 금지
+- `scripts/lib/source-registry.mjs::DOMAIN_BLACKLIST` 항목 임의 제거 금지
+- `TIER1_GOV_DOMAINS`는 실측 확인된 도메인만 추가
+- 최소 출처 수 3 이하로 완화 금지
+- DB UPDATE는 항상 `--dry` 먼저 → 사용자 승인 → `--apply` 순서 준수
+
+### content-loop 파이프라인 통합 (Phase 9.7.2 예정)
+향후 `content-loop.mjs` 끝단에 `verify-sources.mjs` 훅 연결. 실패 시 발행 차단.
 
 ---
 

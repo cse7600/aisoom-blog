@@ -238,5 +238,4 @@ affiliate:
 - [소상공인시장진흥공단 스마트상점 기술보급사업](https://www.semas.or.kr)
 - [중소벤처기업부 소상공인 지원 정책 안내](https://www.mss.go.kr)
 - [서울시 자영업지원센터](https://golmok.seoul.go.kr)
-- [경기도 소상공인 지원센터](https://www.gbsc.or.kr)
 - [부산시 경제진흥원](https://www.bepa.kr)
