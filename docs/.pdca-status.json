@@ -1,6 +1,6 @@
 {
   "version": "2.0",
-  "lastUpdated": "2026-04-14T09:52:00.836Z",
+  "lastUpdated": "2026-04-15T02:01:48.095Z",
   "activeFeatures": [
     "blog-affiliate",
     "layout",
@@ -38,7 +38,8 @@
     "auto-schedule",
     "like",
     "bookmark",
-    "[tag]"
+    "[tag]",
+    "revalidate"
   ],
   "primaryFeature": "blog-affiliate",
   "features": {
@@ -522,6 +523,19 @@
         "lastUpdated": "2026-04-13T15:57:56.984Z"
       },
       "lastFile": "/Users/hokang2father/blog-affiliate/src/app/(main)/[category]/tag/[tag]/page.tsx"
+    },
+    "revalidate": {
+      "phase": "do",
+      "phaseNumber": 3,
+      "matchRate": null,
+      "iterationCount": 0,
+      "requirements": [],
+      "documents": {},
+      "timestamps": {
+        "started": "2026-04-15T02:01:48.095Z",
+        "lastUpdated": "2026-04-15T02:01:48.095Z"
+      },
+      "lastFile": "/Users/hokang2father/blog-affiliate/src/app/api/revalidate/route.ts"
     }
   },
   "pipeline": {
@@ -532,7 +546,7 @@
   "session": {
     "startedAt": "2026-04-10T02:43:31.949Z",
     "onboardingCompleted": false,
-    "lastActivity": "2026-04-14T09:52:00.836Z"
+    "lastActivity": "2026-04-15T02:01:48.095Z"
   },
   "history": [
     {
@@ -2602,6 +2616,12 @@
     {
       "timestamp": "2026-04-14T09:52:00.836Z",
       "feature": "tmp",
+      "phase": "do",
+      "action": "updated"
+    },
+    {
+      "timestamp": "2026-04-15T02:01:48.095Z",
+      "feature": "revalidate",
       "phase": "do",
       "action": "updated"
     }
