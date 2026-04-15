@@ -62,7 +62,7 @@ const AD_DATA: Record<AdVariant, AdContent> = {
     hook: "순이익 1억 사장님, 법인세 10% vs 종소세 38% 아직도 모르세요?",
     body: "개인사업자로 1년 더 버티면 딱 그만큼 사라집니다. 이미 전환한 사장님들은 매달 270만 원씩 세금 차액을 챙기고 있습니다.",
     cta: "3분 무료 세금 진단 받기",
-    href: "#",
+    href: "https://k-startbiz.org/?ref=STARTBIZ_CYM",
     tw: {
       card: "bg-gradient-to-br from-emerald-50 to-emerald-100 border border-emerald-200",
       badge: "bg-emerald-100 text-emerald-800",
@@ -85,7 +85,7 @@ const AD_DATA: Record<AdVariant, AdContent> = {
     hook: "세무서 폐업 → 재등록 공백 20일, 그 사이 매출은 0원입니다.",
     body: "직접 진행하면 평균 2~3주, 전문 대행은 5영업일 완료. 포괄양수도 계약서 1장으로 거래처·직원·자산을 그대로 넘깁니다.",
     cta: "무료 전환 타임라인 받기",
-    href: "#",
+    href: "https://k-startbiz.org/?ref=STARTBIZ_CYM",
     tw: {
       card: "bg-gradient-to-br from-emerald-50 to-teal-100 border border-teal-200",
       badge: "bg-teal-100 text-teal-800",
@@ -108,7 +108,7 @@ const AD_DATA: Record<AdVariant, AdContent> = {
     hook: "어차피 다시 시작한다면, 같은 매출로 세금만 4배 줄이는 방법이 있습니다.",
     body: "폐업 후 개인으로 재개업하면 종소세 38% 그대로입니다. 법인으로 재창업하면 첫해부터 법인세 10% 구간 진입.",
     cta: "내 매출 기준 손익계산 받기",
-    href: "#",
+    href: "https://k-startbiz.org/?ref=STARTBIZ_CYM",
     tw: {
       card: "bg-gradient-to-br from-emerald-50 to-emerald-100 border border-emerald-200",
       badge: "bg-emerald-100 text-emerald-800",
@@ -131,7 +131,7 @@ const AD_DATA: Record<AdVariant, AdContent> = {
     hook: "이번 달에도 모르는 새 사라진 월매출 10%, CCTV 없는 매장이 먼저 털립니다.",
     body: "도난 1건 평균 8~15만 원, 월 2~4건. 렌탈비 월 6만 원이면 1건만 막아도 원금 회수. 지금 이 순간에도 집계되고 있습니다.",
     cta: "무인매장 견적 무료 상담",
-    href: "#",
+    href: "https://keeper.ceo/security?ref=89S42E",
     tw: {
       card: "bg-gradient-to-br from-sky-50 to-sky-100 border border-sky-200",
       badge: "bg-sky-100 text-sky-800",
@@ -154,7 +154,7 @@ const AD_DATA: Record<AdVariant, AdContent> = {
     hook: "직원 감시 목적으로 달았다면, 지금 당장 개인정보보호법 위반입니다.",
     body: "안내판 문구 1줄, 설치 각도 하나 차이로 과태료 범위가 갈립니다. 설치 전 법률 체크 없이 달면 고스란히 사업주 책임.",
     cta: "법률 준수 설치 컨설팅",
-    href: "#",
+    href: "https://keeper.ceo/security?ref=89S42E",
     tw: {
       card: "bg-gradient-to-br from-slate-50 to-slate-100 border border-slate-200",
       badge: "bg-slate-200 text-slate-700",
@@ -177,7 +177,7 @@ const AD_DATA: Record<AdVariant, AdContent> = {
     hook: "매장 보안을 커피값으로 해결 못 하는 이유가 있나요?",
     body: "4대 + 녹화기 렌탈 월 6만 원대, 24시간 관제 포함. 구매 시 초기 220만 원 한 번에, 3년 총비용은 거의 동일.",
     cta: "매장 견적 무료 받기",
-    href: "#",
+    href: "https://keeper.ceo/security?ref=89S42E",
     tw: {
       card: "bg-gradient-to-br from-sky-50 to-sky-100 border border-sky-200",
       badge: "bg-sky-100 text-sky-800",
