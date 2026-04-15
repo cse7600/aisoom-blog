@@ -539,7 +539,7 @@
           "매장CCTV"
         ],
         "slugHint": "restaurant-kitchen-cctv-legality",
-        "status": "pending",
+        "status": "generated",
         "discoveredAt": "2026-04-15T05:43:45.487Z",
         "source": "manual-enqueue",
         "rationale": "",
@@ -552,7 +552,9 @@
           "sourceFile": "2026-04-10-키퍼메이트-discover.json",
           "matchType": "exact",
           "searchedBy": "매장CCTV"
-        }
+        },
+        "generatedAt": "2026-04-15T05:59:34.149Z",
+        "draftPath": "키퍼메이트/content/restaurant-kitchen-cctv-legality.md"
       },
       {
         "topic": "직원 감시 목적 CCTV가 왜 5,000만원 과태료 대상인가 — 합법 범위 체크리스트",
@@ -563,7 +565,7 @@
           "근태관리기"
         ],
         "slugHint": "employee-surveillance-cctv-legal-limits",
-        "status": "pending",
+        "status": "generated",
         "discoveredAt": "2026-04-15T05:43:45.487Z",
         "source": "manual-enqueue",
         "rationale": "",
@@ -576,7 +578,9 @@
           "sourceFile": "2026-04-14-노무.json",
           "matchType": "exact",
           "searchedBy": "근태관리기"
-        }
+        },
+        "generatedAt": "2026-04-15T05:59:55.683Z",
+        "draftPath": "키퍼메이트/content/employee-surveillance-cctv-legal-limits.md"
       },
       {
         "topic": "CCTV 안내판 문구 작성법 — 개인정보보호위원회 표준 양식 그대로",
@@ -587,7 +591,7 @@
           "도난방지시스템"
         ],
         "slugHint": "cctv-notice-board-standard-template",
-        "status": "pending",
+        "status": "generated",
         "discoveredAt": "2026-04-15T05:43:45.487Z",
         "source": "manual-enqueue",
         "rationale": "",
@@ -600,7 +604,9 @@
           "sourceFile": "2026-04-14-노무.json",
           "matchType": "exact",
           "searchedBy": "양식"
-        }
+        },
+        "generatedAt": "2026-04-15T06:00:16.820Z",
+        "draftPath": "키퍼메이트/content/cctv-notice-board-standard-template.md"
       },
       {
         "topic": "외부 CCTV 설치 시 야외 내구성 기준 — IP등급·온도 규격 실전 선택",
@@ -611,7 +617,7 @@
           "CCTV설치"
         ],
         "slugHint": "outdoor-cctv-ip-rating-guide",
-        "status": "pending",
+        "status": "generated",
         "discoveredAt": "2026-04-15T05:43:45.487Z",
         "source": "manual-enqueue",
         "rationale": "",
@@ -624,7 +630,9 @@
           "sourceFile": "2026-04-10-키퍼메이트-discover.json",
           "matchType": "exact",
           "searchedBy": "외부CCTV추천"
-        }
+        },
+        "generatedAt": "2026-04-15T06:00:48.568Z",
+        "draftPath": "키퍼메이트/content/outdoor-cctv-ip-rating-guide.md"
       },
       {
         "topic": "농막 CCTV 설치 가이드 — 전원·통신·방수 3대 숙제 해결법",
@@ -634,7 +642,7 @@
           "CCTV설치"
         ],
         "slugHint": "farm-hut-cctv-setup-guide",
-        "status": "pending",
+        "status": "generated",
         "discoveredAt": "2026-04-15T05:43:45.487Z",
         "source": "manual-enqueue",
         "rationale": "",
@@ -647,7 +655,9 @@
           "sourceFile": "2026-04-10-키퍼메이트-discover.json",
           "matchType": "exact",
           "searchedBy": "외부CCTV추천"
-        }
+        },
+        "generatedAt": "2026-04-15T06:01:16.852Z",
+        "draftPath": "키퍼메이트/content/farm-hut-cctv-setup-guide.md"
       },
       {
         "topic": "CCTV 렌탈 계약서 반드시 확인할 5가지 — 해지 위약금·장비 소유권·자동연장",
@@ -658,7 +668,7 @@
           "CCTV설치"
         ],
         "slugHint": "cctv-rental-contract-checklist-5",
-        "status": "pending",
+        "status": "generated",
         "discoveredAt": "2026-04-15T05:43:45.487Z",
         "source": "manual-enqueue",
         "rationale": "",
@@ -671,7 +681,9 @@
           "sourceFile": "2026-04-10-키퍼메이트-discover.json",
           "matchType": "exact",
           "searchedBy": "CCTV렌탈비용"
-        }
+        },
+        "generatedAt": "2026-04-15T06:01:47.242Z",
+        "draftPath": "키퍼메이트/content/cctv-rental-contract-checklist-5.md"
       },
       {
         "topic": "지문인식 도어락과 CCTV 2중 구성 — 매장 보안 풀 스택 견적",
