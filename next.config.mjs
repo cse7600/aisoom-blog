@@ -13,6 +13,15 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ["lucide-react"],
   },
+  async redirects() {
+    return [
+      {
+        source: "/favicon.ico",
+        destination: "/icon",
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {

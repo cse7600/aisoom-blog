@@ -34,6 +34,11 @@ export const metadata: Metadata = {
     description: SEO_DEFAULTS.defaultDescription,
     images: [SITE_CONFIG.ogImage],
   },
+  icons: {
+    icon: [{ url: "/icon", type: "image/png", sizes: "32x32" }],
+    apple: [{ url: "/apple-icon", type: "image/png", sizes: "180x180" }],
+    shortcut: "/favicon.ico",
+  },
   robots: {
     index: true,
     follow: true,
