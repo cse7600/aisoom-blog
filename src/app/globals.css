@@ -100,6 +100,35 @@
   --thumb-default-accent: #475569;
   --thumb-default-ink: #0f172a;
   --thumb-default-pattern: rgba(71, 85, 105, 0.08);
+
+  /* ===== Native ad tokens — 어필리에이트 CTA 카드 ===== */
+  /* corp — 법인설립 (신뢰의 에메랄드, 금융 계열 확장) */
+  --ad-corp-bg-from: #ecfdf5;
+  --ad-corp-bg-to: #a7f3d0;
+  --ad-corp-accent: #047857;
+  --ad-corp-accent-strong: #065f46;
+  --ad-corp-ink: #064e3b;
+  --ad-corp-ink-soft: #065f46;
+  --ad-corp-cta-bg: #059669;
+  --ad-corp-cta-bg-hover: #047857;
+  --ad-corp-cta-fg: #ffffff;
+  --ad-corp-badge-bg: rgba(5, 150, 105, 0.14);
+  --ad-corp-glow: rgba(16, 185, 129, 0.28);
+  --ad-corp-divider: rgba(6, 78, 59, 0.12);
+
+  /* cctv — CCTV/보안 (스카이-슬레이트, 기술 신뢰감) */
+  --ad-cctv-bg-from: #f0f9ff;
+  --ad-cctv-bg-to: #bae6fd;
+  --ad-cctv-accent: #0369a1;
+  --ad-cctv-accent-strong: #075985;
+  --ad-cctv-ink: #0c4a6e;
+  --ad-cctv-ink-soft: #075985;
+  --ad-cctv-cta-bg: #0284c7;
+  --ad-cctv-cta-bg-hover: #0369a1;
+  --ad-cctv-cta-fg: #ffffff;
+  --ad-cctv-badge-bg: rgba(2, 132, 199, 0.14);
+  --ad-cctv-glow: rgba(14, 165, 233, 0.28);
+  --ad-cctv-divider: rgba(12, 74, 110, 0.12);
 }
 
 /* Dark Mode */
@@ -178,6 +207,38 @@
   --thumb-default-accent: #cbd5e1;
   --thumb-default-ink: #f1f5f9;
   --thumb-default-pattern: rgba(203, 213, 225, 0.08);
+
+  /* Native ad tokens — dark mode */
+  --ad-corp-bg-from: #052e24;
+  --ad-corp-bg-to: #064e3b;
+  --ad-corp-accent: #34d399;
+  --ad-corp-accent-strong: #6ee7b7;
+  --ad-corp-ink: #d1fae5;
+  --ad-corp-ink-soft: #a7f3d0;
+  --ad-corp-cta-bg: #10b981;
+  --ad-corp-cta-bg-hover: #34d399;
+  --ad-corp-cta-fg: #022c22;
+  --ad-corp-badge-bg: rgba(52, 211, 153, 0.18);
+  --ad-corp-glow: rgba(52, 211, 153, 0.22);
+  --ad-corp-divider: rgba(167, 243, 208, 0.14);
+
+  --ad-cctv-bg-from: #082f3f;
+  --ad-cctv-bg-to: #0c4a6e;
+  --ad-cctv-accent: #38bdf8;
+  --ad-cctv-accent-strong: #7dd3fc;
+  --ad-cctv-ink: #e0f2fe;
+  --ad-cctv-ink-soft: #bae6fd;
+  --ad-cctv-cta-bg: #0ea5e9;
+  --ad-cctv-cta-bg-hover: #38bdf8;
+  --ad-cctv-cta-fg: #082f49;
+  --ad-cctv-badge-bg: rgba(56, 189, 248, 0.18);
+  --ad-cctv-glow: rgba(56, 189, 248, 0.22);
+  --ad-cctv-divider: rgba(186, 230, 253, 0.14);
+}
+
+/* ===== Native ad CTA hover — data-ad-cta 기반 (Tailwind arbitrary 의존 제거) ===== */
+.group:hover [data-ad-cta] {
+  background-color: var(--ad-cta-bg-hover) !important;
 }
 
 /* ===== Base Styles ===== */

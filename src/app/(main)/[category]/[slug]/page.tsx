@@ -7,6 +7,8 @@ import { ShareButtons } from "@/components/content/ShareButtons";
 import { FloatingShareBar } from "@/components/content/FloatingShareBar";
 import { ArticleTableOfContents } from "@/components/content/ArticleTableOfContents";
 import { InlineTableOfContents } from "@/components/content/InlineTableOfContents";
+import { ContentWithAds, getSidebarAdVariants } from "@/components/content/ContentWithAds";
+import { NativeAdCard } from "@/components/content/NativeAdCard";
 import { RelatedPostsSection } from "@/components/content/RelatedPostsSection";
 import { DiscussionSection } from "@/components/discussion/DiscussionSection";
 import { DiscussionSkeleton } from "@/components/discussion/DiscussionSkeleton";
@@ -145,17 +147,13 @@ export default async function PostPage({ params }: PostPageProps) {
               <InlineTableOfContents contentHtml={contentHtml} />
             )}
 
-            {/* 본문 */}
-            {contentHtml ? (
-              <div
-                className="prose-content"
-                dangerouslySetInnerHTML={{ __html: contentHtml }}
-              />
-            ) : (
-              <p className="text-body-md text-foreground/40 py-12 text-center">
-                콘텐츠 준비 중입니다.
-              </p>
-            )}
+            {/* 본문 + 인콘텐츠 네이티브 광고 */}
+            <ContentWithAds
+              contentHtml={contentHtml}
+              category={post.category}
+              title={post.title}
+              tags={post.keywords ?? null}
+            />
 
             {/* 공유 */}
             <div className="mt-10 pt-6 border-t border-border">
@@ -167,9 +165,40 @@ export default async function PostPage({ params }: PostPageProps) {
             </div>
           </article>
 
-          {/* 데스크탑 사이드바 TOC */}
+          {/* 데스크탑 사이드바 (PC 전용) — xl: TOC + 광고, lg~xl: 광고만 */}
           {contentHtml && (
-            <ArticleTableOfContents contentHtml={contentHtml} />
+            <>
+              {/* xl 이상: TOC + 광고 세로 스택 */}
+              <div className="hidden xl:flex flex-col gap-6 w-56 shrink-0">
+                <ArticleTableOfContents contentHtml={contentHtml} />
+                <aside
+                  data-nosnippet
+                  aria-label="추천"
+                  className="sticky top-[calc(6rem+18rem)] flex flex-col gap-3"
+                >
+                  {getSidebarAdVariants(post.category, post.title, post.keywords ?? null).map(
+                    (variant) => (
+                      <NativeAdCard key={variant} variant={variant} placement="sidebar" />
+                    ),
+                  )}
+                </aside>
+              </div>
+
+              {/* lg~xl: TOC 없음, 광고만 */}
+              <aside
+                data-nosnippet
+                aria-label="추천"
+                className="hidden lg:block xl:hidden w-56 shrink-0"
+              >
+                <div className="sticky top-24 flex flex-col gap-3">
+                  {getSidebarAdVariants(post.category, post.title, post.keywords ?? null).map(
+                    (variant) => (
+                      <NativeAdCard key={variant} variant={variant} placement="sidebar" />
+                    ),
+                  )}
+                </div>
+              </aside>
+            </>
           )}
         </div>
 

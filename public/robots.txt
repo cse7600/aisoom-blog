@@ -1,7 +1,9 @@
 User-agent: *
 Allow: /
+Disallow: /preview/
 
 User-agent: Yeti
 Allow: /
+Disallow: /preview/
 
 Sitemap: https://www.factnote.co.kr/sitemap.xml
