@@ -9,5 +9,27 @@
         "published_at": "2026-04-14T01:50:39+00:00"
       }
     ]
+  },
+  {
+    "executedAt": "2026-04-17T03:00:01.031Z",
+    "count": 1,
+    "posts": [
+      {
+        "slug": "gas-station-cctv-explosion-proof-spec",
+        "title": "주유소CCTV 필수 스펙 — 소방법 준수하는 방폭·방수·야간 스펙 총정리",
+        "published_at": "2026-04-17T02:10:22+00:00"
+      }
+    ]
+  },
+  {
+    "executedAt": "2026-04-20T13:22:00.679Z",
+    "count": 1,
+    "posts": [
+      {
+        "slug": "hanwha-ai-face-recognition-cctv-retail",
+        "title": "한화비전 AI CCTV 얼굴인식 — 매장 출입 관리 도입 실제 사례",
+        "published_at": "2026-04-20T03:07:27+00:00"
+      }
+    ]
   }
 ]

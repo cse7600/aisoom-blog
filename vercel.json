@@ -23,7 +23,7 @@
     },
     {
       "path": "/api/cron/auto-schedule",
-      "schedule": "0 1 * * *"
+      "schedule": "5 * * * *"
     }
   ]
 }
