@@ -7,7 +7,7 @@ import { createServiceClient } from "./supabase";
 
 // ─── 멀티 테넌트 격리 ──────────────────────────────────────────────────────
 // factnote 블로그와 Supabase 인스턴스를 공유하므로 site_id로 필터링한다.
-const SITE_ID = process.env.NEXT_PUBLIC_SITE_ID ?? "carepod";
+const SITE_ID = (process.env.NEXT_PUBLIC_SITE_ID ?? "carepod").trim();
 
 // ─── DB 행 타입 (Supabase 컬럼 그대로) ──────────────────────────────────────
 
