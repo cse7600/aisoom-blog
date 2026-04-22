@@ -2,28 +2,23 @@
 
 import Link from "next/link";
 import {
-  Building2,
-  Camera,
+  Droplets,
+  Wind,
+  ShieldCheck,
+  Star,
+  ThumbsUp,
   ArrowRight,
-  Shield,
-  TrendingDown,
-  Clock4,
-  RotateCcw,
-  PiggyBank,
-  Truck,
-  Receipt,
+  Thermometer,
+  Baby,
 } from "lucide-react";
 
 export type AdVariant =
-  | "corp-cost"
-  | "corp-time"
-  | "corp-restart"
-  | "cctv-theft"
-  | "cctv-legal"
-  | "cctv-cost"
-  | "food-cost"
-  | "food-supply"
-  | "food-savings";
+  | "humidifier-safe"
+  | "humidifier-review"
+  | "humidifier-vs"
+  | "air-compact"
+  | "air-baby"
+  | "air-silent";
 
 export type AdPlacement = "inline" | "sidebar";
 
@@ -34,7 +29,7 @@ interface NativeAdCardProps {
 }
 
 interface AdContent {
-  icon: typeof Building2;
+  icon: typeof Droplets;
   badge: string;
   heroNumber: string;
   heroLabel: string;
@@ -42,228 +37,158 @@ interface AdContent {
   body: string;
   cta: string;
   href: string;
-  // Tailwind 클래스 직접 지정 — CSS 변수 체인 없음
   tw: {
-    card: string;       // 카드 배경
-    badge: string;      // 뱃지 bg + text
-    heroNum: string;    // 히어로 숫자 색
-    heroLabel: string;  // 라벨 색
-    iconWrap: string;   // 아이콘 배경
-    iconColor: string;  // 아이콘 색
-    divider: string;    // 구분선
-    hook: string;       // 후킹 문장 색
-    body: string;       // 본문 색
-    cta: string;        // CTA 버튼
-    ctaHover: string;   // CTA hover
+    card: string;
+    badge: string;
+    heroNum: string;
+    heroLabel: string;
+    iconWrap: string;
+    iconColor: string;
+    divider: string;
+    hook: string;
+    body: string;
+    cta: string;
+    ctaHover: string;
   };
 }
 
 const AD_DATA: Record<AdVariant, AdContent> = {
-  "corp-cost": {
-    icon: PiggyBank,
-    badge: "법인 전환",
-    heroNumber: "3,200만 원",
-    heroLabel: "연간 절세 가능 금액 (순이익 1억 기준)",
-    hook: "순이익 1억 사장님, 법인세 10% vs 종소세 38% 아직도 모르세요?",
-    body: "개인사업자로 1년 더 버티면 딱 그만큼 사라집니다. 이미 전환한 사장님들은 매달 270만 원씩 세금 차액을 챙기고 있습니다.",
-    cta: "3분 무료 세금 진단 받기",
-    href: "https://k-startbiz.org/?ref=STARTBIZ_CYM",
+  "humidifier-safe": {
+    icon: ShieldCheck,
+    badge: "자동살균 가습기",
+    heroNumber: "100만 대",
+    heroLabel: "누적 판매 — 병원·산후조리원 공식 사용",
+    hook: "초음파 가습기 쓰면서 세균 걱정 하셨나요?",
+    body: "케어팟 X50V는 저온가열로 세균을 자동 사멸합니다. 고온 화상 위험 없이, 세척 걱정도 없이. 아이 방에 두기 가장 안전한 가습기입니다.",
+    cta: "케어팟 X50V 자세히 보기",
+    href: "https://carepod.co.kr/",
     tw: {
-      card: "bg-gradient-to-br from-emerald-50 to-emerald-100 border border-emerald-200",
-      badge: "bg-emerald-100 text-emerald-800",
-      heroNum: "text-emerald-900",
-      heroLabel: "text-emerald-700",
-      iconWrap: "bg-emerald-200",
-      iconColor: "text-emerald-800",
-      divider: "bg-emerald-200",
-      hook: "text-emerald-950",
-      body: "text-emerald-800",
-      cta: "bg-emerald-700 text-white hover:bg-emerald-800",
-      ctaHover: "",
-    },
-  },
-  "corp-time": {
-    icon: Clock4,
-    badge: "포괄양수도",
-    heroNumber: "5영업일",
-    heroLabel: "공백 없는 전환 완료 기간",
-    hook: "세무서 폐업 → 재등록 공백 20일, 그 사이 매출은 0원입니다.",
-    body: "직접 진행하면 평균 2~3주, 전문 대행은 5영업일 완료. 포괄양수도 계약서 1장으로 거래처·직원·자산을 그대로 넘깁니다.",
-    cta: "무료 전환 타임라인 받기",
-    href: "https://k-startbiz.org/?ref=STARTBIZ_CYM",
-    tw: {
-      card: "bg-gradient-to-br from-emerald-50 to-teal-100 border border-teal-200",
-      badge: "bg-teal-100 text-teal-800",
-      heroNum: "text-teal-900",
-      heroLabel: "text-teal-700",
-      iconWrap: "bg-teal-200",
-      iconColor: "text-teal-800",
-      divider: "bg-teal-200",
-      hook: "text-teal-950",
-      body: "text-teal-800",
-      cta: "bg-teal-700 text-white hover:bg-teal-800",
-      ctaHover: "",
-    },
-  },
-  "corp-restart": {
-    icon: RotateCcw,
-    badge: "재창업 전략",
-    heroNumber: "세금 4배 차이",
-    heroLabel: "개인 재창업 vs 법인 재창업",
-    hook: "어차피 다시 시작한다면, 같은 매출로 세금만 4배 줄이는 방법이 있습니다.",
-    body: "폐업 후 개인으로 재개업하면 종소세 38% 그대로입니다. 법인으로 재창업하면 첫해부터 법인세 10% 구간 진입.",
-    cta: "내 매출 기준 손익계산 받기",
-    href: "https://k-startbiz.org/?ref=STARTBIZ_CYM",
-    tw: {
-      card: "bg-gradient-to-br from-emerald-50 to-emerald-100 border border-emerald-200",
-      badge: "bg-emerald-100 text-emerald-800",
-      heroNum: "text-emerald-900",
-      heroLabel: "text-emerald-700",
-      iconWrap: "bg-emerald-200",
-      iconColor: "text-emerald-800",
-      divider: "bg-emerald-200",
-      hook: "text-emerald-950",
-      body: "text-emerald-800",
-      cta: "bg-emerald-700 text-white hover:bg-emerald-800",
-      ctaHover: "",
-    },
-  },
-  "cctv-theft": {
-    icon: TrendingDown,
-    badge: "무인매장 손실 방어",
-    heroNumber: "월 34만 원",
-    heroLabel: "무인매장 평균 도난 손실액",
-    hook: "이번 달에도 모르는 새 사라진 월매출 10%, CCTV 없는 매장이 먼저 털립니다.",
-    body: "도난 1건 평균 8~15만 원, 월 2~4건. 렌탈비 월 6만 원이면 1건만 막아도 원금 회수. 지금 이 순간에도 집계되고 있습니다.",
-    cta: "무인매장 견적 무료 상담",
-    href: "https://keeper.ceo/security?ref=89S42E",
-    tw: {
-      card: "bg-gradient-to-br from-sky-50 to-sky-100 border border-sky-200",
-      badge: "bg-sky-100 text-sky-800",
-      heroNum: "text-sky-900",
-      heroLabel: "text-sky-700",
-      iconWrap: "bg-sky-200",
-      iconColor: "text-sky-800",
-      divider: "bg-sky-200",
-      hook: "text-sky-950",
-      body: "text-sky-800",
-      cta: "bg-sky-700 text-white hover:bg-sky-800",
-      ctaHover: "",
-    },
-  },
-  "cctv-legal": {
-    icon: Shield,
-    badge: "법률 리스크",
-    heroNumber: "5,000만 원",
-    heroLabel: "설치 방식 잘못하면 과태료",
-    hook: "직원 감시 목적으로 달았다면, 지금 당장 개인정보보호법 위반입니다.",
-    body: "안내판 문구 1줄, 설치 각도 하나 차이로 과태료 범위가 갈립니다. 설치 전 법률 체크 없이 달면 고스란히 사업주 책임.",
-    cta: "법률 준수 설치 컨설팅",
-    href: "https://keeper.ceo/security?ref=89S42E",
-    tw: {
-      card: "bg-gradient-to-br from-slate-50 to-slate-100 border border-slate-200",
-      badge: "bg-slate-200 text-slate-700",
-      heroNum: "text-slate-900",
-      heroLabel: "text-slate-600",
-      iconWrap: "bg-slate-200",
-      iconColor: "text-slate-700",
-      divider: "bg-slate-300",
-      hook: "text-slate-900",
-      body: "text-slate-700",
-      cta: "bg-slate-800 text-white hover:bg-slate-900",
-      ctaHover: "",
-    },
-  },
-  "cctv-cost": {
-    icon: Camera,
-    badge: "매장 CCTV",
-    heroNumber: "월 6만 원",
-    heroLabel: "커피 20잔 값으로 24시간 보안",
-    hook: "매장 보안을 커피값으로 해결 못 하는 이유가 있나요?",
-    body: "4대 + 녹화기 렌탈 월 6만 원대, 24시간 관제 포함. 구매 시 초기 220만 원 한 번에, 3년 총비용은 거의 동일.",
-    cta: "매장 견적 무료 받기",
-    href: "https://keeper.ceo/security?ref=89S42E",
-    tw: {
-      card: "bg-gradient-to-br from-sky-50 to-sky-100 border border-sky-200",
-      badge: "bg-sky-100 text-sky-800",
-      heroNum: "text-sky-900",
-      heroLabel: "text-sky-700",
-      iconWrap: "bg-sky-200",
-      iconColor: "text-sky-800",
-      divider: "bg-sky-200",
-      hook: "text-sky-950",
-      body: "text-sky-800",
-      cta: "bg-sky-700 text-white hover:bg-sky-800",
-      ctaHover: "",
-    },
-  },
-  "food-cost": {
-    icon: TrendingDown,
-    badge: "식자재 원가",
-    heroNumber: "8.4%p",
-    heroLabel: "원가율 절감 — 월 매출 3,000만 기준 252만 원 차이",
-    hook: "식자재 원가율 40% 넘어가는 달은 적자입니다. 8.4%p 낮추는 방법이 있습니다.",
-    body: "차별화상회 도입 매장 평균 원가율 31.6%. 소분 구매 + 도매가 직거래로 같은 메뉴 같은 수량, 더 낮은 재료비.",
-    cta: "원가율 무료 진단 받기",
-    href: "https://www.chabyulhwa.com/",
-    tw: {
-      card: "bg-gradient-to-br from-amber-50 to-amber-100 border border-amber-200",
+      card: "bg-gradient-to-br from-amber-50 to-stone-100 border border-amber-200",
       badge: "bg-amber-100 text-amber-800",
       heroNum: "text-amber-900",
       heroLabel: "text-amber-700",
       iconWrap: "bg-amber-200",
       iconColor: "text-amber-800",
       divider: "bg-amber-200",
-      hook: "text-amber-950",
-      body: "text-amber-800",
-      cta: "bg-amber-700 text-white hover:bg-amber-800",
-      ctaHover: "",
+      hook: "text-stone-900",
+      body: "text-stone-700",
+      cta: "bg-amber-600 hover:bg-amber-700 text-white",
+      ctaHover: "hover:bg-amber-700",
     },
   },
-  "food-supply": {
-    icon: Truck,
-    badge: "반짝배송",
-    heroNumber: "익일 오전",
-    heroLabel: "오후 4시 전 주문 → 다음날 오전 도착",
-    hook: "오늘 재고 부족한데 내일 장사 어떻게 합니까. 마트 가는 시간이 아깝습니다.",
-    body: "차별화상회 반짝배송. 오후 4시 이전 주문하면 익일 오전 도착. 최소 주문 5만 원, 소분 단위 구매 가능.",
-    cta: "첫 주문 10% 할인 받기",
-    href: "https://www.chabyulhwa.com/",
+  "humidifier-review": {
+    icon: Star,
+    badge: "2,588개 리뷰",
+    heroNumber: "4.8점",
+    heroLabel: "네이버 구매자 리뷰 2,588건 · 4.8점 — 2026년 4월 기준",
+    hook: "엄마들이 가장 많이 선택한 가습기, 이유가 있습니다.",
+    body: "케어팟 X50V는 리뷰 2,588건 중 대부분이 '위생'과 '살균'을 이유로 선택했습니다. 아이 키우는 집이라면 한 번은 읽어봐야 할 솔직한 후기들.",
+    cta: "실사용 후기 전체 보기",
+    href: "https://carepod.co.kr/",
     tw: {
-      card: "bg-gradient-to-br from-orange-50 to-orange-100 border border-orange-200",
+      card: "bg-gradient-to-br from-orange-50 to-amber-50 border border-orange-200",
       badge: "bg-orange-100 text-orange-800",
       heroNum: "text-orange-900",
       heroLabel: "text-orange-700",
       iconWrap: "bg-orange-200",
       iconColor: "text-orange-800",
       divider: "bg-orange-200",
-      hook: "text-orange-950",
-      body: "text-orange-800",
-      cta: "bg-orange-700 text-white hover:bg-orange-800",
-      ctaHover: "",
+      hook: "text-stone-900",
+      body: "text-stone-700",
+      cta: "bg-orange-600 hover:bg-orange-700 text-white",
+      ctaHover: "hover:bg-orange-700",
     },
   },
-  "food-savings": {
-    icon: Receipt,
-    badge: "차별화장부",
-    heroNumber: "월 2.1시간",
-    heroLabel: "장부 정리 시간 절약 (사장님 설문 평균)",
-    hook: "엑셀로 장부 쓰는 사장님, 그 시간에 메뉴 하나 더 팝니다.",
-    body: "식자재 구매 즉시 장부 자동 기록. 원가율 실시간 계산. 월말 세무사 제출용 보고서 자동 생성.",
-    cta: "차별화장부 무료 시작",
-    href: "https://www.chabyulhwa.com/",
+  "humidifier-vs": {
+    icon: ThumbsUp,
+    badge: "비교 분석",
+    heroNumber: "9%",
+    heroLabel: "할인 중 — 정가 289,000원 → 264,000원",
+    hook: "위생 기준 하나로 결정이 달라집니다. 케어팟과 코웨이를 3년 TCO로 비교했습니다.",
+    body: "3년 기준 케어팟 1대가 코웨이 렌탈보다 총비용이 낮거나 비슷하다는 계산 결과가 있습니다. 위생은 구조적으로 차이가 납니다.",
+    cta: "케어팟 가격 확인하기",
+    href: "https://carepod.co.kr/",
     tw: {
-      card: "bg-gradient-to-br from-yellow-50 to-amber-100 border border-amber-200",
+      card: "bg-gradient-to-br from-yellow-50 to-amber-50 border border-yellow-200",
+      badge: "bg-yellow-100 text-yellow-800",
+      heroNum: "text-yellow-900",
+      heroLabel: "text-yellow-700",
+      iconWrap: "bg-yellow-200",
+      iconColor: "text-yellow-800",
+      divider: "bg-yellow-200",
+      hook: "text-stone-900",
+      body: "text-stone-700",
+      cta: "bg-yellow-600 hover:bg-yellow-700 text-white",
+      ctaHover: "hover:bg-yellow-700",
+    },
+  },
+  "air-compact": {
+    icon: Wind,
+    badge: "컴팩트 공기청정기",
+    heroNumber: "270m³/h",
+    heroLabel: "CADR — 작은 크기, 강력한 청정 성능",
+    hook: "거실 대형 공기청정기가 아이 방 공기까지 책임지나요?",
+    body: "케어팟 Air Cube One은 침실·아이방 개인 공간 전용으로 설계됐습니다. HEPA13 3중 필터 + 24dB 초저소음으로 아이가 자는 동안도 조용히 작동합니다.",
+    cta: "Air Cube One 자세히 보기",
+    href: "https://carepod.co.kr/",
+    tw: {
+      card: "bg-gradient-to-br from-stone-50 to-slate-100 border border-stone-200",
+      badge: "bg-stone-200 text-stone-800",
+      heroNum: "text-stone-900",
+      heroLabel: "text-stone-600",
+      iconWrap: "bg-stone-200",
+      iconColor: "text-stone-800",
+      divider: "bg-stone-200",
+      hook: "text-stone-900",
+      body: "text-stone-700",
+      cta: "bg-stone-700 hover:bg-stone-800 text-white",
+      ctaHover: "hover:bg-stone-800",
+    },
+  },
+  "air-baby": {
+    icon: Baby,
+    badge: "아이방 전용",
+    heroNumber: "HEPA13",
+    heroLabel: "3중 필터 — PM2.5·바이러스·포름알데히드 동시 차단",
+    hook: "아이방 공기청정기, 소음 때문에 꺼두신 적 있나요?",
+    body: "케어팟 Air Cube One은 PM2.5 초미세먼지 센서로 실시간 공기질을 측정하고 AI가 자동으로 강도를 조절합니다. 에너지 소비효율 1등급이라 24시간 틀어도 부담 없습니다.",
+    cta: "아이방 공기질 개선 시작하기",
+    href: "https://carepod.co.kr/",
+    tw: {
+      card: "bg-gradient-to-br from-amber-50 to-orange-50 border border-amber-200",
       badge: "bg-amber-100 text-amber-800",
       heroNum: "text-amber-900",
       heroLabel: "text-amber-700",
       iconWrap: "bg-amber-200",
       iconColor: "text-amber-800",
       divider: "bg-amber-200",
-      hook: "text-amber-950",
-      body: "text-amber-800",
-      cta: "bg-amber-700 text-white hover:bg-amber-800",
-      ctaHover: "",
+      hook: "text-stone-900",
+      body: "text-stone-700",
+      cta: "bg-amber-700 hover:bg-amber-800 text-white",
+      ctaHover: "hover:bg-amber-800",
+    },
+  },
+  "air-silent": {
+    icon: Thermometer,
+    badge: "초저소음 24dB",
+    heroNumber: "24dB",
+    heroLabel: "나뭇잎 흔들리는 소리 수준 — 수면 방해 없음",
+    hook: "공기청정기 팬 소리에 아이가 깨진 않으셨나요?",
+    body: "케어팟 Air Cube One은 24dB 초저소음으로 아이 수면을 방해하지 않습니다. AI 자동 청정 모드로 수면 중에는 자동으로 약풍 전환.",
+    cta: "조용한 공기청정기 확인하기",
+    href: "https://carepod.co.kr/",
+    tw: {
+      card: "bg-gradient-to-br from-stone-50 to-amber-50 border border-stone-200",
+      badge: "bg-stone-200 text-stone-800",
+      heroNum: "text-stone-900",
+      heroLabel: "text-stone-600",
+      iconWrap: "bg-stone-300",
+      iconColor: "text-stone-800",
+      divider: "bg-stone-200",
+      hook: "text-stone-900",
+      body: "text-stone-700",
+      cta: "bg-stone-700 hover:bg-stone-800 text-white",
+      ctaHover: "hover:bg-stone-800",
     },
   },
 };
@@ -271,90 +196,73 @@ const AD_DATA: Record<AdVariant, AdContent> = {
 export function NativeAdCard({ variant, placement = "inline", className = "" }: NativeAdCardProps) {
   const ad = AD_DATA[variant];
   const Icon = ad.icon;
+  const isSidebar = placement === "sidebar";
 
-  if (placement === "sidebar") {
+  if (isSidebar) {
     return (
-      <Link
-        href={ad.href}
-        rel="nofollow sponsored noopener"
-        target="_blank"
-        aria-label={`${ad.badge} — ${ad.cta}`}
-        className={`group block rounded-[var(--radius-card)] p-4 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[var(--shadow-card-md)] ${ad.tw.card} ${className}`}
-      >
-        <div className="flex items-center gap-2 mb-2">
-          <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded ${ad.tw.badge}`}>
+      <aside className={`rounded-2xl p-4 ${ad.tw.card} ${className}`}>
+        <div className="flex items-center gap-2 mb-3">
+          <div className={`p-1.5 rounded-lg ${ad.tw.iconWrap}`}>
+            <Icon size={16} className={ad.tw.iconColor} />
+          </div>
+          <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${ad.tw.badge}`}>
             {ad.badge}
           </span>
         </div>
-        <p className={`text-2xl font-black tabular-nums leading-tight mb-0.5 ${ad.tw.heroNum}`}>
-          {ad.heroNumber}
-        </p>
-        <p className={`text-[11px] font-semibold uppercase tracking-wide mb-3 ${ad.tw.heroLabel}`}>
-          {ad.heroLabel}
-        </p>
-        <p className={`text-xs font-medium leading-snug mb-3 ${ad.tw.hook}`}>
-          {ad.hook}
-        </p>
-        <span className={`flex items-center justify-center gap-1 w-full min-h-[44px] px-3 rounded-[var(--radius-button)] text-sm font-semibold transition-colors ${ad.tw.cta}`}>
+        <div className="mb-2">
+          <span className={`text-2xl font-extrabold ${ad.tw.heroNum}`}>{ad.heroNumber}</span>
+          <p className={`text-xs mt-0.5 ${ad.tw.heroLabel}`}>{ad.heroLabel}</p>
+        </div>
+        <div className={`h-px my-3 ${ad.tw.divider}`} />
+        <p className={`text-sm font-semibold leading-snug mb-1 ${ad.tw.hook}`}>{ad.hook}</p>
+        <p className={`text-xs leading-relaxed mb-3 ${ad.tw.body}`}>{ad.body}</p>
+        <Link
+          href={ad.href}
+          target="_blank"
+          rel="noopener noreferrer sponsored"
+          className={`flex items-center justify-center gap-1.5 w-full py-2 px-3 rounded-xl text-xs font-bold transition-colors ${ad.tw.cta}`}
+        >
           {ad.cta}
-          <ArrowRight size={13} />
-        </span>
-      </Link>
+          <ArrowRight size={12} />
+        </Link>
+        <p className="text-[10px] text-stone-400 mt-2 text-center">광고</p>
+      </aside>
     );
   }
 
-  // inline
   return (
-    <Link
-      href={ad.href}
-      rel="nofollow sponsored noopener"
-      target="_blank"
-      aria-label={`${ad.badge} — ${ad.cta}`}
-      className={`group relative my-8 block overflow-hidden rounded-[var(--radius-card)] transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[var(--shadow-card-lg)] ${ad.tw.card} ${className}`}
-    >
-      {/* 우상단 글로우 장식 */}
-      <div
-        aria-hidden
-        className="pointer-events-none absolute -top-12 -right-8 h-36 w-36 rounded-full blur-3xl opacity-40"
-        style={{ backgroundColor: "currentColor" }}
-      />
-
-      <div className="relative z-10 p-5 sm:p-6">
-        {/* 상단: badge + 아이콘 */}
-        <div className="flex items-start justify-between gap-4 mb-3">
-          <span className={`text-[10px] font-bold uppercase tracking-widest px-2 py-1 rounded ${ad.tw.badge}`}>
-            {ad.badge}
-          </span>
-          <div className={`flex h-10 w-10 shrink-0 items-center justify-center rounded-lg ${ad.tw.iconWrap}`}>
-            <Icon className={`h-5 w-5 ${ad.tw.iconColor}`} strokeWidth={2.2} />
+    <div className={`rounded-2xl p-5 my-6 ${ad.tw.card} ${className}`}>
+      <div className="flex items-start justify-between gap-4">
+        <div className="flex-1">
+          <div className="flex items-center gap-2 mb-2">
+            <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${ad.tw.badge}`}>
+              {ad.badge}
+            </span>
           </div>
+          <div className="mb-3">
+            <span className={`text-3xl font-extrabold ${ad.tw.heroNum}`}>{ad.heroNumber}</span>
+            <span className={`text-sm ml-2 ${ad.tw.heroLabel}`}>{ad.heroLabel}</span>
+          </div>
+          <p className={`text-base font-semibold leading-snug mb-1 ${ad.tw.hook}`}>{ad.hook}</p>
+          <p className={`text-sm leading-relaxed ${ad.tw.body}`}>{ad.body}</p>
         </div>
-
-        {/* 히어로 숫자 — 시선을 1초 안에 잡는 요소 */}
-        <p className={`text-4xl sm:text-5xl font-black tabular-nums leading-[1.05] ${ad.tw.heroNum}`}>
-          {ad.heroNumber}
-        </p>
-        <p className={`mt-1.5 text-[11px] font-semibold uppercase tracking-[0.08em] ${ad.tw.heroLabel}`}>
-          {ad.heroLabel}
-        </p>
-
-        {/* 구분선 */}
-        <div className={`h-px w-full my-4 ${ad.tw.divider}`} />
-
-        {/* 후킹 카피 */}
-        <p className={`text-base sm:text-lg font-bold leading-snug mb-2 ${ad.tw.hook}`}>
-          {ad.hook}
-        </p>
-        <p className={`text-sm leading-relaxed mb-4 ${ad.tw.body}`}>
-          {ad.body}
-        </p>
-
-        {/* CTA — 모바일 full-width, min-height 52px */}
-        <span className={`flex items-center gap-2 w-full sm:w-auto sm:inline-flex min-h-[52px] sm:min-h-[44px] px-5 py-3 rounded-[var(--radius-button)] text-sm font-semibold transition-colors ${ad.tw.cta}`}>
-          {ad.cta}
-          <ArrowRight size={15} className="ml-auto sm:ml-0" />
-        </span>
+        <div className={`p-3 rounded-2xl shrink-0 ${ad.tw.iconWrap}`}>
+          <Icon size={28} className={ad.tw.iconColor} />
+        </div>
       </div>
-    </Link>
+      <div className={`h-px my-4 ${ad.tw.divider}`} />
+      <div className="flex items-center justify-between">
+        <Link
+          href={ad.href}
+          target="_blank"
+          rel="noopener noreferrer sponsored"
+          className={`flex items-center gap-2 py-2.5 px-5 rounded-xl text-sm font-bold transition-colors ${ad.tw.cta}`}
+        >
+          {ad.cta}
+          <ArrowRight size={14} />
+        </Link>
+        <p className="text-xs text-stone-400">광고</p>
+      </div>
+    </div>
   );
 }

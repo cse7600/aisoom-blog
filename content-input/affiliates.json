@@ -1,216 +1,27 @@
 {
   "affiliates": [
     {
-      "name": "키퍼메이트",
-      "contentDir": "키퍼메이트/content",
-      "category": "tech",
-      "url": "https://keeper.ceo/security?ref=89S42E",
-      "disclosure": "이 활동은 키퍼 메이트 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.",
-      "author": "꿀정보 에디터",
-      "description": "소상공인·자영업 매장(카페, 편의점, 무인매장, 학원, 음식점)용 한화비전 키퍼 CCTV 구매형 상품. 렌탈 대비 약정 없음·장비 소유·낮은 월 비용이 차별점.",
-      "sources": [
+      "name": "케어팟",
+      "contentDir": "carepod/content",
+      "category": "humidifier",
+      "url": "https://carepod.co.kr/",
+      "disclosure": "이 글은 케어팟과의 제휴를 통해 작성되었습니다.",
+      "author": "케어팟 라이프 에디터",
+      "description": "대한민국 가습기 1위 케어팟. 누적 100만대 판매. 저온가열 자동살균 X50V 가습기 + Air Cube One 컴팩트 공기청정기. 병원·산후조리원 공식 사용.",
+      "products": [
         {
-          "type": "naver-cafe",
-          "name": "아프니까 사장이다",
-          "cafeId": "jihosoccer123",
-          "searchKeywords": [
-            "CCTV",
-            "보안카메라",
-            "매장보안",
-            "도난",
-            "무인매장 보안"
-          ],
-          "relevance": "소상공인 CCTV 고민 실시간 파악"
+          "name": "X50V 큐브 가습기",
+          "price": 264000,
+          "rating": 4.8,
+          "reviewCount": 2588,
+          "url": "https://carepod.co.kr/product/x50v-9",
+          "features": ["저온가열 자동살균", "저전력", "대용량", "스텐 소재"]
         },
         {
-          "type": "web-crawl",
-          "name": "배민 외식업 광장",
-          "url": "https://ceo.baemin.com/knowhow",
-          "relevance": "외식 사장님 관심사 파악"
-        },
-        {
-          "type": "competitor",
-          "name": "세콤 블로그",
-          "url": "https://www.secom.co.kr/support/blog",
-          "relevance": "경쟁사 콘텐츠 주제 분석"
-        },
-        {
-          "type": "competitor",
-          "name": "ADT캡스 뉴스룸",
-          "url": "https://www.adtcaps.co.kr/news",
-          "relevance": "경쟁사 보도자료·블로그 주제 분석"
-        },
-        {
-          "type": "competitor",
-          "name": "에스원 블로그",
-          "url": "https://blog.s1.co.kr",
-          "relevance": "에스원 콘텐츠 주제 수집"
-        },
-        {
-          "type": "competitor",
-          "name": "키퍼 공식 블로그",
-          "url": "https://keeper.ceo/blog",
-          "relevance": "SEO 대행사가 운영하는 한화비전 키퍼 공식 블로그 — 주제 전략·키워드 벤치마크 + 공백 영역 발굴",
-          "crawlerScript": "scripts/scrapers/keeper-blog-crawler.mjs",
-          "monitorFrequency": "weekly",
-          "dataPath": "content-input/competitor-intel/keeper-blog.json"
-        }
-      ]
-    },
-    {
-      "name": "법인설립지원센터",
-      "contentDir": "법인설립지원센터/content",
-      "category": "finance",
-      "url": "https://k-startbiz.org/?ref=STARTBIZ_CYM",
-      "disclosure": "이 포스팅은 법인설립지원센터의 파트너 활동으로 작성되었으며, 소정의 수수료를 받을 수 있습니다.",
-      "author": "꿀정보 에디터",
-      "description": "개인사업자 법인전환·1인 법인설립·등기·정관·잔고증명 원스톱 대행 서비스. 창업 준비 사업가와 프리랜서 타겟.",
-      "sources": [
-        {
-          "type": "naver-cafe",
-          "name": "아프니까 사장이다",
-          "cafeId": "jihosoccer123",
-          "searchKeywords": [
-            "법인설립",
-            "법인전환",
-            "개인사업자",
-            "절세",
-            "1인법인"
-          ],
-          "relevance": "법인 고민 자영업자 파악"
-        },
-        {
-          "type": "naver-cafe",
-          "name": "세무사랑 세무 카페",
-          "cafeId": "semu2014",
-          "searchKeywords": [
-            "법인설립",
-            "법인전환",
-            "법인세",
-            "대표이사 급여",
-            "가지급금"
-          ],
-          "relevance": "세무 실무 이슈 파악"
-        },
-        {
-          "type": "naver-search",
-          "name": "네이버 블로그 법인설립 검색",
-          "searchKeywords": [
-            "법인설립 후기",
-            "법인전환 후기",
-            "1인법인 설립",
-            "법인 절세 후기"
-          ],
-          "relevance": "실제 경험담 분석"
-        },
-        {
-          "type": "web-crawl",
-          "name": "국세청 보도자료",
-          "url": "https://www.nts.go.kr/nts/na/ntt/selectNttList.do?mi=2288&bbsId=86",
-          "relevance": "최신 세제 개편·고시"
-        },
-        {
-          "type": "web-crawl",
-          "name": "법제처 최신 법령",
-          "url": "https://www.moleg.go.kr/menu.es?mid=a10105010000",
-          "relevance": "법인 관련 법령 변경 추적"
-        }
-      ]
-    },
-    {
-      "name": "밀리의서재",
-      "contentDir": "밀리의서재/content",
-      "category": "tech",
-      "url": "https://www.millie.co.kr",
-      "disclosure": "이 포스팅은 밀리의서재 파트너스 활동으로, 소정의 수수료를 받을 수 있습니다.",
-      "author": "꿀정보 에디터",
-      "description": "국내 최대 전자책 구독 플랫폼. 12만 권 이상 무제한 독서. 월 9,900원 구독. 독서 습관 형성, 자기계발, 업무 인사이트 확보 목적.",
-      "personaSeedFile": "supabase/seed-personas-millie.sql",
-      "expertiseTargets": [
-        "reading",
-        "self-improvement",
-        "ebook",
-        "parenting",
-        "career"
-      ],
-      "sources": [
-        {
-          "type": "naver-search",
-          "name": "밀리의서재 후기 검색",
-          "searchKeywords": [
-            "밀리의서재 후기",
-            "전자책 구독 비교",
-            "밀리 vs 리디",
-            "밀리의서재 단점",
-            "독서 앱 추천"
-          ],
-          "relevance": "실사용자 경험 분석"
-        },
-        {
-          "type": "naver-cafe",
-          "name": "독서 모임 카페",
-          "searchKeywords": [
-            "밀리의서재",
-            "전자책 추천",
-            "독서 습관",
-            "책 추천 앱"
-          ],
-          "relevance": "독서 커뮤니티 관심사"
-        },
-        {
-          "type": "competitor",
-          "name": "리디셀렉트",
-          "url": "https://select.ridi.com",
-          "relevance": "경쟁 서비스 포지셔닝 분석"
-        }
-      ]
-    },
-    {
-      "name": "차별화상회",
-      "contentDir": "차별화상회/content",
-      "category": "home-living",
-      "url": "https://www.chabyulhwa.com",
-      "disclosure": "이 포스팅은 차별화상회 파트너스 활동으로, 소정의 수수료를 받을 수 있습니다.",
-      "author": "꿀정보 에디터",
-      "description": "외식업 사장님 전용 식자재 B2B 플랫폼. 소분 판매, 직납 가능. 한식·카페·베이커리·배달 전문점 타겟.",
-      "personaSeedFile": "supabase/seed-personas-chabyulhwa.sql",
-      "expertiseTargets": [
-        "food-supply",
-        "restaurant",
-        "cost-management",
-        "catering",
-        "franchise"
-      ],
-      "sources": [
-        {
-          "type": "naver-cafe",
-          "name": "아프니까 사장이다",
-          "cafeId": "jihosoccer123",
-          "searchKeywords": [
-            "식자재",
-            "식재료 구매",
-            "외식업 원가",
-            "납품업체",
-            "식재료 도매"
-          ],
-          "relevance": "외식업 사장 식자재 고민 파악"
-        },
-        {
-          "type": "web-crawl",
-          "name": "배민 외식업 광장",
-          "url": "https://ceo.baemin.com/knowhow",
-          "relevance": "외식업 원가·운영 트렌드"
-        },
-        {
-          "type": "naver-search",
-          "name": "식자재 도매 후기 검색",
-          "searchKeywords": [
-            "식자재 도매 후기",
-            "식재료 납품업체 추천",
-            "음식점 식자재 소싱",
-            "외식업 식재료 원가"
-          ],
-          "relevance": "실사용자 소싱 경험 분석"
+          "name": "Air Cube One 공기청정기",
+          "price": 364000,
+          "url": "https://carepod.co.kr/product/air-cube-one-130",
+          "features": ["CADR 270m³/h", "HEPA13 3중 필터", "24dB 초저소음", "PM2.5 센서"]
         }
       ]
     }

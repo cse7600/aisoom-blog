@@ -1,29 +1,3 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "crons": [
-    {
-      "path": "/api/cron/generate-discussions",
-      "schedule": "0 */4 * * *"
-    },
-    {
-      "path": "/api/cron/seo-health",
-      "schedule": "0 0 * * *"
-    },
-    {
-      "path": "/api/cron/plan-daily",
-      "schedule": "10 15 * * *"
-    },
-    {
-      "path": "/api/cron/dispatch-scripts",
-      "schedule": "*/15 * * * *"
-    },
-    {
-      "path": "/api/cron/gsc-sync",
-      "schedule": "0 2 * * *"
-    },
-    {
-      "path": "/api/cron/auto-schedule",
-      "schedule": "5 * * * *"
-    }
-  ]
+  "framework": "nextjs"
 }

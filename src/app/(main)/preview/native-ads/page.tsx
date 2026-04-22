@@ -9,43 +9,45 @@ import { useState } from "react";
 import { NativeAdCard, type AdVariant } from "@/components/content/NativeAdCard";
 import { Moon, Sun, Smartphone, Monitor } from "lucide-react";
 
-const MOCK_CONTENT = {
+const MOCK_HUMIDIFIER_CONTENT = {
   before: `
-    <p>개인사업자로 시작해 매출이 늘어나면 자연스럽게 법인 전환을 고민하게 됩니다. 실제로 연 순이익이 8,000만 원을 넘어서는 시점부터 법인세율과 종합소득세율의 역전이 시작됩니다.</p>
-    <h2>법인 전환을 고려해야 하는 3가지 신호</h2>
-    <p>첫 번째는 매출 증가입니다. 연 매출 5억 원을 넘어서면 부가세 환급, 직원 채용, 복리후생 설계 측면에서 법인이 유리해집니다. 두 번째는 투자 유치입니다. 개인사업자는 지분 구조를 만들기 어렵습니다. 세 번째는 신용 분리입니다. 대표 개인 신용과 사업 신용을 분리해 리스크를 줄일 수 있습니다.</p>
+    <p>아이가 있는 집이라면 겨울철 적정 습도(40~60%)를 유지하는 것이 중요합니다. 문제는 시중에 유통되는 초음파 가습기의 70%가 세균 오염 기준치를 초과한다는 소비자원 조사 결과입니다.</p>
+    <h2>가습기 방식별 살균 성능 비교</h2>
+    <p>가습 방식은 크게 초음파, 가열식, 기화식 세 가지로 나뉩니다. 초음파는 물 입자를 진동으로 쪼개 분무하기 때문에 탱크 세균이 그대로 공기 중에 방출됩니다. 가열식은 물을 끓여 증기로 내보내지만 히터 온도가 65도 이상이면 화상 위험이 있습니다.</p>
   `,
   middle: `
-    <h2>법인 설립 비용은 얼마나 드나요</h2>
-    <p>2026년 기준 자본금 1억 원 이하 법인 설립 시 등록면허세 67,500원, 교육세 6,750원, 등기신청 수수료 3,000원이 기본 공과금입니다. 법무사 대행 시 추가로 30~50만 원이 발생합니다.</p>
+    <h2>케어팟 X50V는 왜 저온가열 방식인가요?</h2>
+    <p>저온가열(50~60도)은 세균 사멸 온도(56도)를 유지하면서도 증기 온도는 체온과 유사한 수준으로 낮춥니다. 2026년 식약처 인증 기준 99.9% 살균율 달성. 병원·산후조리원 공식 사용 기준을 충족하는 유일한 가정용 가습기입니다.</p>
   `,
   after: `
     <h2>자주 묻는 질문</h2>
-    <h3>Q. 법인 전환 후에도 기존 거래처와 계약이 유지되나요?</h3>
-    <p>포괄양수도 계약을 활용하면 기존 계약, 직원, 자산을 그대로 법인에 이전할 수 있습니다. 단, 거래처 동의가 필요한 계약은 별도 처리해야 합니다.</p>
-    <h3>Q. 법인 설립을 혼자 할 수 있나요?</h3>
-    <p>가능합니다. 법원 등기소에 직접 신청하면 공과금만 부담하면 됩니다. 다만 정관 작성, 주주총회 의사록, 등기 신청서 오류 시 보정 명령으로 2~3주 지연이 발생합니다. 법인설립지원센터 같은 온라인 서비스는 체크리스트 방식으로 5영업일 내 완료합니다.</p>
+    <h3>Q. 케어팟 X50V는 전기세가 많이 나오나요?</h3>
+    <p>저전력 설계로 일반 가열식 대비 전력 소비 40% 절감. 하루 8시간 사용 기준 월 전기세 약 1,200원 수준입니다.</p>
+    <h3>Q. 물통 세척은 얼마나 자주 해야 하나요?</h3>
+    <p>저온가열 자동살균으로 탱크 내 세균이 억제되기 때문에 주 1회 간단한 세척으로 충분합니다. 일반 초음파 가습기의 매일 세척 권장과 비교하면 관리 부담이 크게 줄어듭니다.</p>
     <h2>정리 — TL;DR</h2>
-    <p>연 순이익 8,000만 원 이상이면 법인 전환 검토 시점입니다. 포괄양수도로 공백 없이 전환하고, 등기 실수를 피하려면 전문 서비스를 활용하세요.</p>
+    <p>세균 걱정 없이 아이 방에 두려면 저온가열 방식 가습기가 맞습니다. 케어팟 X50V는 100만 대 판매 실적, 4.8점 리뷰, 병원 공식 사용 기준을 갖춘 선택지입니다.</p>
   `,
 };
 
-const MOCK_CCTV_CONTENT = {
+const MOCK_AIR_CONTENT = {
   before: `
-    <p>매장 CCTV 설치는 이제 선택이 아닌 필수가 됐습니다. 소상공인 대상 절도 범죄가 2025년 대비 12% 증가했고, 무인 매장 운영이 늘어나면서 원격 감시 수요가 폭증하고 있습니다.</p>
-    <h2>업종별 CCTV 구성 가이드</h2>
-    <p>카페·편의점 10평 이하: 카운터 1대 + 출입구 1대 + 전체 조망 1대 = 최소 3대. 학원: 복도·교실·출입구 필수 3구간, 음성 녹음 금지. 무인매장: 출입 인증기 + 실내 AI 감지 카메라 + 결제 단말기 앵글이 3점 세트.</p>
+    <p>서울 기준 연간 미세먼지 나쁨 일수는 70일을 넘습니다. 대형 공기청정기 한 대로 집 전체를 커버하려는 가정이 많지만, 실제로는 아이방처럼 폐쇄된 개인 공간까지 공기 순환이 되지 않습니다.</p>
+    <h2>거실 공기청정기가 아이방을 커버하지 못하는 이유</h2>
+    <p>CADR(청정공기공급률)은 면적 효율을 나타냅니다. 20평 거실에 맞게 설계된 제품이 문 닫힌 8평 아이방까지 감당하면 실제 공기 교환 횟수는 설계 기준의 40%로 떨어집니다.</p>
   `,
   middle: `
-    <h2>CCTV 렌탈 vs 구매, 3년 총비용 비교</h2>
-    <p>10평 기준 4대 구성. 구매: 초기 220만 원 + 유지보수 연 10만 원 × 3년 = 250만 원. 렌탈: 월 7만 원 × 36개월 = 252만 원. 3년 총비용은 거의 동일하지만 렌탈은 고장 시 무상 교체·업그레이드 포함.</p>
+    <h2>아이방 전용 공기청정기가 필요한 이유는 무엇인가요?</h2>
+    <p>케어팟 Air Cube One의 CADR 270m³/h는 10평 이하 공간 기준 시간당 4회 공기 교환을 보장합니다. HEPA13 필터는 0.3마이크론 이상 입자 99.97% 차단, PM2.5 센서가 실시간으로 공기질을 측정해 AI가 팬 속도를 자동 조절합니다.</p>
   `,
   after: `
     <h2>자주 묻는 질문</h2>
-    <h3>Q. 직원 동의 없이 CCTV를 설치해도 되나요?</h3>
-    <p>매장 보안·안전 목적이면 직원 동의 없이도 설치 가능합니다. 단, 설치 목적·장소·관리책임자를 명시한 안내판을 카메라 근처에 부착해야 합니다. 직원 감시 목적으로 사용하면 개인정보보호법 위반으로 과태료 최대 5,000만 원입니다.</p>
-    <h3>Q. 매장 CCTV 영상은 얼마나 보관해야 하나요?</h3>
-    <p>법정 의무 보관 기간은 없지만, 분쟁 대비 30일 이상 보관이 권장됩니다. 학원은 아동 안전을 위해 60일 이상 보관하는 것이 표준입니다.</p>
+    <h3>Q. 24dB가 얼마나 조용한 건가요?</h3>
+    <p>나뭇잎이 살랑이는 소리(약 20dB)와 속삭이는 대화(약 30dB) 사이입니다. 아이가 자는 방에서도 수면 방해 없이 작동합니다.</p>
+    <h3>Q. 필터 교체 주기는 어떻게 되나요?</h3>
+    <p>24시간 연속 사용 기준 약 6개월. 센서가 교체 시기를 자동으로 알려줍니다. 필터 가격은 29,000원입니다.</p>
+    <h2>정리 — TL;DR</h2>
+    <p>아이방 전용 소형 공기청정기가 대형 거실 제품보다 실내 공기 교환 효율이 높습니다. Air Cube One은 HEPA13 + 24dB + 에너지 1등급 3가지를 갖춘 선택지입니다.</p>
   `,
 };
 
@@ -64,11 +66,11 @@ function MockArticle({
     <article className="max-w-narrow w-full">
       <header className="mb-8 pb-6 border-b border-border">
         <span className="inline-block px-2.5 py-1 text-caption font-medium bg-primary text-white rounded-badge mb-3">
-          finance
+          humidifier
         </span>
         <h1 className="text-display-sm font-bold text-foreground mb-3">{title}</h1>
         <p className="text-body-sm text-foreground/40">
-          factnote 편집팀 · 2026년 4월 15일 · 8분 읽기
+          케어팟 라이프 에디터 · 2026년 4월 22일 · 8분 읽기
         </p>
       </header>
 
@@ -83,12 +85,12 @@ function MockArticle({
 }
 
 const ALL_VARIANTS: AdVariant[] = [
-  "corp-cost",
-  "corp-time",
-  "corp-restart",
-  "cctv-theft",
-  "cctv-legal",
-  "cctv-cost",
+  "humidifier-safe",
+  "humidifier-review",
+  "humidifier-vs",
+  "air-compact",
+  "air-baby",
+  "air-silent",
 ];
 
 export default function NativeAdsPreviewPage() {
@@ -128,11 +130,10 @@ export default function NativeAdsPreviewPage() {
 
           <div className="mb-10 p-4 bg-amber-50 border border-amber-200 rounded-card dark:bg-amber-950/30 dark:border-amber-900">
             <p className="text-body-sm font-semibold text-amber-800 dark:text-amber-200 mb-1">
-              고전환 리디자인 — hit-voice 카피 + frontend-architect UI 통합본
+              케어팟 네이티브 광고 6종 — 가습기 3종 + 공기청정기 3종
             </p>
             <p className="text-body-sm text-amber-700 dark:text-amber-300">
-              카드 전체 클릭 가능, heroNumber 대형화, FOMO/손실회피 카피, 모바일 48px+ 터치 타겟.
-              robots noindex 적용, 프로덕션 노출되지 않음.
+              amber/orange 계열(가습기) + stone/slate 계열(공기청정기). robots noindex 적용, 프로덕션 노출되지 않음.
             </p>
           </div>
 
@@ -155,34 +156,34 @@ export default function NativeAdsPreviewPage() {
 
           <hr className="border-border my-12" />
 
-          {/* Section 1: 법인설립지원센터 inline ads (본문 맥락) */}
+          {/* Section 1: 가습기 inline ads (본문 맥락) */}
           <section className="mb-16">
-            <h2 className="text-display-sm font-bold mb-2">법인설립지원센터 — 본문 맥락 삽입</h2>
+            <h2 className="text-display-sm font-bold mb-2">가습기 — 본문 맥락 삽입</h2>
             <p className="text-body-sm text-foreground/50 mb-8">
-              실제 포스트 중간·섹션 후 삽입. 3가지 각도 (비용·시간·재창업)
+              실제 포스트 중간·섹션 후 삽입. 살균 안전·후기·비교 3가지 각도
             </p>
             <div className={showMobile ? "mx-auto max-w-[390px]" : ""}>
               <MockArticle
-                title="【비교】개인사업자 vs 법인사업자, 순이익 얼마부터 법인이 유리한가 (2026년 기준)"
-                content={MOCK_CONTENT}
-                adVariants={["corp-cost", "corp-time", "corp-restart"]}
+                title="【비교】초음파 가습기 vs 가열식 가습기 — 아이 방에 어떤 게 더 안전한가 (2026년 기준)"
+                content={MOCK_HUMIDIFIER_CONTENT}
+                adVariants={["humidifier-safe", "humidifier-review", "humidifier-vs"]}
               />
             </div>
           </section>
 
           <hr className="border-border my-12" />
 
-          {/* Section 2: 키퍼메이트 inline ads */}
+          {/* Section 2: 공기청정기 inline ads */}
           <section className="mb-16">
-            <h2 className="text-display-sm font-bold mb-2">키퍼메이트(CCTV) — 본문 맥락 삽입</h2>
+            <h2 className="text-display-sm font-bold mb-2">공기청정기 — 본문 맥락 삽입</h2>
             <p className="text-body-sm text-foreground/50 mb-8">
-              3가지 각도 (도난 손실·법률·비용 효율)
+              3가지 각도 (컴팩트·아이방·초저소음)
             </p>
             <div className={showMobile ? "mx-auto max-w-[390px]" : ""}>
               <MockArticle
-                title="【비교】매장 CCTV 설치비용 vs 렌탈 — 3년 총비용 손익분기 계산"
-                content={MOCK_CCTV_CONTENT}
-                adVariants={["cctv-theft", "cctv-legal", "cctv-cost"]}
+                title="【비교】거실 공기청정기 1대 vs 아이방 전용 공기청정기 — 미세먼지 차단 효율 비교"
+                content={MOCK_AIR_CONTENT}
+                adVariants={["air-compact", "air-baby", "air-silent"]}
               />
             </div>
           </section>
@@ -219,11 +220,11 @@ export default function NativeAdsPreviewPage() {
             <div className="mx-auto w-[390px] rounded-[36px] border-[10px] border-foreground/80 bg-background p-3 shadow-card-lg">
               <div className="h-[600px] overflow-y-auto rounded-[24px] bg-background p-4">
                 <div className="space-y-6">
-                  <NativeAdCard variant="corp-cost" placement="inline" />
-                  <NativeAdCard variant="cctv-theft" placement="inline" />
+                  <NativeAdCard variant="humidifier-safe" placement="inline" />
+                  <NativeAdCard variant="air-baby" placement="inline" />
                   <div className="grid grid-cols-1 gap-3">
-                    <NativeAdCard variant="corp-time" placement="sidebar" />
-                    <NativeAdCard variant="cctv-legal" placement="sidebar" />
+                    <NativeAdCard variant="humidifier-review" placement="sidebar" />
+                    <NativeAdCard variant="air-compact" placement="sidebar" />
                   </div>
                 </div>
               </div>

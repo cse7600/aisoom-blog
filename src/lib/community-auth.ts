@@ -46,7 +46,7 @@ export function verifyPassword(plain: string, stored: string): boolean {
 
 export function hashIp(ip: string | null | undefined): string | null {
   if (!ip) return null;
-  const salt = process.env.COMMUNITY_IP_SALT ?? "factnote-community-default";
+  const salt = process.env.COMMUNITY_IP_SALT ?? "aisoom-community-default";
   return createHash("sha256")
     .update(`${salt}:${ip}`)
     .digest("hex")

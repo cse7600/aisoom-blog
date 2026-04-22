@@ -52,13 +52,14 @@ export function generatePostMetadata(post: PostMetaInput): Metadata {
 
 /** 카테고리 슬러그별 SEO 최적화 기본 description — DB 값이 없을 때 fallback */
 const CATEGORY_DESCRIPTIONS: Record<string, string> = {
-  tech: "스마트폰·노트북·가전제품·보안카메라 비교 리뷰. 실사용자 경험 기반의 팩트 정보. CCTV·키퍼메이트 전문.",
-  finance:
-    "신용카드·적금·보험·법인설립 비용 비교 분석. 법인 설립 절차와 비용 계산법 완전 정리.",
-  beauty: "화장품·건강기능식품 솔직 리뷰. 성분·효과·가격 팩트 비교.",
-  "home-living":
-    "생활용품·인테리어·주방용품·식자재 추천. 외식업 원가 절감 실전 가이드.",
-  travel: "국내외 여행 가이드, 숙소·항공·보험 비교. 비용 절감 팁.",
+  humidifier:
+    "초음파·저온가열·가열식 가습기 방식 비교. 세균·위생·전기료 수치 기반 실사용 리뷰. 케어팟 X50V 전문.",
+  "air-purifier":
+    "HEPA13 필터, CADR, 소음 수치로 공기청정기 비교. 신생아·육아 가정 특화 리뷰.",
+  "baby-care":
+    "신생아·영유아 방 공기 환경 세팅 가이드. 가습기·공기청정기 배치, 습도 기준, 위생 관리.",
+  lifestyle:
+    "실내 공기질 관리, 가습기 세척 방법, 겨울철 건조 증상 대처법. 육아 가정 생활 정보.",
 };
 
 export function generateCategoryMetadata(

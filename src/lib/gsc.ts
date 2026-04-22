@@ -5,13 +5,13 @@
 
 import { google } from "googleapis";
 
-const SITE_URL = "https://factnote.co.kr/";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.aisoom.co.kr/";
 
 function getOAuth2Client() {
   const client = new google.auth.OAuth2(
     process.env.GOOGLE_CLIENT_ID,
     process.env.GOOGLE_CLIENT_SECRET,
-    process.env.GOOGLE_REDIRECT_URI ?? "https://www.factnote.co.kr/api/auth/gsc/callback"
+    process.env.GOOGLE_REDIRECT_URI ?? `${SITE_URL}api/auth/gsc/callback`
   );
   const refreshToken = process.env.GOOGLE_GSC_REFRESH_TOKEN;
   if (refreshToken) {

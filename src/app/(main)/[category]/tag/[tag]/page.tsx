@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: TagPageProps): Promise<Metada
   if (!cat) return {};
   const decodedTag = decodeURIComponent(params.tag);
   const title = `${decodedTag} — ${cat.name} | ${SITE_CONFIG.name}`;
-  const description = `${cat.name} 카테고리의 ${decodedTag} 관련 글 모음. 팩트노트 찐 비교 & 추천.`;
+  const description = `${cat.name} 카테고리의 ${decodedTag} 관련 글 모음. 아이숨 비교 & 검증.`;
   const url = `${SITE_CONFIG.url}/${params.category}/tag/${params.tag}`;
 
   return {

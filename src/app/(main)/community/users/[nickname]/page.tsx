@@ -121,7 +121,7 @@ function ExpertiseChips({ domains }: { domains: string[] }) {
 function NoticeBanner() {
   return (
     <aside className="mb-6 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-xs text-amber-800">
-      이 프로필은 팩트노트 커뮤니티 페르소나 계정입니다. 경험 기반 토론을 시뮬레이션합니다.
+      이 프로필은 아이숨 커뮤니티 페르소나 계정입니다. 경험 기반 토론을 시뮬레이션합니다.
     </aside>
   );
 }

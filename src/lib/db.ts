@@ -5,6 +5,10 @@
 
 import { createServiceClient } from "./supabase";
 
+// ─── 멀티 테넌트 격리 ──────────────────────────────────────────────────────
+// factnote 블로그와 Supabase 인스턴스를 공유하므로 site_id로 필터링한다.
+const SITE_ID = process.env.NEXT_PUBLIC_SITE_ID ?? "carepod";
+
 // ─── DB 행 타입 (Supabase 컬럼 그대로) ──────────────────────────────────────
 
 export interface PostRow {
@@ -25,6 +29,7 @@ export interface PostRow {
   published_at: string | null;
   created_at: string;
   updated_at: string;
+  site_id: string;
 }
 
 export interface CategoryRow {
@@ -36,6 +41,7 @@ export interface CategoryRow {
   sort_order: number;
   active: boolean;
   created_at: string;
+  site_id: string;
 }
 
 export interface PostRelationRow {
@@ -43,12 +49,13 @@ export interface PostRelationRow {
   related_slug: string;
   relation_type: string;
   sort_order: number;
+  site_id: string;
 }
 
 // ─── 쿼리 함수 ───────────────────────────────────────────────────────────────
 
 const POST_COLUMNS =
-  "id,slug,title,description,category,tags,keywords,image_url,author,status,featured,view_count,read_time,published_at,created_at,updated_at";
+  "id,slug,title,description,category,tags,keywords,image_url,author,status,featured,view_count,read_time,published_at,created_at,updated_at,site_id";
 
 /** 현재 시각 이하의 published_at만 노출 — 미래 예약 포스트 숨김 */
 function nowIso() {
@@ -60,6 +67,7 @@ export async function getFeaturedPosts(limit = 1): Promise<PostRow[]> {
   const { data, error } = await db
     .from("posts")
     .select(POST_COLUMNS)
+    .eq("site_id", SITE_ID)
     .eq("status", "published")
     .lte("published_at", nowIso())
     .eq("featured", true)
@@ -78,6 +86,7 @@ export async function getRecentPosts(limit = 12, offset = 0): Promise<PostRow[]>
   const { data, error } = await db
     .from("posts")
     .select(POST_COLUMNS)
+    .eq("site_id", SITE_ID)
     .eq("status", "published")
     .lte("published_at", nowIso())
     .order("published_at", { ascending: false })
@@ -99,6 +108,7 @@ export async function getPostsByCategory(
   const { data, error } = await db
     .from("posts")
     .select(POST_COLUMNS)
+    .eq("site_id", SITE_ID)
     .eq("status", "published")
     .lte("published_at", nowIso())
     .eq("category", categorySlug)
@@ -117,6 +127,7 @@ export async function getPostCountByCategory(categorySlug: string): Promise<numb
   const { count, error } = await db
     .from("posts")
     .select("id", { count: "exact", head: true })
+    .eq("site_id", SITE_ID)
     .eq("status", "published")
     .lte("published_at", nowIso())
     .eq("category", categorySlug);
@@ -133,6 +144,7 @@ export async function getPublishedPostCount(): Promise<number> {
   const { count, error } = await db
     .from("posts")
     .select("id", { count: "exact", head: true })
+    .eq("site_id", SITE_ID)
     .eq("status", "published")
     .lte("published_at", nowIso());
 
@@ -152,6 +164,7 @@ export async function getPostCountsByCategory(): Promise<Record<string, number>>
   const { data, error } = await db
     .from("posts")
     .select("category")
+    .eq("site_id", SITE_ID)
     .eq("status", "published")
     .lte("published_at", nowIso());
 
@@ -172,6 +185,7 @@ export async function getPostBySlug(slug: string): Promise<PostRow | null> {
   const { data, error } = await db
     .from("posts")
     .select("*")
+    .eq("site_id", SITE_ID)
     .eq("status", "published")
     .lte("published_at", nowIso())
     .eq("slug", slug)
@@ -197,6 +211,7 @@ export async function getRelatedPosts(
   const { data: relations } = await db
     .from("post_relations")
     .select("related_slug")
+    .eq("site_id", SITE_ID)
     .eq("post_slug", currentSlug)
     .order("sort_order")
     .limit(limit);
@@ -206,6 +221,7 @@ export async function getRelatedPosts(
     const { data } = await db
       .from("posts")
       .select(POST_COLUMNS)
+      .eq("site_id", SITE_ID)
       .eq("status", "published")
       .in("slug", slugs);
     if (data && data.length > 0) return data as PostRow[];
@@ -215,6 +231,7 @@ export async function getRelatedPosts(
   const { data, error } = await db
     .from("posts")
     .select(POST_COLUMNS)
+    .eq("site_id", SITE_ID)
     .eq("status", "published")
     .lte("published_at", nowIso())
     .eq("category", categorySlug)
@@ -231,6 +248,7 @@ export async function getCategories(): Promise<CategoryRow[]> {
   const { data, error } = await db
     .from("categories")
     .select("*")
+    .eq("site_id", SITE_ID)
     .eq("active", true)
     .order("sort_order");
 
@@ -246,6 +264,7 @@ export async function getCategoryBySlug(slug: string): Promise<CategoryRow | nul
   const { data, error } = await db
     .from("categories")
     .select("*")
+    .eq("site_id", SITE_ID)
     .eq("slug", slug)
     .eq("active", true)
     .single();
@@ -261,6 +280,7 @@ export async function getAllPublishedSlugs(): Promise<
   const { data, error } = await db
     .from("posts")
     .select("slug,category,updated_at")
+    .eq("site_id", SITE_ID)
     .eq("status", "published")
     .lte("published_at", nowIso())
     .order("published_at", { ascending: false });
@@ -282,6 +302,7 @@ export async function getPostsByCategoryAndTag(
   const { data, error } = await db
     .from("posts")
     .select(POST_COLUMNS)
+    .eq("site_id", SITE_ID)
     .eq("status", "published")
     .lte("published_at", nowIso())
     .eq("category", categorySlug)
@@ -306,6 +327,7 @@ export async function getTagsByCategory(
   const { data, error } = await db
     .from("posts")
     .select("tags")
+    .eq("site_id", SITE_ID)
     .eq("status", "published")
     .lte("published_at", nowIso())
     .eq("category", categorySlug);

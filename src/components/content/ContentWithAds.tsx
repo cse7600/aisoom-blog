@@ -8,75 +8,79 @@ interface ContentWithAdsProps {
   tags?: string[] | null;
 }
 
-const CCTV_KEYWORDS = ["cctv", "보안", "카메라", "무인", "감시", "편의점"];
-const FOOD_KEYWORDS = [
-  "식자재",
-  "원가율",
-  "원가",
-  "식당",
-  "외식",
-  "음식점",
-  "카페",
-  "배달",
-  "메뉴",
-  "식재료",
-  "도매",
-  "소분",
-  "밑반찬",
-  "베이커리",
-  "한식",
-  "분식",
-  "조리",
-  "주방",
-  "레시피",
-  "식비",
-  "재료비",
-  "장부",
-  "식보",
-];
-const CORP_KEYWORDS = [
-  "법인",
-  "사업자",
-  "세금",
-  "창업",
-  "등기",
-  "세무",
-  "종소세",
-  "법인세",
-  "부가세",
-  "절세",
-];
+const HUMIDIFIER_KEYWORDS = ["가습기", "습도", "건조", "수분", "살균", "물통", "가습", "저온가열", "초음파"];
+const AIR_PURIFIER_KEYWORDS = ["공기청정기", "미세먼지", "pm2.5", "hepa", "공기질", "청정", "필터", "초미세먼지"];
+const BABY_CARE_KEYWORDS = ["아이방", "신생아", "산후", "육아", "어린이집", "아기", "영아", "유아"];
 
-type AdDomain = "corp" | "cctv" | "food";
+type AdDomain = "humidifier" | "air-purifier" | "baby-care";
+type AdIntent = "safety" | "compare" | "review" | "guide" | "default";
 
 function detectDomain(category: string, title: string, tags?: string[] | null): AdDomain {
   const haystack = [category, title, ...(tags ?? [])].join(" ").toLowerCase();
 
-  const cctvHit = CCTV_KEYWORDS.some((keyword) => haystack.includes(keyword));
-  if (cctvHit) return "cctv";
+  const humidifierHit = HUMIDIFIER_KEYWORDS.some((kw) => haystack.includes(kw));
+  if (humidifierHit) return "humidifier";
 
-  const foodHit = FOOD_KEYWORDS.some((keyword) => haystack.includes(keyword));
-  if (foodHit) return "food";
+  const airHit = AIR_PURIFIER_KEYWORDS.some((kw) => haystack.includes(kw));
+  if (airHit) return "air-purifier";
 
-  const corpHit = CORP_KEYWORDS.some((keyword) => haystack.includes(keyword));
-  if (corpHit) return "corp";
+  const babyHit = BABY_CARE_KEYWORDS.some((kw) => haystack.includes(kw));
+  if (babyHit) return "baby-care";
 
-  if (category === "finance") return "corp";
-  if (category === "home-living") return "food";
+  if (category === "humidifier") return "humidifier";
+  if (category === "air-purifier") return "air-purifier";
+  if (category === "baby-care") return "baby-care";
 
-  return "corp";
+  return "humidifier";
 }
 
-function pickInlineVariants(domain: AdDomain): AdVariant[] {
-  if (domain === "cctv") return ["cctv-theft", "cctv-legal", "cctv-cost"];
-  if (domain === "food") return ["food-cost", "food-supply", "food-savings"];
-  return ["corp-cost", "corp-time", "corp-restart"];
+/**
+ * 제목에서 사용자 구매 여정 단계(TPO의 Time)를 감지한다.
+ * - safety: 인식(Awareness) — 위험/세균/주의 키워드
+ * - compare: 비교(Consideration) — vs/차이/비교 키워드
+ * - review: 결정(Decision) — 후기/리뷰/솔직 키워드
+ * - guide: 정보 탐색 — 방법/계산/청소/주기 키워드
+ * - default: 기타
+ */
+function detectIntent(title: string): AdIntent {
+  const t = title.toLowerCase();
+  if (["주의", "세균", "위험", "경고", "오해"].some((k) => t.includes(k))) return "safety";
+  if (["비교", "vs", "차이", "추천"].some((k) => t.includes(k))) return "compare";
+  if (["후기", "리뷰", "사용기", "솔직"].some((k) => t.includes(k))) return "review";
+  if (["q&a", "방법", "계산", "위치", "청소", "주기", "얼마"].some((k) => t.includes(k))) return "guide";
+  return "default";
 }
 
-function pickSidebarVariants(domain: AdDomain): AdVariant[] {
-  if (domain === "cctv") return ["cctv-theft", "cctv-legal"];
-  if (domain === "food") return ["food-cost", "food-supply"];
-  return ["corp-cost", "corp-time"];
+function pickInlineVariants(domain: AdDomain, intent: AdIntent): AdVariant[] {
+  if (domain === "humidifier") {
+    if (intent === "safety") return ["humidifier-safe", "humidifier-review", "humidifier-vs"];
+    if (intent === "compare") return ["humidifier-vs", "humidifier-safe", "humidifier-review"];
+    if (intent === "review") return ["humidifier-review", "humidifier-vs", "humidifier-safe"];
+    if (intent === "guide") return ["humidifier-safe", "humidifier-review", "humidifier-vs"];
+    return ["humidifier-safe", "humidifier-review", "humidifier-vs"];
+  }
+  if (domain === "air-purifier") {
+    if (intent === "compare") return ["air-compact", "air-silent", "air-baby"];
+    if (intent === "review") return ["air-baby", "air-compact", "air-silent"];
+    return ["air-compact", "air-baby", "air-silent"];
+  }
+  // baby-care
+  if (intent === "safety") return ["air-baby", "humidifier-safe", "humidifier-review"];
+  return ["air-baby", "humidifier-safe", "humidifier-review"];
+}
+
+function pickSidebarVariants(domain: AdDomain, intent: AdIntent): AdVariant[] {
+  if (domain === "humidifier") {
+    if (intent === "compare") return ["humidifier-vs", "humidifier-review"];
+    if (intent === "review") return ["humidifier-review", "humidifier-vs"];
+    return ["humidifier-safe", "humidifier-review"];
+  }
+  if (domain === "air-purifier") {
+    if (intent === "compare") return ["air-compact", "air-silent"];
+    return ["air-compact", "air-baby"];
+  }
+  if (intent === "safety") return ["air-baby", "humidifier-safe"];
+  return ["air-baby", "humidifier-safe"];
 }
 
 /**
@@ -220,7 +224,8 @@ export function ContentWithAds({ contentHtml, category, title, tags }: ContentWi
   }
 
   const domain = detectDomain(category, title, tags);
-  const inlineVariants = pickInlineVariants(domain);
+  const intent = detectIntent(title);
+  const inlineVariants = pickInlineVariants(domain, intent);
   const chunks = splitByH2(contentHtml);
   const faqIndex = findFaqH2Index(contentHtml);
   const slots = computeAdSlots(chunks, inlineVariants, faqIndex);
@@ -264,5 +269,6 @@ export function getSidebarAdVariants(
   tags?: string[] | null,
 ): AdVariant[] {
   const domain = detectDomain(category, title, tags);
-  return pickSidebarVariants(domain);
+  const intent = detectIntent(title);
+  return pickSidebarVariants(domain, intent);
 }

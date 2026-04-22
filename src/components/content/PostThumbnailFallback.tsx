@@ -1,13 +1,8 @@
 import {
-  Camera,
-  Building2,
-  BookOpen,
-  UtensilsCrossed,
-  Cpu,
-  Wallet,
-  Heart,
+  Droplets,
+  Wind,
+  Baby,
   Home,
-  Plane,
   FileText,
   Sparkles,
   type LucideIcon,
@@ -35,45 +30,37 @@ interface ThumbStyle {
 }
 
 const CATEGORY_STYLES: Record<string, ThumbStyle> = {
-  tech: {
-    icon: Cpu,
-    bgFrom: "var(--thumb-tech-bg-from)",
-    bgTo: "var(--thumb-tech-bg-to)",
-    accent: "var(--thumb-tech-accent)",
-    ink: "var(--thumb-tech-ink)",
-    pattern: "var(--thumb-tech-pattern)",
+  humidifier: {
+    icon: Droplets,
+    bgFrom: "var(--thumb-humidifier-bg-from)",
+    bgTo: "var(--thumb-humidifier-bg-to)",
+    accent: "var(--thumb-humidifier-accent)",
+    ink: "var(--thumb-humidifier-ink)",
+    pattern: "var(--thumb-humidifier-pattern)",
   },
-  finance: {
-    icon: Wallet,
-    bgFrom: "var(--thumb-finance-bg-from)",
-    bgTo: "var(--thumb-finance-bg-to)",
-    accent: "var(--thumb-finance-accent)",
-    ink: "var(--thumb-finance-ink)",
-    pattern: "var(--thumb-finance-pattern)",
+  "air-purifier": {
+    icon: Wind,
+    bgFrom: "var(--thumb-air-purifier-bg-from)",
+    bgTo: "var(--thumb-air-purifier-bg-to)",
+    accent: "var(--thumb-air-purifier-accent)",
+    ink: "var(--thumb-air-purifier-ink)",
+    pattern: "var(--thumb-air-purifier-pattern)",
   },
-  beauty: {
-    icon: Heart,
-    bgFrom: "var(--thumb-beauty-bg-from)",
-    bgTo: "var(--thumb-beauty-bg-to)",
-    accent: "var(--thumb-beauty-accent)",
-    ink: "var(--thumb-beauty-ink)",
-    pattern: "var(--thumb-beauty-pattern)",
+  "baby-care": {
+    icon: Baby,
+    bgFrom: "var(--thumb-baby-care-bg-from)",
+    bgTo: "var(--thumb-baby-care-bg-to)",
+    accent: "var(--thumb-baby-care-accent)",
+    ink: "var(--thumb-baby-care-ink)",
+    pattern: "var(--thumb-baby-care-pattern)",
   },
-  "home-living": {
+  lifestyle: {
     icon: Home,
-    bgFrom: "var(--thumb-home-living-bg-from)",
-    bgTo: "var(--thumb-home-living-bg-to)",
-    accent: "var(--thumb-home-living-accent)",
-    ink: "var(--thumb-home-living-ink)",
-    pattern: "var(--thumb-home-living-pattern)",
-  },
-  travel: {
-    icon: Plane,
-    bgFrom: "var(--thumb-travel-bg-from)",
-    bgTo: "var(--thumb-travel-bg-to)",
-    accent: "var(--thumb-travel-accent)",
-    ink: "var(--thumb-travel-ink)",
-    pattern: "var(--thumb-travel-pattern)",
+    bgFrom: "var(--thumb-lifestyle-bg-from)",
+    bgTo: "var(--thumb-lifestyle-bg-to)",
+    accent: "var(--thumb-lifestyle-accent)",
+    ink: "var(--thumb-lifestyle-ink)",
+    pattern: "var(--thumb-lifestyle-pattern)",
   },
 };
 
@@ -86,12 +73,10 @@ const DEFAULT_STYLE: ThumbStyle = {
   pattern: "var(--thumb-default-pattern)",
 };
 
-// 콘텐츠 기반 아이콘 오버라이드 — 제목/태그/키워드에 특정 단어가 있으면 더 구체적인 아이콘 사용
 const KEYWORD_ICON_OVERRIDES: Array<{ match: RegExp; icon: LucideIcon }> = [
-  { match: /cctv|보안|카메라|감시|매장\s?보안/i, icon: Camera },
-  { match: /법인|등기|설립|정관|법인세/i, icon: Building2 },
-  { match: /밀리의서재|전자책|독서|책|도서/i, icon: BookOpen },
-  { match: /식자재|외식업|식당|레스토랑|음식점|메뉴/i, icon: UtensilsCrossed },
+  { match: /가습기|습도|X50V|저온가열|초음파|세균/i, icon: Droplets },
+  { match: /공기청정기|HEPA|CADR|필터|먼지/i, icon: Wind },
+  { match: /신생아|아기|육아|산후조리원|아이방/i, icon: Baby },
 ];
 
 function pickIcon(categorySlug: string, title: string, tags: string[], keywords: string[]): LucideIcon {

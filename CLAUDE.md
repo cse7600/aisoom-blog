@@ -1,512 +1,130 @@
-# Claude Code 프로젝트 규정 — factnote.co.kr (blog-affiliate)
+# Claude Code 프로젝트 규정 — 케어팟 라이프 블로그
 
 ## 전역 규정 상속
 → `~/.claude/CLAUDE.md` (이모지 금지, anti-slop, GSD 워크플로우 등)
 
 ---
 
-## 콘텐츠 기획 최우선 원칙 (2026-04-15 Opus 검증 확정)
+## 블로그 정체성
 
-**기준 문서**: `content-input/KEYWORD-STRATEGY-RULES.md`
-
-### 목표는 발행이 아니라 유입과 노출이다
-
-1. **모든 콘텐츠 의사결정 판단 기준**: "이 글이 검색 노출되고 유입을 만드는가?" — 편수·CTA·배분은 2차
-2. **comp=high 단독 키워드 주제는 허브 포지션 전용** — 실제 유입은 의문문 롱테일 H2에서
-3. **6개월 내 100 유입 기대 가능한가?** 필터 미통과 시 발행 금지
-4. **허브 1편 + 롱테일 3~5편 = 클러스터 단위로 기획** — 단건 발행 금지
-5. **의문문 H2 비율 40%+** — 각 프롬프트 파일의 "의문문 H2 쿼리 뱅크"에서 선택
-
-### 키퍼메이트 최우선 공략 (Opus 분석 결과)
-
-경쟁사 브랜드(캡스/세콤/ADT/에스원) **가격·비용·고객센터 키워드는 comp=medium/low** — 단독 CCTV 키워드보다 노출 가능성 훨씬 높음. 경쟁사 검색자를 우리 정보성 콘텐츠로 유입시키는 것이 최선 전략.
-
-비방 금지. 렌탈 vs 구매 "3년 TCO 객관 수치 비교"로 작성.
-
-### 주제 등록 프로세스 (변경 금지)
-
-```
-주제 발굴 → KEYWORD-STRATEGY-RULES.md 클러스터 맵 교차 확인
-→ 클러스터 미해당 시 등록 거부
-→ enqueue-topics.mjs 경유 (직접 INSERT 금지)
-→ opportunityScore < 20이어도 DB 실측 확인 후 --force-unscored 가능
-   (단, KEYWORD-STRATEGY-RULES.md 클러스터 내 주제에 한정)
-```
+- **사이트 목적**: 케어팟(carepod.co.kr) 브랜드 인지도 + 구매 전환 유입
+- **타겟 독자**: 육아맘 (0~7세 자녀, 실내 공기질·위생에 민감)
+- **톤앤매너**: 엄마의 경험담 + 객관적 수치 비교. 과장 없이 신뢰 기반.
+- **주력 제품**:
+  - X50V 큐브 가습기 (264,000원, 리뷰 2,588건/4.8점, 누적 100만대)
+  - Air Cube One 공기청정기 (364,000원, CADR 270m³/h, 24dB 초저소음)
+- **CTA URL**: https://carepod.co.kr/
 
 ---
 
-## 썸네일 디자인 시스템 (변경 금지 규정)
+## 카테고리 구조
 
-**기준 커밋**: `1d13937` (feat(ui): upgrade fallback thumbnail)
-
-### 핵심 원칙
-`image_url`이 없는 포스트에는 반드시 `PostThumbnailFallback` 컴포넌트를 사용한다.
-빈 div, 회색 박스, 텍스트 단독 렌더는 절대 금지.
-
-### 컴포넌트 위치
-`src/components/content/PostThumbnailFallback.tsx`
-
-### 폴백 썸네일 구조 (변경 시 전체 재설계 필요)
-```
-┌─────────────────────────────────────┐
-│  [카테고리 그라데이션 배경]            │
-│  ├ 도트 그리드 오버레이 (opacity 70%) │
-│  ├ 우상단 블러 원 장식                │
-│  └ 좌하단 블러 원 장식                │
-│                                     │
-│  [상단 행]                           │
-│  ├ 좌: 카테고리 뱃지 (Sparkles + 명) │
-│  └ 우: Lucide 아이콘 (52/72px)       │
-│                                     │
-│  [하단 행]                           │
-│  ├ 제목 (2줄/3줄 clamp)              │
-│  └ 읽기시간 · #첫키워드              │
-└─────────────────────────────────────┘
-```
-
-### CSS 토큰 규칙
-파일: `src/app/globals.css`
-
-카테고리별 5개 토큰 세트 (light + dark 모두 필수):
-```css
---thumb-{slug}-bg-from   /* 그라데이션 시작 */
---thumb-{slug}-bg-to     /* 그라데이션 끝 */
---thumb-{slug}-accent    /* 아이콘/강조 색 */
---thumb-{slug}-ink       /* 텍스트 색 */
---thumb-{slug}-pattern   /* 도트 색 (rgba, 낮은 opacity) */
-```
-
-**절대 금지**: 컴포넌트 내 색상 하드코딩 (`#...`, `rgb(...)` 직접 사용)
-
-### 현재 등록된 카테고리 토큰
-| slug | 테마 | 아이콘(기본) |
-|------|------|------------|
-| tech | 인디고 | Cpu |
-| finance | 에메랄드 | Wallet |
-| beauty | 로즈 | Heart |
-| home-living | 앰버 | Home |
-| travel | 스카이 | Plane |
-| (default) | 슬레이트 | FileText |
-
-### 콘텐츠 기반 아이콘 오버라이드 (KEYWORD_ICON_OVERRIDES)
-제목/태그/키워드 텍스트를 스캔해서 카테고리 기본 아이콘보다 우선 적용:
-| 패턴 | 아이콘 |
-|------|--------|
-| cctv/보안/카메라/감시/매장보안 | Camera |
-| 법인/등기/설립/정관/법인세 | Building2 |
-| 밀리의서재/전자책/독서/책/도서 | BookOpen |
-| 식자재/외식업/식당/레스토랑/음식점/메뉴 | UtensilsCrossed |
-
-### 신규 카테고리 추가 절차
-1. `globals.css` — `:root`와 `.dark` 양쪽에 5개 토큰 추가
-2. `PostThumbnailFallback.tsx` — `CATEGORY_STYLES` 객체에 항목 추가
-3. 필요 시 `KEYWORD_ICON_OVERRIDES` 에 도메인 키워드 추가
-4. `CategoryNavBar` — 별도 수정 불필요 (DB 카테고리 동적 렌더)
+| slug | 한국어명 | 주 제품 |
+|------|----------|--------|
+| humidifier | 가습기 | X50V |
+| air-purifier | 공기청정기 | Air Cube One |
+| baby-care | 육아공간 | 두 제품 모두 |
+| lifestyle | 라이프스타일 | 관련 생활 정보 |
 
 ---
 
-## 카테고리 네비게이션 규정
-
-**기준 커밋**: `1cc3520` (feat(nav): add /posts all-posts page)
-
-### CategoryNavBar 컴포넌트
-`src/components/content/CategoryNavBar.tsx`
-
-적용 범위 (세 곳 모두 동일 컴포넌트):
-- `/` 홈페이지
-- `/posts` 전체보기
-- `/[category]` 카테고리 페이지
-
-### 규칙
-- "전체보기"는 항상 첫 번째 항목. href="/posts", LayoutGrid 아이콘.
-- 각 항목 옆에 포스트 수 표시 (DB 실시간 쿼리).
-- 현재 페이지 항목: `bg-primary text-white` 활성 스타일 + `aria-current="page"`.
-- 새 최상위 라우트 추가 시 reserved slug 필터에 추가 (category/page.tsx `generateStaticParams`).
-
-### DB 헬퍼
-- `getPublishedPostCount()` — 전체 포스트 수
-- `getPostCountsByCategory()` — 카테고리별 집계 (Record<string, number>)
-위치: `src/lib/db.ts`
-
----
-
-## 완전 자동화 콘텐츠 파이프라인
-
-**기준 커밋**: Phase 9.5 (2026-04-12)
-
-### 1-커맨드 실행
-```bash
-node scripts/content-loop.mjs
-```
-주제 발굴 → 본문 생성 → 발행까지 사람 개입 없이 end-to-end.
-
-### 체인 구조
-```
-content-loop.mjs
-  1. discover-topics.mjs      — Claude Sonnet 4-6로 주제 추출 + 키워드 검증 → topic-queue.json
-  2. research-and-queue.mjs   — 미발행 편수 확인 → generate-content.mjs --from-queue --auto-release 호출
-       └ generate-content.mjs — 어필리에이트 프롬프트 + few-shot 로드 → 마크다운 전체 생성
-            └ release-post.mjs — Supabase posts INSERT + 이미지 업로드
-  3. auto-publish.mjs         — DB 미발행 초안 백업 발행 루프
-```
-
-### LLM 모델
-- **기본**: Claude Sonnet 4-6 (`claude-sonnet-4-6`)
-- **폴백 체인**: gemini-flash-latest → 3-flash-preview → 2.5-flash-lite → 2.5-flash → 2.5-pro
-
-### 어필리에이트 프롬프트 파일
-위치: `content-input/prompts/{name}.md`
-- 키퍼메이트, 법인설립지원센터, 밀리의서재, 차별화상회 (4개 전부 존재)
-- 신규 어필리에이트 추가 시 `affiliates.json` 등록 + 프롬프트 파일 1개만 추가하면 코드 수정 불필요
-
-### 체크포인트 파일
-- `content-input/topic-queue.json` — 주제 큐 (pending/generated/published)
-- `content-input/loop-log.json` — 루프 실행 이력 (최근 100회)
-- `.content-loop.lock` — 중복 실행 방지 (1시간 TTL)
-
-### 주요 CLI 옵션
-```bash
-# 전체 1회 실행
-node scripts/content-loop.mjs
-
-# 특정 어필리에이트만
-node scripts/content-loop.mjs --affiliate 밀리의서재
-
-# 상태만 확인
-node scripts/content-loop.mjs --dry
-
-# 발행 건너뛰기 (초안만)
-node scripts/content-loop.mjs --skip-publish
-
-# 강제 실행 (큐 잔여 무시)
-node scripts/content-loop.mjs --force
-```
-
-### 키워드 검증 필수 규칙 (2026-04-14 추가)
-
-**기준 커밋**: 키퍼메이트 10편 키워드 검증 누락 사건 (PIPELINE-CHANGELOG.md 참고)
-
-#### 왜 필요한가
-`content-input/keywords/*.json`에 2,333개 실측 키워드(score·total·comp) DB가 있음에도 기존 파이프라인은 이를 로드하지 않았다. 결과적으로 팀 에이전트가 경쟁사 분석만으로 주제를 선정하면 검색량 0 키워드로 본문이 생성되어 SEO 실패.
-
-#### 강제 게이트
-- 모든 주제는 `discover-topics.mjs`를 통해 `content-input/keywords/*.json` DB와 교차 매핑 후 `topic-queue.json`에 등록. `opportunityScore`와 `bestMatch {keyword, total, comp, score, matchType}` 필드 필수.
-- `research-and-queue.mjs`는 `opportunityScore < 20` 항목을 기본 스킵. `--force-unscored` 플래그로만 우회 가능.
-- `generate-content.mjs --from-queue`는 `opportunityScore < 20`이면 에러 종료. `--force-unscored` 필요.
-- `generate-content.mjs`는 생성된 마크다운 frontmatter에 `keywords.bestMatch`, `keywords.score`, `keywords.total`, `keywords.comp`, `keywords.matchType` 자동 주입.
-
-#### 팀 에이전트 직접 주제 생성 금지
-PO/팀 에이전트가 경쟁사 분석·사용자 요청 기반으로 주제를 떠올리더라도 **반드시** `scripts/discover-topics.mjs`를 경유해 큐에 등록해야 한다. `topic-queue.json`에 직접 수기 INSERT 금지.
-
-예외적으로 수기 등록이 필요하면:
-```bash
-# 1) 주제 리스트를 임시 파일에 작성 후
-# 2) 아래 공식 헬퍼 실행 (DB 매핑 자동 수행)
-node scripts/enqueue-topics.mjs --affiliate 키퍼메이트 --from-file /tmp/topics.json
-```
-
-#### 공용 모듈
-- `scripts/lib/keyword-db.mjs` — `loadKeywordDB(root)`, `findBestMatchForTopic(db, {topic, tags, keywords})`, `lookupKeywords(db, keywords)` 제공
-- 신규 스크립트도 이 모듈을 통해 DB를 로드해야 한다. DB 파일 직접 파싱 금지.
-
-### 변경 금지 사항
-- `generate-content.mjs`와 `discover-topics.mjs`의 `CLAUDE_MODEL`은 항상 동일 버전 유지
-- content-loop가 `stepRefill`에서 `--auto-release`를 자동 전달하는 로직(skip-publish 케이스 제외)
-- 프롬프트 파일 frontmatter `---` 시작 규정 (없으면 생성 스크립트가 에러)
-- `scripts/lib/keyword-db.mjs` 인터페이스 변경 시 discover/research/generate 3개 스크립트 동기 업데이트
-- 키워드 검증 게이트 제거 금지 — 우회는 항상 `--force-unscored` 명시적 플래그로만
-
----
-
-## SEO · AEO · GEO 콘텐츠 표준 (Phase 9.5)
-
-**기준 문서**: `content-input/SEO-AEO-GEO-RULES.md`
-**설계 문서**: `.planning/phase-9.5-seo-aeo-geo/DESIGN.md`
-**기준일**: 2026-04-12
-
-### 3종 엔진 통합 최적화
-모든 콘텐츠 프롬프트(`content-input/prompts/*.md`)는 아래 3종 엔진 인용을 동시에 목표로 한다.
-
-- **SEO** — Google, Naver 전통 검색 인덱스
-- **AEO** — Perplexity, ChatGPT Search, Google AI Overview, Copilot 답변 엔진
-- **GEO** — Claude, Gemini, GPT, Grok 생성형 AI 학습·인용
-
-### 필수 구조 스켈레톤
-```
-[frontmatter + 공시]
-## 목차
-## H2 (글 제목과 동일 — 페이지 <h1>은 템플릿이 별도 렌더, 본문 H1 금지)
-> 한 줄 답변: {수치 포함 핵심 답변 80자 이내}
-[직접 답변 도입부 80~150자]
-## H2 섹션 (4~6개, 40%+ 의문문, 1개는 Top N 리스트)
-## 자주 묻는 질문 (H3 Q. 패턴, 5~7개, 답변 80~150자)
-## 정리 — TL;DR + CTA
-## 관련 글
-## 출처 (공식 기관 3개+)
-```
-
-### 핵심 수치 규칙 (왜)
-- **본문 2,500~4,000자** — GEO topical depth 기준 1,500단어 이상
-- **첫 45단어(≈90자) 내 수치 답변** — AI Overview 인용 55%가 본문 상위 30%
-- **의문문 H2 비율 40%+** — heading-query 매칭으로 passage extraction 대상
-- **Top N 리스트 섹션 1개+** — AI 인용 74.2%가 Top N 구조
-- **통계 밀도 300자당 3개+** — citation 2.1배
-- **FAQ 5~7개, 답변 80~150자** — FAQPage JSON-LD citation +30%
-- **`2026년 기준` 명시** — 90일 이내 미업데이트 시 citation 3배 손실
-- **일인칭 경험 1회+** — Google 2026 March Core Update E-E-A-T 가중치
-
-### FAQ 섹션 포맷 (FAQPage JSON-LD 자동 추출 조건)
-현재 `src/lib/seo.ts::extractFaqFromHtml`가 다음 패턴을 파싱해 FAQPage 스키마를 자동 주입한다. 프롬프트는 반드시 이 포맷을 준수해야 한다.
-
-```markdown
-## 자주 묻는 질문    ← H2 제목에 "자주 묻는 질문" / "FAQ" / "Q&A" 중 하나 필수
-
-### Q. 질문 텍스트    ← H3, Q. 접두
-답변 본문 80~150자.   ← 바로 다음 단락
-
-### Q. 다음 질문
-...
-```
-
-벗어나면 `extractFaqFromHtml`이 2개 미만을 반환해 FAQPage JSON-LD가 주입되지 않고 citation 부스트를 놓친다.
-
-### 인프라 매핑 (`src/lib/seo.ts`)
-- `buildArticleJsonLd` — BlogPosting, 모든 포스트 자동 주입 (O)
-- `buildFaqJsonLd` + `extractFaqFromHtml` — 2개 이상 FAQ 자동 주입 (O)
-- `buildBreadcrumbJsonLd` — 카테고리 경로 (O)
-- `buildOrganizationJsonLd` / `buildWebSiteJsonLd` — 전역 (O)
-- `buildHowToJsonLd` — **정의만 존재, 포스트 페이지 연결 Phase 9.6 작업**
-
-### 금지어 Tier 1 (절대 금지)
-delve, tapestry, landscape, leverage, robust, seamless, streamline, empower, unlock, foster, testament, vibrant, pivotal, underscore, garner, intricate, showcase, enhance, crucial, cutting-edge
-
-**한국어 슬롭**: "살펴보겠습니다", "알아보겠습니다", "마무리하겠습니다", "~라고 할 수 있습니다" 남발
-
-### 변경 금지
-- FAQ H2 제목에서 "자주 묻는 질문" / "FAQ" / "Q&A" 키워드 제거 금지 (JSON-LD 자동 추출 실패)
-- FAQ H3에서 `### Q. ` 접두사 제거 금지
-- 프롬프트 내 SEO/AEO/GEO 수치 규칙은 `SEO-AEO-GEO-RULES.md`와 동기화 유지
-
----
-
-## 콘텐츠 발행 일정 규칙 (Batch → Distributed)
-
-**기준 커밋**: Phase 9.6 완료 시점
-
-### 핵심 원칙
-배치로 다수 콘텐츠를 생성해도 Supabase `published_at`은 반드시 날짜 분산한다. 한 번에 여러 편을 같은 타임스탬프로 삽입하면 SEO 관점에서 부자연스럽고 `backdate-posts.mjs` 재실행 비용이 발생한다.
-
-### 기본 패턴
-- 주 2회 발행: **화요일, 금요일** (한국 블로그 표준 리듬)
-- 시간대: 10:00~13:59 KST 사이 (시드 기반 랜덤)
-- 생성과 발행 분리: 생성은 한 번에, 발행은 반드시 분산
-
-### 배치 생성 + 분산 발행 워크플로우
-```bash
-# 1) 콘텐츠 N편 한 번에 생성 (auto-release 금지)
-node scripts/research-and-queue.mjs --force --count 10 --affiliate 키퍼메이트
-
-# 2) 각 파일을 지정 날짜로 개별 발행
-node scripts/publish-post.mjs --publish-date 2026-04-15 키퍼메이트/content/slug-a.md
-node scripts/publish-post.mjs --publish-date 2026-04-18 키퍼메이트/content/slug-b.md
-...
-```
-
-### publish-post.mjs 플래그
-| 플래그 | 효과 |
-|---|---|
-| `--publish-date YYYY-MM-DD` | `published_at` + `created_at` 강제 지정 (최우선) |
-| frontmatter `date:` 필드 | fallback (CLI 미지정 시) |
-| (둘 다 없음) | `new Date().toISOString()` — 단일 포스트 발행 시에만 허용 |
-| `--seed N` | 시간 랜덤 시드 (기본 20260412) |
-
-### 예약 발행(scheduled) 워크플로우
-- 미래 날짜 포스트: `publish-post.mjs`가 자동으로 `status='scheduled'`로 저장
-- 매일 1회 실행: `node scripts/auto-schedule.mjs`
-- `published_at <= now()` 조건 충족 시 자동으로 `status='published'` 전환
-- 수동 즉시 확인: `node scripts/auto-schedule.mjs --dry`
-- 실행 이력: `content-input/schedule-log.json`
-
-### 금지
-- `research-and-queue.mjs --force --count N --auto-release` 배치 사용 (N개가 같은 시각에 몰림)
-- `content-loop.mjs`로 하루 10편 이상 연속 생성 (주 2회 슬롯 초과)
-- `backdate-posts.mjs` 의존 — 사후 재배치는 임시방편이며, 원칙은 발행 시점 제어
-
-### 슬롯 계산
-기존 마지막 published_at에서 시작해서 화(TUE)→금(FRI)→화→금 간격 3일/4일 교대로 미래 슬롯 배정. `backdate-posts.mjs:buildBackdateSlots`를 역방향 참조.
-
----
-
-## 구조화 데이터 (JSON-LD) 품질 규정
-
-**기준 커밋**: `78bb0a8` (fix: DiscussionForumPosting author Organization → Person)
-**분석 문서**: `docs/03-analysis/blog-affiliate-structured-data.analysis.md`
-
-### 핵심 규칙 (위반 시 Google Rich Results 오류 발생)
-
-| 규칙 | 파일 | 내용 |
-|------|------|------|
-| DiscussionForumPosting author | `discussion/DiscussionJsonLd.tsx` | 반드시 `Person` 타입. `Organization` 금지. |
-| headline 110자 | `lib/seo.ts:buildArticleJsonLd` | `.slice(0, 110)` 적용 필수 |
-| Breadcrumb 홈 항목 | `seo/Breadcrumb.tsx` | JSON-LD에 항상 `{ name: "홈", url: "/" }` prepend |
-| Comment @id | `community/DiscussionJsonLd.tsx` | 각 Comment에 `@id`, `identifier`, `parentItem` 포함 |
-
-### 본문 H1 금지 (콘텐츠 파이프라인)
-
-`generate-content.mjs` 시스템 프롬프트와 각 어필리에이트 프롬프트 모두:
-- `# 제목` (H1) 본문 생성 금지
-- 구조: `목차 → H2(=글 제목) → 한 줄 답변 → 도입부 → H2 섹션들`
-- 페이지 `<h1>`은 `[category]/[slug]/page.tsx` 템플릿이 별도 렌더
-
-기존 콘텐츠 파일의 H1을 발견하면 `# 제목` 라인과 바로 뒤 빈 줄 1개를 제거.
-`page.tsx`는 렌더 시점에 `h1 → h2` 변환하므로 DB 콘텐츠는 수정 불필요.
-
-### SITE_ORIGIN 이원화 금지
-
-`src/components/community/DiscussionJsonLd.tsx`:
-- `const SITE_ORIGIN = SITE_CONFIG.url` (import SITE_CONFIG from `@/lib/constants`)
-- 하드코딩 `"https://www.factnote.co.kr"` 사용 금지
-
----
-
-## SEO 인프라 규정 (2026-04-14 추가)
-
-**기준 커밋**: `1b4494a` (feat(seo): bwissue.com 벤치마킹 기반 SEO 즉시 적용 패키지)
-
-### robots.txt 규칙
-파일: `public/robots.txt`
-- `User-agent: Yeti` + `Allow: /` — 네이버봇 명시 허용 필수 (삭제 금지)
-- Sitemap URL 명시 필수: `Sitemap: https://www.factnote.co.kr/sitemap.xml`
-
-### Twitter Card 규칙
-`src/lib/seo.ts`:
-- `generatePostMetadata` — `twitter.site: SITE_CONFIG.twitterHandle` 포함
-- `generateCategoryMetadata` — `twitter` 블록 전체 포함 (card + title + description + site)
-- 두 함수 모두 twitter 블록 제거 금지
-
-### 카테고리 description fallback 맵
-`src/lib/seo.ts::CATEGORY_DESCRIPTIONS`:
-- DB `categories.description` 비어있을 때 자동 fallback
-- 우선순위: `DB값` → `CATEGORY_DESCRIPTIONS[slug]` → `SEO_DEFAULTS.defaultDescription`
-- 카테고리 추가 시 `CATEGORY_DESCRIPTIONS`에도 추가
-
-### 제목 프리픽스 패턴 (콘텐츠 파이프라인)
-모든 어필리에이트 프롬프트(`content-input/prompts/*.md`)에 적용:
-- 생성 글 제목 앞에 반드시 프리픽스 1개 포함
-- `【비교】` `【후기】` `【계산법】` `【Q&A】` `【주의】` `【2026년】`
-- frontmatter `title:` 필드에도 동일 프리픽스 포함
-- 두 개 이상 중첩 금지
-
-### 카테고리 description DB 업데이트 도구
-`scripts/update-category-descriptions.mjs`
-- `--dry` 옵션으로 미리보기
-- 카테고리 description 변경 시 이 스크립트 사용
-
----
-
-## 출처 링크 품질 규정 (Phase 9.7.1)
-
-**기준일**: 2026-04-15
-**설계 문서**: `.planning/phase-9.7.1-sources/DESIGN.md`
-**상세 규정**: `content-input/SEO-AEO-GEO-RULES.md` 섹션 11
-
-### 핵심 원칙
-모든 콘텐츠의 `## 출처` 섹션은 **접속 가능한 공식 기관 링크**만 포함한다. 깨진 링크(DNS 오류, 4xx/5xx)는 Google Trust 신호 -2.1배, 답변엔진 citation 거부 사유.
-
-### 도메인 신뢰 Tier
-
-| Tier | 예시 | 용도 |
-|------|------|------|
-| 1. 정부 `.go.kr` | law.go.kr, nts.go.kr, pipc.go.kr, police.go.kr, moef.go.kr | 최상위 신뢰. 1순위 출처 |
-| 2. 공공기관 `.or.kr` (실존) | kisa.or.kr, semas.or.kr, nhis.or.kr, kosha.or.kr | 2순위 출처 |
-| 3. 공식 제조사·국제 표준 | hanwhavision.com, onvif.org | 제품·기술 인용용 |
-| 4. 파트너 블로그 | keeper.ceo/blog, corp.apply.kr/blog | 보조 출처 (공식기관 3개 충족 후에만 추가) |
-
-### 블랙리스트 (DNS/HTTP 검증 실패 확인)
-`scripts/lib/source-registry.mjs::DOMAIN_BLACKLIST` 참조. 발견 시 즉시 제거 또는 교체.
-- `gbsc.or.kr` (NXDOMAIN)
-- `seoulallnet.or.kr` (NXDOMAIN)
-- 국내 서비스로 대체 불가능한 해외 앵커 (congress.gov NDAA 등) → 제거
-
-### 최소 출처 수
-- 포스트당 공식 기관 출처 3개 이상 필수
-- 수리 과정에서 3개 미만으로 떨어지면 카테고리 fallback(`CATEGORY_FALLBACK`)에서 보충
-
-### 자사 블로그 링크 정책 (사용자 확정)
-- `keeper.ceo/blog/*`, `corp.apply.kr/blog/*` 등 접속 불가 시 → **정부·공공기관 공식 URL로 교체**
-- 접속 가능한 자사 블로그는 보조 출처로만 유지 (공식기관 3개 충족 후)
-
-### Supabase DB 수리 워크플로우 (사용자 확정)
-1. `node scripts/check-sources-supabase.mjs --dry` — diff 리포트만 생성
-2. `reports/supabase-sources-dry-*.json` 검토
-3. 사용자 승인 후 `node scripts/check-sources-supabase.mjs --apply`
-4. 실행 전 자동 백업: `backups/db-content-{timestamp}.json`
-
-### 재실행 가능한 검증
-| 명령 | 용도 |
-|------|------|
-| `node scripts/verify-sources.mjs` | 로컬 .md 파일 전체 스캔, exit 0/1 |
-| `node scripts/verify-sources.mjs --affiliate 키퍼메이트` | 특정 어필리에이트만 |
-| `node scripts/repair-sources.mjs` | 로컬 파일 수리 dry-run |
-| `node scripts/repair-sources.mjs --apply` | 로컬 파일 실제 수정 |
-| `node scripts/check-sources-supabase.mjs --dry` | DB dry-run 리포트 |
-| `node scripts/check-sources-supabase.mjs --apply` | DB UPDATE 실행 |
-
-### 변경 금지
-- `scripts/lib/source-registry.mjs::DOMAIN_BLACKLIST` 항목 임의 제거 금지
-- `TIER1_GOV_DOMAINS`는 실측 확인된 도메인만 추가
-- 최소 출처 수 3 이하로 완화 금지
-- DB UPDATE는 항상 `--dry` 먼저 → 사용자 승인 → `--apply` 순서 준수
-
-### content-loop 파이프라인 통합 (Phase 9.7.2 예정)
-향후 `content-loop.mjs` 끝단에 `verify-sources.mjs` 훅 연결. 실패 시 발행 차단.
+## 콘텐츠 기획 원칙
+
+1. **모든 콘텐츠 판단 기준**: "이 글이 검색 노출되고 carepod.co.kr 유입을 만드는가?"
+2. **경쟁사 비교는 객관 수치로**: 코웨이/샤오미/위닉스/필립스/LG 비교 시 비방 금지, 수치 비교만
+3. **허브 1편 + 롱테일 3~5편 = 클러스터 단위 기획**
+4. **의문문 H2 비율 40%+** 필수
+5. **발행 일정 분산**: 화/금 패턴, 같은 날 몰아치기 금지
 
 ---
 
 ## 네이티브 광고 시스템
 
-**기준일**: 2026-04-22 (차별화상회 food 도메인 추가)
 **파일**: `src/components/content/NativeAdCard.tsx`, `src/components/content/ContentWithAds.tsx`
 
-### 도메인 → 광고 variant 매핑
+### variant 목록
 
-| 도메인 | 감지 키워드 | inline variant | sidebar variant |
-|--------|-----------|----------------|-----------------|
-| cctv | cctv, 보안, 카메라, 무인, 감시, 편의점 | cctv-theft, cctv-legal, cctv-cost | cctv-theft, cctv-legal |
-| food | 식자재, 원가율, 식당, 외식, 카페, 배달, 메뉴, 식재료, 도매, 소분, 밑반찬, 베이커리, 한식, 분식, 조리, 주방, 레시피, 식비, 재료비, 장부, 식보 | food-cost, food-supply, food-savings | food-cost, food-supply |
-| corp | 법인, 사업자, 세금, 창업, 등기, 세무, 종소세, 법인세, 부가세, 절세 | corp-cost, corp-time, corp-restart | corp-cost, corp-time |
+| variant | 제품 | 히어로 | 용도 |
+|---------|------|--------|------|
+| humidifier-safe | X50V | 100만 대 | 살균 안전 강조 |
+| humidifier-review | X50V | 4.8점 | 후기 신뢰 강조 |
+| humidifier-vs | X50V | 9% 할인 | 경쟁사 비교 유입 |
+| air-compact | Air Cube One | CADR 270m³/h | 컴팩트 강조 |
+| air-baby | Air Cube One | HEPA13 | 아이방 특화 |
+| air-silent | Air Cube One | 24dB | 수면 방해 없음 |
 
-### 감지 우선순위 (덮어쓰기 금지)
-1. cctv (보안 키워드 최우선 — "카페 CCTV" 포스트가 food로 가지 않도록)
-2. food
-3. corp
-4. fallback: `finance` → corp, `home-living` → food, 기본 corp
+모든 CTA href: https://carepod.co.kr/
 
-### 신규 어필리에이트 추가 절차
-1. `NativeAdCard.tsx` — AdVariant 타입 확장 + AD_DATA에 variant 3종 추가 (Tailwind 클래스, 하드코딩 색상 금지)
-2. `ContentWithAds.tsx` — `{NAME}_KEYWORDS` 배열 추가 + `detectDomain` + `pickInlineVariants` + `pickSidebarVariants` 업데이트
-3. `npx tsc --noEmit` 통과 확인
-4. 감지 우선순위 재검토 — cctv가 최상위인 이유는 "매장 CCTV" 같이 food 키워드와 공통어가 겹치기 때문
-
-### 색상 테마 (겹침 금지)
-- cctv: sky 계열
-- corp: emerald/teal 계열
-- food: amber/orange/yellow 계열 (차별화상회 전용)
-
-### 차별화상회 variant 요약
-| variant | 아이콘 | 히어로 수치 | CTA |
-|---------|--------|------------|-----|
-| food-cost | TrendingDown | 8.4%p | 원가율 무료 진단 받기 |
-| food-supply | Truck | 익일 오전 | 첫 주문 10% 할인 받기 |
-| food-savings | Receipt | 월 2.1시간 | 차별화장부 무료 시작 |
-
-모두 href: `https://www.chabyulhwa.com/`
+### 색상 테마
+- 가습기 계열: amber/orange/yellow (따뜻한 크림)
+- 공기청정기 계열: stone/slate (차분한 회백)
+- 절대 금지: 색상 하드코딩. Tailwind 클래스만.
 
 ---
 
-## 기술 스택 참조
+## SEO · AEO · GEO 콘텐츠 표준
+
+**기준 문서**: `content-input/SEO-AEO-GEO-RULES.md`
+
+### 필수 구조
+```
+[frontmatter + 제휴 공시]
+## 목차
+## H2 (글 제목과 동일)
+> 한 줄 답변: {수치 포함 핵심 답변 80자 이내}
+[직접 답변 도입부 80~150자]
+## H2 섹션 (4~6개, 40%+ 의문문, 1개는 Top N 리스트)
+## 자주 묻는 질문 (H3 Q. 패턴, 5~7개, 답변 80~150자)
+## 정리 — TL;DR + CTA (케어팟 링크)
+## 관련 글
+## 출처 (공식기관 3개+)
+```
+
+### 핵심 수치 규칙
+- 본문 2,500~4,000자
+- 첫 45단어(≈90자) 내 수치 답변
+- 의문문 H2 비율 40%+
+- Top N 리스트 섹션 1개+
+- 통계 밀도 300자당 3개+
+- FAQ 5~7개, 답변 80~150자
+- `2026년 기준` 명시
+- 일인칭 경험 1회+ ("저는", "아이가")
+
+### FAQ 포맷 (FAQPage JSON-LD 자동 추출 조건)
+```markdown
+## 자주 묻는 질문
+
+### Q. 질문 텍스트
+답변 본문 80~150자.
+
+### Q. 다음 질문
+...
+```
+H2에 "자주 묻는 질문" / "FAQ" / "Q&A" 필수. H3에 "### Q. " 접두사 필수. 변경 금지.
+
+---
+
+## 출처 링크 품질 규정
+
+- 포스트당 공식 기관 출처 3개 이상 필수
+- 신뢰 Tier 1: 정부 `.go.kr` (mfds.go.kr, khidi.or.kr, keco.or.kr, kma.go.kr)
+- 신뢰 Tier 2: 공공기관 `.or.kr`
+- 깨진 링크 금지
+
+---
+
+## 구조화 데이터 (JSON-LD) 품질 규정
+
+- DiscussionForumPosting author: 반드시 `Person` 타입 (`Organization` 금지)
+- headline: `.slice(0, 110)` 적용 필수
+- Breadcrumb: 항상 `{ name: "홈", url: "/" }` prepend
+- `SITE_ORIGIN`: `SITE_CONFIG.url` import 사용, 하드코딩 금지
+
+---
+
+## 기술 스택
 - Next.js 14 App Router + TypeScript strict
 - Tailwind CSS + CSS Variables (하드코딩 금지)
-- lucide-react (아이콘 라이브러리)
+- lucide-react (아이콘)
 - Supabase (DB + Storage)
 - 폰트: Pretendard (CDN Variable)
