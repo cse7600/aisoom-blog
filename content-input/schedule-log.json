@@ -31,5 +31,27 @@
         "published_at": "2026-04-20T03:07:27+00:00"
       }
     ]
+  },
+  {
+    "executedAt": "2026-04-21T03:00:00.894Z",
+    "count": 1,
+    "posts": [
+      {
+        "slug": "fire-damage-cctv-evidence-insurance-claim",
+        "title": "매장 화재 발생 시 CCTV 증거 제출 — 보험 청구 실전 절차",
+        "published_at": "2026-04-21T02:33:57+00:00"
+      }
+    ]
+  },
+  {
+    "executedAt": "2026-04-22T03:00:00.660Z",
+    "count": 1,
+    "posts": [
+      {
+        "slug": "corporate-tax-calculator-revenue-1to5-billion",
+        "title": "【계산법】법인세 계산기 — 매출 1억·3억·5억 실제 납부 세액",
+        "published_at": "2026-04-22T02:00:06+00:00"
+      }
+    ]
   }
 ]
