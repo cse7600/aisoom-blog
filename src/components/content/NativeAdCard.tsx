@@ -10,6 +10,8 @@ import {
   Clock4,
   RotateCcw,
   PiggyBank,
+  Truck,
+  Receipt,
 } from "lucide-react";
 
 export type AdVariant =
@@ -18,7 +20,10 @@ export type AdVariant =
   | "corp-restart"
   | "cctv-theft"
   | "cctv-legal"
-  | "cctv-cost";
+  | "cctv-cost"
+  | "food-cost"
+  | "food-supply"
+  | "food-savings";
 
 export type AdPlacement = "inline" | "sidebar";
 
@@ -189,6 +194,75 @@ const AD_DATA: Record<AdVariant, AdContent> = {
       hook: "text-sky-950",
       body: "text-sky-800",
       cta: "bg-sky-700 text-white hover:bg-sky-800",
+      ctaHover: "",
+    },
+  },
+  "food-cost": {
+    icon: TrendingDown,
+    badge: "식자재 원가",
+    heroNumber: "8.4%p",
+    heroLabel: "원가율 절감 — 월 매출 3,000만 기준 252만 원 차이",
+    hook: "식자재 원가율 40% 넘어가는 달은 적자입니다. 8.4%p 낮추는 방법이 있습니다.",
+    body: "차별화상회 도입 매장 평균 원가율 31.6%. 소분 구매 + 도매가 직거래로 같은 메뉴 같은 수량, 더 낮은 재료비.",
+    cta: "원가율 무료 진단 받기",
+    href: "https://www.chabyulhwa.com/",
+    tw: {
+      card: "bg-gradient-to-br from-amber-50 to-amber-100 border border-amber-200",
+      badge: "bg-amber-100 text-amber-800",
+      heroNum: "text-amber-900",
+      heroLabel: "text-amber-700",
+      iconWrap: "bg-amber-200",
+      iconColor: "text-amber-800",
+      divider: "bg-amber-200",
+      hook: "text-amber-950",
+      body: "text-amber-800",
+      cta: "bg-amber-700 text-white hover:bg-amber-800",
+      ctaHover: "",
+    },
+  },
+  "food-supply": {
+    icon: Truck,
+    badge: "반짝배송",
+    heroNumber: "익일 오전",
+    heroLabel: "오후 4시 전 주문 → 다음날 오전 도착",
+    hook: "오늘 재고 부족한데 내일 장사 어떻게 합니까. 마트 가는 시간이 아깝습니다.",
+    body: "차별화상회 반짝배송. 오후 4시 이전 주문하면 익일 오전 도착. 최소 주문 5만 원, 소분 단위 구매 가능.",
+    cta: "첫 주문 10% 할인 받기",
+    href: "https://www.chabyulhwa.com/",
+    tw: {
+      card: "bg-gradient-to-br from-orange-50 to-orange-100 border border-orange-200",
+      badge: "bg-orange-100 text-orange-800",
+      heroNum: "text-orange-900",
+      heroLabel: "text-orange-700",
+      iconWrap: "bg-orange-200",
+      iconColor: "text-orange-800",
+      divider: "bg-orange-200",
+      hook: "text-orange-950",
+      body: "text-orange-800",
+      cta: "bg-orange-700 text-white hover:bg-orange-800",
+      ctaHover: "",
+    },
+  },
+  "food-savings": {
+    icon: Receipt,
+    badge: "차별화장부",
+    heroNumber: "월 2.1시간",
+    heroLabel: "장부 정리 시간 절약 (사장님 설문 평균)",
+    hook: "엑셀로 장부 쓰는 사장님, 그 시간에 메뉴 하나 더 팝니다.",
+    body: "식자재 구매 즉시 장부 자동 기록. 원가율 실시간 계산. 월말 세무사 제출용 보고서 자동 생성.",
+    cta: "차별화장부 무료 시작",
+    href: "https://www.chabyulhwa.com/",
+    tw: {
+      card: "bg-gradient-to-br from-yellow-50 to-amber-100 border border-amber-200",
+      badge: "bg-amber-100 text-amber-800",
+      heroNum: "text-amber-900",
+      heroLabel: "text-amber-700",
+      iconWrap: "bg-amber-200",
+      iconColor: "text-amber-800",
+      divider: "bg-amber-200",
+      hook: "text-amber-950",
+      body: "text-amber-800",
+      cta: "bg-amber-700 text-white hover:bg-amber-800",
       ctaHover: "",
     },
   },

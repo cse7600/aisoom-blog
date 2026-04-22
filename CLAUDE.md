@@ -463,6 +463,47 @@ node scripts/publish-post.mjs --publish-date 2026-04-18 키퍼메이트/content/
 
 ---
 
+## 네이티브 광고 시스템
+
+**기준일**: 2026-04-22 (차별화상회 food 도메인 추가)
+**파일**: `src/components/content/NativeAdCard.tsx`, `src/components/content/ContentWithAds.tsx`
+
+### 도메인 → 광고 variant 매핑
+
+| 도메인 | 감지 키워드 | inline variant | sidebar variant |
+|--------|-----------|----------------|-----------------|
+| cctv | cctv, 보안, 카메라, 무인, 감시, 편의점 | cctv-theft, cctv-legal, cctv-cost | cctv-theft, cctv-legal |
+| food | 식자재, 원가율, 식당, 외식, 카페, 배달, 메뉴, 식재료, 도매, 소분, 밑반찬, 베이커리, 한식, 분식, 조리, 주방, 레시피, 식비, 재료비, 장부, 식보 | food-cost, food-supply, food-savings | food-cost, food-supply |
+| corp | 법인, 사업자, 세금, 창업, 등기, 세무, 종소세, 법인세, 부가세, 절세 | corp-cost, corp-time, corp-restart | corp-cost, corp-time |
+
+### 감지 우선순위 (덮어쓰기 금지)
+1. cctv (보안 키워드 최우선 — "카페 CCTV" 포스트가 food로 가지 않도록)
+2. food
+3. corp
+4. fallback: `finance` → corp, `home-living` → food, 기본 corp
+
+### 신규 어필리에이트 추가 절차
+1. `NativeAdCard.tsx` — AdVariant 타입 확장 + AD_DATA에 variant 3종 추가 (Tailwind 클래스, 하드코딩 색상 금지)
+2. `ContentWithAds.tsx` — `{NAME}_KEYWORDS` 배열 추가 + `detectDomain` + `pickInlineVariants` + `pickSidebarVariants` 업데이트
+3. `npx tsc --noEmit` 통과 확인
+4. 감지 우선순위 재검토 — cctv가 최상위인 이유는 "매장 CCTV" 같이 food 키워드와 공통어가 겹치기 때문
+
+### 색상 테마 (겹침 금지)
+- cctv: sky 계열
+- corp: emerald/teal 계열
+- food: amber/orange/yellow 계열 (차별화상회 전용)
+
+### 차별화상회 variant 요약
+| variant | 아이콘 | 히어로 수치 | CTA |
+|---------|--------|------------|-----|
+| food-cost | TrendingDown | 8.4%p | 원가율 무료 진단 받기 |
+| food-supply | Truck | 익일 오전 | 첫 주문 10% 할인 받기 |
+| food-savings | Receipt | 월 2.1시간 | 차별화장부 무료 시작 |
+
+모두 href: `https://www.chabyulhwa.com/`
+
+---
+
 ## 기술 스택 참조
 - Next.js 14 App Router + TypeScript strict
 - Tailwind CSS + CSS Variables (하드코딩 금지)

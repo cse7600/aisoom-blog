@@ -8,7 +8,32 @@ interface ContentWithAdsProps {
   tags?: string[] | null;
 }
 
-const CCTV_KEYWORDS = ["cctv", "보안", "카메라", "매장", "무인", "감시", "편의점", "카페"];
+const CCTV_KEYWORDS = ["cctv", "보안", "카메라", "무인", "감시", "편의점"];
+const FOOD_KEYWORDS = [
+  "식자재",
+  "원가율",
+  "원가",
+  "식당",
+  "외식",
+  "음식점",
+  "카페",
+  "배달",
+  "메뉴",
+  "식재료",
+  "도매",
+  "소분",
+  "밑반찬",
+  "베이커리",
+  "한식",
+  "분식",
+  "조리",
+  "주방",
+  "레시피",
+  "식비",
+  "재료비",
+  "장부",
+  "식보",
+];
 const CORP_KEYWORDS = [
   "법인",
   "사업자",
@@ -22,7 +47,7 @@ const CORP_KEYWORDS = [
   "절세",
 ];
 
-type AdDomain = "corp" | "cctv";
+type AdDomain = "corp" | "cctv" | "food";
 
 function detectDomain(category: string, title: string, tags?: string[] | null): AdDomain {
   const haystack = [category, title, ...(tags ?? [])].join(" ").toLowerCase();
@@ -30,21 +55,27 @@ function detectDomain(category: string, title: string, tags?: string[] | null): 
   const cctvHit = CCTV_KEYWORDS.some((keyword) => haystack.includes(keyword));
   if (cctvHit) return "cctv";
 
+  const foodHit = FOOD_KEYWORDS.some((keyword) => haystack.includes(keyword));
+  if (foodHit) return "food";
+
   const corpHit = CORP_KEYWORDS.some((keyword) => haystack.includes(keyword));
   if (corpHit) return "corp";
 
   if (category === "finance") return "corp";
+  if (category === "home-living") return "food";
 
   return "corp";
 }
 
 function pickInlineVariants(domain: AdDomain): AdVariant[] {
   if (domain === "cctv") return ["cctv-theft", "cctv-legal", "cctv-cost"];
+  if (domain === "food") return ["food-cost", "food-supply", "food-savings"];
   return ["corp-cost", "corp-time", "corp-restart"];
 }
 
 function pickSidebarVariants(domain: AdDomain): AdVariant[] {
   if (domain === "cctv") return ["cctv-theft", "cctv-legal"];
+  if (domain === "food") return ["food-cost", "food-supply"];
   return ["corp-cost", "corp-time"];
 }
 
